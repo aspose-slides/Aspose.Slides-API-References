@@ -1,13 +1,13 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides の Python 用 .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type プロパティ
-外部データ ソースの場合は外部ワークブックのパスを表し、そうでない場合は None
+外部データソースの場合は外部ブックのパスを表し、そうでない場合は None を返します
 
 ### 定義:
 ```python

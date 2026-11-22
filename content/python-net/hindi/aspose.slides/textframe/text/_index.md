@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
-## पाठ गुण
-Gets or sets the plain text for a TextFrame.
-            पढ़ना/लिखना **str**.
+## टेक्स्ट प्रॉपर्टी
+TextFrame के लिए सादा टेक्स्ट प्राप्त करता है या सेट करता है.
+            पढ़ें/लिखें **str**.
 
 ### परिभाषा:
 ```python
@@ -22,7 +22,7 @@ def text(self, value):
 ```
 
 
-### संबंधित देखें
-* क्लास [`TextFrame`](/slides/python-net/hi/aspose.slides/textframe)
+### संबंधित
+* वर्ग [`TextFrame`](/slides/python-net/hi/aspose.slides/textframe)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
-* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
+* पुस्तकालय [`Aspose.Slides`](/slides/python-net)

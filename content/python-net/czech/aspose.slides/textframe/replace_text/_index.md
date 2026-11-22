@@ -1,10 +1,10 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Nahradí všechny výskyty zadaného textu jiným zadaným textem.

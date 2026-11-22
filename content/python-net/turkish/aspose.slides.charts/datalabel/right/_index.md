@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
-## right özelliği
-Right.
+## sağ özellik
+Sağ.
             Salt okunur **float**.
 
 ### Tanım:

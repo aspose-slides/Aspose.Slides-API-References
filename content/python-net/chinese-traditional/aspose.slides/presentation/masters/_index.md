@@ -1,22 +1,21 @@
 ---
 title: masters property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters 屬性
-返回在簡報中定義的所有母片投影片的清單。
-            唯讀 [`IMasterSlideCollection`](/slides/python-net/zh-hant/aspose.slides/imasterslidecollection).
+返回一個包含簡報中所有已定義母片投影片的清單。
+唯讀 [`IMasterSlideCollection`](/slides/python-net/zh-hant/aspose.slides/imasterslidecollection).
 
-### 定義：
+### 定義:
 ```python
 @property
 def masters(self):
     ...
 ```
-
 
 ### 另見
 * 類別 [`IMasterSlideCollection`](/slides/python-net/zh-hant/aspose.slides/imasterslidecollection)

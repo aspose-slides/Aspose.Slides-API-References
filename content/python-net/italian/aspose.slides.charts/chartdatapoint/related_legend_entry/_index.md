@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry proprietà
 Proprietà della voce della legenda corrispondente nel caso di tipo di grafico da questo elenco:
@@ -14,7 +14,7 @@ Proprietà della voce della legenda corrispondente nel caso di tipo di grafico d
             ChartType.Pie,
             ChartType.Pie3D,
             ChartType.PieOfPie.
-            Solo lettura [`ILegendEntryProperties`](/slides/python-net/it/aspose.slides.charts/ilegendentryproperties).
+            Sola lettura [`ILegendEntryProperties`](/slides/python-net/it/aspose.slides.charts/ilegendentryproperties).
 
 ### Definizione:
 ```python

@@ -4,12 +4,12 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
-## value-egenskap
-Om UseCell är true så representerar den här egenskapen AsCell.Value egenskap.
-            Om UseCell är false så representerar den här egenskapen AsLiteral egenskap.
-            Läsa/skriva **valfri**.
+## värdeegenskap
+Om UseCell är true så representerar den här egenskapen AsCell.Value property.
+Om UseCell är false så representerar den här egenskapen AsLiteral property.
+Läs/skriv **valfri**.
 
 ### Definition:
 ```python
@@ -21,7 +21,6 @@ def value(self):
 def value(self, value):
     ...
 ```
-
 
 ### Se även
 * klass [`IChartCategory`](/slides/python-net/sv/aspose.slides.charts/ichartcategory)

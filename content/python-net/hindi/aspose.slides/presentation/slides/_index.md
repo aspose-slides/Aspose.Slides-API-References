@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python द्वारा .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides प्रॉपर्टी
-Returns a list of all slides that are defined in the presentation.
-            केवल पढ़ने योग्य [`ISlideCollection`](/hi/slides/python-net/aspose.slides/islidecollection).
+एक सूची लौटाता है जिसमें सभी slides शामिल हैं जो प्रस्तुति में परिभाषित किए गए हैं।
+            केवल-पढ़ने योग्य [`ISlideCollection`](/hi/slides/python-net/aspose.slides/islidecollection).
 
 ### परिभाषा:
 ```python
@@ -16,7 +16,6 @@ Returns a list of all slides that are defined in the presentation.
 def slides(self):
     ...
 ```
-
 
 ### संबंधित देखें
 * क्लास [`ISlideCollection`](/slides/python-net/hi/aspose.slides/islidecollection)

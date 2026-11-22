@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values プロパティ
-Custom 値タイプの場合のシリーズエラーバーの値を表します。
+Custom 値タイプの場合のシリーズ エラーバー の値を表します。
             読み取り専用 [`IErrorBarsCustomValues`](/slides/python-net/ja/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### 定義:
@@ -17,8 +17,9 @@ def error_bars_custom_values(self):
     ...
 ```
 
+
 ### 参照
 * クラス [`ChartDataPoint`](/slides/python-net/ja/aspose.slides.charts/chartdatapoint)
 * クラス [`IErrorBarsCustomValues`](/slides/python-net/ja/aspose.slides.charts/ierrorbarscustomvalues)
 * モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

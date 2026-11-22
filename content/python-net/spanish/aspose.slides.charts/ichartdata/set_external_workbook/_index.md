@@ -4,10 +4,10 @@ second_title: Referencia de la API Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/ichartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Establece el libro de trabajo externo como fuente de datos para el gráfico. Los datos del gráfico se actualizarán a partir del libro de trabajo objetivo.
+Establece un libro de trabajo externo como fuente de datos para el gráfico. Los datos del gráfico se actualizarán a partir del libro de trabajo de destino.
 
 
 ```python
@@ -18,7 +18,7 @@ def set_external_workbook(self, workbook_path):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| workbook_path | **str** | Ruta al libro de trabajo objetivo |
+| workbook_path | **str** | Ruta al libro de trabajo de destino |
 
 ### Excepciones
 
@@ -28,7 +28,7 @@ def set_external_workbook(self, workbook_path):
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-Establece el libro de trabajo externo como fuente de datos para el gráfico.
+Establece un libro de trabajo externo como fuente de datos para el gráfico.
 
 
 ```python
@@ -39,8 +39,8 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| workbook_path | **str** | Ruta al libro de trabajo objetivo |
-| update_chart_data | **bool** | Si el valor es false solo se actualizará la ruta del libro de trabajo. <br/><br/>             Los datos del gráfico no se cargarán ni actualizarán a partir del libro de trabajo objetivo. Puede usarse cuando el libro de trabajo objetivo no existe o no está disponible.<br/><br/>             Si el valor es true los datos del gráfico se actualizarán a partir del libro de trabajo objetivo. |
+| workbook_path | **str** | Ruta al libro de trabajo de destino |
+| update_chart_data | **bool** | Si el valor es false solo se actualizará la ruta del libro de trabajo. <br/><br/>             Los datos del gráfico no se cargarán ni actualizarán desde el libro de trabajo de destino. Puede usarse cuando el libro de trabajo de destino no existe o no está disponible.<br/><br/>             Si el valor es true los datos del gráfico se actualizarán desde el libro de trabajo de destino. |
 
 ### Excepciones
 

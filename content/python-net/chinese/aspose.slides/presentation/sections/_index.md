@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections 属性
-返回在演示文稿中定义的所有幻灯片 sections 的列表。
-            只读 [`ISectionCollection`](/slides/python-net/zh/aspose.slides/isectioncollection).
+返回演示文稿中定义的所有幻灯片节的列表。
+只读 [`ISectionCollection`](/slides/python-net/zh/aspose.slides/isectioncollection).
 
 ### 定义:
 ```python
@@ -17,8 +17,7 @@ def sections(self):
     ...
 ```
 
-
-### 参见
+### 另见
 * 类 [`ISectionCollection`](/slides/python-net/zh/aspose.slides/isectioncollection)
 * 类 [`Presentation`](/slides/python-net/zh/aspose.slides/presentation)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

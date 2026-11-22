@@ -1,13 +1,13 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type tulajdonság
-A diagram adatforrását képviseli
+A diagram adatforrását jelenti
 
 ### Definíció:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: is_bubble_3d property
-second_title: Aspose.Slides for Python via .NET API Referenciája
+second_title: Aspose.Slides for Python via .NET API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d tulajdonság
-Megadja, hogy a buborékok 3-D hatást kapnak.
+Meghatározza, hogy a buborékokra 3-D hatás kerül alkalmazásra.
             Olvasás/írás **bool**.
 
 ### Definíció:

@@ -1,14 +1,14 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties คุณสมบัติ
-ดึงคุณสมบัติการมองเห็นของงานนำเสนอทั้งหมด
-            อ่านได้เท่านั้น [`IViewProperties`](/slides/python-net/th/aspose.slides/iviewproperties).
+รับคุณสมบัติมุมมองทั่วทั้งการนำเสนอ.
+            อ่านอย่างเดียว [`IViewProperties`](/slides/python-net/th/aspose.slides/iviewproperties).
 
 ### คำนิยาม:
 ```python

@@ -1,23 +1,24 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel osztály
 
-Egy sorozat címkéit reprezentálja.
+Képviseli a sorozat címkéit.
 
-Az IDataLabel típus a következő tagokat teszi közzé:
+Az IDataLabel típus a következő tagokat tartalmazza:
 
 ## Tulajdonságok
 
 | Property | Description |
 | :- | :- |
-| [`is_visible`](/slides/python-net/hu/aspose.slides.charts/idatalabel/is_visible/) | A False azt jelenti, hogy az adatcímke nem látható (és ezért minden Show*-jelflag (ShowValue, ...) hamis).<br/>            Csak olvasható **bool**. |
+| [`is_visible`](/slides/python-net/hu/aspose.slides.charts/idatalabel/is_visible/) | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).<br/>            Csak olvasható **bool**. |
 | [`data_label_format`](/slides/python-net/hu/aspose.slides.charts/idatalabel/data_label_format/) | Visszaadja az adatcímke formátumát.<br/>            Csak olvasható [`IDataLabelFormat`](/slides/python-net/hu/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/hu/aspose.slides.charts/idatalabel/value_from_cell/) | Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazva, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság értéke true. |
+| [`value_from_cell`](/slides/python-net/hu/aspose.slides.charts/idatalabel/value_from_cell/) | Lekéri vagy beállítja a munkafüzet adatcelláját. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [`label_shape_type`](/slides/python-net/hu/aspose.slides.charts/idatalabel/label_shape_type/) | Lekéri vagy beállítja az adatcímke alakzattípusát.<br/>             Visszaadja [`ShapeType.NOT_DEFINED`](/slides/python-net/hu/aspose.slides/shapetype/NOT_DEFINED)-t, ha nincs definiálva alakzat. |
 | [`x`](/slides/python-net/hu/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/hu/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/hu/aspose.slides.charts/idatalabel/width/) |  |
@@ -34,12 +35,12 @@ Az IDataLabel típus a következő tagokat teszi közzé:
 | [`actual_width`](/slides/python-net/hu/aspose.slides.charts/idatalabel/actual_width/) |  |
 | [`actual_height`](/slides/python-net/hu/aspose.slides.charts/idatalabel/actual_height/) |  |
 
-## Módszerek
+## Metódusok
 
 | Method | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/hu/aspose.slides.charts/idatalabel/hide/#) | Elrejti az adatcímkét az összes Show*-jelflag (ShowValue, ...) hamis állapotra állításával.<br/>            Az IsVisible hamis lesz ezután. |
-| [`get_actual_label_text(self)`](/slides/python-net/hu/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján. |
+| [`hide(self)`](/slides/python-net/hu/aspose.slides.charts/idatalabel/hide/#) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
+| [`get_actual_label_text(self)`](/slides/python-net/hu/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/hu/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 ### Lásd még

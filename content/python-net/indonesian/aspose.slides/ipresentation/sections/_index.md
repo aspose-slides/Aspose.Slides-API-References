@@ -1,13 +1,13 @@
 ---
 title: sections property
-second_title: Aspose.Slides untuk Python via .NET API Reference
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections properti
-Mengembalikan daftar semua sections slide yang didefinisikan dalam presentation.
+Mengembalikan daftar semua bagian slide yang didefinisikan dalam presentasi.
             Hanya-baca [`ISectionCollection`](/slides/python-net/id/aspose.slides/isectioncollection).
 
 ### Definisi:

@@ -7,24 +7,18 @@ url: /hi/aspose.slides/positionedstring/
 ---
 ## PositionedString क्लास
 
-संरचना में पूर्णांक कुंजी और स्ट्रिंग मान होते हैं और यह KeyValuePair<int, string> का अस्थायी प्रतिस्थापन है।
+संरचना में पूर्णांक कुंजी और string मान शामिल है और यह KeyValuePair<int, string> का अस्थायी प्रतिस्थापन है।
 
-PositionedString प्रकार निम्नलिखित सदस्यों को उजागर करता है:
-
-## निर्माता
-
-| निर्माता | विवरण |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/hi/aspose.slides/positionedstring/__init__/#) |  |
+PositionedString प्रकार निम्नलिखित सदनों को उजागर करता है:
 
 ## गुण
 
-| गुण | विवरण |
+| प्रॉपर्टी | विवरण |
 | :- | :- |
 | [`key`](/slides/python-net/hi/aspose.slides/positionedstring/key/) | पूर्णांक कुंजी |
-| [`value`](/slides/python-net/hi/aspose.slides/positionedstring/value/) | स्ट्रिंग मान |
+| [`value`](/slides/python-net/hi/aspose.slides/positionedstring/value/) | String मान |
 
 
-### देखें
+### संबंधित देखें
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

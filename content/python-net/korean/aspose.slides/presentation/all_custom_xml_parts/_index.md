@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts 속성
 프레젠테이션의 모든 사용자 정의 데이터 파트를 반환합니다.
-            읽기 전용 [`ICustomXmlPart`](/slides/python-net/ko/aspose.slides/icustomxmlpart)[]
+            읽기 전용 [`ICustomXmlPart`](/slides/python-net/ko/aspose.slides/icustomxmlpart)[].
 
 ### 정의:
 ```python

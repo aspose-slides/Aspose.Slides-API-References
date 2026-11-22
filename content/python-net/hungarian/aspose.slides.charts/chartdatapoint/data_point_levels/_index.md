@@ -1,14 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides for Python via .NET API referencia
+second_title: Aspose.Slides a Python számára .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels tulajdonság
-Visszaad egy tárolót az adatpont szintekhez. Alkalmazható Treeamp és Sunburst sorozatokra.
-            Az adatpont szintek indexelése nullától indul.
+Visszaadja a tárolót a  adatpont szintekhez. Alkalmazható a Treeamp és a Sunburst sorozatokra.
+            Az adatpont szintek indexelése nulla-alapú.
 
 ### Definíció:
 ```python

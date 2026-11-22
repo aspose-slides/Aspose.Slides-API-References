@@ -1,13 +1,13 @@
 ---
 title: x_value property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value vlastnost
-Vrací hodnotu x datového bodu grafu.
+Získá hodnotu x datového bodu v grafu.
             Pouze pro čtení [`IStringOrDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/istringordoublechartvalue).
 
 ### Definice:

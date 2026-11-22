@@ -1,13 +1,13 @@
 ---
 title: master_notes_slide_manager property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET API Reference
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager thuộc tính
-Returns notes master manager.
+Trả về trình quản lý master ghi chú.
             Chỉ đọc [`IMasterNotesSlideManager`](/slides/python-net/vi/aspose.slides/imasternotesslidemanager).
 
 ### Định nghĩa:
@@ -21,5 +21,5 @@ def master_notes_slide_manager(self):
 ### Xem thêm
 * lớp [`IMasterNotesSlideManager`](/slides/python-net/vi/aspose.slides/imasternotesslidemanager)
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: value property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## خاصية القيمة
-يرجع قيمة نقطة بيانات المخطط.
+يحصل على قيمة نقطة بيانات المخطط.
             للقراءة فقط [`IDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/idoublechartvalue).
 
 ### التعريف:

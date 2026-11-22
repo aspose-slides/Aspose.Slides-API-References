@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## thuộc tính slide
-Trả về slide cha của một TextFrame.
+Trả về slide cha của TextFrame.
             Chỉ đọc [`IBaseSlide`](/slides/python-net/vi/aspose.slides/ibaseslide).
 
 ### Định nghĩa:

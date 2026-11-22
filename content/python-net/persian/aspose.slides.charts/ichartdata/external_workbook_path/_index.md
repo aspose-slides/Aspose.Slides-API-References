@@ -4,10 +4,10 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path ویژگی
-مسیر کتاب‌کار خارجی را در صورتی که منبع داده خارجی باشد نشان می‌دهد، در غیر این صورت None
+مسیر کتاب کار خارجی را نمایش می‌دهد اگر منبع داده خارجی باشد، در غیر این صورت None
 
 ### تعریف:
 ```python
@@ -15,6 +15,7 @@ weight: 110
 def external_workbook_path(self):
     ...
 ```
+
 
 ### موارد مرتبط
 * کلاس [`IChartData`](/slides/python-net/fa/aspose.slides.charts/ichartdata)

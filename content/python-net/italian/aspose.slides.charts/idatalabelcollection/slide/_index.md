@@ -4,9 +4,9 @@ second_title: Riferimento API di Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/idatalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## proprietà della diapositiva
+## slide proprietà
 ### Definizione:
 ```python
 @property

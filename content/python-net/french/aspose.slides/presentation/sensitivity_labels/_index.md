@@ -4,7 +4,7 @@ second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels propriété
 Renvoie la collection d'étiquettes de sensibilité appliquées au document de présentation.

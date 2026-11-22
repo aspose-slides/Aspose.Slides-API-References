@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager プロパティ
-ノートのマスターマネージャーを返します。
+ノートマスター マネージャーを返します。
             読み取り専用 [`IMasterNotesSlideManager`](/slides/python-net/ja/aspose.slides/imasternotesslidemanager).
 
 ### 定義:

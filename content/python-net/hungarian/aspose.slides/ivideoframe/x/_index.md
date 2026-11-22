@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides a Python számára .NET-en keresztül API referencia
+second_title: Aspose.Slides Python számára .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
 ## x tulajdonság
 ### Definíció:

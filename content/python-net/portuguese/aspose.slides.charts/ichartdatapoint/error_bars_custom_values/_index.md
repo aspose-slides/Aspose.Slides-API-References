@@ -1,14 +1,14 @@
 ---
 title: error_bars_custom_values property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values propriedade
-Representa os valores das barras de erro da série no caso de tipo de valor Custom.  
-Somente leitura [`IErrorBarsCustomValues`](/slides/python-net/pt/aspose.slides.charts/ierrorbarscustomvalues).
+Representa os valores das barras de erro da série no caso de tipo de valor Custom.
+            Somente leitura [`IErrorBarsCustomValues`](/slides/python-net/pt/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Definição:
 ```python
@@ -16,6 +16,7 @@ Somente leitura [`IErrorBarsCustomValues`](/slides/python-net/pt/aspose.slides.c
 def error_bars_custom_values(self):
     ...
 ```
+
 
 ### Veja Também
 * classe [`IChartDataPoint`](/slides/python-net/pt/aspose.slides.charts/ichartdatapoint)

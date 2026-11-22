@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+second_title: Aspose.Slides के लिये Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell प्रॉपर्टी
-वर्कबुक डेटा सेल को प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर हो तो लागू होता है।
+प्राप्त करता है या सेट करता है वर्कबुक डेटा सेल। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर हो तो लागू होता है।
 
 ### परिभाषा:
 ```python
@@ -19,7 +19,6 @@ def value_from_cell(self):
 def value_from_cell(self, value):
     ...
 ```
-
 
 ### संबंधित देखें
 * क्लास [`IDataLabel`](/slides/python-net/hi/aspose.slides.charts/idatalabel)

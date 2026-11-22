@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API referenční příručka
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size vlastnost
-Vrací velikost bubliny datového bodu grafu.
+Získává velikost bubliny datového bodu v grafu.
             Pouze pro čtení [`IDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/idoublechartvalue).
 
 ### Definice:

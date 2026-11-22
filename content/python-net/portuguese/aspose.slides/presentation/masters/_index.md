@@ -4,10 +4,10 @@ second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters propriedade
-Retorna uma lista de todos os slides mestre que são definidos na apresentação.
+Retorna uma lista de todos os slides mestres que são definidos na apresentação.
             Somente leitura [`IMasterSlideCollection`](/slides/python-net/pt/aspose.slides/imasterslidecollection).
 
 ### Definição:

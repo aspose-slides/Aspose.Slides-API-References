@@ -4,10 +4,10 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/chartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Define a pasta de trabalho externa como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir da pasta de trabalho de destino.
+Define uma pasta de trabalho externa como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir da pasta de trabalho de destino.
 
 
 ```python
@@ -28,7 +28,7 @@ def set_external_workbook(self, workbook_path):
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-Define a pasta de trabalho externa como fonte de dados para o gráfico.
+Define uma pasta de trabalho externa como fonte de dados para o gráfico.
 
 
 ```python
@@ -40,7 +40,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
 | workbook_path | **str** | Caminho para a pasta de trabalho de destino |
-| update_chart_data | **bool** | Se o valor for falso, somente o caminho da pasta de trabalho será atualizado. <br/><br/>             Os dados do gráfico não serão carregados nem atualizados a partir da pasta de trabalho de destino. Pode ser usado quando a pasta de trabalho de destino não existe ou não está disponível.<br/><br/>             Se o valor for verdadeiro, os dados do gráfico serão atualizados a partir da pasta de trabalho de destino. |
+| update_chart_data | **bool** | Se o valor for false, apenas o caminho da pasta de trabalho será atualizado. <br/><br/>             Os dados do gráfico não serão carregados e atualizados a partir da pasta de trabalho de destino. Pode ser usado quando a pasta de trabalho de destino não existe ou não está disponível.<br/><br/>             Se o valor for true, os dados do gráfico serão atualizados a partir da pasta de trabalho de destino. |
 
 ### Exceções
 

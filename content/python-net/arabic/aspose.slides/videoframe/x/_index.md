@@ -1,20 +1,20 @@
 ---
 title: x property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x خاصية
-يحصل أو يعيّن إحداثي x لزاوية الشكل العليا اليسرى، مقاسًا بالنقاط.
+يحصل أو يعيّن الإحداثي x لزاوية الشكل العلوية اليسرى، مقاسًا بالنقاط.
             قراءة/كتابة **float**.
 
 
 ### ملاحظات
 
-القيمة المرجعة دائمًا معرفة ولا تكون **float**.
-            يجب أن تكون القيمة المعينة أيضًا معرفة؛ عيّن **float** فقط للخاصيات الخاصة بـ `RawFrame`.
+القيمة المعادة دائمًا معرفة ولا تكون **float**.
+            يجب أن تكون القيمة المعينة أيضًا معرفة؛ عيّن **float** فقط لخاصيات كائن `RawFrame`.
 
 
 ### التعريف:
@@ -29,7 +29,7 @@ def x(self, value):
 ```
 
 
-### انظر أيضاً
-* فئة [`VideoFrame`](/slides/python-net/ar/aspose.slides/videoframe)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* الفئة [`VideoFrame`](/slides/python-net/ar/aspose.slides/videoframe)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

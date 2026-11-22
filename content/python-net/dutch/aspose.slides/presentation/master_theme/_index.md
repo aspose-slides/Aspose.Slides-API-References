@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme eigenschap
-Retourneert master-thema.
+Retourneert masterthema.
             Alleen-lezen [`IMasterTheme`](/slides/python-net/nl/aspose.slides.theme/imastertheme).
 
 ### Definitie:

@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
 ## x ιδιότητα
 ### Ορισμός:

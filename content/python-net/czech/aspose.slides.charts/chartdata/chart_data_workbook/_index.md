@@ -1,14 +1,14 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides pro Python přes .NET referenční příručka API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook vlastnost
-Gets the cells factory to create cells used for chart series or categories.
-Pouze ke čtení [`IChartDataWorkbook`](/slides/python-net/cs/aspose.slides.charts/ichartdataworkbook).
+Získá továrnu na buňky pro vytváření buněk používaných pro řady nebo kategorie grafu.
+Pouze pro čtení [`IChartDataWorkbook`](/slides/python-net/cs/aspose.slides.charts/ichartdataworkbook).
 
 ### Definice:
 ```python

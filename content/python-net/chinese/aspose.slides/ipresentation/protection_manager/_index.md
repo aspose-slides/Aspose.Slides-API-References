@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/ipresentation/protection_manager/
-weight: 310
+weight: 320
 ---
 ## protection_manager 属性
 Gets manager of the permissions for this presentation. 
             只读 [`IProtectionManager`](/slides/python-net/zh/aspose.slides/iprotectionmanager).
 
-### 定义:
+### 定义：
 ```python
 @property
 def protection_manager(self):

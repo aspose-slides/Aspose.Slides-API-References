@@ -1,13 +1,13 @@
 ---
 title: document_properties property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: مرجع API Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
-## document_properties خاصية
-إرجاع كائن DocumentProperties الذي يحتوي على خصائص المستند القياسية والخصائص المخصصة.
+## document_properties الخاصية
+Returns DocumentProperties object which contains standard and custom document properties.
             قراءة فقط [`IDocumentProperties`](/slides/python-net/ar/aspose.slides/idocumentproperties).
 
 ### التعريف:
@@ -17,8 +17,9 @@ def document_properties(self):
     ...
 ```
 
+
 ### انظر أيضًا
-* فئة [`IDocumentProperties`](/slides/python-net/ar/aspose.slides/idocumentproperties)
-* فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IDocumentProperties`](/slides/python-net/ar/aspose.slides/idocumentproperties)
+* الفئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

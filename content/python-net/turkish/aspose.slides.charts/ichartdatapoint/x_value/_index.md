@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value özelliği
-Grafik veri noktasının x değerini döndürür.
-            Salt okunur [`IStringOrDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/istringordoublechartvalue).
+Bir grafik veri noktasının x değerini alır.
+            Salt-okunur [`IStringOrDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/istringordoublechartvalue).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`IChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/ichartdatapoint)
 * sınıf [`IStringOrDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/istringordoublechartvalue)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

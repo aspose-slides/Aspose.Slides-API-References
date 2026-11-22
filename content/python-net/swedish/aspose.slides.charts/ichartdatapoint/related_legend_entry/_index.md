@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry egenskap
-Egenskaper för motsvarande legendpost i fallet med diagramtyp från denna lista:
+Egenskaper för motsvarande legendpost när diagramtyp är någon av följande:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,

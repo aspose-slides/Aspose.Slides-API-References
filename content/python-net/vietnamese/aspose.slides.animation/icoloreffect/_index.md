@@ -1,13 +1,13 @@
 ---
 title: IColorEffect class
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect lớp
 
-Biểu diễn một hiệu ứng màu cho hành vi hoạt ảnh.
+Biểu thị một hiệu ứng màu cho hành vi hoạt ảnh.
 
 Kiểu IColorEffect cung cấp các thành viên sau:
 
@@ -15,16 +15,17 @@ Kiểu IColorEffect cung cấp các thành viên sau:
 
 | Thuộc tính | Mô tả |
 | :- | :- |
-| [`from_address`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/from_address/) | Giá trị này được sử dụng để chỉ định màu bắt đầu của hành vi.<br/>            Đọc/ghi [`IColorFormat`](/slides/python-net/vi/aspose.slides/icolorformat). |
-| [`to`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/to/) | Mô tả màu kết quả cho sự thay đổi màu trong hoạt hình.<br/>            Đọc/ghi [`IColorFormat`](/slides/python-net/vi/aspose.slides/icolorformat). |
-| [`by`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/by/) | Mô tả giá trị độ dịch tương đối cho hoạt ảnh màu.<br/>            Đọc/ghi [`IColorOffset`](/slides/python-net/vi/aspose.slides.animation/icoloroffset). |
-| [`color_space`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/color_space/) | Biểu diễn không gian màu của hành vi.<br/>            Đọc/ghi [`IColorEffect.color_space`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/color_space). |
-| [`direction`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/direction/) | Xác định hướng quay màu hue quanh bánh xe màu.<br/>            Đọc/ghi [`ColorDirection`](/slides/python-net/vi/aspose.slides.animation/colordirection). |
+| [`from_`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/from_/) | This value is used to specify the starting color of behavior.<br/>            Read/write [`IColorFormat`](/slides/python-net/vi/aspose.slides/icolorformat). |
+| [`to`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/to/) | Describes resulting color for the animation color change.<br/>            Read/write [`IColorFormat`](/slides/python-net/vi/aspose.slides/icolorformat). |
+| [`by`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/by/) | Describes the relative offset value for the color animation.<br/>            Read/write [`IColorOffset`](/slides/python-net/vi/aspose.slides.animation/icoloroffset). |
+| [`color_space`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/color_space/) | Represent color space of behavior.<br/>            Read/write [`IColorEffect.color_space`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/color_space). |
+| [`direction`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/direction/) | Specifies which direction to cycle the hue around the color wheel.<br/>            Read/write [`ColorDirection`](/slides/python-net/vi/aspose.slides.animation/colordirection). |
 | [`accumulate`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/accumulate/) |  |
 | [`additive`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/additive/) |  |
 | [`properties`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/properties/) |  |
 | [`timing`](/slides/python-net/vi/aspose.slides.animation/icoloreffect/timing/) |  |
 
-### Xem thêm
-* mô-đun [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
-* thư viện [`Aspose.Slides`](/slides/python-net)
+
+### Xem Thêm
+* module [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

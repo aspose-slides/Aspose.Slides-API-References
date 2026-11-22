@@ -1,13 +1,13 @@
 ---
 title: right property
-second_title: Aspose.Slides a Python számára a .NET API hivatkozás
+second_title: Aspose.Slides Python számára .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right tulajdonság
-Right.
+Jobb.
             Csak olvasható **float**.
 
 ### Definíció:

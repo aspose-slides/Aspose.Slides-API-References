@@ -1,14 +1,14 @@
 ---
 title: format property
-second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## format ویژگی
+## خاصیت فرمت
 نمایانگر ویژگی‌های قالب‌بندی است.
-            خواندنی/نوشتنی [`IFormat`](/slides/python-net/fa/aspose.slides.charts/iformat).
+خواندنی/نوشتنی [`IFormat`](/slides/python-net/fa/aspose.slides.charts/iformat).
 
 ### تعریف:
 ```python
@@ -22,7 +22,7 @@ def format(self, value):
 ```
 
 
-### موارد مرتبط
+### همچنین ببینید
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)
 * کلاس [`IFormat`](/slides/python-net/fa/aspose.slides.charts/iformat)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)

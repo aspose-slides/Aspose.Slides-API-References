@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
-## slides Eigenschaft
-Gibt eine Liste aller slides zurück, die in der Präsentation definiert sind.
+## slides eigenschaft
+Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind.
             Nur lesbar [`ISlideCollection`](/de/slides/python-net/aspose.slides/islidecollection).
 
 ### Definition:

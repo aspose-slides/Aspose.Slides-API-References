@@ -1,13 +1,13 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series Eigenschaft
-Gibt die übergeordnete Diagrammreihe zurück.
+Gibt die übergeordnete Diagrammserie zurück.
             Schreibgeschützt [`IChartSeries`](/slides/python-net/de/aspose.slides.charts/ichartseries).
 
 ### Definition:

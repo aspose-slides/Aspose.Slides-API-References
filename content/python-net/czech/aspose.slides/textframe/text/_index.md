@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## textová vlastnost
 Získá nebo nastaví prostý text pro TextFrame.
-            Čtení/Zápis **str**.
+            Čtení/zápis **str**.
 
 ### Definice:
 ```python
@@ -20,7 +20,6 @@ def text(self):
 def text(self, value):
     ...
 ```
-
 
 ### Viz také
 * třída [`TextFrame`](/slides/python-net/cs/aspose.slides/textframe)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/datalabelcollection/slide/
-weight: 160
+weight: 170
 ---
 ## slide свойство
 ### Определение:
@@ -14,7 +14,8 @@ def slide(self):
     ...
 ```
 
-### Смотрите также
+
+### См. также
 * класс [`DataLabelCollection`](/slides/python-net/ru/aspose.slides.charts/datalabelcollection)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)
 * библиотека [`Aspose.Slides`](/slides/python-net)

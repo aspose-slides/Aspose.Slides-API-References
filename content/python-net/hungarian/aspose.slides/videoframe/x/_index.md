@@ -1,20 +1,20 @@
 ---
 title: x property
-second_title: Aspose.Slides a Pythonhoz .NET API referenciája
+second_title: Aspose.Slides Pythonhoz a .NET API referencián keresztül
 description: 
 type: docs
 url: /hu/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x tulajdonság
-A forma bal felső sarkának x koordinátáját adja vissza vagy állítja be, pontokban mérve.
+A forma bal felső sarkának x-koordinátáját adja vissza vagy állítja be, pontban mérve.
             Olvasás/írás **float**.
 
 
 ### Megjegyzés
 
-A visszaadott érték mindig definiált, és soha nem **float**.
-            A hozzárendelt értéknek is definiáltnak kell lennie; csak a `RawFrame` példány tulajdonságaiba rendeljen **float** értéket.
+A visszaadott érték mindig definiált és soha nem **float**.
+            A hozzárendelt értéknek is definiáltnak kell lennie; **float** csak egy `RawFrame` példány tulajdonságainak kell, hogy legyen.
 
 ### Definíció:
 ```python

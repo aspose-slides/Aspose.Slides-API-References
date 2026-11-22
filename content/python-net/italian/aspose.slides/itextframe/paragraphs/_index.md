@@ -4,11 +4,11 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## paragraphs proprietà
+## paragrafi proprietà
 Restituisce l'elenco di tutti i paragrafi in un frame.
-            Sola lettura [`IParagraphCollection`](/slides/python-net/it/aspose.slides/iparagraphcollection).
+            Solo lettura [`IParagraphCollection`](/slides/python-net/it/aspose.slides/iparagraphcollection).
 
 ### Definizione:
 ```python

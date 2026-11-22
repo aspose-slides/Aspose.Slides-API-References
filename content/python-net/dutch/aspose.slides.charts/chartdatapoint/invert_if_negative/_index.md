@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative eigenschap
-Specificeert dat het gegevenspunt zijn kleuren moet inverteren als de waarde negatief is.
-            Lezen/Schrijven **bool**.
+Specificeert dat het gegevenspunt zijn kleuren moet omkeren als de waarde negatief is.
+            Lezen/schrijven **bool**.
 
 ### Definitie:
 ```python

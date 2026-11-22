@@ -1,10 +1,10 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides の Python 用 .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size プロパティ
 スライドサイズオブジェクトを返します。

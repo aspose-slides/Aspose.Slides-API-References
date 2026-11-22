@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides a Pythonhoz .NET API referencia
+second_title: Aspose.Slides for Python a .NET API-referenciához
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path tulajdonság
-A diagram adatforrását képviseli
+A diagram adatforrását jelenti
 
 ### Definíció:
 ```python

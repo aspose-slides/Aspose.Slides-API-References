@@ -1,13 +1,13 @@
 ---
 title: all_custom_xml_parts property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts properti
-Mengembalikan semua bagian data khusus dalam presentaion.
+Mengembalikan semua bagian data khusus dalam presentasi.
             Hanya-baca [`ICustomXmlPart`](/slides/python-net/id/aspose.slides/icustomxmlpart)[].
 
 ### Definisi:

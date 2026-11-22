@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides خاصية
-يرجع قائمة بجميع الشرائح التي تم تعريفها في العرض التقديمي.
-            للقراءة فقط [`ISlideCollection`](/ar/slides/python-net/aspose.slides/islidecollection).
+يُعيد قائمة بجميع الشرائح التي تم تعريفها في العرض التقديمي.
+            قراءة فقط [`ISlideCollection`](/ar/slides/python-net/aspose.slides/islidecollection).
 
 ### التعريف:
 ```python

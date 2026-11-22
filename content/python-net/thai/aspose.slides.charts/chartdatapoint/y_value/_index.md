@@ -4,19 +4,18 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value คุณสมบัติ
 YValue.
-            อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
+อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def y_value(self):
     ...
 ```
-
 
 ### ดูเพิ่มเติม
 * คลาส [`ChartDataPoint`](/slides/python-net/th/aspose.slides.charts/chartdatapoint)

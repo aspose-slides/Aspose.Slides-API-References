@@ -1,16 +1,16 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels vlastnost
 Spravovaný kontejner hodnot úrovní seskupování kategorií grafu.
             Víceúrovňová kategorie obsahuje více než jednu úroveň seskupování.
-            Indexování úrovní seskupování je nulové.
-            Pouze pro čtení [`IChartCategoryLevelsManager`](/slides/python-net/cs/aspose.slides.charts/ichartcategorylevelsmanager).
+            Indexování úrovní seskupování je založeno na nule.
+            Pouze ke čtení [`IChartCategoryLevelsManager`](/slides/python-net/cs/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Definice:
 ```python

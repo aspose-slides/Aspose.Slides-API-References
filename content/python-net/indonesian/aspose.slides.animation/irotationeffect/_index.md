@@ -9,13 +9,13 @@ url: /id/aspose.slides.animation/irotationeffect/
 
 Mewakili perilaku rotasi efek.
 
-Tipe IRotationEffect menampilkan anggota berikut:
+Tipe IRotationEffect mengekspos anggota-anggota berikut:
 
 ## Properti
 
-| Property | Description |
+| Properti | Deskripsi |
 | :- | :- |
-| [`from_address`](/slides/python-net/id/aspose.slides.animation/irotationeffect/from_address/) | Menjelaskan nilai awal untuk animasi.<br/>            Baca/tulis **float**. |
+| [`from_`](/slides/python-net/id/aspose.slides.animation/irotationeffect/from_/) | Menjelaskan nilai awal untuk animasi.<br/>            Baca/tulis **float**. |
 | [`to`](/slides/python-net/id/aspose.slides.animation/irotationeffect/to/) | Menjelaskan nilai akhir untuk animasi.<br/>            Baca/tulis **float**. |
 | [`by`](/slides/python-net/id/aspose.slides.animation/irotationeffect/by/) | Menjelaskan nilai offset relatif untuk animasi.<br/>            Baca/tulis **float**. |
 | [`accumulate`](/slides/python-net/id/aspose.slides.animation/irotationeffect/accumulate/) |  |
@@ -26,4 +26,4 @@ Tipe IRotationEffect menampilkan anggota berikut:
 
 ### Lihat Juga
 * modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

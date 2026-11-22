@@ -1,23 +1,24 @@
 ---
 title: parent_shape property
-second_title: Aspose.Slides Python के लिए .NET द्वारा API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API Reference के माध्यम से
 description: 
 type: docs
 url: /hi/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape प्रॉपर्टी
-वापस देता है पैरेंट आकार या None यदि पैरेंट ऑब्जेक्ट IShape इंटरफ़ेस को लागू नहीं करता
-केवल-पढ़ने योग्य [`IShape`](/slides/python-net/hi/aspose.slides/ishape).
+Returns the parent shape or None if the parent object does not implement the IShape interface
+            केवल-पढ़ने योग्य [`IShape`](/slides/python-net/hi/aspose.slides/ishape).
 
-### Definition:
+### परिभाषा:
 ```python
 @property
 def parent_shape(self):
     ...
 ```
 
-### देखें भी
+
+### देखें
 * क्लास [`IShape`](/slides/python-net/hi/aspose.slides/ishape)
 * क्लास [`ITextFrame`](/slides/python-net/hi/aspose.slides/itextframe)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

@@ -4,34 +4,41 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-正規表現のすべての一致箇所を指定された色でハイライトします。
+正規表現に一致するすべての箇所を指定した色でハイライトします。
+
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
+
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| regex | **str** | 文字列はハイライトする文字列を取得するための正規表現を含んでいます。 |
-| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
+| regex | **str** | ハイライト対象の文字列を取得する正規表現を含む文字列です。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色です。 |
+
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-正規表現のすべての一致箇所を指定された色でハイライトします。
+正規表現に一致するすべての箇所を指定した色でハイライトします。
+
 
 ```python
 def highlight_regex(self, regex, highlight_color, options):
     ...
 ```
 
+
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| regex | **str** | ハイライトするテキストを取得するための正規表現のテキスト。 |
-| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
-| options | [`ITextHighlightingOptions`](/slides/python-net/ja/aspose.slides/itexthighlightingoptions) | ハイライトオプション。 |
+| regex | **str** | ハイライト対象のテキストを取得する正規表現です。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色です。 |
+| options | [`ITextHighlightingOptions`](/slides/python-net/ja/aspose.slides/itexthighlightingoptions) | ハイライトのオプションです。 |
+
+
 
 ### 参照
 * クラス [`ITextFrame`](/slides/python-net/ja/aspose.slides/itextframe)

@@ -1,14 +1,14 @@
 ---
 title: presentation property
-second_title: مرجع API لـ Aspose.Slides للبرمجة بلغة بايثون عبر .NET
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
-## خاصية presentation
-يرجع العرض التقديمي الأب لـ TextFrame.
-للقراءة فقط [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation).
+## خاصية العرض
+يعيد العرض الأصل لإطار النص.
+            قراءة فقط [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation).
 
 ### التعريف:
 ```python
@@ -16,6 +16,7 @@ weight: 130
 def presentation(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)

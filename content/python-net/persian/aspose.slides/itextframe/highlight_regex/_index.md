@@ -1,39 +1,39 @@
 ---
 title: highlight_regex method
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/itextframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-تمام مطابقت‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند.
+تمام مطابق‌های عبارت منظم را با رنگ مشخص برجسته می‌کند.
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| regex | **str** | رشته شامل عبارت منظم برای دریافت رشته‌های برجسته‌شده است. |
-| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ برای برجسته‌سازی متن. |
+| regex | **str** | رشته شامل عبارت منظم برای دریافت رشته‌های قابل برجسته‌سازی است. |
+| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگی که برای برجسته‌سازی متن استفاده می‌شود. |
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-تمام مطابقت‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند.
+تمام مطابق‌های عبارت منظم را با رنگ مشخص برجسته می‌کند.
 
 ```python
 def highlight_regex(self, regex, highlight_color, options):
     ...
 ```
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| regex | **str** | متن عبارت منظم برای دریافت متن به‌منظور برجسته‌سازی. |
-| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ برای برجسته‌سازی متن. |
+| regex | **str** | متن عبارت منظم برای دریافت متنی که باید برجسته شود. |
+| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگی که برای برجسته‌سازی متن استفاده می‌شود. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/fa/aspose.slides/itexthighlightingoptions) | گزینه‌های برجسته‌سازی. |
 
-### مراجع
+### موارد مرتبط
 * کلاس [`ITextFrame`](/slides/python-net/fa/aspose.slides/itextframe)
 * کلاس [`ITextHighlightingOptions`](/slides/python-net/fa/aspose.slides/itexthighlightingoptions)
 * کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)

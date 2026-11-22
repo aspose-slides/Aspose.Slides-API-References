@@ -1,24 +1,17 @@
 ---
 title: categories property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdata/categories/
-weight: 70
+weight: 80
 ---
 ## categories propriedade
-Obtém as categorias principais (ou tanto as categorias principais quanto as secundárias 
-            se a propriedade [`IChartData.use_secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/use_secondary_categories) for falsa).
-            Somente leitura [`IChartCategoryCollection`](/slides/python-net/pt/aspose.slides.charts/ichartcategorycollection).
+Obtém as categorias primárias (ou tanto as categorias primárias quanto as secundárias se a [`IChartData.use_secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/use_secondary_categories) propriedade for false). Somente leitura [`IChartCategoryCollection`](/slides/python-net/pt/aspose.slides.charts/ichartcategorycollection).
 
 ### Observações
 
-Se a propriedade [`IChartData.use_secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/use_secondary_categories) for falsa então a propriedade [`IChartData.secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/secondary_categories) 
-            retorna None e os dados nesta propriedade [`IChartData.categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/categories) são usados tanto para as séries principais 
-            quanto para as séries secundárias.
-Se a propriedade [`IChartData.use_secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/use_secondary_categories) for verdadeira então os dados na propriedade [`IChartData.secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/secondary_categories) 
-            são usados para as séries secundárias e os dados nesta propriedade [`IChartData.categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/categories) são usados 
-            para as séries principais.
+Se a [`IChartData.use_secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/use_secondary_categories) propriedade for false então a [`IChartData.secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/secondary_categories) propriedade retorna None e os dados nesta [`IChartData.categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/categories) propriedade são usados tanto para séries primárias quanto para séries secundárias. Se a [`IChartData.use_secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/use_secondary_categories) propriedade for true então os dados na [`IChartData.secondary_categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/secondary_categories) propriedade são usados para séries secundárias e os dados nesta [`IChartData.categories`](/slides/python-net/pt/aspose.slides.charts/ichartdata/categories) propriedade são usados para séries primárias.
 
 ### Definição:
 ```python
@@ -27,8 +20,8 @@ def categories(self):
     ...
 ```
 
-### Ver também
+### Veja também
 * classe [`IChartCategoryCollection`](/slides/python-net/pt/aspose.slides.charts/ichartcategorycollection)
 * classe [`IChartData`](/slides/python-net/pt/aspose.slides.charts/ichartdata)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,16 +1,16 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_handout_slide_manager คุณสมบัติ
 Returns handout master manager.
             อ่านอย่างเดียว [`IMasterHandoutSlideManager`](/slides/python-net/th/aspose.slides/imasterhandoutslidemanager).
 
-### การกำหนด:
+### คำจำกัดความ:
 ```python
 @property
 def master_handout_slide_manager(self):

@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides 適用於 Python 的 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/datalabel/slide/
-weight: 220
+weight: 230
 ---
-## 投影片屬性
+## 幻燈片屬性
 ### 定義：
 ```python
 @property

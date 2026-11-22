@@ -1,13 +1,13 @@
 ---
 title: vba_project property
-second_title: Aspose.Slides Pythonhoz .NET API Referenciája
+second_title: Aspose.Slides Python számára a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
 ## vba_project tulajdonság
-Megkapja vagy beállítja a VBA projektet a bemutatók makróival.
+Lekéri vagy beállítja a VBA projektet a prezentációs makrókkal.
             Olvasás/írás [`IVbaProject`](/slides/python-net/hu/aspose.slides.vba/ivbaproject).
 
 ### Definíció:

@@ -4,10 +4,10 @@ second_title: Aspose.Slides Python के लिए .NET के माध्य�
 description: 
 type: docs
 url: /hi/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## स्लाइड गुण
-Returns the parent slide of a TextFrame.
+## स्लाइड प्रॉपर्टी
+TextFrame का पैरेंट स्लाइड लौटाता है।
             केवल-पढ़ने योग्य [`IBaseSlide`](/slides/python-net/hi/aspose.slides/ibaseslide).
 
 ### परिभाषा:
@@ -19,7 +19,7 @@ def slide(self):
 
 
 ### और देखें
-* क्लास [`IBaseSlide`](/slides/python-net/hi/aspose.slides/ibaseslide)
-* क्लास [`TextFrame`](/slides/python-net/hi/aspose.slides/textframe)
+* वर्ग [`IBaseSlide`](/slides/python-net/hi/aspose.slides/ibaseslide)
+* वर्ग [`TextFrame`](/slides/python-net/hi/aspose.slides/textframe)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

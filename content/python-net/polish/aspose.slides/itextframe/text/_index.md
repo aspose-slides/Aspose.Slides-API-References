@@ -1,12 +1,12 @@
 ---
 title: text property
-second_title: Aspose.Slides dla Python via .NET Referencja API
+second_title: Aspose.Slides dla Pythona przez .NET Referencję API
 description: 
 type: docs
 url: /pl/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
-## text właściwość
+## Właściwość text
 Pobiera lub ustawia zwykły tekst dla TextFrame.
             Odczyt/zapis **str**.
 

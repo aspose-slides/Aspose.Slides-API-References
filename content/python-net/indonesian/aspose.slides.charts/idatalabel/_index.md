@@ -9,7 +9,7 @@ url: /id/aspose.slides.charts/idatalabel/
 
 Mewakili label seri.
 
-Tipe IDataLabel menampilkan anggota-anggota berikut:
+Tipe IDataLabel mengungkapkan anggota berikut:
 
 ## Properti
 
@@ -18,6 +18,7 @@ Tipe IDataLabel menampilkan anggota-anggota berikut:
 | [`is_visible`](/slides/python-net/id/aspose.slides.charts/idatalabel/is_visible/) | False berarti label data tidak terlihat (dan sehingga semua Show*-flags (ShowValue, ...) menjadi false).<br/>            Read-only **bool**. |
 | [`data_label_format`](/slides/python-net/id/aspose.slides.charts/idatalabel/data_label_format/) | Mengembalikan format label data.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/id/aspose.slides.charts/idatalabelformat). |
 | [`value_from_cell`](/slides/python-net/id/aspose.slides.charts/idatalabel/value_from_cell/) | Mendapatkan atau mengatur sel data buku kerja. Diterapkan jika IDataLabelFormat.ShowLabelValueFromCell properti bernilai true. |
+| [`label_shape_type`](/slides/python-net/id/aspose.slides.charts/idatalabel/label_shape_type/) | Mendapatkan atau mengatur tipe bentuk label data.<br/>            Mengembalikan [`ShapeType.NOT_DEFINED`](/slides/python-net/id/aspose.slides/shapetype/NOT_DEFINED) jika tidak ada bentuk yang ditentukan. |
 | [`x`](/slides/python-net/id/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/id/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/id/aspose.slides.charts/idatalabel/width/) |  |
@@ -38,10 +39,10 @@ Tipe IDataLabel menampilkan anggota-anggota berikut:
 
 | Metode | Deskripsi |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/id/aspose.slides.charts/idatalabel/hide/#) | Membuat label data tersembunyi dengan mengatur semua Show*-flags (ShowValue, ...) ke keadaan false.<br/>            IsVisible akan menjadi false setelah ini. |
-| [`get_actual_label_text(self)`](/slides/python-net/id/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Mengembalikan teks label sebenarnya berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text. |
+| [`hide(self)`](/slides/python-net/id/aspose.slides.charts/idatalabel/hide/#) | Menyembunyikan label data dengan mengatur semua Show*-flags (ShowValue, ...) ke keadaan false.<br/>            IsVisible akan menjadi false setelah ini. |
+| [`get_actual_label_text(self)`](/slides/python-net/id/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Mengembalikan teks label aktual berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/id/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 ### Lihat Juga
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

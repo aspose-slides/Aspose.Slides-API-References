@@ -1,20 +1,19 @@
 ---
 title: secondary_categories property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories свойство
 Получает вторичные категории, если свойство [`ChartData.use_secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/use_secondary_categories) истинно.
             Только для чтения [`IChartCategoryCollection`](/slides/python-net/ru/aspose.slides.charts/ichartcategorycollection).
 
-
 ### Примечания
 
-Если свойство [`ChartData.use_secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/use_secondary_categories) ложно, то свойство [`ChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/secondary_categories) возвращает None и данные в свойстве [`ChartData.categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/categories) используются как для основной, так и для вторичной серии.
-Если свойство [`ChartData.use_secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/use_secondary_categories) истинно, то данные в свойстве [`ChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/secondary_categories) используются для вторичной серии, а данные в свойстве [`ChartData.categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/categories) используются для основной серии.
+Если свойство [`ChartData.use_secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/use_secondary_categories) ложно, то это свойство [`ChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/secondary_categories) возвращает None и данные в свойстве [`ChartData.categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/categories) используются как для первичной, так и для вторичной серии.
+            Если свойство [`ChartData.use_secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/use_secondary_categories) истинно, то данные в этом свойстве [`ChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/secondary_categories) используются для вторичной серии и данные в свойстве [`ChartData.categories`](/slides/python-net/ru/aspose.slides.charts/chartdata/categories) используются для первичной серии.
 
 ### Определение:
 ```python
@@ -22,7 +21,6 @@ weight: 120
 def secondary_categories(self):
     ...
 ```
-
 
 ### См. также
 * класс [`ChartData`](/slides/python-net/ru/aspose.slides.charts/chartdata)

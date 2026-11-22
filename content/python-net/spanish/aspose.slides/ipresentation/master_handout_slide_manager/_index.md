@@ -4,7 +4,7 @@ second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager propiedad
 Devuelve el administrador maestro de folletos.
@@ -22,4 +22,4 @@ def master_handout_slide_manager(self):
 * clase [`IMasterHandoutSlideManager`](/slides/python-net/es/aspose.slides/imasterhandoutslidemanager)
 * clase [`IPresentation`](/slides/python-net/es/aspose.slides/ipresentation)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

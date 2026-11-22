@@ -1,14 +1,14 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
 ## master_theme vlastnost
 Vrací hlavní motiv prezentace.
-            Pouze ke čtení [`IMasterTheme`](/slides/python-net/cs/aspose.slides.theme/imastertheme).
+Pouze pro čtení [`IMasterTheme`](/slides/python-net/cs/aspose.slides.theme/imastertheme).
 
 ### Definice:
 ```python

@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides, Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value özelliği
-chart veri noktasının değerini döndürür.
-            Yalnızca okuma [`IDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/idoublechartvalue).
+Chart veri noktasının value değerini alır.
+            Salt okunur [`IDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/idoublechartvalue).
 
 ### Tanım:
 ```python
@@ -17,7 +17,8 @@ def value(self):
     ...
 ```
 
-### Diğer Bilgiler
+
+### Ayrıca Bakınız
 * sınıf [`IChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/ichartdatapoint)
 * sınıf [`IDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/idoublechartvalue)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

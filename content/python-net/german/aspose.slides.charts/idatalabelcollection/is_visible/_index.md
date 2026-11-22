@@ -1,19 +1,22 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides für Python via .NET API Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible Eigenschaft
-False bedeutet, dass das Datenbeschriftungsfeld standardmäßig nicht sichtbar ist (und so alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft false sind). 
-Nur lesbar **bool**.
+False bedeutet, dass das Datenbeschriftungselement standardmäßig nicht sichtbar ist (und somit alle 
+            Show*-flags (ShowValue, ...) der DefaultDataLabelFormat Eigenschaft false sind).
+            Nur lesbar **bool**.
 
-### Anmerkungen
+### Bemerkungen
 
-Wenn das Datenbeschriftungsfeld standardmäßig sichtbar ist, können Sie es mit der Hide()-Methode standardmäßig ausblenden. 
-Wenn das Datenbeschriftungsfeld jedoch standardmäßig nicht sichtbar ist (IsVisible ist false), können Sie das Datenbeschriftungsfeld "standardmäßig sichtbar" machen, indem Sie die Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den wahren Zustand setzen.
+Wenn das Datenbeschriftungselement standardmäßig sichtbar ist, können Sie es standardmäßig mit der Hide() Methode ausblenden.
+            Aber wenn das Datenbeschriftungselement standardmäßig nicht sichtbar ist (IsVisible ist false) können Sie das Datenbeschriftungselement „sichtbar 
+            standardmäßig“ mit dem Setzen der Show*-flags (ShowValue, ...) der DefaultDataLabelFormat Eigenschaft
+            auf den wahren Zustand.
 
 ### Definition:
 ```python

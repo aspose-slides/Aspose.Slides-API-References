@@ -1,14 +1,14 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/fonts_manager/
-weight: 200
+weight: 210
 ---
 ## fonts_manager свойство
-Возвращает менеджер шрифтов.
-Только для чтения [`IFontsManager`](/slides/python-net/ru/aspose.slides/ifontsmanager).
+Returns fonts manager.
+            Только для чтения [`IFontsManager`](/slides/python-net/ru/aspose.slides/ifontsmanager).
 
 ### Определение:
 ```python
@@ -17,7 +17,7 @@ def fonts_manager(self):
     ...
 ```
 
-### Смотрите также
+### См. также
 * класс [`IFontsManager`](/slides/python-net/ru/aspose.slides/ifontsmanager)
 * класс [`IPresentation`](/slides/python-net/ru/aspose.slides/ipresentation)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)

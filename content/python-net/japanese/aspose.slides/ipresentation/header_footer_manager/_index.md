@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/header_footer_manager/
-weight: 210
+weight: 220
 ---
 ## header_footer_manager プロパティ
-プレゼンテーションの HeaderFooter manager を返します。
+プレゼンテーションの HeaderFooter マネージャーを返します。
             読み取り専用 [`IPresentationHeaderFooterManager`](/slides/python-net/ja/aspose.slides/ipresentationheaderfootermanager).
 
 ### 定義:

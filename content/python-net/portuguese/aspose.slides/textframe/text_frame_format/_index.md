@@ -4,7 +4,7 @@ second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/textframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format propriedade
 Retorna o objeto de formatação para este objeto TextFrame.
@@ -16,6 +16,7 @@ Retorna o objeto de formatação para este objeto TextFrame.
 def text_frame_format(self):
     ...
 ```
+
 
 ### Veja Também
 * classe [`ITextFrameFormat`](/slides/python-net/pt/aspose.slides/itextframeformat)

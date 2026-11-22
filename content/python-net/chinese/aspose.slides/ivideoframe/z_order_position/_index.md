@@ -1,10 +1,10 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides 用于 Python 的 .NET API 参考
+second_title: Aspose.Slides 适用于 Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/ivideoframe/z_order_position/
-weight: 650
+weight: 660
 ---
 ## z_order_position 属性
 ### 定义:

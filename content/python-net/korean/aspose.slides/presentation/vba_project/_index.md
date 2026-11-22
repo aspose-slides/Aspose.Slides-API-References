@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
 ## vba_project 속성
 Gets or sets VBA project with presentation macros.

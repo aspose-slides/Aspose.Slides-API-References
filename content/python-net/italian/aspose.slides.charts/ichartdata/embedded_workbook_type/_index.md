@@ -4,13 +4,13 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type proprietà
-Ottiene il tipo del workbook incorporato.
+Ottiene il tipo della cartella di lavoro incorporata.
             Restituisce [`WorkbookType.NOT_DEFINED`](/slides/python-net/it/aspose.slides.charts/workbooktype/NOT_DEFINED) se [`IChartData.data_source_type`](/slides/python-net/it/aspose.slides.charts/ichartdata/data_source_type) è 
             [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/it/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
-            Sola lettura [`WorkbookType`](/slides/python-net/it/aspose.slides.charts/workbooktype).
+            Solo lettura [`WorkbookType`](/slides/python-net/it/aspose.slides.charts/workbooktype).
 
 ### Definizione:
 ```python

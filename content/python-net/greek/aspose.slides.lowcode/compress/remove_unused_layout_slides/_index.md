@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
 Κάνει συμπίεση του [`Presentation`](/slides/python-net/el/aspose.slides/presentation) αφαιρώντας αχρησιμοποίητες διαφάνειες διάταξης.
@@ -17,9 +17,9 @@ def remove_unused_layout_slides(pres):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/el/aspose.slides/presentation) | Το αντικείμενο presentation |
+| pres | [`Presentation`](/slides/python-net/el/aspose.slides/presentation) | Το αντικείμενο παρουσίασης |
 
-### Δείτε επίσης
+### See Also
 * κλάση [`Compress`](/slides/python-net/el/aspose.slides.lowcode/compress)
 * κλάση [`Presentation`](/slides/python-net/el/aspose.slides/presentation)
 * μονάδα [`aspose.slides.lowcode`](/slides/python-net/el/aspose.slides.lowcode)

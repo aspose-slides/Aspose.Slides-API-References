@@ -1,14 +1,14 @@
 ---
 title: audios property
-second_title: Aspose.Slides के लिए Python द्वारा .NET API रेफ़रेंस
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
 ## audios प्रॉपर्टी
-प्रेज़ेंटेशन में सभी एम्बेडेड ऑडियो फ़ाइलों का संग्रह लौटाता है।
-            केवल-पढ़ने योग्य [`IAudioCollection`](/slides/python-net/hi/aspose.slides/iaudiocollection).
+प्रेजेंटेशन में सभी एम्बेडेड ऑडियो फ़ाइलों का संग्रह लौटाता है।
+केवल-पढ़ने योग्य [`IAudioCollection`](/slides/python-net/hi/aspose.slides/iaudiocollection)।
 
 ### परिभाषा:
 ```python
@@ -18,7 +18,7 @@ def audios(self):
 ```
 
 
-### देखें
+### संबंधित देखें
 * क्लास [`IAudioCollection`](/slides/python-net/hi/aspose.slides/iaudiocollection)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

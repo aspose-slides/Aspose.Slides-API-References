@@ -16,12 +16,13 @@ Der Typ DataLabelCollection stellt die folgenden Mitglieder bereit:
 | Eigenschaft | Beschreibung |
 | :- | :- |
 | [`chart`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/chart/) | Gibt das übergeordnete Diagramm zurück.<br/>            Nur lesbar [`IChart`](/slides/python-net/de/aspose.slides.charts/ichart). |
-| [`is_visible`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/is_visible/) | False bedeutet, dass die Datenbeschriftung standardmäßig nicht sichtbar ist (und daher alle <br/>            Show*-Flags (ShowValue, ...) der Eigenschaft DefaultDataLabelFormat false sind).<br/>            Nur lesbar **bool**. |
+| [`is_visible`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/is_visible/) | False bedeutet, dass die Datenbeschriftung standardmäßig nicht sichtbar ist (und daher alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft false sind).<br/>            Nur lesbar **bool**. |
 | [`count_of_visible_data_labels`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Ermittelt die Anzahl der sichtbaren Datenbeschriftungen in der Sammlung.<br/>            Nur lesbar **int**. |
-| [`count`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/count/) | Ermittelt die Gesamtzahl aller Datenbeschriftungen in der Sammlung.<br/>            Nur lesbar **int**. |
+| [`count`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/count/) | Ermittelt die Gesamtanzahl der Datenbeschriftungen in der Sammlung.<br/>            Nur lesbar **int**. |
 | [`default_data_label_format`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Ermittelt das Standardformat für Datenbeschriftungen.<br/>            Nur lesbar [`IDataLabelFormat`](/slides/python-net/de/aspose.slides.charts/idatalabelformat). |
 | [`leader_lines_format`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Stellt das Format der Führungslinien von Datenbeschriftungen dar.<br/>             Nur lesbar [`IChartLinesFormat`](/slides/python-net/de/aspose.slides.charts/ichartlinesformat). |
 | [`parent_series`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/parent_series/) | Ermittelt die übergeordnete Serie.<br/>            Nur lesbar [`IChartSeries`](/slides/python-net/de/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/default_label_shape_type/) | Ermittelt oder setzt den Standardformtyp für Datenbeschriftungen.<br/>             Gibt [`ShapeType.NOT_DEFINED`](/slides/python-net/de/aspose.slides/shapetype/NOT_DEFINED) zurück, wenn keine Form definiert ist. |
 | [`slide`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/presentation/) |  |
 
@@ -37,8 +38,8 @@ Ermittelt die Datenbeschriftung für den Datenpunkt mit dem angegebenen Index.
 
 | Methode | Beschreibung |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/hide/#) | Macht die Datenbeschriftung standardmäßig ausgeblendet, indem alle Show*-Flags (ShowValue, ...) der <br/>            Eigenschaft DefaultDataLabelFormat auf den falschen Zustand gesetzt werden.<br/>            IsVisible wird danach false sein. |
-| [`index_of(self, value)`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Gibt einen Index des angegebenen DataLabel in der Sammlung zurück. |
+| [`hide(self)`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/hide/#) | Macht die Datenbeschriftung standardmäßig ausgeblendet, indem alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den falschen Zustand gesetzt werden.<br/>            IsVisible wird danach false sein. |
+| [`index_of(self, value)`](/slides/python-net/de/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Gibt den Index der angegebenen DataLabel in der Sammlung zurück. |
 
 
 ### Siehe auch

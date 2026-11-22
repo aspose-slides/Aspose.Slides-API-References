@@ -1,10 +1,10 @@
 ---
 title: comment_authors property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors свойство
 Возвращает коллекцию авторов комментариев.
@@ -16,7 +16,6 @@ weight: 130
 def comment_authors(self):
     ...
 ```
-
 
 ### См. также
 * класс [`ICommentAuthorCollection`](/slides/python-net/ru/aspose.slides/icommentauthorcollection)

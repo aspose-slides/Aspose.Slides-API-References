@@ -7,7 +7,7 @@ url: /ko/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size 속성
-Returns the bubble size of chart data point.
+차트 데이터 포인트의 버블 크기를 가져옵니다.
             읽기 전용 [`IDoubleChartValue`](/slides/python-net/ko/aspose.slides.charts/idoublechartvalue).
 
 ### 정의:

@@ -1,14 +1,14 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels свойство
 Управляемый контейнер значений уровней группировки категорий диаграммы.
-            Многоуровневая категория содержит более одного уровня группировки.
+            Категория с несколькими уровнями содержит более одного уровня группировки.
             Индексация уровней группировки начинается с нуля.
             Только для чтения [`IChartCategoryLevelsManager`](/slides/python-net/ru/aspose.slides.charts/ichartcategorylevelsmanager).
 

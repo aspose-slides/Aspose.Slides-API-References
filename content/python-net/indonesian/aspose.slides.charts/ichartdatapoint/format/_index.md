@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## properti format
 Mewakili properti pemformatan.

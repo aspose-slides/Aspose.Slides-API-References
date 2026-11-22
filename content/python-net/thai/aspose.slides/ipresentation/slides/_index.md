@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides คุณสมบัติ
-ส่งคืนรายการของ slides ทั้งหมดที่กำหนดไว้ในงานนำเสนอ.
-อ่านอย่างเดียว [`ISlideCollection`](/th/slides/python-net/aspose.slides/islidecollection).
+คืนค่าเป็นรายการของ slides ทั้งหมดที่กำหนดในงานนำเสนอ.
+            อ่านอย่างเดียว [`ISlideCollection`](/th/slides/python-net/aspose.slides/islidecollection).
 
 ### คำนิยาม:
 ```python

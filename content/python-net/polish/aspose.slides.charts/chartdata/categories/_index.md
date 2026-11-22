@@ -1,17 +1,23 @@
 ---
 title: categories property
-second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
+second_title: Referencja API Aspose.Slides dla Pythona przez .NET
 description: 
 type: docs
 url: /pl/aspose.slides.charts/chartdata/categories/
-weight: 70
+weight: 80
 ---
-## kategorie właściwość
-Pobiera podstawowe kategorie (lub zarówno podstawowe i drugorzędne kategorie, jeśli [`ChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/use_secondary_categories) właściwość jest false). Tylko do odczytu [`IChartCategoryCollection`](/slides/python-net/pl/aspose.slides.charts/ichartcategorycollection).
+## właściwość categories
+Zwraca pierwsze kategorie (lub zarówno pierwsze, jak i drugorzędne kategorie, jeśli [`ChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/use_secondary_categories) właściwość jest false).  
+Tylko do odczytu [`IChartCategoryCollection`](/slides/python-net/pl/aspose.slides.charts/ichartcategorycollection).
 
 ### Uwagi
 
-Jeśli [`ChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/use_secondary_categories) właściwość jest false, to [`ChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/secondary_categories) właściwość zwraca None i dane w tej [`ChartData.categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/categories) właściwość są używane zarówno dla podstawowych i drugorzędnych serii. Jeśli [`ChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/use_secondary_categories) właściwość jest true, to dane w [`ChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/secondary_categories) właściwość są używane dla drugorzędnych serii i dane w tej [`ChartData.categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/categories) właściwość są używane dla podstawowych serii.
+Jeśli [`ChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/use_secondary_categories) właściwość jest false, wtedy [`ChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/secondary_categories) 
+            właściwość zwraca None i dane w tej [`ChartData.categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/categories) właściwości są używane zarówno dla serii pierwszej, 
+            jak i drugorzędnej.  
+Jeśli [`ChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/use_secondary_categories) właściwość jest true, wtedy dane w [`ChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/secondary_categories) 
+            właściwości są używane dla serii drugorzędnej, a dane w tej [`ChartData.categories`](/slides/python-net/pl/aspose.slides.charts/chartdata/categories) właściwości są używane 
+            dla serii pierwszej.
 
 ### Definicja:
 ```python

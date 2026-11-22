@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values egenskap
-Representerar serier felstaplar värden i fall av Custom värdetyp.
-Skrivskyddad [`IErrorBarsCustomValues`](/slides/python-net/sv/aspose.slides.charts/ierrorbarscustomvalues).
+Representerar seriens felstaplarvärden i fallet med anpassad värdetyp.
+            Skrivskyddad [`IErrorBarsCustomValues`](/slides/python-net/sv/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Definition:
 ```python
@@ -16,6 +16,7 @@ Skrivskyddad [`IErrorBarsCustomValues`](/slides/python-net/sv/aspose.slides.char
 def error_bars_custom_values(self):
     ...
 ```
+
 
 ### Se även
 * klass [`IChartDataPoint`](/slides/python-net/sv/aspose.slides.charts/ichartdatapoint)

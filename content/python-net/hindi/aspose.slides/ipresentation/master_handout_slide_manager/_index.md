@@ -1,13 +1,13 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
-## master_handout_slide_manager गुण
-हैंडआउट मास्टर प्रबंधक लौटाता है।
+## master_handout_slide_manager प्रॉपर्टी
+हैंडआउट मास्टर मैनेजर लौटाता है।
 केवल-पढ़ने योग्य [`IMasterHandoutSlideManager`](/slides/python-net/hi/aspose.slides/imasterhandoutslidemanager).
 
 ### परिभाषा:
@@ -18,8 +18,8 @@ def master_handout_slide_manager(self):
 ```
 
 
-### देखें
-* वर्ग [`IMasterHandoutSlideManager`](/slides/python-net/hi/aspose.slides/imasterhandoutslidemanager)
-* वर्ग [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation)
+### संबंधी
+* क्लास [`IMasterHandoutSlideManager`](/slides/python-net/hi/aspose.slides/imasterhandoutslidemanager)
+* क्लास [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

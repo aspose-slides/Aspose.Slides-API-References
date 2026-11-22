@@ -4,17 +4,17 @@ second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## width propriedade
+## largura propriedade
 Obtém ou define a largura da forma, medida em pontos.
-            Leitura/Gravação **float**.
+            Leitura/gravação **float**.
 
 
 ### Observações
 
-O valor retornado está sempre definido e nunca **float**.
-            O valor atribuído também deve estar definido; atribua **float** apenas a propriedades de uma instância `RawFrame`.
+O valor retornado é sempre definido e jamais **float**.
+            O valor atribuído também deve ser definido; atribua **float** apenas a propriedades de uma instância `RawFrame`.
 
 ### Definição:
 ```python

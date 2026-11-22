@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides for Python qua .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion thuộc tính
-Xác định lượng mà điểm dữ liệu sẽ được di chuyển ra khỏi trung tâm của biểu đồ tròn.
+Xác định lượng mà điểm dữ liệu sẽ được di chuyển khỏi trung tâm của biểu đồ tròn.
             Đọc/ghi **int**.
 
 ### Định nghĩa:

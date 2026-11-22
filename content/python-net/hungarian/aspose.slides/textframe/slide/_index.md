@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Aspose.Slides for Python via .NET API-referencia
+second_title: Aspose.Slides Pythonhoz .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## Diavetítés tulajdonság
-Visszaadja a TextFrame szülődiavetítését.
+## slide tulajdonság
+Visszaadja a TextFrame szülő slide-ját.
             Csak olvasható [`IBaseSlide`](/slides/python-net/hu/aspose.slides/ibaseslide).
 
 ### Definíció:

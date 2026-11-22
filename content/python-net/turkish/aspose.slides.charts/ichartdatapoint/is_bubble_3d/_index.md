@@ -1,14 +1,14 @@
 ---
 title: is_bubble_3d property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
-## is_bubble_3d property
-Balonların 3-D etkisi uygulanacağını belirtir.
-            Okunur/Yazılır **bool**.
+## is_bubble_3d özelliği
+Baloncukların 3-B etkisi uygulandığını belirtir.
+            Okunabilir/yazılabilir **bool**.
 
 ### Tanım:
 ```python
@@ -22,7 +22,7 @@ def is_bubble_3d(self, value):
 ```
 
 
-### İlgili
+### Diğer Bağlantılar
 * sınıf [`IChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/ichartdatapoint)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,19 +1,18 @@
 ---
 title: slide property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/idatalabel/slide/
-weight: 210
+weight: 220
 ---
-## Slide-Eigenschaft
+## Folieneigenschaft
 ### Definition:
 ```python
 @property
 def slide(self):
     ...
 ```
-
 
 ### Siehe auch
 * Klasse [`IDataLabel`](/slides/python-net/de/aspose.slides.charts/idatalabel)

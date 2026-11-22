@@ -4,10 +4,10 @@ second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
-## data_point_levels الخاصية
-يعيد الحاوية لـ  مستويات نقاط البيانات. يُطبق على السلاسل Treeamp و Sunburst.
+## data_point_levels خاصية
+يرجع حاوية لمستويات نقاط البيانات. يُطبق على سلاسل Treeamp و Sunburst.
             فهرسة مستويات نقاط البيانات تبدأ من الصفر.
 
 ### التعريف:

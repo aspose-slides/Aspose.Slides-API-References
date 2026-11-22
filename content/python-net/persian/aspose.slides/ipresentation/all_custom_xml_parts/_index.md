@@ -1,13 +1,13 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts ویژگی
-تمام بخش‌های دادهٔ سفارشی را در ارائه برمی‌گرداند.
+تمام قسمت‌های داده سفارشی را در ارائه برمی‌گرداند.
             فقط خواندنی [`ICustomXmlPart`](/slides/python-net/fa/aspose.slides/icustomxmlpart)[].
 
 ### تعریف:

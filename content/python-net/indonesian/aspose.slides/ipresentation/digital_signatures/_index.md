@@ -1,10 +1,10 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures properti
 Mengembalikan koleksi tanda tangan yang digunakan untuk menandatangani presentasi.
@@ -22,4 +22,4 @@ def digital_signatures(self):
 * kelas [`IDigitalSignatureCollection`](/slides/python-net/id/aspose.slides/idigitalsignaturecollection)
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

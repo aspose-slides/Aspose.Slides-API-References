@@ -1,16 +1,16 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series คุณสมบัติ
-รับซีรีส์แม่.
+รับชุดข้อมูลแม่.
             อ่านอย่างเดียว [`IChartSeries`](/slides/python-net/th/aspose.slides.charts/ichartseries).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def parent_series(self):

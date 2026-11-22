@@ -1,13 +1,13 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## خاصية related_legend_entry
-خصائص مدخل الأسطورة المقابل في حالة نوع المخطط من القائمة التالية:
+خصائص إدخال المفتاح المقابل في حالة نوع المخطط من هذه القائمة:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
@@ -22,7 +22,6 @@ weight: 190
 def related_legend_entry(self):
     ...
 ```
-
 
 ### انظر أيضًا
 * فئة [`ChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/chartdatapoint)

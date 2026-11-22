@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## คุณสมบัติการนำเสนอ
 ### คำนิยาม:
@@ -13,6 +13,7 @@ weight: 150
 def presentation(self):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`IDataLabelCollection`](/slides/python-net/th/aspose.slides.charts/idatalabelcollection)

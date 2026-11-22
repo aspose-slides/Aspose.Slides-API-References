@@ -4,10 +4,10 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell ιδιότητα
-Αποκτά ή ορίζει κελί δεδομένων βιβλίου εργασίας. Εφαρμόζεται εάν η IDataLabelFormat.ShowLabelValueFromCell ιδιότητα είναι true.
+Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true.
 
 ### Ορισμός:
 ```python

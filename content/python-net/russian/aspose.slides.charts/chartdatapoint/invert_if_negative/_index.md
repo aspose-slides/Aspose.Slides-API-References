@@ -4,10 +4,10 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative свойство
-Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательно.
+Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное.
             Чтение/запись **bool**.
 
 ### Определение:
@@ -22,7 +22,7 @@ def invert_if_negative(self, value):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`ChartDataPoint`](/slides/python-net/ru/aspose.slides.charts/chartdatapoint)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)
-* библиотека [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

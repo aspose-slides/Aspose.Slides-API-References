@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories eigenschap
 Haalt de secundaire categorieën op als [`IChartData.use_secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/use_secondary_categories) eigenschap true is.
@@ -13,8 +13,12 @@ Haalt de secundaire categorieën op als [`IChartData.use_secondary_categories`](
 
 ### Opmerkingen
 
-Als [`IChartData.use_secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/use_secondary_categories) eigenschap false is dan deze [`IChartData.secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/secondary_categories) eigenschap None retourneert en gegevens in [`IChartData.categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/categories) eigenschap worden gebruikt voor zowel primaire als secundaire series.
-            Als [`IChartData.use_secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/use_secondary_categories) eigenschap true is dan gegevens in deze [`IChartData.secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/secondary_categories) eigenschap worden gebruikt voor secundaire series en gegevens in [`IChartData.categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/categories) eigenschap worden gebruikt voor primaire series.
+Als [`IChartData.use_secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/use_secondary_categories) eigenschap false is, dan deze [`IChartData.secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/secondary_categories) 
+            eigenschap retourneert None en gegevens in [`IChartData.categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/categories) eigenschap worden zowel voor primaire 
+            als secundaire series gebruikt.
+Als [`IChartData.use_secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/use_secondary_categories) eigenschap true is, dan worden gegevens in 
+            deze [`IChartData.secondary_categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/secondary_categories) eigenschap gebruikt voor secundaire series en gegevens 
+            in [`IChartData.categories`](/slides/python-net/nl/aspose.slides.charts/ichartdata/categories) eigenschap wordt gebruikt voor primaire series.
 
 ### Definitie:
 ```python

@@ -1,31 +1,32 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides pro Python přes .NET API referenci
+second_title: Aspose.Slides pro Python přes .NET referenční příručku API
 description: 
 type: docs
 url: /cs/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame třída
 
-Představuje videoklip na snímku.
+Představuje video klip na snímku.
 
-Typ IVideoFrame vystavuje následující členy:
+Typ IVideoFrame poskytuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/cs/aspose.slides/ivideoframe/rewind_video/) | Určuje, zda je video automaticky přetočeno na začátek<br/>            jakmile se film přestane přehrávat.<br/>            Čtení/Zápis **bool**. |
-| [`play_loop_mode`](/slides/python-net/cs/aspose.slides/ivideoframe/play_loop_mode/) | Určuje, zda je video smyčkované.<br/>            Čtení/Zápis **bool**. |
-| [`hide_at_showing`](/slides/python-net/cs/aspose.slides/ivideoframe/hide_at_showing/) | Určuje, zda je VideoFrame skrytý.<br/>            Čtení/Zápis **bool**. |
-| [`volume`](/slides/python-net/cs/aspose.slides/ivideoframe/volume/) | Vrací nebo nastavuje hlasitost zvuku.<br/>            Čtení/Zápis [`AudioVolumeMode`](/slides/python-net/cs/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/cs/aspose.slides/ivideoframe/play_mode/) | Vrací nebo nastavuje režim přehrávání videa.<br/>            Čtení/Zápis [`VideoPlayModePreset`](/slides/python-net/cs/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/cs/aspose.slides/ivideoframe/full_screen_mode/) | Určuje, zda je video zobrazováno v režimu celé obrazovky.<br/>            Čtení/Zápis **bool**. |
-| [`link_path_long`](/slides/python-net/cs/aspose.slides/ivideoframe/link_path_long/) | Vrací nebo nastavuje název video souboru, který je propojen s VideoFrame.<br/>            Čtení/Zápis **str**. |
-| [`embedded_video`](/slides/python-net/cs/aspose.slides/ivideoframe/embedded_video/) | Vrací nebo nastavuje vložený video objekt.<br/>            Čtení/Zápis [`IVideo`](/slides/python-net/cs/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/cs/aspose.slides/ivideoframe/trim_from_start/) | Upravit začátek [ms] |
-| [`trim_from_end`](/slides/python-net/cs/aspose.slides/ivideoframe/trim_from_end/) | Upravit konec [ms] |
-| [`caption_tracks`](/slides/python-net/cs/aspose.slides/ivideoframe/caption_tracks/) | Získá kolekci skrytých titulků spojených s audio snímkem.<br/>             Tato vlastnost je pouze pro čtení a vrací [`ICaptionsCollection`](/slides/python-net/cs/aspose.slides/icaptionscollection) obsahující všechny stopy titulků. |
+| [`rewind_video`](/slides/python-net/cs/aspose.slides/ivideoframe/rewind_video/) | Určuje, zda se video automaticky přehraje od začátku<br/>            jakmile film skončí.<br/>            Read/write **bool**. |
+| [`play_loop_mode`](/slides/python-net/cs/aspose.slides/ivideoframe/play_loop_mode/) | Určuje, zda je video opakováno v smyčce.<br/>            Read/write **bool**. |
+| [`hide_at_showing`](/slides/python-net/cs/aspose.slides/ivideoframe/hide_at_showing/) | Určuje, zda je VideoFrame skrytý.<br/>            Read/write **bool**. |
+| [`volume`](/slides/python-net/cs/aspose.slides/ivideoframe/volume/) | Vrací nebo nastavuje hlasitost zvuku.<br/>            Read/write [`AudioVolumeMode`](/slides/python-net/cs/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/cs/aspose.slides/ivideoframe/volume_value/) | Vrací nebo nastavuje přesnou hlasitost videa jako procento.<br/>            Hodnota je vyjádřena jako procento od 0 do 100. Použijte tuto vlastnost<br/>            pro čtení nebo nastavení hodnot hlasitosti, které jsou přesnější než předdefinované<br/>            úrovně dostupné prostřednictvím vlastnosti [`IVideoFrame.volume`](/slides/python-net/cs/aspose.slides/ivideoframe/volume).<br/>            Read/write **float**. |
+| [`play_mode`](/slides/python-net/cs/aspose.slides/ivideoframe/play_mode/) | Vrací nebo nastavuje režim přehrávání videa.<br/>            Read/write [`VideoPlayModePreset`](/slides/python-net/cs/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/cs/aspose.slides/ivideoframe/full_screen_mode/) | Určuje, zda je video zobrazováno v režimu celé obrazovky.<br/>            Read/write **bool**. |
+| [`link_path_long`](/slides/python-net/cs/aspose.slides/ivideoframe/link_path_long/) | Vrací nebo nastavuje název video souboru, který je propojen s VideoFrame.<br/>            Read/write **str**. |
+| [`embedded_video`](/slides/python-net/cs/aspose.slides/ivideoframe/embedded_video/) | Vrací nebo nastavuje vložený video objekt.<br/>            Read/write [`IVideo`](/slides/python-net/cs/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/cs/aspose.slides/ivideoframe/trim_from_start/) | Oříznout začátek [ms] |
+| [`trim_from_end`](/slides/python-net/cs/aspose.slides/ivideoframe/trim_from_end/) | Oříznout konec [ms] |
+| [`caption_tracks`](/slides/python-net/cs/aspose.slides/ivideoframe/caption_tracks/) | Získává kolekci uzavřených titulků spojených s audio rámcem.<br/>            Tento atribut je jen pro čtení a vrací [`ICaptionsCollection`](/slides/python-net/cs/aspose.slides/icaptionscollection) obsahující všechny stopy titulků. |
 | [`shape_lock`](/slides/python-net/cs/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/cs/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/cs/aspose.slides/ivideoframe/picture_format/) |  |
@@ -81,7 +82,6 @@ Typ IVideoFrame vystavuje následující členy:
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/cs/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/cs/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/cs/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
-
 
 ### Viz také
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)

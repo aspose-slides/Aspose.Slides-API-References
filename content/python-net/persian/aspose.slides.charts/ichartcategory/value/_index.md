@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
-## ویژگی value
-اگر UseCell true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است.
-            اگر UseCell false باشد، این ویژگی نمایانگر ویژگی AsLiteral است.
+## value ویژگی
+اگر UseCell برابر true باشد، این ویژگی نمایانگر AsCell.Value ویژگی است.
+            اگر UseCell برابر false باشد، این ویژگی نمایانگر AsLiteral ویژگی است.
             خواندن/نوشتن **هر**.
 
 ### تعریف:

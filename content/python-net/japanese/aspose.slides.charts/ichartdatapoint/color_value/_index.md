@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value プロパティ
-チャート データ ポイントの色の値を返します。
-            マップ チャートで使用されます。 
+チャート データ ポイントの色値を取得します。
+            Map チャートで使用されます。 
             読み取り専用 [`IDoubleChartValue`](/slides/python-net/ja/aspose.slides.charts/idoublechartvalue).
 
 ### 定義:

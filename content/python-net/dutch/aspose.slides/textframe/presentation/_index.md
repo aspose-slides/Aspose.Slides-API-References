@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
 ## presentatie-eigenschap
 Retourneert de bovenliggende presentatie van een TextFrame.

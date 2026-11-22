@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
 Stelt een extern werkboek in als gegevensbron voor de grafiek. Grafiekgegevens worden bijgewerkt vanuit het doelwerkboek.
@@ -40,7 +40,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
 | workbook_path | **str** | Pad naar het doelwerkboek |
-| update_chart_data | **bool** | Als de waarde false is wordt alleen het werkboekpad bijgewerkt. <br/><br/>             Grafiekgegevens worden niet geladen en bijgewerkt vanuit het doelwerkboek. Kan worden gebruikt wanneer het doelwerkboek niet bestaat of niet beschikbaar is.<br/><br/>             Als de waarde true is worden grafiekgegevens bijgewerkt vanuit het doelwerkboek. |
+| update_chart_data | **bool** | Als de waarde false is, wordt alleen het werkboekpad bijgewerkt.<br/><br/>Grafiekgegevens worden niet geladen en bijgewerkt vanuit het doelwerkboek. Kan worden gebruikt wanneer het doelwerkboek niet bestaat of niet beschikbaar is.<br/><br/>Als de waarde true is, worden de grafiekgegevens bijgewerkt vanuit het doelwerkboek. |
 
 ### Uitzonderingen
 

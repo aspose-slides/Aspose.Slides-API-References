@@ -1,24 +1,24 @@
 ---
 title: write_workbook_stream method
-second_title: مرجع API Aspose.Slides للـ Python عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-يقوم بتهيئة مصنف Excel الداخلي باستخدام القيمة المحددة من قبل المستخدم.
+يقوم بتهيئة دفتر عمل Excel المتضمن داخليًا بالقيمة المحددة من قبل المستخدم.
 
 ```python
 def write_workbook_stream(self, ms):
     ...
 ```
 
-| Parameter | Type | Description |
+| معامل | نوع | الوصف |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | دفق البيانات المقدم من المستخدم والذي يحتوي على كامل مصنف Excel. |
+| ms | **io.RawIOBase** | تدفق البيانات الذي يقدمه المستخدم ويحتوي على كامل دفتر عمل Excel. |
 
-### See Also
-* فئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
-* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* الفئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
+* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

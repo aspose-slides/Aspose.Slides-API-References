@@ -4,11 +4,11 @@ second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
 ## خاصية القيمة
-            إذا كان UseCell صحيحًا فإن هذه الخاصية تمثل خاصية AsCell.Value.
-            إذا كان UseCell خاطئًا فإن هذه الخاصية تمثل خاصية AsLiteral.
+إذا كان UseCell true فإن هذه الخاصية تمثل خاصية AsCell.Value.
+            إذا كان UseCell false فإن هذه الخاصية تمثل خاصية AsLiteral.
             قراءة/كتابة **أي**.
 
 ### التعريف:

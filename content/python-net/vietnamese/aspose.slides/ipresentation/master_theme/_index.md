@@ -1,14 +1,14 @@
 ---
 title: master_theme property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
-## thuộc tính master_theme
+## master_theme thuộc tính
 Trả về chủ đề chính của bản trình chiếu.
-            chỉ đọc [`IMasterTheme`](/slides/python-net/vi/aspose.slides.theme/imastertheme).
+            Chỉ đọc [`IMasterTheme`](/slides/python-net/vi/aspose.slides.theme/imastertheme).
 
 ### Định nghĩa:
 ```python
@@ -16,6 +16,7 @@ Trả về chủ đề chính của bản trình chiếu.
 def master_theme(self):
     ...
 ```
+
 
 ### Xem thêm
 * lớp [`IMasterTheme`](/slides/python-net/vi/aspose.slides.theme/imastertheme)

@@ -1,14 +1,13 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides dla Pythona – odwołanie do API .NET
+second_title: Aspose.Slides dla Pythona – odniesienie do API .NET
 description: 
 type: docs
 url: /pl/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
 Wykonuje kompresję [`Presentation`](/slides/python-net/pl/aspose.slides/presentation) poprzez usunięcie nieużywanych slajdów układu.
-
 
 ```python
 @staticmethod
@@ -16,12 +15,9 @@ def remove_unused_layout_slides(pres):
     ...
 ```
 
-
 | Parametr | Typ | Opis |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/pl/aspose.slides/presentation) | Instancja prezentacji |
-
-
 
 ### Zobacz także
 * klasa [`Compress`](/slides/python-net/pl/aspose.slides.lowcode/compress)

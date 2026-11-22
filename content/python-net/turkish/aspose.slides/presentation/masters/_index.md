@@ -1,14 +1,14 @@
 ---
 title: masters property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters özelliği
-Sunumda tanımlı tüm master slaytların bir listesini döndürür.
-            Yalnızca okuma [`IMasterSlideCollection`](/slides/python-net/tr/aspose.slides/imasterslidecollection).
+Sunumda tanımlanan tüm ana slaytların bir listesini döndürür.
+            Salt-okunur [`IMasterSlideCollection`](/slides/python-net/tr/aspose.slides/imasterslidecollection).
 
 ### Tanım:
 ```python
@@ -16,6 +16,7 @@ Sunumda tanımlı tüm master slaytların bir listesini döndürür.
 def masters(self):
     ...
 ```
+
 
 ### Ayrıca Bakınız
 * sınıf [`IMasterSlideCollection`](/slides/python-net/tr/aspose.slides/imasterslidecollection)

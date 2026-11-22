@@ -1,15 +1,15 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total ویژگی
-نقطه داده را به عنوان مجموع تنظیم می‌کند. فقط برای نوع سری Waterfall اعمال می‌شود.
+یک نقطه داده را به عنوان کل تنظیم می‌کند. فقط برای نوع سری Waterfall اعمال می‌شود.
 
-### تعریف:
+### Definition:
 ```python
 @property
 def set_as_total(self):
@@ -19,6 +19,7 @@ def set_as_total(self):
 def set_as_total(self, value):
     ...
 ```
+
 
 ### موارد مرتبط
 * کلاس [`ChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/chartdatapoint)

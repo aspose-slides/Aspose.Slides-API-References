@@ -4,9 +4,9 @@ second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## خاصية التنسيق
+## خاصية الصيغة
 يمثل خصائص التنسيق.
             قراءة/كتابة [`IFormat`](/slides/python-net/ar/aspose.slides.charts/iformat).
 
@@ -26,4 +26,4 @@ def format(self, value):
 * فئة [`ChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/chartdatapoint)
 * فئة [`IFormat`](/slides/python-net/ar/aspose.slides.charts/iformat)
 * وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

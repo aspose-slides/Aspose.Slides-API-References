@@ -1,16 +1,16 @@
 ---
 title: use_secondary_categories property
-second_title: Aspose.Slides dla Pythona przez .NET – referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories właściwość
 Jeśli false, to [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) właściwość zwraca None i dane 
-            w [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) właściwość jest używana zarówno dla serii głównej, jak i pomocniczej.
-            Jeśli true, to dane w [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) właściwość są używane dla serii pomocniczej i 
-            w [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) właściwość jest używana dla serii głównej.
+            w [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) właściwość jest używana zarówno dla serii głównej, jak i wtórnej.
+            Jeśli true, to dane w [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) właściwość są używane dla serii wtórnej i dane 
+            w [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) właściwość są używane dla serii głównej.
             Odczyt/zapis **bool**.
 
 ### Definicja:

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures 属性
-返回用于签署演示文稿的签名集合。
+Returns the collection of signatures used to sign the presentation.
             只读 [`IDigitalSignatureCollection`](/slides/python-net/zh/aspose.slides/idigitalsignaturecollection).
 
 ### 定义:
@@ -18,7 +18,7 @@ def digital_signatures(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`IDigitalSignatureCollection`](/slides/python-net/zh/aspose.slides/idigitalsignaturecollection)
 * 类 [`Presentation`](/slides/python-net/zh/aspose.slides/presentation)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

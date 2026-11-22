@@ -1,16 +1,16 @@
 ---
 title: text_frame_format property
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides 的 Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/textframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format 属性
-返回此 TextFrame 对象的格式化对象。
+Returns the formatting object for this TextFrame object.
             只读 [`ITextFrameFormat`](/slides/python-net/zh/aspose.slides/itextframeformat).
 
-### 定义：
+### Definition:
 ```python
 @property
 def text_frame_format(self):

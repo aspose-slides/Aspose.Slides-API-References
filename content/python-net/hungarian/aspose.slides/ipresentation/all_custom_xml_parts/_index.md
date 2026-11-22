@@ -1,13 +1,13 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides Python számára .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Python számára a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts tulajdonság
-Visszaadja az összes egyéni adatrészt a prezentációban.
+Visszaadja a prezentációban az összes egyéni adat részt.
             Csak olvasható [`ICustomXmlPart`](/slides/python-net/hu/aspose.slides/icustomxmlpart)[].
 
 ### Definíció:

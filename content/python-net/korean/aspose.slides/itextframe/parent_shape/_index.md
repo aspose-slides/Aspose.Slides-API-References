@@ -1,14 +1,14 @@
 ---
 title: parent_shape property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape 속성
-부모 모양을 반환하거나 부모 객체가 IShape 인터페이스를 구현하지 않으면 None을 반환합니다.
-            읽기 전용 [`IShape`](/slides/python-net/ko/aspose.slides/ishape).
+부모 모양을 반환하고, 부모 객체가 IShape 인터페이스를 구현하지 않으면 None을 반환합니다.
+읽기 전용 [`IShape`](/slides/python-net/ko/aspose.slides/ishape).
 
 ### 정의:
 ```python
@@ -16,7 +16,6 @@ weight: 120
 def parent_shape(self):
     ...
 ```
-
 
 ### 참조
 * 클래스 [`IShape`](/slides/python-net/ko/aspose.slides/ishape)

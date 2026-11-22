@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties ιδιότητα
-Αποκτά τις γενικές ιδιότητες προβολής της παρουσίασης.
-            Μόνο-ανάγνωση [`IViewProperties`](/slides/python-net/el/aspose.slides/iviewproperties).
+Gets presentation wide view properties.
+            Μόνο για ανάγνωση [`IViewProperties`](/slides/python-net/el/aspose.slides/iviewproperties).
 
 ### Ορισμός:
 ```python

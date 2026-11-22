@@ -1,14 +1,14 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors 屬性
-傳回評論作者的集合。
-            唯讀 [`ICommentAuthorCollection`](/slides/python-net/zh-hant/aspose.slides/icommentauthorcollection).
+返回註解作者的集合。
+            唯讀 [`ICommentAuthorCollection`](/slides/python-net/zh-hant/aspose.slides/icommentauthorcollection)。
 
 ### 定義:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: DataLabelCollection class
-second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API Referencia
+second_title: Aspose.Slides a Python számára .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection osztály
 
-A sorozat címkéit képviseli.
+Egy sor címkéit reprezentálja.
 
 A DataLabelCollection típus a következő tagokat teszi elérhetővé:
 
@@ -16,12 +16,13 @@ A DataLabelCollection típus a következő tagokat teszi elérhetővé:
 | Tulajdonság | Leírás |
 | :- | :- |
 | [`chart`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/chart/) | Visszaadja a szülő diagramot.<br/>            Csak olvasható [`IChart`](/slides/python-net/hu/aspose.slides.charts/ichart). |
-| [`is_visible`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/is_visible/) | False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és ezért a DefaultDataLabelFormat tulajdonság összes <br/>            Show*-flags (ShowValue, ...) false).<br/>            Csak olvasható **bool**. |
-| [`count_of_visible_data_labels`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Lekéri a gyűjteményben látható adatcímkék számát.<br/>            Csak olvasható **int**. |
+| [`is_visible`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/is_visible/) | A hamis érték azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és így a DefaultDataLabelFormat tulajdonság összes Show*-jelzője (ShowValue, ...) hamis).<br/>            Csak olvasható **bool**. |
+| [`count_of_visible_data_labels`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Lekéri a gyűjteményben lévő látható adatcímkék számát.<br/>            Csak olvasható **int**. |
 | [`count`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/count/) | Lekéri a gyűjteményben lévő összes adatcímke számát.<br/>            Csak olvasható **int**. |
 | [`default_data_label_format`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Lekéri az alapértelmezett adatcímke formátumot.<br/>            Csak olvasható [`IDataLabelFormat`](/slides/python-net/hu/aspose.slides.charts/idatalabelformat). |
-| [`leader_lines_format`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Az adatcímkék vezető vonalainak formátumát képviseli.<br/>             Csak olvasható [`IChartLinesFormat`](/slides/python-net/hu/aspose.slides.charts/ichartlinesformat). |
+| [`leader_lines_format`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/leader_lines_format/) | A adatcímke vezetővonalak formátumát reprezentálja.<br/>             Csak olvasható [`IChartLinesFormat`](/slides/python-net/hu/aspose.slides.charts/ichartlinesformat). |
 | [`parent_series`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/parent_series/) | Lekéri a szülő sorozatot.<br/>            Csak olvasható [`IChartSeries`](/slides/python-net/hu/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/default_label_shape_type/) | Lekéri vagy beállítja az adatcímkék alapértelmezett alakzat típusát.<br/>             Visszaadja [`ShapeType.NOT_DEFINED`](/slides/python-net/hu/aspose.slides/shapetype/NOT_DEFINED) értéket, ha nincs meghatározott alakzat. |
 | [`slide`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/presentation/) |  |
 
@@ -37,7 +38,7 @@ Lekéri a megadott indexű adatpont adatcímkéjét.
 
 | Metódus | Leírás |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/hide/#) | Alapértelmezés szerint elrejti az adatcímkét az összes Show*-flags (ShowValue, ...) a DefaultDataLabelFormat tulajdonságban false állapotra állításával.<br/>            Az IsVisible ezután false lesz. |
+| [`hide(self)`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/hide/#) | Az adatcímkét alapértelmezés szerint rejtve teszi minden Show*-jelző (ShowValue, ...) a DefaultDataLabelFormat tulajdonságnál false állapotba állításával.<br/>            Az IsVisible ezután hamis lesz. |
 | [`index_of(self, value)`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Visszaadja a megadott DataLabel indexét a gyűjteményben. |
 
 ### Lásd még

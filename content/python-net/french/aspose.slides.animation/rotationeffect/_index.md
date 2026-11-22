@@ -27,9 +27,10 @@ Le type RotationEffect expose les membres suivants :
 | [`additive`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/additive/) | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours.<br/>            Lecture/écriture [`BehaviorAdditiveType`](/slides/python-net/fr/aspose.slides.animation/behavioradditivetype). |
 | [`properties`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/properties/) | Représente les propriétés du comportement.<br/>            Lecture seule [`IBehaviorPropertyCollection`](/slides/python-net/fr/aspose.slides.animation/ibehaviorpropertycollection). |
 | [`timing`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/timing/) | Représente les propriétés de synchronisation pour le comportement de l'effet.<br/>            Lecture/écriture [`ITiming`](/slides/python-net/fr/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/from_address/) | Décrit la valeur de départ de l'animation.<br/>            Lecture/écriture **float**. |
+| [`from_`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/from_/) | Décrit la valeur de départ de l'animation.<br/>            Lecture/écriture **float**. |
 | [`to`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/to/) | Décrit la valeur finale de l'animation.<br/>            Lecture/écriture **float**. |
 | [`by`](/slides/python-net/fr/aspose.slides.animation/rotationeffect/by/) | Décrit la valeur de décalage relative de l'animation.<br/>            Lecture/écriture **float**. |
+
 
 ### Voir aussi
 * classe [`Behavior`](/slides/python-net/fr/aspose.slides.animation/behavior)

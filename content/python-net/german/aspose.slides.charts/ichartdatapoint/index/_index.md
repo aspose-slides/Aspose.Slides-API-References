@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## Index-Eigenschaft
-Bestimmt, welcher Kindersammlung des Elternteils dieser Datenpunkt zugeordnet ist.
+Bestimmt, auf welche Kindersammlung des Elternteils dieser Datenpunkt angewendet wird.
             Lesen **int**.
 
 ### Definition:

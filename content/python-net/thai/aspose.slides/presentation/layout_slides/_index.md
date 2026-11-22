@@ -1,19 +1,19 @@
 ---
 title: layout_slides property
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
 ## layout_slides คุณสมบัติ
-ส่งคืนรายการของสไลด์เค้าโครงทั้งหมดที่กำหนดไว้ในงานนำเสนอ.
+คืนรายการสไลด์เค้าโครงทั้งหมดที่กำหนดไว้ในงานนำเสนอ
             อ่านอย่างเดียว [`IGlobalLayoutSlideCollection`](/slides/python-net/th/aspose.slides/igloballayoutslidecollection).
+
 
 ### หมายเหตุ
 
-คุณสามารถเข้าถึง API ทางเลือกสำหรับการเพิ่ม/แทรก/ลบ/ทำสำเนา สไลด์เค้าโครง 
-            โดยใช้คุณสมบัติ IMasterSlide.LayoutSlides property.
+คุณสามารถเข้าถึง API ทางเลือกสำหรับการเพิ่ม/แทรก/ลบ/ทำสำเนาสไลด์เค้าโครงโดยใช้คุณสมบัติ IMasterSlide.LayoutSlides.
 
 ### คำนิยาม:
 ```python
@@ -21,6 +21,7 @@ weight: 250
 def layout_slides(self):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`IGlobalLayoutSlideCollection`](/slides/python-net/th/aspose.slides/igloballayoutslidecollection)

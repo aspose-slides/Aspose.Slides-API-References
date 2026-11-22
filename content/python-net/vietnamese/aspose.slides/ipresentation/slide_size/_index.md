@@ -1,10 +1,10 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size thuộc tính
 Trả về đối tượng kích thước slide.

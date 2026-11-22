@@ -4,11 +4,11 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values properti
 Mewakili nilai batang kesalahan seri dalam kasus tipe nilai Custom.
-Hanya-baca [`IErrorBarsCustomValues`](/slides/python-net/id/aspose.slides.charts/ierrorbarscustomvalues).
+            Baca-saja [`IErrorBarsCustomValues`](/slides/python-net/id/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Definisi:
 ```python
@@ -16,6 +16,7 @@ Hanya-baca [`IErrorBarsCustomValues`](/slides/python-net/id/aspose.slides.charts
 def error_bars_custom_values(self):
     ...
 ```
+
 
 ### Lihat Juga
 * kelas [`ChartDataPoint`](/slides/python-net/id/aspose.slides.charts/chartdatapoint)

@@ -1,6 +1,6 @@
 ---
 title: RotationEffect class
-second_title: Aspose.Slides para Python a través de .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides.animation/rotationeffect/
@@ -26,11 +26,10 @@ El tipo RotationEffect expone los siguientes miembros:
 | [`accumulate`](/slides/python-net/es/aspose.slides.animation/rotationeffect/accumulate/) | Representa si los comportamientos de animación se acumulan.<br/>            Lectura/escritura [`NullableBool`](/slides/python-net/es/aspose.slides/nullablebool). |
 | [`additive`](/slides/python-net/es/aspose.slides.animation/rotationeffect/additive/) | Representa si el comportamiento de animación actual se combina con otras animaciones en ejecución.<br/>            Lectura/escritura [`BehaviorAdditiveType`](/slides/python-net/es/aspose.slides.animation/behavioradditivetype). |
 | [`properties`](/slides/python-net/es/aspose.slides.animation/rotationeffect/properties/) | Representa las propiedades del comportamiento.<br/>            Solo lectura [`IBehaviorPropertyCollection`](/slides/python-net/es/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/es/aspose.slides.animation/rotationeffect/timing/) | Representa las propiedades de sincronización para el comportamiento del efecto.<br/>            Lectura/escritura [`ITiming`](/slides/python-net/es/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/es/aspose.slides.animation/rotationeffect/from_address/) | Describe el valor inicial de la animación.<br/>            Lectura/escritura **float**. |
+| [`timing`](/slides/python-net/es/aspose.slides.animation/rotationeffect/timing/) | Representa las propiedades de temporización para el comportamiento del efecto.<br/>            Lectura/escritura [`ITiming`](/slides/python-net/es/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/es/aspose.slides.animation/rotationeffect/from_/) | Describe el valor inicial de la animación.<br/>            Lectura/escritura **float**. |
 | [`to`](/slides/python-net/es/aspose.slides.animation/rotationeffect/to/) | Describe el valor final de la animación.<br/>            Lectura/escritura **float**. |
 | [`by`](/slides/python-net/es/aspose.slides.animation/rotationeffect/by/) | Describe el valor de desplazamiento relativo de la animación.<br/>            Lectura/escritura **float**. |
-
 
 ### Ver también
 * clase [`Behavior`](/slides/python-net/es/aspose.slides.animation/behavior)

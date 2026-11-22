@@ -1,15 +1,15 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
+second_title: Aspose.Slides for Python via .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels tulajdonság
-A diagramkategória csoportosítási szintek értékeinek kezelt tárolója.
-            A több szintű kategória egynél több csoportosítási szintet tartalmaz.
-            A csoportosítási szintek indexelése nulláról indul.
+Managed container of the values of the chart category grouping levels.
+            Többszintű kategória egynél több csoportosítási szintet tartalmaz.
+            A csoportosítási szintek indexelése nullától kezdődik.
             Csak olvasható [`IChartCategoryLevelsManager`](/slides/python-net/hu/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Definíció:

@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## ویژگی مقدار
-مقدار نقطه دادهٔ نمودار را برمی‌گرداند.
-            فقط-خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
+## value خصوصیت
+مقدار یک نقطه دادهٔ نمودار را دریافت می‌کند.
+فقط-خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
 
 ### تعریف:
 ```python
@@ -18,7 +18,7 @@ def value(self):
 ```
 
 
-### همچنین ببینید
+### موارد مرتبط
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)
 * کلاس [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)

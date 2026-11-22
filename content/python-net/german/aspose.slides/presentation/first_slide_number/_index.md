@@ -1,10 +1,10 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number Eigenschaft
 Stellt die erste Foliennummer in der Präsentation dar

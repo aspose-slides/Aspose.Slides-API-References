@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters คุณสมบัติ
-ส่งคืนรายการของสไลด์มาสเตอร์ทั้งหมดที่กำหนดในงานนำเสนอ.
-อ่านอย่างเดียว [`IMasterSlideCollection`](/slides/python-net/th/aspose.slides/imasterslidecollection).
+คืนรายการของสไลด์แม่ทั้งหมดที่กำหนดในงานนำเสนอ.
+            อ่านอย่างเดียว [`IMasterSlideCollection`](/slides/python-net/th/aspose.slides/imasterslidecollection).
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def masters(self):

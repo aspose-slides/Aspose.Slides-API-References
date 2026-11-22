@@ -1,13 +1,13 @@
 ---
 title: DataLabelCollection class
-second_title: Aspose.Slides pour Python via .NET Référence d'API
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection classe
 
-Représente les libellés d'une série.
+Représente les étiquettes d’une série.
 
 Le type DataLabelCollection expose les membres suivants :
 
@@ -16,16 +16,17 @@ Le type DataLabelCollection expose les membres suivants :
 | Propriété | Description |
 | :- | :- |
 | [`chart`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/chart/) | Renvoie le graphique parent.<br/>            Lecture seule [`IChart`](/slides/python-net/fr/aspose.slides.charts/ichart). |
-| [`is_visible`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/is_visible/) | False signifie que le libellé de données n'est pas visible par défaut (et ainsi tous les <br/>            indicateurs Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat sont false).<br/>            Lecture seule **bool**. |
-| [`count_of_visible_data_labels`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Obtient le nombre de libellés de données visibles dans la collection.<br/>            Lecture seule **int**. |
-| [`count`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/count/) | Obtient le nombre de tous les libellés de données dans la collection.<br/>            Lecture seule **int**. |
-| [`default_data_label_format`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Obtient le format de libellé de données par défaut.<br/>            Lecture seule [`IDataLabelFormat`](/slides/python-net/fr/aspose.slides.charts/idatalabelformat). |
-| [`leader_lines_format`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Représente le format des lignes directrices des libellés de données.<br/>             Lecture seule [`IChartLinesFormat`](/slides/python-net/fr/aspose.slides.charts/ichartlinesformat). |
-| [`parent_series`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/parent_series/) | Obtient la série parente.<br/>            Lecture seule [`IChartSeries`](/slides/python-net/fr/aspose.slides.charts/ichartseries). |
+| [`is_visible`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/is_visible/) | False signifie que l’étiquette de données n’est pas visible par défaut (et donc que tous les <br/>            drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat sont à false).<br/>            Lecture seule **bool**. |
+| [`count_of_visible_data_labels`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Obtient le nombre d’étiquettes de données visibles dans la collection.<br/>            Lecture seule **int**. |
+| [`count`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/count/) | Obtient le nombre total d’étiquettes de données dans la collection.<br/>            Lecture seule **int**. |
+| [`default_data_label_format`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Obtient le format d’étiquette de données par défaut.<br/>            Lecture seule [`IDataLabelFormat`](/slides/python-net/fr/aspose.slides.charts/idatalabelformat). |
+| [`leader_lines_format`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Représente le format des lignes de repère des étiquettes de données.<br/>             Lecture seule [`IChartLinesFormat`](/slides/python-net/fr/aspose.slides.charts/ichartlinesformat). |
+| [`parent_series`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/parent_series/) | Obtient la série parent.<br/>            Lecture seule [`IChartSeries`](/slides/python-net/fr/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/default_label_shape_type/) | Obtient ou définit le type de forme par défaut pour les étiquettes de données.<br/>             Renvoie [`ShapeType.NOT_DEFINED`](/slides/python-net/fr/aspose.slides/shapetype/NOT_DEFINED) si aucune forme n’est définie. |
 | [`slide`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/presentation/) |  |
 
-Obtient le libellé de données pour le point de données avec l'index spécifié.
+Obtient l’étiquette de données pour le point de données avec l’index spécifié.
 
 ## Indexeur
 
@@ -37,8 +38,8 @@ Obtient le libellé de données pour le point de données avec l'index spécifi�
 
 | Méthode | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/hide/#) | Rendre le libellé de données masqué par défaut en définissant tous les indicateurs Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l'état false.<br/>            IsVisible sera false après cela. |
-| [`index_of(self, value)`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Renvoie un indice du DataLabel spécifié dans la collection. |
+| [`hide(self)`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/hide/#) | Masque l’étiquette de données par défaut en définissant tous les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l’état false.<br/>            IsVisible sera false après cela. |
+| [`index_of(self, value)`](/slides/python-net/fr/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Renvoie l’index du DataLabel spécifié dans la collection. |
 
 
 ### Voir aussi

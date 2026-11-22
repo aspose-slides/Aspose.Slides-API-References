@@ -1,13 +1,13 @@
 ---
 title: masters property
-second_title: Referencja API Aspose.Slides dla Pythona przez .NET
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters właściwość
-Zwraca listę wszystkich slajdów master definiowanych w prezentacji.
+Zwraca listę wszystkich slajdów master zdefiniowanych w prezentacji.
             Tylko do odczytu [`IMasterSlideCollection`](/slides/python-net/pl/aspose.slides/imasterslidecollection).
 
 ### Definicja:

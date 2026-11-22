@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path プロパティ
-データ ソースが外部の場合は外部ブックパスを表し、そうでない場合は None を返します
+データ ソースが外部の場合は外部ブックのパスを表し、そうでない場合は None を返します。
 
 ### 定義:
 ```python

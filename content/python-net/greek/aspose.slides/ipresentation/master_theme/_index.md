@@ -1,10 +1,10 @@
 ---
 title: master_theme property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
 ## master_theme ιδιότητα
 Επιστρέφει το κύριο θέμα της παρουσίασης.

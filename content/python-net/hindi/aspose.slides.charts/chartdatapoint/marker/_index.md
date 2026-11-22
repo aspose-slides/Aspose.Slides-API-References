@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET द्वारा API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## मार्कर प्रॉपर्टी
-डेटा मार्कर को निर्दिष्ट करता है.
-            केवल पढ़ने योग्य [`IMarker`](/slides/python-net/hi/aspose.slides.charts/imarker).
+एक डेटा मार्कर निर्धारित करता है।
+            केवल-पढ़ने योग्य [`IMarker`](/slides/python-net/hi/aspose.slides.charts/imarker).
 
 ### परिभाषा:
 ```python
@@ -18,7 +18,7 @@ def marker(self):
 ```
 
 
-### और देखें
+### संबंधित देखें
 * क्लास [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
 * क्लास [`IMarker`](/slides/python-net/hi/aspose.slides.charts/imarker)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)

@@ -1,13 +1,13 @@
 ---
 title: series property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via Referensi API .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
-## series properti
-Mendapatkan series.
+## properti seri
+Mendapatkan seri.
             Hanya-baca [`IChartSeriesCollection`](/slides/python-net/id/aspose.slides.charts/ichartseriescollection).
 
 ### Definisi:

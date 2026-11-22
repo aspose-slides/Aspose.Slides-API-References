@@ -1,13 +1,13 @@
 ---
 title: set_external_workbook method
-second_title: Aspose.Slides for Python via .NET API referencia
+second_title: Aspose.Slides for Python a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből frissülnek.
+Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből lesznek frissítve.
 
 
 ```python
@@ -16,13 +16,13 @@ def set_external_workbook(self, workbook_path):
 ```
 
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| workbook_path | **str** | Path to the target workbook |
+| workbook_path | **str** | A célmunkafüzet útvonala |
 
 ### Kivételek
 
-| Exception | Description |
+| Kivétel | Leírás |
 | :- | :- |
 | **RuntimeError(Proxy error(InvalidOperationException))** | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
@@ -37,20 +37,20 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 ```
 
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| workbook_path | **str** | Path to the target workbook |
-| update_chart_data | **bool** | Ha az érték hamis, csak a munkafüzet útvonala frissül. <br/><br/>             A diagram adatai nem lesznek betöltve és frissítve a célmunkafüzetből. Használható, ha a célmunkafüzet nem létezik vagy nem érhető el.<br/><br/>             Ha az érték igaz, a diagram adatai a célmunkafüzetből frissülnek. |
+| workbook_path | **str** | A célmunkafüzet útvonala |
+| update_chart_data | **bool** | If value is false only workbook path will be updated. <br/><br/>             Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available.<br/><br/>             If value is true chart data will be updated from the target workbook. |
 
 ### Kivételek
 
-| Exception | Description |
+| Kivétel | Leírás |
 | :- | :- |
 | **RuntimeError(Proxy error(InvalidOperationException))** | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
 
 
 ### Lásd még
-* osztály [`ChartData`](/slides/python-net/hu/aspose.slides.charts/chartdata)
-* modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
-* könyvtár [`Aspose.Slides`](/slides/python-net)
+* class [`ChartData`](/slides/python-net/hu/aspose.slides.charts/chartdata)
+* module [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

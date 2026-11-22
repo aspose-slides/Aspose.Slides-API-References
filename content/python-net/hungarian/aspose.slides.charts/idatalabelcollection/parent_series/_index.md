@@ -1,10 +1,10 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides a Python számára a .NET API hivatkozás
+second_title: Aspose.Slides a Python számára a .NET API hivatkozáson keresztül
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series tulajdonság
 Visszaadja a szülő diagram sorozatot.

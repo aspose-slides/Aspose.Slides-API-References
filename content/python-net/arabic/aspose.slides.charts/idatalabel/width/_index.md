@@ -1,12 +1,12 @@
 ---
 title: width property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لبرنامج Aspose.Slides للغة Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
-## width خاصية
+## خاصية width
 ### التعريف:
 ```python
 @property
@@ -20,6 +20,6 @@ def width(self, value):
 
 
 ### انظر أيضًا
-* فئة [`IDataLabel`](/slides/python-net/ar/aspose.slides.charts/idatalabel)
-* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IDataLabel`](/slides/python-net/ar/aspose.slides.charts/idatalabel)
+* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

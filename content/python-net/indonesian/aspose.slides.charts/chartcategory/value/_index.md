@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides untuk Python melalui Referensi API .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## value properti
-Jika UseCell bernilai true maka properti ini mewakili AsCell.Value properti.
-            Jika UseCell bernilai false maka properti ini mewakili AsLiteral properti.
-            Baca/tulis **apa saja**.
+## properti value
+If UseCell bernilai true maka properti ini mewakili properti AsCell.Value.
+            Jika UseCell bernilai false maka properti ini mewakili properti AsLiteral.
+            Baca/tulis **apapun**.
 
 ### Definisi:
 ```python
@@ -21,7 +21,6 @@ def value(self):
 def value(self, value):
     ...
 ```
-
 
 ### Lihat Juga
 * kelas [`ChartCategory`](/slides/python-net/id/aspose.slides.charts/chartcategory)

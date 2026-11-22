@@ -1,12 +1,12 @@
 ---
 title: right property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET – справка API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
-## правое свойство
+## right свойство
 ### Определение:
 ```python
 @property

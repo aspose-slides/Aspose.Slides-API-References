@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Referensi API Aspose.Slides untuk Python melalui .NET
+second_title: Aspose.Slides untuk Python melalui .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y properti
 ### Definisi:

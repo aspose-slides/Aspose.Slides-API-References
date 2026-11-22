@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value プロパティ
 YValue.

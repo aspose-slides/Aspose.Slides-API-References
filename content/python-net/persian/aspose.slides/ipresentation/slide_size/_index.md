@@ -4,10 +4,10 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
-## slide_size ویژگی
-یک شیء اندازه اسلاید را برمی‌گرداند.
+## slide_size خاصیت
+شی اندازه اسلاید را برمی‌گرداند.
             فقط-خواندنی [`ISlideSize`](/slides/python-net/fa/aspose.slides/islidesize).
 
 ### تعریف:
@@ -18,7 +18,7 @@ def slide_size(self):
 ```
 
 
-### مراجعه
+### موارد مرتبط
 * کلاس [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
 * کلاس [`ISlideSize`](/slides/python-net/fa/aspose.slides/islidesize)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

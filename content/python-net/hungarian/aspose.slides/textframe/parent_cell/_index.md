@@ -1,14 +1,14 @@
 ---
 title: parent_cell property
-second_title: Aspose.Slides for Python via .NET API referencia
+second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell tulajdonság
 Visszaadja a szülő cellát, vagy None értéket, ha a szülő objektum nem valósítja meg az ICell interfészt.
-Csak olvasható [`ICell`](/slides/python-net/hu/aspose.slides/icell).
+            Csak olvasható [`ICell`](/slides/python-net/hu/aspose.slides/icell).
 
 ### Definíció:
 ```python
@@ -16,6 +16,7 @@ Csak olvasható [`ICell`](/slides/python-net/hu/aspose.slides/icell).
 def parent_cell(self):
     ...
 ```
+
 
 ### Lásd még
 * osztály [`ICell`](/slides/python-net/hu/aspose.slides/icell)

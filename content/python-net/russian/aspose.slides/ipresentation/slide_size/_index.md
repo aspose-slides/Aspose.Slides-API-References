@@ -4,7 +4,7 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size свойство
 Возвращает объект размера слайда.
@@ -18,7 +18,7 @@ def slide_size(self):
 ```
 
 
-### Смотрите также
+### См. также
 * класс [`IPresentation`](/slides/python-net/ru/aspose.slides/ipresentation)
 * класс [`ISlideSize`](/slides/python-net/ru/aspose.slides/islidesize)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)

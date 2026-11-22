@@ -1,16 +1,16 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures 屬性
-傳回用於對簡報簽名的簽章集合。
+傳回用於簽署簡報的簽名集合。
             唯讀 [`IDigitalSignatureCollection`](/slides/python-net/zh-hant/aspose.slides/idigitalsignaturecollection).
 
-### 定義：
+### 定義:
 ```python
 @property
 def digital_signatures(self):

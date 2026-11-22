@@ -1,13 +1,13 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides for Python 透過 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type 屬性
-表示圖表的資料來源
+代表圖表的資料來源
 
 ### 定義:
 ```python
@@ -15,6 +15,7 @@ weight: 90
 def data_source_type(self):
     ...
 ```
+
 
 ### 另見
 * 類別 [`IChartData`](/slides/python-net/zh-hant/aspose.slides.charts/ichartdata)

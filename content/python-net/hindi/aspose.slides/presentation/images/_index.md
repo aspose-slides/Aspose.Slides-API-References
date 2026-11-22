@@ -1,14 +1,14 @@
 ---
 title: images property
-second_title: Aspose.Slides Python के लिये .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images प्रॉपर्टी
 प्रेजेंटेशन में सभी images का संग्रह लौटाता है।
-            केवल-पठन [`IImageCollection`](/slides/python-net/hi/aspose.slides/iimagecollection).
+            केवल-पढ़ने योग्य [`IImageCollection`](/slides/python-net/hi/aspose.slides/iimagecollection).
 
 ### परिभाषा:
 ```python

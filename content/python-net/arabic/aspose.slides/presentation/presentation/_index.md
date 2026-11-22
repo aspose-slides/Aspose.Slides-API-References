@@ -1,12 +1,12 @@
 ---
 title: presentation property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر مرجع API .NET
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/presentation/
-weight: 310
+weight: 320
 ---
-## presentation خاصية
+## خاصية العرض
 ### التعريف:
 ```python
 @property
@@ -16,6 +16,6 @@ def presentation(self):
 
 
 ### انظر أيضًا
-* صف [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+* فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

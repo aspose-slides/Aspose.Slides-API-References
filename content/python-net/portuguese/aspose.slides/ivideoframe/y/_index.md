@@ -4,7 +4,7 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y propriedade
 ### Definição:
@@ -19,7 +19,7 @@ def y(self, value):
 ```
 
 
-### Veja Também
+### Ver também
 * classe [`IVideoFrame`](/slides/python-net/pt/aspose.slides/ivideoframe)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-Komprimiert das [`Presentation`](/slides/python-net/de/aspose.slides/presentation) durch Entfernen unbenutzter Layout-Folien.
+Komprimiert die [`Presentation`](/slides/python-net/de/aspose.slides/presentation) durch Entfernen nicht verwendeter Layout-Folien.
 
 
 ```python

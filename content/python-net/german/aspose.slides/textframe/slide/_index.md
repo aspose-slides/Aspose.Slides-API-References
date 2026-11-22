@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## Folien-Eigenschaft
-Gibt die übergeordnete Folie eines TextFrames zurück.
+Gibt die übergeordnete Folie eines TextFrame zurück.
             Nur-Lesen [`IBaseSlide`](/slides/python-net/de/aspose.slides/ibaseslide).
 
 ### Definition:

@@ -4,14 +4,14 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/datalabel/text_frame_for_overriding/
-weight: 240
+weight: 250
 ---
 ## text_frame_for_overriding özelliği
 Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik None değilse, bu 
-            biçimlendirilmiş metin değeri veri etiketinin otomatik oluşturulan metninin üzerine yazar.
-            Otomatik oluşturulan veri etiketi metni, ShowSeriesName, 
-            ShowValue, ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilen metindir.
-            Sadece okuma [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe).
+            biçimlendirilmiş metin değeri veri etiketi otomatik oluşturulan metninin üzerine yazar.
+            Veri etiketi otomatik oluşturulan metin, ShowSeriesName, 
+            ShowValue, ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliği ile biçimlendirilen metindir.
+            Yalnızca okuma [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe).
 
 ### Tanım:
 ```python
@@ -20,8 +20,8 @@ def text_frame_for_overriding(self):
     ...
 ```
 
-### Diğerlerine Bak
+### Ayrıca Bakınız
 * sınıf [`DataLabel`](/slides/python-net/tr/aspose.slides.charts/datalabel)
 * sınıf [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
-* kitaplık [`Aspose.Slides`](/slides/python-net)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

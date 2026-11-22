@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d özelliği
-Balonların 3-B etkisi uygulanmış olduğunu belirtir.
-            Oku/yaz **bool**.
+Balonların 3-D etkisi uygulandığını belirtir.
+            Okunur/yazılır **bool**.
 
 ### Tanım:
 ```python

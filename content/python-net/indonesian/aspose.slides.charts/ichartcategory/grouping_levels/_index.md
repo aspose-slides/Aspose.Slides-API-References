@@ -1,15 +1,15 @@
 ---
 title: grouping_levels property
-second_title: Referensi API Aspose.Slides untuk Python melalui .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels properti
-Kontainer yang dikelola berisi nilai-nilai level pengelompokan kategori diagram.
-            Kategori multi-level berisi lebih dari satu level pengelompokan.
-            Pengindeksan level pengelompokan bersifat berbasis nol.
+Kontainer yang dikelola dari nilai-nilai tingkat pengelompokan kategori diagram.
+            Kategori multi-level berisi lebih dari satu tingkat pengelompokan.
+            Pengindeksan tingkat pengelompokan berbasis nol.
             Hanya-baca [`IChartCategoryLevelsManager`](/slides/python-net/id/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Definisi:
@@ -24,4 +24,4 @@ def grouping_levels(self):
 * kelas [`IChartCategory`](/slides/python-net/id/aspose.slides.charts/ichartcategory)
 * kelas [`IChartCategoryLevelsManager`](/slides/python-net/id/aspose.slides.charts/ichartcategorylevelsmanager)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

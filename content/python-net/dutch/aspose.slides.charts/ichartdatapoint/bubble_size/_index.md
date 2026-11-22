@@ -7,7 +7,7 @@ url: /nl/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size eigenschap
-Retourneert de bubbelgrootte van het diagramdatapunt.
+Haalt de bubbelgrootte van een grafiekdatapunt op.
             Alleen-lezen [`IDoubleChartValue`](/slides/python-net/nl/aspose.slides.charts/idoublechartvalue).
 
 ### Definitie:

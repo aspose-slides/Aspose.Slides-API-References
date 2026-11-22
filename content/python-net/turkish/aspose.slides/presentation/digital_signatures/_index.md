@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
-## digital_signatures özelliği
+## digital_signatures özellik
 Sunumu imzalamak için kullanılan imzaların koleksiyonunu döndürür.
-            Salt okunur [`IDigitalSignatureCollection`](/slides/python-net/tr/aspose.slides/idigitalsignaturecollection).
+Yalnızca okuma [`IDigitalSignatureCollection`](/slides/python-net/tr/aspose.slides/idigitalsignaturecollection).
 
 ### Tanım:
 ```python
@@ -17,8 +17,7 @@ def digital_signatures(self):
     ...
 ```
 
-
-### İlgili Bilgiler
+### Ayrıca Bakınız
 * sınıf [`IDigitalSignatureCollection`](/slides/python-net/tr/aspose.slides/idigitalsignaturecollection)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

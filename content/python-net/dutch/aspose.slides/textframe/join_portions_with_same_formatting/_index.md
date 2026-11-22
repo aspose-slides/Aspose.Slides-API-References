@@ -4,10 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/textframe/join_portions_with_same_formatting/
-weight: 30
+weight: 40
 ---
 ## join_portions_with_same_formatting(self) {#}
-Voegt runs samen met dezelfde opmaak in alle alinea's.
+Voegt runs met dezelfde opmaak samen in alle alinea's.
+
 
 ```python
 def join_portions_with_same_formatting(self):

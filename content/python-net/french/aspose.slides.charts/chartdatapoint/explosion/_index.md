@@ -4,10 +4,10 @@ second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion propriété
-Spécifie la quantité que le point de données doit être déplacé depuis le centre du camembert.
+Spécifie la quantité dont le point de données doit être déplacé depuis le centre du diagramme circulaire.
             Lecture/écriture **int**.
 
 ### Définition:

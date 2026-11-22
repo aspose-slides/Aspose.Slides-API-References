@@ -1,20 +1,28 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdata/series_groups/
-weight: 140
+weight: 150
 ---
-## series_groups خصوصیت
-گروه‌های سری را دریافت می‌کند.
-فقط‌خواندنی [`IChartSeriesGroupCollection`](/slides/python-net/fa/aspose.slides.charts/ichartseriesgroupcollection).
+## ویژگی series_groups
+دسته‌های سری را برمی‌گرداند.
+            فقط-خواندنی [`IChartSeriesGroupCollection`](/slides/python-net/fa/aspose.slides.charts/ichartseriesgroupcollection).
 
 ### توضیحات
 
-۱) هر گروهی از سری شامل سری‌هایی با انواع ترکیبی است. گروه‌های انواع سری‌های ترکیبی با enum CombinableSeriesTypesGroup تعریف و توصیف شده‌اند. همچنین هر گروهی از سری شامل سری‌هایی است که در محورهای اصلی یا محورهای ثانویه رسم می‌شوند (هر دو حالت در یک گروه وجود ندارد). بنابراین، اصل گروه‌بندی سری‌ها بر مبنای گروه‌های نوع ذکر شده در بالا و نوع رسم اصلی/ثانویه است.
-
-۲) گروهی از سری شامل برخی ویژگی‌های سری است که برای هر سری در گروه مشترک است («series group properties»). «Series group properties» در کلاس ChartSeriesGroup خواندنی/نوشتنی است. هر یک از «Series group properties» می‌تواند یک پیش‌نمایش فقط‌خواندنی در کلاس ChartSeries داشته باشد.
+1) هر دسته از سری‌ها شامل سری‌هایی با انواع ترکیبی‌پذیر است. گروه‌های 
+            انواع سری‌های ترکیبی‌پذیر با استفاده از enum CombinableSeriesTypesGroup 
+            تعریف و توصیف شده‌اند.
+            همچنین هر دسته از سری‌ها شامل سری‌هایی است که بر روی محور اصلی یا 
+            محور ثانویه ترسیم می‌شوند (نه هر دو در یک دسته).
+            بنابراین، اصل گروه‌بندی سری‌ها، گروه‌بندی بر اساس دسته‌های نوع مذکور 
+            و بر اساس نوع ترسیم اصلی/ثانویه است.
+            
+            2) دستهٔ سری شامل برخی خصوصیات سری است که برای هر سری در دسته مشترک است ("خصوصیات گروه سری").
+            "خصوصیات گروه سری" در کلاس ChartSeriesGroup قابل خواند و نوشتن است.
+            هر یک از "خصوصیات گروه سری" می‌تواند یک تصویر فقط-خواندنی در کلاس ChartSeries داشته باشد.
 
 ### تعریف:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: width property
-second_title: Aspose.Slides dla Pythona przez .NET Referencja API
+second_title: Aspose.Slides dla Python przez .NET Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
 ## width właściwość
-Zwraca lub ustawia szerokość tytułu jako ułamek szerokości wykresu.
+Zwraca lub ustawia width tytułu jako ułamek width wykresu.
             Odczyt/zapis **float**.
 
 ### Definicja:

@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## ویژگی explosion
-مقداری را که نقطه داده باید از مرکز پای چرخان جابه‌جا شود، مشخص می‌کند.
+## explosion ویژگی
+مقدار را مشخص می‌کند که نقطه داده از مرکز نمودار دایره‌ای جابجا شود.
             خواندنی/نوشتنی **int**.
 
 ### تعریف:
@@ -20,7 +20,6 @@ def explosion(self):
 def explosion(self, value):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)

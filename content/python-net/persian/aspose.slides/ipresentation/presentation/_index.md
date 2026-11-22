@@ -1,12 +1,12 @@
 ---
 title: presentation property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
-## خاصیت presentation
+## presentation property
 ### تعریف:
 ```python
 @property

@@ -1,21 +1,22 @@
 ---
 title: default_text_style property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style 屬性
-返回形狀的預設文字樣式。
-唯讀 [`ITextStyle`](/slides/python-net/zh-hant/aspose.slides/itextstyle).
+傳回形狀的預設文字樣式。
+            唯讀 [`ITextStyle`](/slides/python-net/zh-hant/aspose.slides/itextstyle).
 
-### 定義:
+### 定義：
 ```python
 @property
 def default_text_style(self):
     ...
 ```
+
 
 ### 另請參閱
 * 類別 [`ITextStyle`](/slides/python-net/zh-hant/aspose.slides/itextstyle)

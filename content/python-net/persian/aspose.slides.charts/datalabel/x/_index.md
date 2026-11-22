@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
-## x ویژگی
-مختصات x یک عنوان را به عنوان کسری از عرض نمودار بر می‌گرداند یا تنظیم می‌کند.  
-خواندنی/نوشتنی **float**.
+## ویژگی x
+مختصات x یک عنوان را به صورت کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند.
+            قابل خواندن/نوشتن **float**.
 
 ### تعریف:
 ```python
@@ -21,7 +21,7 @@ def x(self, value):
     ...
 ```
 
-### مراجع
+### موارد مرتبط
 * کلاس [`DataLabel`](/slides/python-net/fa/aspose.slides.charts/datalabel)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

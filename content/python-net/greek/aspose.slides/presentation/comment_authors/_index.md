@@ -1,10 +1,10 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors ιδιότητα
 Επιστρέφει τη συλλογή των σχολίων συγγραφέων.

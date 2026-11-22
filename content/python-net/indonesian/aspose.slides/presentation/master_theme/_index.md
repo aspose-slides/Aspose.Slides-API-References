@@ -1,13 +1,13 @@
 ---
 title: master_theme property
-second_title: Referensi API Aspose.Slides untuk Python melalui .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme properti
-Mengembalikan tema utama.
+Mengembalikan tema master.
             Hanya-baca [`IMasterTheme`](/slides/python-net/id/aspose.slides.theme/imastertheme).
 
 ### Definisi:
@@ -22,4 +22,4 @@ def master_theme(self):
 * kelas [`IMasterTheme`](/slides/python-net/id/aspose.slides.theme/imastertheme)
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides pour Python via .NET API Reference
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/idatalabel/slide/
-weight: 210
+weight: 220
 ---
-## slide propriété
+## slide property
 ### Définition:
 ```python
 @property

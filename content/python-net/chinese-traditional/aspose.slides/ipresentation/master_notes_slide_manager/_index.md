@@ -1,13 +1,13 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides for Python 透過 .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager 屬性
-返回備註主管理器。
+傳回筆記主管理器。
             唯讀 [`IMasterNotesSlideManager`](/slides/python-net/zh-hant/aspose.slides/imasternotesslidemanager).
 
 ### 定義：

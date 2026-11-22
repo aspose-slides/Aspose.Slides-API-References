@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
-## default_text_style özellik
+## default_text_style özelliği
 Şekiller için varsayılan metin stilini döndürür.
-Yalnızca okuma [`ITextStyle`](/slides/python-net/tr/aspose.slides/itextstyle).
+            Yalnızca okuma [`ITextStyle`](/slides/python-net/tr/aspose.slides/itextstyle).
 
 ### Tanım:
 ```python

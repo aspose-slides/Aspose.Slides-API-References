@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties 속성
 프레젠테이션 전체 뷰 속성을 가져옵니다.
@@ -18,7 +18,7 @@ def view_properties(self):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`IPresentation`](/slides/python-net/ko/aspose.slides/ipresentation)
 * 클래스 [`IViewProperties`](/slides/python-net/ko/aspose.slides/iviewproperties)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)

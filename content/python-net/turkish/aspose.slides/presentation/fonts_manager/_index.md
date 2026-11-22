@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager özelliği
-Fonts yöneticisini döndürür.
+fonts manager'ı döndürür.
             Yalnızca okunabilir [`IFontsManager`](/slides/python-net/tr/aspose.slides/ifontsmanager).
 
 ### Tanım:
@@ -18,7 +18,7 @@ def fonts_manager(self):
 ```
 
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 * sınıf [`IFontsManager`](/slides/python-net/tr/aspose.slides/ifontsmanager)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

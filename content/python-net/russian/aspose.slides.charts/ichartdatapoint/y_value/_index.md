@@ -4,10 +4,10 @@ second_title: Aspose.Slides для Python через .NET API справочни
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value свойство
-Возвращает значение y точки данных диаграммы.
+Gets the y value of a chart data point.
             Только для чтения [`IDoubleChartValue`](/slides/python-net/ru/aspose.slides.charts/idoublechartvalue).
 
 ### Определение:

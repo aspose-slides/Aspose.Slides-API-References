@@ -1,22 +1,20 @@
 ---
 title: switch_row_column method
-second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस के माध्यम से
+second_title: Aspose.Slides Python के लिए via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
-धुरी के ऊपर डेटा को बदलें।
-            X धुरी पर चार्ट किया जा रहा डेटा Y धुरी पर चला जाएगा और इसके विपरीत।
+अक्ष पर डेटा का अदला-बदली करें।
+
+            X अक्ष पर चार्ट किया गया डेटा Y अक्ष में स्थानांतरित हो जाएगा और इसके विपरीत।
 
 ```python
 def switch_row_column(self):
     ...
 ```
-
-
-
 
 ### संबंधित देखें
 * क्लास [`ChartData`](/slides/python-net/hi/aspose.slides.charts/chartdata)

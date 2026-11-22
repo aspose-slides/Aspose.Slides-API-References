@@ -11,21 +11,22 @@ Representerar ett videoklipp på en bild.
 
 IVideoFrame-typen exponerar följande medlemmar:
 
-## Egenskaper
+## Properties
 
-| Egenskap | Beskrivning |
+| Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/sv/aspose.slides/ivideoframe/rewind_video/) | Avgör om en video automatiskt spolas tillbaka till början så snart filmen har slutat spela. Läs/skriv **bool**. |
-| [`play_loop_mode`](/slides/python-net/sv/aspose.slides/ivideoframe/play_loop_mode/) | Avgör om en video loopas. Läs/skriv **bool**. |
-| [`hide_at_showing`](/slides/python-net/sv/aspose.slides/ivideoframe/hide_at_showing/) | Avgör om en VideoFrame är dold. Läs/skriv **bool**. |
-| [`volume`](/slides/python-net/sv/aspose.slides/ivideoframe/volume/) | Returnerar eller anger ljudvolymen. Läs/skriv [`AudioVolumeMode`](/slides/python-net/sv/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/sv/aspose.slides/ivideoframe/play_mode/) | Returnerar eller anger videouppspelningsläget. Läs/skriv [`VideoPlayModePreset`](/slides/python-net/sv/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/sv/aspose.slides/ivideoframe/full_screen_mode/) | Avgör om en video visas i helskärmsläge. Läs/skriv **bool**. |
-| [`link_path_long`](/slides/python-net/sv/aspose.slides/ivideoframe/link_path_long/) | Returnerar eller anger namnet på en videofil som är länkad till en VideoFrame. Läs/skriv **str**. |
-| [`embedded_video`](/slides/python-net/sv/aspose.slides/ivideoframe/embedded_video/) | Returnerar eller anger inbäddat videoobjekt. Läs/skriv [`IVideo`](/slides/python-net/sv/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/sv/aspose.slides/ivideoframe/trim_from_start/) | Trimma start [ms] |
-| [`trim_from_end`](/slides/python-net/sv/aspose.slides/ivideoframe/trim_from_end/) | Trimma slut [ms] |
-| [`caption_tracks`](/slides/python-net/sv/aspose.slides/ivideoframe/caption_tracks/) | Hämtar samlingen av undertexter som är associerade med ljudramen. Denna egenskap är skrivskyddad och returnerar ett [`ICaptionsCollection`](/slides/python-net/sv/aspose.slides/icaptionscollection) som innehåller alla textrader. |
+| [`rewind_video`](/slides/python-net/sv/aspose.slides/ivideoframe/rewind_video/) | Bestämmer om en video automatiskt spolas tillbaka till början<br/>            så snart filmen har slutat spela.<br/>            Läs/skriv **bool**. |
+| [`play_loop_mode`](/slides/python-net/sv/aspose.slides/ivideoframe/play_loop_mode/) | Bestämmer om en video loopas.<br/>            Läs/skriv **bool**. |
+| [`hide_at_showing`](/slides/python-net/sv/aspose.slides/ivideoframe/hide_at_showing/) | Bestämmer om ett VideoFrame är dolt.<br/>            Läs/skriv **bool**. |
+| [`volume`](/slides/python-net/sv/aspose.slides/ivideoframe/volume/) | Returnerar eller sätter ljudvolymen.<br/>            Läs/skriv [`AudioVolumeMode`](/slides/python-net/sv/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/sv/aspose.slides/ivideoframe/volume_value/) | Returnerar eller sätter den exakta videovolymen som en procentandel.<br/>             Värdet uttrycks som en procent från 0 till 100. Använd denna egenskap<br/>             för att läsa eller ange volymvärden som är mer precisa än de fördefinierade<br/>             nivåerna som finns via [`IVideoFrame.volume`](/slides/python-net/sv/aspose.slides/ivideoframe/volume)-egenskapen.<br/>             Läs/skriv **float**. |
+| [`play_mode`](/slides/python-net/sv/aspose.slides/ivideoframe/play_mode/) | Returnerar eller sätter videouppspelningsläget.<br/>            Läs/skriv [`VideoPlayModePreset`](/slides/python-net/sv/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/sv/aspose.slides/ivideoframe/full_screen_mode/) | Bestämmer om en video visas i helskärmsläge.<br/>            Läs/skriv **bool**. |
+| [`link_path_long`](/slides/python-net/sv/aspose.slides/ivideoframe/link_path_long/) | Returnerar eller sätter namnet på en videofil som är länkat till ett VideoFrame.<br/>            Läs/skriv **str**. |
+| [`embedded_video`](/slides/python-net/sv/aspose.slides/ivideoframe/embedded_video/) | Returnerar eller sätter inbäddat videoobjekt.<br/>            Läs/skriv [`IVideo`](/slides/python-net/sv/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/sv/aspose.slides/ivideoframe/trim_from_start/) | Beskär start [ms] |
+| [`trim_from_end`](/slides/python-net/sv/aspose.slides/ivideoframe/trim_from_end/) | Beskär slut [ms] |
+| [`caption_tracks`](/slides/python-net/sv/aspose.slides/ivideoframe/caption_tracks/) | Hämtar samlingen av slutna undertexter som är associerade med ljudramen.<br/>             Denna egenskap är skrivskyddad och returnerar ett [`ICaptionsCollection`](/slides/python-net/sv/aspose.slides/icaptionscollection) som innehåller alla undertextspår.<br/> |
 | [`shape_lock`](/slides/python-net/sv/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/sv/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/sv/aspose.slides/ivideoframe/picture_format/) |  |
@@ -66,9 +67,9 @@ IVideoFrame-typen exponerar följande medlemmar:
 | [`hyperlink_mouse_over`](/slides/python-net/sv/aspose.slides/ivideoframe/hyperlink_mouse_over/) |  |
 | [`hyperlink_manager`](/slides/python-net/sv/aspose.slides/ivideoframe/hyperlink_manager/) |  |
 
-## Metoder
+## Methods
 
-| Metod | Beskrivning |
+| Method | Description |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/sv/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/sv/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
@@ -81,6 +82,7 @@ IVideoFrame-typen exponerar följande medlemmar:
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/sv/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/sv/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/sv/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
+
 
 ### Se även
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: videos property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق مرجع API .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/videos/
-weight: 400
+weight: 410
 ---
 ## videos ویژگی
-کلکسیونی از تمام فایل‌های ویدئویی جاساز شده در ارائه را برمی‌گرداند.
-فقط خواندنی [`IVideoCollection`](/slides/python-net/fa/aspose.slides/ivideocollection).
+Returns the collection of all embedded video files in the presentation.
+            فقط-خواندنی [`IVideoCollection`](/slides/python-net/fa/aspose.slides/ivideocollection).
 
 ### تعریف:
 ```python
@@ -17,7 +17,8 @@ def videos(self):
     ...
 ```
 
-### موارد دیگر
+
+### موارد مرتبط
 * کلاس [`IVideoCollection`](/slides/python-net/fa/aspose.slides/ivideocollection)
 * کلاس [`Presentation`](/slides/python-net/fa/aspose.slides/presentation)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

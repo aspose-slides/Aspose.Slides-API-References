@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ivideoframe/
@@ -9,23 +9,24 @@ url: /nl/aspose.slides/ivideoframe/
 
 Stelt een video-clip op een dia voor.
 
-Het IVideoFrame-type biedt de volgende leden weer:
+De IVideoFrame-type stelt de volgende leden beschikbaar:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/nl/aspose.slides/ivideoframe/rewind_video/) | Bepaalt of een video automatisch wordt teruggespoeld naar het begin<br/>            zodra de film klaar is met afspelen.<br/>            Lezen/Schrijven **bool**. |
+| [`rewind_video`](/slides/python-net/nl/aspose.slides/ivideoframe/rewind_video/) | Bepaalt of een video automatisch wordt teruggevoerd naar het begin<br/>            zodra de film klaar is met afspelen.<br/>            Lezen/Schrijven **bool**. |
 | [`play_loop_mode`](/slides/python-net/nl/aspose.slides/ivideoframe/play_loop_mode/) | Bepaalt of een video wordt herhaald.<br/>            Lezen/Schrijven **bool**. |
 | [`hide_at_showing`](/slides/python-net/nl/aspose.slides/ivideoframe/hide_at_showing/) | Bepaalt of een VideoFrame verborgen is.<br/>            Lezen/Schrijven **bool**. |
-| [`volume`](/slides/python-net/nl/aspose.slides/ivideoframe/volume/) | Geeft de audiovolume terug of stelt deze in.<br/>            Lezen/Schrijven [`AudioVolumeMode`](/slides/python-net/nl/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/nl/aspose.slides/ivideoframe/play_mode/) | Geeft de videoweergavemodus terug of stelt deze in.<br/>            Lezen/Schrijven [`VideoPlayModePreset`](/slides/python-net/nl/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/nl/aspose.slides/ivideoframe/full_screen_mode/) | Bepaalt of een video wordt weergegeven in volledig scherm.<br/>            Lezen/Schrijven **bool**. |
-| [`link_path_long`](/slides/python-net/nl/aspose.slides/ivideoframe/link_path_long/) | Geeft de naam van een videobestand terug of stelt deze in die is gekoppeld aan een VideoFrame.<br/>            Lezen/Schrijven **str**. |
-| [`embedded_video`](/slides/python-net/nl/aspose.slides/ivideoframe/embedded_video/) | Geeft het ingesloten video-object terug of stelt dit in.<br/>            Lezen/Schrijven [`IVideo`](/slides/python-net/nl/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/nl/aspose.slides/ivideoframe/trim_from_start/) | Begin trimmen [ms] |
-| [`trim_from_end`](/slides/python-net/nl/aspose.slides/ivideoframe/trim_from_end/) | Einde trimmen [ms] |
-| [`caption_tracks`](/slides/python-net/nl/aspose.slides/ivideoframe/caption_tracks/) | Haalt de verzameling gesloten bijschriften op die aan het audio-frame zijn gekoppeld.<br/>             Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](/slides/python-net/nl/aspose.slides/icaptionscollection) met alle bijschrift-tracks. |
+| [`volume`](/slides/python-net/nl/aspose.slides/ivideoframe/volume/) | Returnt of stelt het audio-volume in.<br/>            Lezen/Schrijven [`AudioVolumeMode`](/slides/python-net/nl/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/nl/aspose.slides/ivideoframe/volume_value/) | Returnt of stelt het exacte videovolume in als een percentage.<br/>             De waarde wordt uitgedrukt als een percentage van 0 tot 100. Gebruik deze eigenschap<br/>             om volume-waarden te lezen of in te stellen die nauwkeuriger zijn dan de vooraf gedefinieerde<br/>             niveaus die beschikbaar zijn via de [`IVideoFrame.volume`](/slides/python-net/nl/aspose.slides/ivideoframe/volume) eigenschap.<br/>             Lezen/Schrijven **float**. |
+| [`play_mode`](/slides/python-net/nl/aspose.slides/ivideoframe/play_mode/) | Returnt of stelt de weergavemodus van de video in.<br/>            Lezen/Schrijven [`VideoPlayModePreset`](/slides/python-net/nl/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/nl/aspose.slides/ivideoframe/full_screen_mode/) | Bepaalt of een video in volledig-schermmodus wordt weergegeven.<br/>            Lezen/Schrijven **bool**. |
+| [`link_path_long`](/slides/python-net/nl/aspose.slides/ivideoframe/link_path_long/) | Returnt of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame.<br/>            Lezen/Schrijven **str**. |
+| [`embedded_video`](/slides/python-net/nl/aspose.slides/ivideoframe/embedded_video/) | Returnt of stelt een ingebed video-object in.<br/>            Lezen/Schrijven [`IVideo`](/slides/python-net/nl/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/nl/aspose.slides/ivideoframe/trim_from_start/) | Begin trim [ms] |
+| [`trim_from_end`](/slides/python-net/nl/aspose.slides/ivideoframe/trim_from_end/) | Eind trim [ms] |
+| [`caption_tracks`](/slides/python-net/nl/aspose.slides/ivideoframe/caption_tracks/) | Haalt de collectie van ondertitels op die gekoppeld zijn aan het audio-frame.<br/>             Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](/slides/python-net/nl/aspose.slides/icaptionscollection) dat alle ondertiteltracks bevat. |
 | [`shape_lock`](/slides/python-net/nl/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/nl/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/nl/aspose.slides/ivideoframe/picture_format/) |  |

@@ -1,13 +1,13 @@
 ---
 title: width property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
 ## width 속성
-제목의 width를 차트 width의 비율로 반환하거나 설정합니다.
+제목의 width를 차트의 width에 대한 비율로 반환하거나 설정합니다.
             읽기/쓰기 **float**.
 
 ### 정의:

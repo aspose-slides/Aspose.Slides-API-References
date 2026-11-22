@@ -1,15 +1,14 @@
 ---
 title: set_range method
-second_title: Aspose.Slides for Python via .NET API 参考文档
+second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-Set chart data range. Series and categories will be updated based on new data range.
-            If amount of series in data range greater than count of series in the chart data then additional series with the same type
-            as a last series in the current collection will be added to the end of the collection.
+设置图表数据范围。Series 和 categories 将基于新的数据范围进行更新。
+如果数据范围中的 series 数量大于图表数据中的 series 计数，则会在当前集合的末尾添加与当前集合中最后一个 series 具有相同类型的额外 series。
 
 ```python
 def set_range(self, formula):
@@ -26,7 +25,7 @@ def set_range(self, formula):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | formula 为 None。 |
 | **RuntimeError(Proxy error(InvalidOperationException))** | 不支持的图表类型 |
-| **RuntimeError(Proxy error(ArgumentException))** | formula 格式不正确。 |
+| **RuntimeError(Proxy error(ArgumentException))** | formula 的格式不正确。 |
 
 ### 另见
 * 类 [`ChartData`](/slides/python-net/zh/aspose.slides.charts/chartdata)

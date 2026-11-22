@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## 投影片屬性
-Returns the parent slide of a TextFrame.
+返回 TextFrame 的父投影片。
             唯讀 [`IBaseSlide`](/slides/python-net/zh-hant/aspose.slides/ibaseslide).
 
-### 定義:
+### 定義：
 ```python
 @property
 def slide(self):
@@ -18,8 +18,8 @@ def slide(self):
 ```
 
 
-### 另請參閱
+### 參見
 * 類別 [`IBaseSlide`](/slides/python-net/zh-hant/aspose.slides/ibaseslide)
 * 類別 [`TextFrame`](/slides/python-net/zh-hant/aspose.slides/textframe)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* 函式庫 [`Aspose.Slides`](/slides/python-net)
+* 程式庫 [`Aspose.Slides`](/slides/python-net)

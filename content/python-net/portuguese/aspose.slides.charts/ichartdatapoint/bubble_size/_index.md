@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência de API
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size propriedade
-Retorna o tamanho da bolha do ponto de dados do gráfico.
+Obtém o tamanho da bolha de um ponto de dados de gráfico.
             Somente leitura [`IDoubleChartValue`](/slides/python-net/pt/aspose.slides.charts/idoublechartvalue).
 
 ### Definição:
@@ -18,7 +18,7 @@ def bubble_size(self):
 ```
 
 
-### Veja Também
+### Veja também
 * classe [`IChartDataPoint`](/slides/python-net/pt/aspose.slides.charts/ichartdatapoint)
 * classe [`IDoubleChartValue`](/slides/python-net/pt/aspose.slides.charts/idoublechartvalue)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)

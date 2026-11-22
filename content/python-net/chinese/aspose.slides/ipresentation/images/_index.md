@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
 ## images 属性
-Returns the collection of all images in the presentation.
-            只读 [`IImageCollection`](/slides/python-net/zh/aspose.slides/iimagecollection).
+返回演示文稿中所有 images 的集合。
+只读 [`IImageCollection`](/slides/python-net/zh/aspose.slides/iimagecollection).
 
 ### 定义:
 ```python
@@ -18,7 +18,7 @@ def images(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`IImageCollection`](/slides/python-net/zh/aspose.slides/iimagecollection)
 * 类 [`IPresentation`](/slides/python-net/zh/aspose.slides/ipresentation)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

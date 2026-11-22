@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels Eigenschaft
-Gibt den Container für Datenpunkteniveaus zurück. Wird für Treeamp- und Sunburst-Serien angewendet.
-            Die Indizierung der Datenpunkteniveaus ist nullbasiert.
+Gibt den Container der Datenpunkt-Ebenen zurück. Wird für Treeamp- und Sunburst-Serien angewendet.
+            Die Indizierung der Datenpunkt-Ebenen ist nullbasiert.
 
 ### Definition:
 ```python

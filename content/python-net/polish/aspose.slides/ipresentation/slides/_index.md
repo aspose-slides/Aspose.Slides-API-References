@@ -1,12 +1,12 @@
 ---
 title: slides property
-second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona przez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
-## właściwość slides
+## slides właściwość
 Zwraca listę wszystkich slides, które są zdefiniowane w prezentacji.
             Tylko do odczytu [`ISlideCollection`](/pl/slides/python-net/aspose.slides/islidecollection).
 

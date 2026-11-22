@@ -1,13 +1,13 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries özelliği
-Tüm sunum slaytlarında (master, layout ve notes slaytları hariç) bulunan tüm hiperlinklere kolay erişim sağlar.
+Tüm sunum slaytlarında (master, layout, notes slaytları hariç) bulunan tüm hiperlinklere kolay erişim sağlar.
             Yalnızca okuma [`IHyperlinkQueries`](/slides/python-net/tr/aspose.slides/ihyperlinkqueries).
 
 ### Tanım:

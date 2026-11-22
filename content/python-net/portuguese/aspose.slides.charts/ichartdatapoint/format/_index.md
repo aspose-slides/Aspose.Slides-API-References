@@ -1,14 +1,14 @@
 ---
 title: format property
-second_title: Aspose.Slides para Python via .NET Referência de API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## format propriedade
-Represents the formatting properties.
-            Leitura/Gravação [`IFormat`](/slides/python-net/pt/aspose.slides.charts/iformat).
+## propriedade format
+Representa as propriedades de formatação.
+            Leitura/gravação [`IFormat`](/slides/python-net/pt/aspose.slides.charts/iformat).
 
 ### Definição:
 ```python
@@ -22,7 +22,7 @@ def format(self, value):
 ```
 
 
-### Veja também
+### Ver também
 * classe [`IChartDataPoint`](/slides/python-net/pt/aspose.slides.charts/ichartdatapoint)
 * classe [`IFormat`](/slides/python-net/pt/aspose.slides.charts/iformat)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)

@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y eigenschap
-Retourneert of stelt de y-coördinaat van een titel in als een fractie van de hoogte van de grafiek.
-            Lezen/Schrijven **float**.
+Geeft de y-coördinaat van een titel terug of stelt deze in als een fractie van de hoogte van de grafiek.
+            Lezen/schrijven **float**.
 
 ### Definitie:
 ```python

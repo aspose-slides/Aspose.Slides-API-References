@@ -1,13 +1,13 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides for Python via .NET API referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-Tömöríti a [`Presentation`](/slides/python-net/hu/aspose.slides/presentation)-t úgy, hogy eltávolítja a nem használt elrendezési diákat.
+Tömöríti a [`Presentation`](/slides/python-net/hu/aspose.slides/presentation)-t a nem használt elrendezési diák eltávolításával.
 
 ```python
 @staticmethod

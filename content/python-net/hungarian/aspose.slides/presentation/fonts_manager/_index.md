@@ -1,13 +1,13 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides Pythonhoz .NET API referencia
+second_title: Aspose.Slides a Pythonhoz a .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager tulajdonság
-Visszaadja a fonts manager.
+Visszaadja a betűkészletek kezelőt.
             Csak olvasható [`IFontsManager`](/slides/python-net/hu/aspose.slides/ifontsmanager).
 
 ### Definíció:

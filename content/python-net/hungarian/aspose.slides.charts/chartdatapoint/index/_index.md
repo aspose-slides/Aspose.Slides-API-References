@@ -1,10 +1,10 @@
 ---
 title: index property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz a .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index tulajdonság
 ### Definíció:

@@ -4,7 +4,7 @@ second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
 ## prezentáció tulajdonság
 Visszaadja a TextFrame szülő prezentációját.

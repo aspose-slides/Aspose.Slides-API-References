@@ -4,7 +4,7 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels propriedade
 Retorna a coleção de rótulos de sensibilidade aplicados ao documento de apresentação.
@@ -18,7 +18,7 @@ def sensitivity_labels(self):
 ```
 
 
-### Veja também
+### Veja Também
 * classe [`ISensitivityLabelCollection`](/slides/python-net/pt/aspose.slides/isensitivitylabelcollection)
 * classe [`Presentation`](/slides/python-net/pt/aspose.slides/presentation)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

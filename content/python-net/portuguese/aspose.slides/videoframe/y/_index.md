@@ -4,17 +4,16 @@ second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
 ## y propriedade
-Obtém ou define a coordenada y do canto superior esquerdo da forma, medida em pontos.
-            Leitura/gravação **float**.
-
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points.
+            Leitura/Gravação **float**.
 
 ### Observações
 
 O valor retornado está sempre definido e nunca **float**.
-            O valor atribuído também deve estar definido; atribua **float** somente às propriedades de uma instância `RawFrame`.
+            O valor atribuído também deve estar definido; atribua **float** somente a propriedades de uma instância `RawFrame`.
 
 ### Definição:
 ```python
@@ -27,8 +26,7 @@ def y(self, value):
     ...
 ```
 
-
-### Veja Também
+### Ver também
 * classe [`VideoFrame`](/slides/python-net/pt/aspose.slides/videoframe)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

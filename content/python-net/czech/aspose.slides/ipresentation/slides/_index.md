@@ -4,11 +4,11 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides vlastnost
-Vrací seznam všech slides, které jsou v prezentaci definovány.
-            Pouze ke čtení [`ISlideCollection`](/cs/slides/python-net/aspose.slides/islidecollection).
+Vrací seznam všech snímků, které jsou definovány v prezentaci.
+            Pouze pro čtení [`ISlideCollection`](/cs/slides/python-net/aspose.slides/islidecollection).
 
 ### Definice:
 ```python

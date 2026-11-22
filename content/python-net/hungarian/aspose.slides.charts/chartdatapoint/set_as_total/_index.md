@@ -1,15 +1,15 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides a Pythonhoz a .NET API referencia segítségével
+second_title: Aspose.Slides a Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total tulajdonság
-Beállítja az adatpontot teljes értékként. Csak a Waterfall sorozattípusra alkalmazható.
+Az adatpontot összegként állítja be. Csak a Waterfall sorozattípusra alkalmazható.
 
-### Meghatározás:
+### Definíció:
 ```python
 @property
 def set_as_total(self):
@@ -24,4 +24,4 @@ def set_as_total(self, value):
 ### Lásd még
 * osztály [`ChartDataPoint`](/slides/python-net/hu/aspose.slides.charts/chartdatapoint)
 * modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
-* könyvtár [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

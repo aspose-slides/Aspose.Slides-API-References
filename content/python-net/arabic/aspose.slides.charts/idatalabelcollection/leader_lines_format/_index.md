@@ -1,13 +1,13 @@
 ---
 title: leader_lines_format property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
-## خاصية leader_lines_format
-يمثل تنسيق خطوط القائد لتسميات البيانات.
+## leader_lines_format خاصية
+يمثل تنسيق خطوط القادة لتسميات البيانات.
 للقراءة فقط [`IChartLinesFormat`](/slides/python-net/ar/aspose.slides.charts/ichartlinesformat).
 
 ### التعريف:
@@ -16,6 +16,7 @@ weight: 130
 def leader_lines_format(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`IChartLinesFormat`](/slides/python-net/ar/aspose.slides.charts/ichartlinesformat)

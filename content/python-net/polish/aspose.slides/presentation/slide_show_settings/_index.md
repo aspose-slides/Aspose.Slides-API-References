@@ -1,10 +1,10 @@
 ---
 title: slide_show_settings property
-second_title: Aspose.Slides dla Pythona poprzez .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings właściwość
 Zwraca ustawienia pokazu slajdów dla prezentacji.

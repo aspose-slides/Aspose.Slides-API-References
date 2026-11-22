@@ -4,15 +4,15 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible properti
-False berarti label data tidak terlihat secara default (dan sehingga semua Show*-flags (ShowValue, ...) dari properti DefaultDataLabelFormat adalah false). Baca-saja **bool**.
+False berarti bahwa label data tidak terlihat secara default (dan sehingga semua Show*-flags (ShowValue, ...) dari properti DefaultDataLabelFormat adalah false). Hanya-baca **bool**.
 
 ### Catatan
 
 Jika label data terlihat secara default Anda dapat menyembunyikannya secara default dengan metode Hide().
-Namun jika label data tidak terlihat secara default (IsVisible false) Anda dapat membuat label data "visible by default" dengan mengatur Show*-flags (ShowValue, ...) dari properti DefaultDataLabelFormat menjadi true state.
+Namun jika label data tidak terlihat secara default (IsVisible adalah false) Anda dapat membuat label data "terlihat secara default" dengan mengatur Show*-flags (ShowValue, ...) dari properti DefaultDataLabelFormat ke keadaan true.
 
 ### Definisi:
 ```python
@@ -24,4 +24,4 @@ def is_visible(self):
 ### Lihat Juga
 * kelas [`IDataLabelCollection`](/slides/python-net/id/aspose.slides.charts/idatalabelcollection)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

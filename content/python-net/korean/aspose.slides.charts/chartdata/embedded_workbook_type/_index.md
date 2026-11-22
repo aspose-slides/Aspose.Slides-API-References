@@ -1,14 +1,14 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type 속성
-임베드된 워크북의 유형을 가져옵니다.
-            반환합니다 [`WorkbookType.NOT_DEFINED`](/slides/python-net/ko/aspose.slides.charts/workbooktype/NOT_DEFINED) [`ChartData.data_source_type`](/slides/python-net/ko/aspose.slides.charts/chartdata/data_source_type)가 
+내장된 워크북의 유형을 가져옵니다.
+            [`WorkbookType.NOT_DEFINED`](/slides/python-net/ko/aspose.slides.charts/workbooktype/NOT_DEFINED)를 반환합니다, [`ChartData.data_source_type`](/slides/python-net/ko/aspose.slides.charts/chartdata/data_source_type)가 
             [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/ko/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK)인 경우.
             읽기 전용 [`WorkbookType`](/slides/python-net/ko/aspose.slides.charts/workbooktype).
 
@@ -18,7 +18,6 @@ weight: 100
 def embedded_workbook_type(self):
     ...
 ```
-
 
 ### 참조
 * 클래스 [`ChartData`](/slides/python-net/ko/aspose.slides.charts/chartdata)

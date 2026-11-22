@@ -1,10 +1,10 @@
 ---
 title: width property
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
 ## width thuộc tính
 ### Định nghĩa:

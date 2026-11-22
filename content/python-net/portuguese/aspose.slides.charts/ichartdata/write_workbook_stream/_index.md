@@ -4,10 +4,10 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-Inicializa a pasta de trabalho Excel contida internamente com um valor especificado pelo usuário.
+Inicializa a pasta de trabalho Excel contida internamente com o valor especificado pelo usuário.
 
 ```python
 def write_workbook_stream(self, ms):
@@ -18,7 +18,7 @@ def write_workbook_stream(self, ms):
 | :- | :- | :- |
 | ms | **io.RawIOBase** | O fluxo fornecido pelo usuário contendo a pasta de trabalho Excel completa. |
 
-### Ver também
+### Veja Também
 * classe [`IChartData`](/slides/python-net/pt/aspose.slides.charts/ichartdata)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

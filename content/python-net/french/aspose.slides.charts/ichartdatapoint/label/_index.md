@@ -4,11 +4,11 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## propriété label
-Représente le libellé du chart data point.
-            Lecture seule [`IDataLabel`](/slides/python-net/fr/aspose.slides.charts/idatalabel).
+Représente le libellé du point de données du graphique.
+Lecture seule [`IDataLabel`](/slides/python-net/fr/aspose.slides.charts/idatalabel).
 
 ### Définition:
 ```python

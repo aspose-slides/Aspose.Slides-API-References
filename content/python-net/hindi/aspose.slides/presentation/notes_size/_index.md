@@ -1,16 +1,16 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides के लिए Python .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size प्रॉपर्टी
-Returns notes slide size object.
-            Read-only [`INotesSize`](/slides/python-net/hi/aspose.slides/inotessize).
+नोट्स स्लाइड आकार ऑब्जेक्ट को लौटाता है।
+            केवल पढ़ने योग्य [`INotesSize`](/slides/python-net/hi/aspose.slides/inotessize).
 
-### Definition:
+### परिभाषा:
 ```python
 @property
 def notes_size(self):
@@ -18,7 +18,7 @@ def notes_size(self):
 ```
 
 
-### और देखें
+### संबंधित देखें
 * क्लास [`INotesSize`](/slides/python-net/hi/aspose.slides/inotessize)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

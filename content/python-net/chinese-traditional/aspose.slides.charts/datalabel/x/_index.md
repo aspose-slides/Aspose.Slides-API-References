@@ -1,16 +1,16 @@
 ---
 title: x property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x 屬性
-Returns or sets the x coordinate of a title as a fraction of the width of the chart.
-            讀寫 **float**。
+返回或設定標題的 x 座標，該座標以圖表寬度的比例表示。
+            讀寫 **float**.
 
-### Definition:
+### 定義：
 ```python
 @property
 def x(self):
@@ -21,7 +21,7 @@ def x(self, value):
     ...
 ```
 
-### See Also
+### 另見
 * 類別 [`DataLabel`](/slides/python-net/zh-hant/aspose.slides.charts/datalabel)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

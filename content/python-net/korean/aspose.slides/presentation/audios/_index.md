@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
 ## audios 속성
 프레젠테이션에 포함된 모든 임베디드 오디오 파일의 컬렉션을 반환합니다.

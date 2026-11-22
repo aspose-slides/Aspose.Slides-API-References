@@ -1,13 +1,13 @@
 ---
 title: y property
-second_title: Aspose.Slides untuk Python melalui .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y properti
-Mengembalikan atau menetapkan koordinat y dari judul sebagai fraksi dari tinggi grafik.
+Mengembalikan atau mengatur koordinat y dari judul sebagai pecahan dari tinggi diagram.
             Baca/tulis **float**.
 
 ### Definisi:
@@ -25,4 +25,4 @@ def y(self, value):
 ### Lihat Juga
 * kelas [`DataLabel`](/slides/python-net/id/aspose.slides.charts/datalabel)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

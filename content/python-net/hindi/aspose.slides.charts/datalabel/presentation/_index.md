@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides के लिए Python के माध्यम से .NET API Reference
+second_title: Aspose.Slides के लिए Python .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/datalabel/presentation/
-weight: 200
+weight: 210
 ---
 ## प्रस्तुति प्रॉपर्टी
 ### परिभाषा:

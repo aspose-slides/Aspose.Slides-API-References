@@ -1,10 +1,10 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides for Python via .NET API referencia
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors tulajdonság
 Visszaadja a megjegyzések szerzőinek gyűjteményét.

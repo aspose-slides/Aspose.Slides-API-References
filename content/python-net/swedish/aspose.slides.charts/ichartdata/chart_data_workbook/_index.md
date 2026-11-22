@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook egenskap
-Hämtar cellfabriken för att skapa celler som används för diagramserier eller kategorier.
-Skrivskyddad [`IChartDataWorkbook`](/slides/python-net/sv/aspose.slides.charts/ichartdataworkbook).
+Hämtar cellfabriken för att skapa celler som används för diagramserier eller -kategorier.
+            Skrivskyddad [`IChartDataWorkbook`](/slides/python-net/sv/aspose.slides.charts/ichartdataworkbook).
 
 ### Definition:
 ```python
@@ -18,7 +18,7 @@ def chart_data_workbook(self):
 ```
 
 
-### Se även
+### Se också
 * klass [`IChartData`](/slides/python-net/sv/aspose.slides.charts/ichartdata)
 * klass [`IChartDataWorkbook`](/slides/python-net/sv/aspose.slides.charts/ichartdataworkbook)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)

@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type 属性
-获取嵌入工作簿的类型。
+获取嵌入式工作簿的类型。
             返回 [`WorkbookType.NOT_DEFINED`](/slides/python-net/zh/aspose.slides.charts/workbooktype/NOT_DEFINED) 如果 [`ChartData.data_source_type`](/slides/python-net/zh/aspose.slides.charts/chartdata/data_source_type) 是 
-            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/zh/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK)。
+            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/zh/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
             只读 [`WorkbookType`](/slides/python-net/zh/aspose.slides.charts/workbooktype)。
 
 ### 定义:

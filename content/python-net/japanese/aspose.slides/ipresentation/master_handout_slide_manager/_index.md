@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager プロパティ
-ハンドアウトマスター マネージャーを返します。
+ハンドアウト マスター マネージャーを返します。
             読み取り専用 [`IMasterHandoutSlideManager`](/slides/python-net/ja/aspose.slides/imasterhandoutslidemanager).
 
 ### 定義:
@@ -18,7 +18,7 @@ def master_handout_slide_manager(self):
 ```
 
 
-### 参照
+### 関連項目
 * クラス [`IMasterHandoutSlideManager`](/slides/python-net/ja/aspose.slides/imasterhandoutslidemanager)
 * クラス [`IPresentation`](/slides/python-net/ja/aspose.slides/ipresentation)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## serieegenskap
 Hämtar serien.

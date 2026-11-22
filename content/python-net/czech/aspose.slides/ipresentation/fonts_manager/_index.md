@@ -1,14 +1,14 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides pro Python přes .NET referenci API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/fonts_manager/
-weight: 200
+weight: 210
 ---
 ## fonts_manager vlastnost
-Returns fonts manager.
-            Pouze pro čtení [`IFontsManager`](/slides/python-net/cs/aspose.slides/ifontsmanager).
+Vrací správce písem.
+            Pouze ke čtení [`IFontsManager`](/slides/python-net/cs/aspose.slides/ifontsmanager).
 
 ### Definice:
 ```python
@@ -16,6 +16,7 @@ Returns fonts manager.
 def fonts_manager(self):
     ...
 ```
+
 
 ### Viz také
 * třída [`IFontsManager`](/slides/python-net/cs/aspose.slides/ifontsmanager)

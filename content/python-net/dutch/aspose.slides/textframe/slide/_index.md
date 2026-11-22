@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## dia eigenschap
-Returns the parent slide of a TextFrame.
+## dia-eigenschap
+Retourneert de bovenliggende dia van een TextFrame.
             Alleen-lezen [`IBaseSlide`](/slides/python-net/nl/aspose.slides/ibaseslide).
 
 ### Definitie:
@@ -16,6 +16,7 @@ Returns the parent slide of a TextFrame.
 def slide(self):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`IBaseSlide`](/slides/python-net/nl/aspose.slides/ibaseslide)

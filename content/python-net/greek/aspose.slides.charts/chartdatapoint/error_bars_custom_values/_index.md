@@ -1,14 +1,14 @@
 ---
 title: error_bars_custom_values property
-second_title: Αναφορά API του Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values ιδιότητα
-Αναπαριστά τις τιμές των γραμμών σφάλματος της σειράς σε περίπτωση τύπου Custom.
-Μόνο-ανάγνωση [`IErrorBarsCustomValues`](/slides/python-net/el/aspose.slides.charts/ierrorbarscustomvalues).
+Represents series error bars values in case of Custom value type.
+            Μόνο-ανάγνωση [`IErrorBarsCustomValues`](/slides/python-net/el/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Ορισμός:
 ```python

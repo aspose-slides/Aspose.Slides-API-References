@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## stycken egenskap
-Returnerar listan med alla stycken i en ram.
+## paragrafer egenskap
+Returnerar listan över alla paragrafer i en ram.
             Skrivskyddad [`IParagraphCollection`](/slides/python-net/sv/aspose.slides/iparagraphcollection).
 
 ### Definition:

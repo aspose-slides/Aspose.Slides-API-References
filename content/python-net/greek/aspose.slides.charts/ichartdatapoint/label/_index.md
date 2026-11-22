@@ -1,14 +1,14 @@
 ---
 title: label property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## label ιδιότητα
-Αναπαριστά την ετικέτα του σημείου δεδομένων του γραφήματος.
-            Μόνο για ανάγνωση [`IDataLabel`](/slides/python-net/el/aspose.slides.charts/idatalabel).
+## ιδιότητα ετικέτας
+Represents the lable of chart data point.
+            Μόνο-ανάγνωση [`IDataLabel`](/slides/python-net/el/aspose.slides.charts/idatalabel).
 
 ### Ορισμός:
 ```python
@@ -17,9 +17,8 @@ def label(self):
     ...
 ```
 
-
 ### Δείτε επίσης
 * κλάση [`IChartDataPoint`](/slides/python-net/el/aspose.slides.charts/ichartdatapoint)
 * κλάση [`IDataLabel`](/slides/python-net/el/aspose.slides.charts/idatalabel)
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/idatalabel/slide/
-weight: 210
+weight: 220
 ---
-## slide property
+## خاصیت اسلاید
 ### تعریف:
 ```python
 @property

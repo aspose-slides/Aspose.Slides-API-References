@@ -1,13 +1,13 @@
 ---
 title: sections property
-second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections tulajdonság
-Visszaadja a bemutatóban definiált összes slide szekció listáját.
+Visszaad egy listát az összes diavetítés szekcióról, amely a prezentációban definiálva van.
             Csak olvasható [`ISectionCollection`](/slides/python-net/hu/aspose.slides/isectioncollection).
 
 ### Definíció:
@@ -16,7 +16,6 @@ Visszaadja a bemutatóban definiált összes slide szekció listáját.
 def sections(self):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`IPresentation`](/slides/python-net/hu/aspose.slides/ipresentation)

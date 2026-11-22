@@ -1,12 +1,12 @@
 ---
 title: format property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## 포맷 속성
+## 형식 속성
 포맷 속성을 나타냅니다.
             읽기/쓰기 [`IFormat`](/slides/python-net/ko/aspose.slides.charts/iformat).
 
@@ -22,7 +22,7 @@ def format(self, value):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`ChartDataPoint`](/slides/python-net/ko/aspose.slides.charts/chartdatapoint)
 * 클래스 [`IFormat`](/slides/python-net/ko/aspose.slides.charts/iformat)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

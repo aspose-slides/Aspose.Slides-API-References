@@ -1,26 +1,26 @@
 ---
 title: IChartSeriesGroup class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartseriesgroup/
 ---
-## IChartSeriesGroup คลาส
+## IChartSeriesGroup class
 
-Represents group of series.
+แสดงถึงกลุ่มของซีรีส์
 
-The IChartSeriesGroup type exposes the following members:
+The IChartSeriesGroup type เปิดเผยสมาชิกต่อไปนี้:
 
 ## คุณสมบัติ
 
-| Property | Description |
+| คุณสมบัติ | คำอธิบาย |
 | :- | :- |
 | [`type`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/type/) | Returns a type of this series group.<br/>            Read-only [`CombinableSeriesTypesGroup`](/slides/python-net/th/aspose.slides.charts/combinableseriestypesgroup). |
 | [`plot_on_second_axis`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/plot_on_second_axis/) | Indicates if series of this group is plotted on secondary axis.<br/>            Read-only **bool**. |
 | [`series`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/series/) | Returns a readonly collection of chart series.<br/>            Read-only [`IChartSeriesReadonlyCollection`](/slides/python-net/th/aspose.slides.charts/ichartseriesreadonlycollection). |
 | [`up_down_bars`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/up_down_bars/) | Provede access to up/down bars of Line- or Stock-chart.<br/>            Read-only [`IUpDownBarsManager`](/slides/python-net/th/aspose.slides.charts/iupdownbarsmanager). |
-| [`gap_width`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/gap_width/) | Specifies the space between bar or column clusters, as a percentage of the bar or column width.<br/>            Read/write **int**. |
-| [`gap_depth`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/gap_depth/) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart.<br/>            Read/write **int**. |
+| [`gap_width`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/gap_width/) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width.<br/>            The value must be between 0 and 500.<br/>            Read/write **int**. |
+| [`gap_depth`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/gap_depth/) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width.<br/>            The value must be between 0 and 500.<br/>            Read/write **int**. |
 | [`first_slice_angle`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/first_slice_angle/) | Gets or sets the angle of the first pie or doughnut chart slice, <br/>            in degrees (clockwise from up, from 0 to 360 degrees).<br/>            Read/write **int**. |
 | [`is_color_varied`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/is_color_varied/) | Specifies that each data marker in the series has a different color.<br/>            Read/write **bool**. |
 | [`has_series_lines`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/has_series_lines/) | True if chart has series lines. Applied to stacked bar and OfPie charts.<br/>            Read/write **bool**. |
@@ -37,23 +37,18 @@ The IChartSeriesGroup type exposes the following members:
 | [`slide`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/slide/) |  |
 | [`presentation`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/presentation/) |  |
 
-Gets the element at the specified index.
+รับองค์ประกอบที่ตำแหน่งที่ระบุ
 
-## ตัวจัดทำดัชนี
+## ตัวบ่งชี้
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | :- | :- |
 | [`[index]`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroup/__getitem__/) |  |
 
-
 ### หมายเหตุ
 
-1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum.  
-2) Group of series contains some series properies whitch is common for 
-            each series in group ("series group properties").
-            "Series group properties" in ChartSeries class is read/write.
-            Each of "series group properties" can have a read-only projection in ChartSeries class.
-
+1) ดูสรุปและหมายเหตุสำหรับคลาส ChartSeriesGroupCollection และ enum CombinableSeriesTypesGroup.  
+2) กลุ่มของซีรีส์มีบางคุณสมบัติของซีรีส์ที่เป็นค่ากลางสำหรับแต่ละซีรีส์ในกลุ่ม ("series group properties"). "Series group properties" ในคลาส ChartSeriesGroup เป็นอ่าน/เขียน. แต่ละ "series group properties" สามารถมีการฉายแบบอ่านอย่างเดียวในคลาส ChartSeries.
 
 ### ดูเพิ่มเติม
 * โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)

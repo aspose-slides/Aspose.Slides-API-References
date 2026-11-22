@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
-## presentation 屬性
-傳回 TextFrame 的父 presentation.
+## 簡報屬性
+返回 TextFrame 的父簡報。
             唯讀 [`IPresentation`](/slides/python-net/zh-hant/aspose.slides/ipresentation).
 
-### 定義：
+### 定義:
 ```python
 @property
 def presentation(self):

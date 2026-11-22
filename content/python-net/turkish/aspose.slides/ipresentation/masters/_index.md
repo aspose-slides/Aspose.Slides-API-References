@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters özelliği
-Sunumda tanımlanmış tüm master slaytların bir listesini döndürür.
-            Salt okunur [`IMasterSlideCollection`](/slides/python-net/tr/aspose.slides/imasterslidecollection).
+Sunumda tanımlı olan tüm ana slaytların bir listesini döndürür.
+            Salt-okunur [`IMasterSlideCollection`](/slides/python-net/tr/aspose.slides/imasterslidecollection).
 
 ### Tanım:
 ```python

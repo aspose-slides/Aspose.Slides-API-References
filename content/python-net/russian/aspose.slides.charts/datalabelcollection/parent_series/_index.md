@@ -1,10 +1,10 @@
 ---
 title: parent_series property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET API справка
 description: 
 type: docs
 url: /ru/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series свойство
 Получает родительскую серию.

@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: Aspose.Slides برای Python از طریق .NET API مرجع
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
-## ویژگی متن
+## ویژگی text
 متن ساده یک TextFrame را دریافت یا تنظیم می‌کند.
-            Read/write **str**.
+            قابل خواندن/نوشتن **str**.
 
 ### تعریف:
 ```python

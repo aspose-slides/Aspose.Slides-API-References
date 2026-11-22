@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-Kullanılmayan yerleşim slaytlarını kaldırarak [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) sıkıştırmasını gerçekleştirir.
+[`Presentation`](/slides/python-net/tr/aspose.slides/presentation)'nin sıkıştırmasını, kullanılmayan yerleşim slaytlarını kaldırarak gerçekleştirir.
 
 ```python
 @staticmethod
@@ -15,7 +15,7 @@ def remove_unused_layout_slides(pres):
     ...
 ```
 
-| Parameter | Type | Description |
+| Parametre | Tür | Açıklama |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Sunum örneği |
 

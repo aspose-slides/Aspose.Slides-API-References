@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-محدوده داده‌های نمودار را تنظیم می‌کند. سری‌ها و دسته‌ها بر اساس محدوده داده‌های جدید به‌روزرسانی می‌شوند.
-اگر تعداد سری‌ها در محدوده داده بیشتر از تعداد سری‌ها در داده‌های نمودار باشد، سری‌های اضافی با همان نوع سری آخر در مجموعه جاری به انتهای مجموعه اضافه می‌شوند.
+محدوده داده‌های نمودار را تنظیم می‌کند. سری‌ها و دسته‌بندی‌ها بر اساس محدوده داده جدید به‌روز خواهند شد.
+اگر تعداد سری‌ها در محدوده داده بیشتر از تعداد سری‌ها در داده نمودار باشد، سری‌های اضافی با همان نوع سری آخر در مجموعهٔ فعلی به انتهای مجموعه اضافه می‌شوند.
 
 ```python
 def set_range(self, formula):
@@ -23,7 +23,7 @@ def set_range(self, formula):
 
 | استثنا | توضیح |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | فرمول مقدار None است. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | formula برابر None است. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | نوع نمودار پشتیبانی نمی‌شود |
 | **RuntimeError(Proxy error(ArgumentException))** | فرمول دارای قالب نادرست است. |
 

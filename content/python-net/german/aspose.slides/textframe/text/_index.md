@@ -4,7 +4,7 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## Texteigenschaft
 Liest oder setzt den einfachen Text für ein TextFrame.

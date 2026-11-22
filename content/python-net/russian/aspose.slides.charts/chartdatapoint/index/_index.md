@@ -1,18 +1,19 @@
 ---
 title: index property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## index свойство
+## индекс свойство
 ### Определение:
 ```python
 @property
 def index(self):
     ...
 ```
+
 
 ### См. также
 * класс [`ChartDataPoint`](/slides/python-net/ru/aspose.slides.charts/chartdatapoint)

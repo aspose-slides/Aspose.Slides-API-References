@@ -4,11 +4,11 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/textframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape properti
-Mengembalikan bentuk induk atau None jika objek induk tidak mengimplementasikan antarmuka IShape
-            Hanya-baca [`IShape`](/slides/python-net/id/aspose.slides/ishape).
+Mengembalikan shape induk atau None jika objek induk tidak mengimplementasikan antarmuka IShape
+            Baca-saja [`IShape`](/slides/python-net/id/aspose.slides/ishape).
 
 ### Definisi:
 ```python

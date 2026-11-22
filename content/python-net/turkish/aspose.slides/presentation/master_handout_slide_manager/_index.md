@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
-## master_handout_slide_manager özelliği
-Handout master yöneticisini döndürür.
-            Salt okunur [`IMasterHandoutSlideManager`](/slides/python-net/tr/aspose.slides/imasterhandoutslidemanager).
+## master_handout_slide_manager özellik
+Handout ana yöneticisini döndürür.
+            Yalnızca okunabilir [`IMasterHandoutSlideManager`](/slides/python-net/tr/aspose.slides/imasterhandoutslidemanager).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def master_handout_slide_manager(self):
 ```
 
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 * sınıf [`IMasterHandoutSlideManager`](/slides/python-net/tr/aspose.slides/imasterhandoutslidemanager)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

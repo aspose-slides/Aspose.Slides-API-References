@@ -1,10 +1,10 @@
 ---
 title: leader_lines_format property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Referensi API Aspose.Slides untuk Python melalui .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format properti
 Mewakili format garis pemimpin label data.
@@ -22,4 +22,4 @@ def leader_lines_format(self):
 * kelas [`IChartLinesFormat`](/slides/python-net/id/aspose.slides.charts/ichartlinesformat)
 * kelas [`IDataLabelCollection`](/slides/python-net/id/aspose.slides.charts/idatalabelcollection)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

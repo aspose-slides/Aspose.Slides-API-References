@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value ιδιότητα
 Τιμή.
-Μόνο ανάγνωση [`IDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/idoublechartvalue).
+            Μόνο ανάγνωση [`IDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/idoublechartvalue).
 
 ### Ορισμός:
 ```python
@@ -16,6 +16,7 @@ weight: 220
 def value(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`ChartDataPoint`](/slides/python-net/el/aspose.slides.charts/chartdatapoint)

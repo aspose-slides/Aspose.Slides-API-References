@@ -4,9 +4,9 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## свойство slide
+## slide свойство
 ### Определение:
 ```python
 @property

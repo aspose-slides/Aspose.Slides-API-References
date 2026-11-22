@@ -4,17 +4,17 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x プロパティ
 Gets or sets the x-coordinate of the shape's upper-left corner, measured in points.
-            読み取り/書き込み **float**.
+            Read/write **float**.
 
 
 ### 備考
 
 The value returned is always defined and never **float**.
-            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
+            The value assigned must also be defined; assign **float** only to プロパティ of a `RawFrame` instance.
 
 ### 定義:
 ```python

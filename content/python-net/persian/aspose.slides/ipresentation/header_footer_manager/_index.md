@@ -1,14 +1,14 @@
 ---
 title: header_footer_manager property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/header_footer_manager/
-weight: 210
+weight: 220
 ---
-## header_footer_manager ویژگی
-مدیر HeaderFooter ارائه را برمی‌گرداند.
-فقط خواندنی [`IPresentationHeaderFooterManager`](/slides/python-net/fa/aspose.slides/ipresentationheaderfootermanager).
+## ویژگی header_footer_manager
+مدیر HeaderFooter ارائه را باز می‌گرداند.
+            فقط‌خواندنی [`IPresentationHeaderFooterManager`](/slides/python-net/fa/aspose.slides/ipresentationheaderfootermanager).
 
 ### تعریف:
 ```python
@@ -17,7 +17,8 @@ def header_footer_manager(self):
     ...
 ```
 
-### همچنین ببینید
+
+### مراجع
 * کلاس [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
 * کلاس [`IPresentationHeaderFooterManager`](/slides/python-net/fa/aspose.slides/ipresentationheaderfootermanager)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

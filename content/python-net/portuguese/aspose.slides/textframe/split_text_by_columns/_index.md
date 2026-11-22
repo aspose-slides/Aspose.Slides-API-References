@@ -4,7 +4,7 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/textframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
 Divide o conteúdo de texto do [`ITextFrame`](/slides/python-net/pt/aspose.slides/itextframe) em um array de strings,  
@@ -12,8 +12,7 @@ Divide o conteúdo de texto do [`ITextFrame`](/slides/python-net/pt/aspose.slide
 
 ### Retorno
 
-Um array de strings, onde cada string representa o conteúdo de texto de uma coluna específica  
-            no [`ITextFrame`](/slides/python-net/pt/aspose.slides/itextframe).
+Um array de strings, onde cada string representa o conteúdo de texto de uma coluna específica no [`ITextFrame`](/slides/python-net/pt/aspose.slides/itextframe).
 
 
 
@@ -25,8 +24,7 @@ def split_text_by_columns(self):
 
 ### Observações
 
-Se o quadro de texto não contiver múltiplas colunas, o array retornado terá um único elemento  
-            contendo o texto completo.  
+Se o quadro de texto não contiver múltiplas colunas, o array retornado terá um único elemento contendo o texto completo.  
             Colunas vazias serão representadas como strings vazias no array.
 
 

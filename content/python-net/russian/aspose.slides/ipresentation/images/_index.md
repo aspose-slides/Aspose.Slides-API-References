@@ -1,10 +1,10 @@
 ---
 title: images property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
 ## images свойство
 Возвращает коллекцию всех images в презентации.
@@ -16,6 +16,7 @@ weight: 230
 def images(self):
     ...
 ```
+
 
 ### См. также
 * класс [`IImageCollection`](/slides/python-net/ru/aspose.slides/iimagecollection)

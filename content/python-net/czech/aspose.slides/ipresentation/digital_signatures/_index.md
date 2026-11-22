@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures vlastnost
-Vrací kolekci podpisů použité k podepsání prezentace.
+Vrací kolekci podpisů použitých k podepsání prezentace.
             Pouze pro čtení [`IDigitalSignatureCollection`](/slides/python-net/cs/aspose.slides/idigitalsignaturecollection).
 
 ### Definice:

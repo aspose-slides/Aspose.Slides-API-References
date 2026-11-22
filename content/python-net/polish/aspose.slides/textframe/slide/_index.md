@@ -1,14 +1,14 @@
 ---
 title: slide property
-second_title: Aspose.Slides dla Pythona za pośrednictwem .NET Referencja API
+second_title: Aspose.Slides dla Pythona via .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## slide właściwość
+## właściwość slajdu
 Zwraca nadrzędny slajd obiektu TextFrame.
-            Tylko do odczytu [`IBaseSlide`](/slides/python-net/pl/aspose.slides/ibaseslide).
+            tylko do odczytu [`IBaseSlide`](/slides/python-net/pl/aspose.slides/ibaseslide).
 
 ### Definicja:
 ```python

@@ -1,12 +1,12 @@
 ---
 title: presentation property
-second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz a .NET API-n keresztül referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
-## presentation tulajdonság
+## prezentációs tulajdonság
 ### Definíció:
 ```python
 @property

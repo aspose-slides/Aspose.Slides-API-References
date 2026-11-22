@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: อ้างอิง API Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell คุณสมบัติ
-ดึงหรือกำหนดเซลล์ข้อมูลเวิร์กบุ๊ก. ใช้เมื่อตัวบ่งชี้ IDataLabelFormat.ShowLabelValueFromCell คุณสมบัติ มีค่าเป็น true.
+รับหรือกำหนดเซลล์ข้อมูลของ workbook. ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
 
 ### คำนิยาม:
 ```python
@@ -19,7 +19,6 @@ def value_from_cell(self):
 def value_from_cell(self, value):
     ...
 ```
-
 
 ### ดูเพิ่มเติม
 * คลาส [`IDataLabel`](/slides/python-net/th/aspose.slides.charts/idatalabel)

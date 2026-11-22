@@ -1,6 +1,6 @@
 ---
 title: IColorEffect class
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Aspose.Slides para Python via .NET Referência de API
 description: 
 type: docs
 url: /pt/aspose.slides.animation/icoloreffect/
@@ -11,11 +11,11 @@ Representa um efeito de cor para um comportamento de animação.
 
 O tipo IColorEffect expõe os seguintes membros:
 
-## Propriedade
+## Propriedades
 
-| Property | Description |
+| Propriedade | Descrição |
 | :- | :- |
-| [`from_address`](/slides/python-net/pt/aspose.slides.animation/icoloreffect/from_address/) | Este valor é usado para especificar a cor inicial do comportamento.<br/>            Leitura/gravação [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
+| [`from_`](/slides/python-net/pt/aspose.slides.animation/icoloreffect/from_/) | Este valor é usado para especificar a cor inicial do comportamento.<br/>            Leitura/gravação [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
 | [`to`](/slides/python-net/pt/aspose.slides.animation/icoloreffect/to/) | Descreve a cor resultante para a mudança de cor da animação.<br/>            Leitura/gravação [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
 | [`by`](/slides/python-net/pt/aspose.slides.animation/icoloreffect/by/) | Descreve o valor de deslocamento relativo para a animação de cor.<br/>            Leitura/gravação [`IColorOffset`](/slides/python-net/pt/aspose.slides.animation/icoloroffset). |
 | [`color_space`](/slides/python-net/pt/aspose.slides.animation/icoloreffect/color_space/) | Representa o espaço de cor do comportamento.<br/>            Leitura/gravação [`IColorEffect.color_space`](/slides/python-net/pt/aspose.slides.animation/icoloreffect/color_space). |

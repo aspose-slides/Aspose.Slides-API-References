@@ -1,10 +1,10 @@
 ---
 title: series property
-second_title: Aspose.Slides a Python számára a .NET API referencia
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## sorozat tulajdonság
 Lekéri a sorozatot.

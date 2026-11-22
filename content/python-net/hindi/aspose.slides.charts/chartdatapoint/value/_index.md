@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value गुण
-मान।
-            केवल-पढ़ने-योग्य [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue).
+## value प्रॉपर्टी
+मान.
+            केवल-पढ़ने योग्य [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue).
 
 ### परिभाषा:
 ```python
@@ -17,7 +17,8 @@ def value(self):
     ...
 ```
 
-### और देखें
+
+### संबंधित देखें
 * क्लास [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
 * क्लास [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)

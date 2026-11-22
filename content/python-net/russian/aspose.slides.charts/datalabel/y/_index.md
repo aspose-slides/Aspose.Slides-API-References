@@ -1,13 +1,13 @@
 ---
 title: y property
-second_title: Aspose.Slides для Python через .NET справку API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y свойство
-Возвращает или задает координату y заголовка как часть от высоты диаграммы.
+Возвращает или задает координату y заголовка как долю от высоты графика.
             Чтение/запись **float**.
 
 ### Определение:
@@ -22,7 +22,7 @@ def y(self, value):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`DataLabel`](/slides/python-net/ru/aspose.slides.charts/datalabel)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)
 * библиотека [`Aspose.Slides`](/slides/python-net)

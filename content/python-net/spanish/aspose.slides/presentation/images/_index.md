@@ -1,13 +1,13 @@
 ---
 title: images property
-second_title: Aspose.Slides para Python vía .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images propiedad
-Devuelve la colección de todas las imágenes en la presentación.
+Devuelve la colección de todas las images en la presentación.
             Solo lectura [`IImageCollection`](/slides/python-net/es/aspose.slides/iimagecollection).
 
 ### Definición:
@@ -16,6 +16,7 @@ Devuelve la colección de todas las imágenes en la presentación.
 def images(self):
     ...
 ```
+
 
 ### Ver también
 * clase [`IImageCollection`](/slides/python-net/es/aspose.slides/iimagecollection)

@@ -17,21 +17,21 @@ ColorEffect-typen exponerar följande medlemmar:
 
 | Konstruktor | Beskrivning |
 | :- | :- |
-| [`__init__(self)`](/slides/python-net/sv/aspose.slides.animation/coloreffect/__init__/#) | Skapar ny instans. |
+| [`__init__(self)`](/slides/python-net/sv/aspose.slides.animation/coloreffect/__init__/#) | Skapar en ny instans. |
 
 ## Egenskaper
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`accumulate`](/slides/python-net/sv/aspose.slides.animation/coloreffect/accumulate/) | Anger om animationsbeteenden ackumuleras.<br/>            Läs/skriv [`NullableBool`](/slides/python-net/sv/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/sv/aspose.slides.animation/coloreffect/additive/) | Anger om det aktuella animationsbeteendet kombineras med andra pågående animationer.<br/>            Läs/skriv [`BehaviorAdditiveType`](/slides/python-net/sv/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/sv/aspose.slides.animation/coloreffect/properties/) | Representerar egenskaper hos beteendet.<br/>            Endast läsning [`IBehaviorPropertyCollection`](/slides/python-net/sv/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/sv/aspose.slides.animation/coloreffect/timing/) | Representerar tidsegenskaper för effektbeteendet.<br/>            Läs/skriv [`ITiming`](/slides/python-net/sv/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/sv/aspose.slides.animation/coloreffect/from_address/) | Detta värde används för att ange startfärgen för beteendet.<br/>            Läs/skriv [`IColorFormat`](/slides/python-net/sv/aspose.slides/icolorformat). |
-| [`to`](/slides/python-net/sv/aspose.slides.animation/coloreffect/to/) | Beskriver den resulterande färgen för färgändringen i animationen.<br/>            Läs/skriv [`IColorFormat`](/slides/python-net/sv/aspose.slides/icolorformat). |
+| [`accumulate`](/slides/python-net/sv/aspose.slides.animation/coloreffect/accumulate/) | Representerar huruvida animationsbeteenden ackumuleras.<br/>            Läs/skriv [`NullableBool`](/slides/python-net/sv/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/sv/aspose.slides.animation/coloreffect/additive/) | Representerar huruvida det aktuella animationsbeteendet kombineras med andra pågående animationer.<br/>            Läs/skriv [`BehaviorAdditiveType`](/slides/python-net/sv/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/sv/aspose.slides.animation/coloreffect/properties/) | Representerar egenskaper för beteendet.<br/>            Endast läsning [`IBehaviorPropertyCollection`](/slides/python-net/sv/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/sv/aspose.slides.animation/coloreffect/timing/) | Representerar tidsinställningar för effektbeteendet.<br/>            Läs/skriv [`ITiming`](/slides/python-net/sv/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/sv/aspose.slides.animation/coloreffect/from_/) | Detta värde används för att ange startfärgen för beteendet.<br/>            Läs/skriv [`IColorFormat`](/slides/python-net/sv/aspose.slides/icolorformat). |
+| [`to`](/slides/python-net/sv/aspose.slides.animation/coloreffect/to/) | Beskriver den resulterande färgen för färgförändringen i animationen.<br/>            Läs/skriv [`IColorFormat`](/slides/python-net/sv/aspose.slides/icolorformat). |
 | [`by`](/slides/python-net/sv/aspose.slides.animation/coloreffect/by/) | Beskriver det relativa förskjutningsvärdet för färganimationen.<br/>            Läs/skriv [`IColorOffset`](/slides/python-net/sv/aspose.slides.animation/icoloroffset). |
 | [`color_space`](/slides/python-net/sv/aspose.slides.animation/coloreffect/color_space/) | Representerar färgrymden för beteendet.<br/>            Läs/skriv [`ColorSpace`](/slides/python-net/sv/aspose.slides.animation/colorspace). |
-| [`direction`](/slides/python-net/sv/aspose.slides.animation/coloreffect/direction/) | Anger i vilken riktning nyansen ska cyklas runt färghjulet.<br/>            Läs/skriv [`ColorDirection`](/slides/python-net/sv/aspose.slides.animation/colordirection). |
+| [`direction`](/slides/python-net/sv/aspose.slides.animation/coloreffect/direction/) | Anger i vilken riktning nyansen ska cirkulera runt färghjulet.<br/>            Läs/skriv [`ColorDirection`](/slides/python-net/sv/aspose.slides.animation/colordirection). |
 
 ### Se även
 * klass [`Behavior`](/slides/python-net/sv/aspose.slides.animation/behavior)

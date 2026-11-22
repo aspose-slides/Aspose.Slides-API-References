@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d egenskap
-Anger att bubblorna har en 3-D effekt tillämpad på dem.
-            Läs/skriva **bool**.
+Anger att bubblorna har en 3-D-effekt tillämpad på dem.
+            Läs/skriv **bool**.
 
 ### Definition:
 ```python

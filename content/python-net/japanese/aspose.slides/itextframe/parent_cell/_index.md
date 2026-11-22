@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell プロパティ
-親セルまたは、親オブジェクトが ICell インターフェイスを実装していない場合は None を返します。
-            読み取り専用 [`ICell`](/slides/python-net/ja/aspose.slides/icell)。
+Returns the parent cell or None if the parent object does not implement the ICell interface.
+            読み取り専用 [`ICell`](/slides/python-net/ja/aspose.slides/icell).
 
 ### 定義:
 ```python

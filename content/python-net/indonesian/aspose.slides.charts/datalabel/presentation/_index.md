@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET API Reference
 description: 
 type: docs
 url: /id/aspose.slides.charts/datalabel/presentation/
-weight: 200
+weight: 210
 ---
 ## properti presentasi
 ### Definisi:
@@ -18,4 +18,4 @@ def presentation(self):
 ### Lihat Juga
 * kelas [`DataLabel`](/slides/python-net/id/aspose.slides.charts/datalabel)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

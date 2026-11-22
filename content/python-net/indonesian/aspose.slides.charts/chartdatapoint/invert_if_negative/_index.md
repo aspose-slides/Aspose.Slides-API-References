@@ -1,13 +1,13 @@
 ---
 title: invert_if_negative property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative properti
-Menentukan bahwa titik data harus membalikkan warnanya jika nilai negatif.
+Menentukan bahwa titik data akan membalikkan warnanya jika nilainya negatif.
             Baca/tulis **bool**.
 
 ### Definisi:

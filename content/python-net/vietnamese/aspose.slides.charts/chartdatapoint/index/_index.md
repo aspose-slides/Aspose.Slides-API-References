@@ -1,12 +1,12 @@
 ---
 title: index property
-second_title: Tham khảo API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## thuộc tính index
+## index thuộc tính
 ### Định nghĩa:
 ```python
 @property
@@ -17,5 +17,5 @@ def index(self):
 
 ### Xem thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)
-* mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
+* module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

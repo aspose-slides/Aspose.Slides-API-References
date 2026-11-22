@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/idatalabel/presentation/
-weight: 190
+weight: 200
 ---
 ## プレゼンテーション プロパティ
 ### 定義:
@@ -13,7 +13,6 @@ weight: 190
 def presentation(self):
     ...
 ```
-
 
 ### 参照
 * クラス [`IDataLabel`](/slides/python-net/ja/aspose.slides.charts/idatalabel)

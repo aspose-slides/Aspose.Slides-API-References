@@ -1,10 +1,10 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides dla Pythona poprzez .NET API Referencja
+second_title: Aspose.Slides dla Pythona – odniesienie API .NET
 description: 
 type: docs
 url: /pl/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type właściwość
 Reprezentuje ścieżkę do zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie None

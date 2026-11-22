@@ -1,10 +1,10 @@
 ---
 title: default_text_style property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style properti
 Mengembalikan gaya teks default untuk bentuk.

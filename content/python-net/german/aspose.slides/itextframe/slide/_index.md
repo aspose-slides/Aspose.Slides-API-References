@@ -4,9 +4,9 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## slide Eigenschaft
+## Folieneigenschaft
 ### Definition:
 ```python
 @property

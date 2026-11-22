@@ -1,14 +1,14 @@
 ---
 title: explosion property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion vlastnost
-Určuje množství, o které má být datový bod posunut od středu výseče.
-            Čtení/zápis **int**.
+Určuje množství, o které má být datový bod přesunut od středu koláče.
+            Číst/Zapisovat **int**.
 
 ### Definice:
 ```python

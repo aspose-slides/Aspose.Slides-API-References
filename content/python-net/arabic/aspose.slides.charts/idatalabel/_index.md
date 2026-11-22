@@ -1,11 +1,11 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET دليل API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/idatalabel/
 ---
-## IDataLabel فئة
+## فئة IDataLabel
 
 يمثل تسميات السلسلة.
 
@@ -13,11 +13,12 @@ url: /ar/aspose.slides.charts/idatalabel/
 
 ## الخصائص
 
-| الخاصية | الوصف |
+| خاصية | الوصف |
 | :- | :- |
-| [`is_visible`](/slides/python-net/ar/aspose.slides.charts/idatalabel/is_visible/) | False تعني أن تسمية البيانات غير مرئية (وبالتالي جميع أعلام Show*-flags (ShowValue, ...) تكون false).<br/>            للقراءة فقط **bool**. |
-| [`data_label_format`](/slides/python-net/ar/aspose.slides.charts/idatalabel/data_label_format/) | يعيد تنسيق تسمية البيانات.<br/>            للقراءة فقط [`IDataLabelFormat`](/slides/python-net/ar/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/ar/aspose.slides.charts/idatalabel/value_from_cell/) | يحصل أو يضبط خلية بيانات المصنف. يُطبق إذا كانت خاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true. |
+| [`is_visible`](/slides/python-net/ar/aspose.slides.charts/idatalabel/is_visible/) | False يعني أن تسمية البيانات غير مرئية (وبالتالي جميع أعلام Show* (ShowValue, ...) تكون false).<br/>            قراءة فقط **bool**. |
+| [`data_label_format`](/slides/python-net/ar/aspose.slides.charts/idatalabel/data_label_format/) | يعيد تنسيق تسمية البيانات.<br/>            قراءة فقط [`IDataLabelFormat`](/slides/python-net/ar/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/ar/aspose.slides.charts/idatalabel/value_from_cell/) | يحصل أو يعيّن خلية بيانات المصنف. يُطبق إذا كان خاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true. |
+| [`label_shape_type`](/slides/python-net/ar/aspose.slides.charts/idatalabel/label_shape_type/) | يحصل أو يعيّن نوع الشكل لتسمية البيانات.<br/>             يعيد [`ShapeType.NOT_DEFINED`](/slides/python-net/ar/aspose.slides/shapetype/NOT_DEFINED) إذا لم يتم تعريف شكل. |
 | [`x`](/slides/python-net/ar/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/ar/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/ar/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,12 +37,12 @@ url: /ar/aspose.slides.charts/idatalabel/
 
 ## الطرق
 
-| الطريقة | الوصف |
+| طريقة | الوصف |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/ar/aspose.slides.charts/idatalabel/hide/#) | اجعل تسمية البيانات مخفية عن طريق تعيين جميع أعلام Show*-flags (ShowValue, ...) إلى الحالة false.<br/>            ستكون IsVisible false بعد ذلك. |
+| [`hide(self)`](/slides/python-net/ar/aspose.slides.charts/idatalabel/hide/#) | اجعل تسمية البيانات مخفية عن طريق ضبط جميع أعلام Show* (ShowValue, ...) إلى الحالة false.<br/>            ستكون IsVisible false بعد ذلك. |
 | [`get_actual_label_text(self)`](/slides/python-net/ar/aspose.slides.charts/idatalabel/get_actual_label_text/#) | يعيد نص التسمية الفعلي بناءً على إعدادات DataLabelFormat أو قيمة TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/ar/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-### انظر أيضًا
+### أنظر أيضًا
 * وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: replace_regex method
-second_title: Aspose.Slides dla Pythona przy użyciu .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona poprzez .NET odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/replace_regex/
-weight: 60
+weight: 70
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
-Zamienia wszystkie dopasowania wyrażenia regularnego na podany ciąg znaków.
+Zastępuje wszystkie dopasowania wyrażenia regularnego podanym ciągiem znaków.
 
 
 ```python
@@ -18,8 +18,8 @@ def replace_regex(self, regex, new_text):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| regex | **str** | Ciąg zawiera wyrażenie regularne służące do pobierania ciągów do zamiany. |
-| new_text | **str** | Ciąg służący do zastąpienia wszystkich wystąpień ciągów, które mają być zamienione. |
+| regex | **str** | Ciąg zawierający wyrażenie regularne określające ciągi do zastąpienia. |
+| new_text | **str** | Ciąg używany do zastąpienia wszystkich wystąpień ciągów, które mają być zamienione. |
 
 
 

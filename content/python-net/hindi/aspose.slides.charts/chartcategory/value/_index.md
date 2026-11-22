@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides Python के लिये .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## value प्रॉपर्टी
-यदि UseCell true है तो यह प्रॉपर्टी AsCell.Value प्रॉपर्टी को दर्शाती है।
-यदि UseCell false है तो यह प्रॉपर्टी AsLiteral प्रॉपर्टी को दर्शाती है।
-पढ़ें/लिखें **कोई भी**।
+## value गुण
+यदि UseCell true है तो यह गुण AsCell.Value गुण को दर्शाता है।
+यदि UseCell false है तो यह गुण AsLiteral गुण को दर्शाता है।
+पढ़ें/लिखें **कोई**.
 
 ### परिभाषा:
 ```python

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size プロパティ
-ノートスライドサイズオブジェクトを返します。
+ノートスライドのサイズオブジェクトを返します。
             読み取り専用 [`INotesSize`](/slides/python-net/ja/aspose.slides/inotessize).
 
 ### 定義:

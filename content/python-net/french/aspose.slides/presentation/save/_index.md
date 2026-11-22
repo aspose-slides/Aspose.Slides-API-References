@@ -4,10 +4,10 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/save/
-weight: 90
+weight: 100
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
-Enregistre toutes les diapositives d’une présentation dans un ensemble de fichiers représentant le balisage XAML.
+Enregistre toutes les diapositives d’une présentation dans un ensemble de fichiers représentant du balisage XAML.
 
 ```python
 def save(self, options):
@@ -16,7 +16,7 @@ def save(self, options):
 
 | Paramètre | Type | Description |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/fr/aspose.slides.export.xaml/ixamloptions) | Les options de format XAML. |
+| options | [`IXamlOptions`](/slides/python-net/fr/aspose.slides.export.xaml/ixamloptions) | Les options du format XAML. |
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
 Enregistre toutes les diapositives d’une présentation dans un fichier au format spécifié.
@@ -75,7 +75,7 @@ def save(self, stream, format, options):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Si vous essayez d’enregistrer un fichier chiffré dans <br/>            aucun format Office 2007-2010. |
+| **RuntimeError(Proxy error(NotSupportedException))** | Si vous essayez d’enregistrer un fichier chiffré dans un format non Office 2007-2010 |
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
 Enregistre les diapositives spécifiées d’une présentation dans un fichier au format spécifié en conservant le numéro de page.

@@ -1,10 +1,10 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides для Python через .NET справка API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts свойство
 Возвращает все пользовательские части данных в презентации.

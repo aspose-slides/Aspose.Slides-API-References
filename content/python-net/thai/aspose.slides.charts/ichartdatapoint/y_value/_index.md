@@ -1,16 +1,16 @@
 ---
 title: y_value property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value คุณสมบัติ
-คืนค่า y ของจุดข้อมูลแผนภูมิ
+รับค่า y ของจุดข้อมูลแผนภูมิ
             อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
 
-### คำนิยาม:
+### นิยาม:
 ```python
 @property
 def y_value(self):

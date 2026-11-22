@@ -7,15 +7,9 @@ url: /zh/aspose.slides/positionedstring/
 ---
 ## PositionedString 类
 
-结构包含整数键和字符串值，并且是 KeyValuePair<int, string> 的临时替代。
+结构包含整数键和字符串值，是 KeyValuePair<int, string> 的临时替代方案。
 
 PositionedString 类型公开以下成员：
-
-## 构造函数
-
-| 构造函数 | 描述 |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/zh/aspose.slides/positionedstring/__init__/#) |  |
 
 ## 属性
 

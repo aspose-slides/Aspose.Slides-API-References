@@ -1,13 +1,13 @@
 ---
 title: presentation property
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
-## sunum özelliği
-Bir TextFrame'in üst sunumunu döndürür.
+## presentation özelliği
+Bir TextFrame'in üst presentation'ını döndürür.
             Salt okunur [`IPresentation`](/slides/python-net/tr/aspose.slides/ipresentation).
 
 ### Tanım:
@@ -18,7 +18,7 @@ def presentation(self):
 ```
 
 
-### Bakınız
+### İlgili
 * sınıf [`IPresentation`](/slides/python-net/tr/aspose.slides/ipresentation)
 * sınıf [`TextFrame`](/slides/python-net/tr/aspose.slides/textframe)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

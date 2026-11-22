@@ -1,14 +1,14 @@
 ---
 title: width property
-second_title: Aspose.Slides per Python tramite .NET Riferimento API
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## width proprietà
-Restituisce o imposta il width di un titolo come frazione del width del grafico.
-            Lettura/scrittura **float**.
+## proprietà width
+Restituisce o imposta la width di un titolo come frazione della width del grafico.
+            Lettura/Scrittura **float**.
 
 ### Definizione:
 ```python

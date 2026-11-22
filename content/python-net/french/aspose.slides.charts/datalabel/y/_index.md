@@ -1,13 +1,13 @@
 ---
 title: y property
-second_title: Aspose.Slides pour Python via .NET API Reference
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
-## y propriété
-Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique.
+## propriété y
+Renvoie ou définit la coordonnée y d’un titre en tant que fraction de la hauteur du graphique.
             Lecture/écriture **float**.
 
 ### Définition:

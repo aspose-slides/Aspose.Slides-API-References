@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager eigenschap
 Retourneert fonts manager.
@@ -22,4 +22,4 @@ def fonts_manager(self):
 * klasse [`IFontsManager`](/slides/python-net/nl/aspose.slides/ifontsmanager)
 * klasse [`Presentation`](/slides/python-net/nl/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

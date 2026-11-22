@@ -4,12 +4,12 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
-## Thuộc tính z_order_position
-Trả về vị trí của một shape trong z-order.
-            Shapes[0] trả về shape ở phía sau của z-order,
-            và Shapes[Shapes.Count - 1] trả về shape ở phía trước của z-order.
+## z_order_position thuộc tính
+Trả về vị trí của một hình trong z-order.
+            Shapes[0] trả về hình ở phía sau của z-order,
+            và Shapes[Shapes.Count - 1] trả về hình ở phía trước của z-order.
             Chỉ đọc **int**.
 
 ### Định nghĩa:
@@ -20,7 +20,7 @@ def z_order_position(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`VideoFrame`](/slides/python-net/vi/aspose.slides/videoframe)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

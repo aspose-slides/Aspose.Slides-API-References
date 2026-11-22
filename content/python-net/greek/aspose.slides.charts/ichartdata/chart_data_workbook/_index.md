@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook ιδιότητα
-Αποκτά το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες διαγράμματος.
-            Μόνο-ανάγνωση [`IChartDataWorkbook`](/slides/python-net/el/aspose.slides.charts/ichartdataworkbook).
+Λαμβάνει το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες διαγράμματος.
+            Μόνο για ανάγνωση [`IChartDataWorkbook`](/slides/python-net/el/aspose.slides.charts/ichartdataworkbook).
 
 ### Ορισμός:
 ```python
@@ -16,7 +16,6 @@ weight: 80
 def chart_data_workbook(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IChartData`](/slides/python-net/el/aspose.slides.charts/ichartdata)

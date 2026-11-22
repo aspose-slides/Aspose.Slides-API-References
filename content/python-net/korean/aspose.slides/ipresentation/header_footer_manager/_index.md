@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/header_footer_manager/
-weight: 210
+weight: 220
 ---
 ## header_footer_manager 속성
-프레젠테이션의 HeaderFooter manager를 반환합니다.
-읽기 전용 [`IPresentationHeaderFooterManager`](/slides/python-net/ko/aspose.slides/ipresentationheaderfootermanager).
+프레젠테이션의 HeaderFooter 관리자를 반환합니다.
+            읽기 전용 [`IPresentationHeaderFooterManager`](/slides/python-net/ko/aspose.slides/ipresentationheaderfootermanager).
 
 ### 정의:
 ```python

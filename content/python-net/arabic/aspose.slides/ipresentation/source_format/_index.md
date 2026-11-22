@@ -4,11 +4,11 @@ second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
-## source_format خاصية
-يُعيد معلومات عن التنسيق الذي تم تحميل العرض منه.
-            قراءة فقط [`IPresentation.source_format`](/slides/python-net/ar/aspose.slides/ipresentation/source_format).
+## خاصية source_format
+يرجع معلومات عن التنسيق الذي تم تحميل العرض التقديمي منه.
+            للقراءة فقط [`IPresentation.source_format`](/slides/python-net/ar/aspose.slides/ipresentation/source_format).
 
 ### التعريف:
 ```python

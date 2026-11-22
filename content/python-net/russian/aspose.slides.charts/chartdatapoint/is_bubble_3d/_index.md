@@ -1,13 +1,13 @@
 ---
 title: is_bubble_3d property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d свойство
-Указывает, что пузырьки имеют примененный 3-D эффект.
+Указывает, что пузырям применяется 3-D эффект.
             Чтение/запись **bool**.
 
 ### Определение:

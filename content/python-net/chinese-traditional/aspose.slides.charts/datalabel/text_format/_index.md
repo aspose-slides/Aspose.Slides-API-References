@@ -1,10 +1,10 @@
 ---
 title: text_format property
-second_title: Aspose.Slides 用於 Python 透過 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format 屬性
 返回文字格式。

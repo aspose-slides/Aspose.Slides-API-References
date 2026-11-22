@@ -4,7 +4,7 @@ second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/idatalabel/text_format/
-weight: 220
+weight: 230
 ---
 ## text_format خاصية
 ### التعريف:
@@ -13,6 +13,7 @@ weight: 220
 def text_format(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`IDataLabel`](/slides/python-net/ar/aspose.slides.charts/idatalabel)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
 ## x Eigenschaft
 ### Definition:

@@ -1,14 +1,14 @@
 ---
 title: audios property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
 ## audios свойство
-Возвращает коллекцию всех встроенных аудиофайлов в презентации.
-            Только для чтения [`IAudioCollection`](/slides/python-net/ru/aspose.slides/iaudiocollection).
+Returns the collection of all embedded audio files in the presentation.
+Только для чтения [`IAudioCollection`](/slides/python-net/ru/aspose.slides/iaudiocollection).
 
 ### Определение:
 ```python

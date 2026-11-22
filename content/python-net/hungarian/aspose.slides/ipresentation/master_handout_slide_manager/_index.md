@@ -1,13 +1,13 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Pythonhoz .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager tulajdonság
-Visszaadja a kézikönyv főkezelőt.
+Visszaadja a kézikönyv fő kezelőt.
             Csak olvasható [`IMasterHandoutSlideManager`](/slides/python-net/hu/aspose.slides/imasterhandoutslidemanager).
 
 ### Definíció:

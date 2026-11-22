@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
-Swap the data over the axis.
-            داده‌هایی که در محور X نمودار شده‌اند به محور Y منتقل می‌شوند و برعکس.
+داده‌ها را در محور جابجا کنید.
+            داده‌های نموداری شده بر محور X به محور Y منتقل می‌شوند و بالعکس.
 
 
 ```python

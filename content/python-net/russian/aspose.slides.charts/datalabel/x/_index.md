@@ -4,10 +4,10 @@ second_title: Справочник API Aspose.Slides для Python через .N
 description: 
 type: docs
 url: /ru/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x свойство
-Возвращает или задаёт координату x заголовка как долю от ширины диаграммы.
+Возвращает или задает координату x заголовка как долю ширины диаграммы.
             Чтение/запись **float**.
 
 ### Определение:

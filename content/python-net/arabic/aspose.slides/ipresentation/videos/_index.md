@@ -1,14 +1,14 @@
 ---
 title: videos property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos خاصية
 يرجع مجموعة جميع ملفات الفيديو المدمجة في العرض التقديمي.
-            للقراءة فقط [`IVideoCollection`](/slides/python-net/ar/aspose.slides/ivideocollection).
+            قراءة فقط [`IVideoCollection`](/slides/python-net/ar/aspose.slides/ivideocollection).
 
 ### التعريف:
 ```python
@@ -16,6 +16,7 @@ weight: 380
 def videos(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)

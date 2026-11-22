@@ -1,10 +1,10 @@
 ---
 title: z_order_position property
-second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/ivideoframe/z_order_position/
-weight: 650
+weight: 660
 ---
 ## z_order_position thuộc tính
 ### Định nghĩa:

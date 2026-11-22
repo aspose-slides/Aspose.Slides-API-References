@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties egenskap
 Hämtar presentationsomfattande vyegenskaper.

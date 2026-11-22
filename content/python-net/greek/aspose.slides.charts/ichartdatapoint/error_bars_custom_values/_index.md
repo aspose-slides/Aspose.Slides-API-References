@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values ιδιότητα
-Αντιπροσωπεύει τις τιμές των γραμμών σφάλματος σειράς στην περίπτωση τύπου προσαρμοσμένης τιμής.
-Μόνο ανάγνωση [`IErrorBarsCustomValues`](/slides/python-net/el/aspose.slides.charts/ierrorbarscustomvalues).
+Αντιπροσωπεύει τις τιμές των γραμμών σφάλματος της σειράς σε περίπτωση τύπου τιμής Custom.
+            Μόνο για ανάγνωση [`IErrorBarsCustomValues`](/slides/python-net/el/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Ορισμός:
 ```python
@@ -16,6 +16,7 @@ weight: 110
 def error_bars_custom_values(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`IChartDataPoint`](/slides/python-net/el/aspose.slides.charts/ichartdatapoint)

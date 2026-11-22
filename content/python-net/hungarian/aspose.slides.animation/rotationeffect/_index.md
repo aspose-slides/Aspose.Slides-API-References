@@ -1,6 +1,6 @@
 ---
 title: RotationEffect class
-second_title: Aspose.Slides Python számára a .NET API hivatkozás
+second_title: Aspose.Slides a Python számára a .NET API hivatkozásán keresztül
 description: 
 type: docs
 url: /hu/aspose.slides.animation/rotationeffect/
@@ -9,9 +9,9 @@ url: /hu/aspose.slides.animation/rotationeffect/
 
 A hatás forgatási viselkedését reprezentálja.
 
-**Öröklés:**[`RotationEffect`](/slides/python-net/hu/aspose.slides.animation/rotationeffect) → [`Behavior`](/slides/python-net/hu/aspose.slides.animation/behavior)
+**Inheritance:**[`RotationEffect`](/slides/python-net/hu/aspose.slides.animation/rotationeffect) → [`Behavior`](/slides/python-net/hu/aspose.slides.animation/behavior)
 
-A RotationEffect típus a következő tagokat teszi elérhetővé:
+A RotationEffect típus a következő tagokkal rendelkezik:
 
 ## Konstruktorok
 
@@ -23,13 +23,14 @@ A RotationEffect típus a következő tagokat teszi elérhetővé:
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`accumulate`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/accumulate/) | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e.<br/>            Olvasás/írás [`NullableBool`](/slides/python-net/hu/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/additive/) | Azt jelzi, hogy az aktuális animációs viselkedés más futó animációkkal kombinálódik-e.<br/>            Olvasás/írás [`BehaviorAdditiveType`](/slides/python-net/hu/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/properties/) | A viselkedés tulajdonságait jelöli.<br/>            Csak olvasható [`IBehaviorPropertyCollection`](/slides/python-net/hu/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/timing/) | A hatás viselkedésének időzítési tulajdonságait jelöli.<br/>            Olvasás/írás [`ITiming`](/slides/python-net/hu/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/from_address/) | Leírja az animáció kezdőértékét.<br/>            Olvasás/írás **float**. |
-| [`to`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/to/) | Leírja az animáció befejezőértékét.<br/>            Olvasás/írás **float**. |
+| [`accumulate`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/accumulate/) | Azt jelzi, hogy az animációs viselkedések felhalmozottak-e.<br/>            Olvasás/írás [`NullableBool`](/slides/python-net/hu/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/additive/) | Azt jelzi, hogy a jelenlegi animációs viselkedés más futó animációkkal van-e kombinálva.<br/>            Olvasás/írás [`BehaviorAdditiveType`](/slides/python-net/hu/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/properties/) | A viselkedés tulajdonságait ábrázolja.<br/>            Csak olvasható [`IBehaviorPropertyCollection`](/slides/python-net/hu/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/timing/) | Az effektus viselkedésének időzítési tulajdonságait reprezentálja.<br/>            Olvasás/írás [`ITiming`](/slides/python-net/hu/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/from_/) | Leírja az animáció kezdőértékét.<br/>            Olvasás/írás **float**. |
+| [`to`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/to/) | Leírja az animáció befejező értékét.<br/>            Olvasás/írás **float**. |
 | [`by`](/slides/python-net/hu/aspose.slides.animation/rotationeffect/by/) | Leírja az animáció relatív eltolásértékét.<br/>            Olvasás/írás **float**. |
+
 
 ### Lásd még
 * osztály [`Behavior`](/slides/python-net/hu/aspose.slides.animation/behavior)

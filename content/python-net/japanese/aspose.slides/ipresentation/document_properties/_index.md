@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
 ## document_properties プロパティ
-標準およびカスタムのドキュメントプロパティを含む DocumentProperties オブジェクトを返します。
-            読み取り専用 [`IDocumentProperties`](/slides/python-net/ja/aspose.slides/idocumentproperties).
+標準およびカスタムのドキュメント プロパティを含む DocumentProperties オブジェクト を返します。
+読み取り専用 [`IDocumentProperties`](/slides/python-net/ja/aspose.slides/idocumentproperties)。
 
 ### 定義:
 ```python

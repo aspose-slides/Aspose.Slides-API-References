@@ -1,14 +1,14 @@
 ---
 title: parent_shape property
 second_title: Aspose.Slides für Python über .NET API-Referenz
-description:
+description: 
 type: docs
 url: /de/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape Eigenschaft
-Gibt die übergeordnete Form zurück oder None, wenn das übergeordnete Objekt das IShape-Interface nicht implementiert
-            Nur lesend [`IShape`](/slides/python-net/de/aspose.slides/ishape).
+Gibt die übergeordnete Form zurück oder None, falls das übergeordnete Objekt das IShape-Interface nicht implementiert.
+            Nur lesbar [`IShape`](/slides/python-net/de/aspose.slides/ishape).
 
 ### Definition:
 ```python

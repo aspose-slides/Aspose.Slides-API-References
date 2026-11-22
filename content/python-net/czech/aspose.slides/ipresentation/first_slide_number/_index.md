@@ -1,14 +1,14 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number vlastnost
-Representuje první číslo snímku v prezentaci.
-            Číst/zapisovat **int**.
+Zobrazuje první číslo snímku v prezentaci.
+            Čtení/Zápis **int**.
 
 ### Definice:
 ```python

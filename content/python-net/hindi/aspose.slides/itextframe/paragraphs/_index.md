@@ -1,14 +1,14 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides के लिये Python द्वारा .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## पैराग्राफ संपत्ति
-एक फ्रेम में सभी पैराग्राफ की सूची लौटाता है।
-            केवल-पठन [`IParagraphCollection`](/slides/python-net/hi/aspose.slides/iparagraphcollection).
+## paragraphs प्रॉपर्टी
+फ़्रेम में सभी paragraphs की सूची लौटाता है।
+केवल-पठन [`IParagraphCollection`](/slides/python-net/hi/aspose.slides/iparagraphcollection)।
 
 ### परिभाषा:
 ```python

@@ -1,13 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels vlastnost
-Vrací kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů začíná od nuly.
+Vrací kontejner  datových úrovní bodu. Použito pro řady Treeamp a Sunburst.
+            Indexování datových úrovní bodu je nulové.
 
 ### Definice:
 ```python

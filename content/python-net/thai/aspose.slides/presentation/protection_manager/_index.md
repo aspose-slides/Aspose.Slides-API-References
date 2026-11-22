@@ -1,13 +1,13 @@
 ---
 title: protection_manager property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager คุณสมบัติ
-ดึงผู้จัดการของการอนุญาตสำหรับการนำเสนอนี้.
+รับผู้จัดการของการอนุญาตสำหรับงานนำเสนอนี้.
             อ่านอย่างเดียว [`IProtectionManager`](/slides/python-net/th/aspose.slides/iprotectionmanager).
 
 ### คำจำกัดความ:

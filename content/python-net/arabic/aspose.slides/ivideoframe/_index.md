@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ivideoframe/
@@ -9,23 +9,24 @@ url: /ar/aspose.slides/ivideoframe/
 
 يمثل مقطع فيديو على شريحة.
 
-The IVideoFrame type exposes the following members:
+يكشف نوع IVideoFrame عن الأعضاء التاليين:
 
 ## الخصائص
 
 | الخاصية | الوصف |
 | :- | :- |
 | [`rewind_video`](/slides/python-net/ar/aspose.slides/ivideoframe/rewind_video/) | يحدد ما إذا كان يتم إرجاع الفيديو تلقائيًا إلى البداية<br/>            بمجرد انتهاء تشغيل الفيلم.<br/>            قراءة/كتابة **bool**. |
-| [`play_loop_mode`](/slides/python-net/ar/aspose.slides/ivideoframe/play_loop_mode/) | يحدد ما إذا كان يتم تكرار الفيديو.<br/>            قراءة/كتابة **bool**. |
+| [`play_loop_mode`](/slides/python-net/ar/aspose.slides/ivideoframe/play_loop_mode/) | يحدد ما إذا كان الفيديو يتكرر.<br/>            قراءة/كتابة **bool**. |
 | [`hide_at_showing`](/slides/python-net/ar/aspose.slides/ivideoframe/hide_at_showing/) | يحدد ما إذا كان VideoFrame مخفيًا.<br/>            قراءة/كتابة **bool**. |
 | [`volume`](/slides/python-net/ar/aspose.slides/ivideoframe/volume/) | يعيد أو يضبط حجم الصوت.<br/>            قراءة/كتابة [`AudioVolumeMode`](/slides/python-net/ar/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/ar/aspose.slides/ivideoframe/volume_value/) | يعيد أو يضبط حجم الفيديو الدقيق كنسبة مئوية.<br/>             القيمة معبر عنها كنسبة مئوية من 0 إلى 100. استخدم هذه الخاصية<br/>             لقراءة أو ضبط قيم الحجم التي تكون أكثر دقة من المستويات المحددة مسبقًا<br/>             المتاحة عبر الخاصية [`IVideoFrame.volume`](/slides/python-net/ar/aspose.slides/ivideoframe/volume).<br/>             قراءة/كتابة **float**. |
 | [`play_mode`](/slides/python-net/ar/aspose.slides/ivideoframe/play_mode/) | يعيد أو يضبط وضع تشغيل الفيديو.<br/>            قراءة/كتابة [`VideoPlayModePreset`](/slides/python-net/ar/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/ar/aspose.slides/ivideoframe/full_screen_mode/) | يحدد ما إذا كان الفيديو يُعرض في وضع ملء الشاشة.<br/>            قراءة/كتابة **bool**. |
+| [`full_screen_mode`](/slides/python-net/ar/aspose.slides/ivideoframe/full_screen_mode/) | يحدد ما إذا كان يُعرض الفيديو في وضع ملء الشاشة.<br/>            قراءة/كتابة **bool**. |
 | [`link_path_long`](/slides/python-net/ar/aspose.slides/ivideoframe/link_path_long/) | يعيد أو يضبط اسم ملف الفيديو المرتبط بـ VideoFrame.<br/>            قراءة/كتابة **str**. |
-| [`embedded_video`](/slides/python-net/ar/aspose.slides/ivideoframe/embedded_video/) | يعيد أو يضبط كائن الفيديو المدمج.<br/>            قراءة/كتابة [`IVideo`](/slides/python-net/ar/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/ar/aspose.slides/ivideoframe/trim_from_start/) | بداية القطع [ms] |
-| [`trim_from_end`](/slides/python-net/ar/aspose.slides/ivideoframe/trim_from_end/) | نهاية القطع [ms] |
-| [`caption_tracks`](/slides/python-net/ar/aspose.slides/ivideoframe/caption_tracks/) | يجلب مجموعة الترجمة المغلقة المرتبطة بإطار الصوت.<br/>            هذه الخاصية للقراءة فقط وتعيد [`ICaptionsCollection`](/slides/python-net/ar/aspose.slides/icaptionscollection) يحتوي على جميع مسارات الترجمة. |
+| [`embedded_video`](/slides/python-net/ar/aspose.slides/ivideoframe/embedded_video/) | يعيد أو يضبط كائن الفيديو المضمن.<br/>            قراءة/كتابة [`IVideo`](/slides/python-net/ar/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/ar/aspose.slides/ivideoframe/trim_from_start/) | تقليم البداية [ms] |
+| [`trim_from_end`](/slides/python-net/ar/aspose.slides/ivideoframe/trim_from_end/) | تقليم النهاية [ms] |
+| [`caption_tracks`](/slides/python-net/ar/aspose.slides/ivideoframe/caption_tracks/) | يحصل على مجموعة الترجمة المغلقة المرتبطة بإطار الصوت.<br/>             هذه الخاصية للقراءة فقط وتعيد [`ICaptionsCollection`](/slides/python-net/ar/aspose.slides/icaptionscollection) يحتوي على جميع مسارات الترجمة. |
 | [`shape_lock`](/slides/python-net/ar/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/ar/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/ar/aspose.slides/ivideoframe/picture_format/) |  |
@@ -83,6 +84,6 @@ The IVideoFrame type exposes the following members:
 | [`get_base_placeholder(self)`](/slides/python-net/ar/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
 
 
-### انظر أيضاً
+### انظر أيضًا
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

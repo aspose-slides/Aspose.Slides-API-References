@@ -4,12 +4,12 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
 ## Wert-Eigenschaft
-Wenn UseCell true ist, dann stellt diese Eigenschaft die AsCell.Value-Eigenschaft dar.
-            Wenn UseCell false ist, dann stellt diese Eigenschaft die AsLiteral-Eigenschaft dar.
-            Lesen/Schreiben **beliebig**.
+Falls UseCell true ist, dann stellt diese Eigenschaft die AsCell.Value Eigenschaft dar.
+Falls UseCell false ist, dann stellt diese Eigenschaft die AsLiteral Eigenschaft dar.
+Lesen/Schreiben **beliebig**.
 
 ### Definition:
 ```python
@@ -21,7 +21,6 @@ def value(self):
 def value(self, value):
     ...
 ```
-
 
 ### Siehe auch
 * Klasse [`ChartCategory`](/slides/python-net/de/aspose.slides.charts/chartcategory)

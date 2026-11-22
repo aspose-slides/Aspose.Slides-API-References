@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET API Reference
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## properti penanda
 Menentukan penanda data.
-            Baca-saja [`IMarker`](/slides/python-net/id/aspose.slides.charts/imarker).
+            Hanya-baca [`IMarker`](/slides/python-net/id/aspose.slides.charts/imarker).
 
 ### Definisi:
 ```python
@@ -17,8 +17,9 @@ def marker(self):
     ...
 ```
 
+
 ### Lihat Juga
 * kelas [`ChartDataPoint`](/slides/python-net/id/aspose.slides.charts/chartdatapoint)
 * kelas [`IMarker`](/slides/python-net/id/aspose.slides.charts/imarker)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

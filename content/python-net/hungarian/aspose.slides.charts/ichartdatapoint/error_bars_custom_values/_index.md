@@ -1,13 +1,13 @@
 ---
 title: error_bars_custom_values property
-second_title: Aspose.Slides Pythonhoz a .NET API-n keresztül
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values tulajdonság
-A sorozat hibasáv értékeit jelöli, ha az értéktípus Custom.
+A sorozat hibasáv értékeit képviseli egyéni értéktípus esetén.
             Csak olvasható [`IErrorBarsCustomValues`](/slides/python-net/hu/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Definíció:

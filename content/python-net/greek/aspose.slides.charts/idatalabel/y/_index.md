@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y ιδιότητα
 ### Ορισμός:

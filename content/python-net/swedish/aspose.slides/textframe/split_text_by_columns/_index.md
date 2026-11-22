@@ -4,16 +4,15 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/textframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
-Delar upp textinnehållet i [`ITextFrame`](/slides/python-net/sv/aspose.slides/itextframe) till en array av strängar,  
-            där varje element motsvarar en separat textkolumn i ramen.
+Delar upp textinnehållet i [`ITextFrame`](/slides/python-net/sv/aspose.slides/itextframe) i en array av strängar,  
+            där varje element motsvarar en separat textkolumn inom ramen.
 
 ### Returnerar
 
-En array av strängar, där varje sträng representerar textinnehållet i en specifik kolumn  
-            i [`ITextFrame`](/slides/python-net/sv/aspose.slides/itextframe).
+En array av strängar, där varje sträng representerar textinnehållet i en specifik kolumn i [`ITextFrame`](/slides/python-net/sv/aspose.slides/itextframe).
 
 
 
@@ -25,8 +24,7 @@ def split_text_by_columns(self):
 
 ### Anmärkningar
 
-Om textramen inte innehåller flera kolumner kommer den returnerade arrayen att ha ett enda element  
-            som innehåller hela texten.  
+Om textramen inte innehåller flera kolumner kommer den returnerade arrayen att ha ett enda element som innehåller hela texten.  
             Tomma kolumner kommer att representeras som tomma strängar i arrayen.
 
 

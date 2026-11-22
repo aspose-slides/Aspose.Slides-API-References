@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/hyperlink_queries/
-weight: 220
+weight: 230
 ---
 ## hyperlink_queries vlastnost
-Poskytuje snadný přístup ke všem hypertextovým odkazům obsaženým ve všech snímcích prezentace (ne v hlavním, rozvržení, poznámkových snímcích).
+Poskytuje snadný přístup ke všem hyperodkazům obsaženým ve všech snímcích prezentace (ne v hlavním, rozložení, poznámkových snímcích).
 Pouze pro čtení [`IHyperlinkQueries`](/slides/python-net/cs/aspose.slides/ihyperlinkqueries).
 
 ### Definice:

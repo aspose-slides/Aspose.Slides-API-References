@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
 ## audios egenskap
-Returns the collection of all embedded audio files in the presentation.
+Returnerar samlingen av alla inbäddade ljudfiler i presentationen.
             Skrivskyddad [`IAudioCollection`](/slides/python-net/sv/aspose.slides/iaudiocollection).
 
 ### Definition:

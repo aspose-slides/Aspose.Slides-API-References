@@ -4,10 +4,10 @@ second_title: Aspose.Slides для Python через .NET — справочни
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/hyperlink_queries/
-weight: 220
+weight: 230
 ---
 ## hyperlink_queries свойство
-Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides).
+Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (кроме слайдов мастера, макета, заметок).
             Только для чтения [`IHyperlinkQueries`](/slides/python-net/ru/aspose.slides/ihyperlinkqueries).
 
 ### Определение:
@@ -18,7 +18,7 @@ def hyperlink_queries(self):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`IHyperlinkQueries`](/slides/python-net/ru/aspose.slides/ihyperlinkqueries)
 * класс [`IPresentation`](/slides/python-net/ru/aspose.slides/ipresentation)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)

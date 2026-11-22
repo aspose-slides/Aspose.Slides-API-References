@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value egenskap
-Returnerar x-värdet för diagramdatapunkt.
+Hämtar x-värdet för en diagramdatapunkt.
             Skrivskyddad [`IStringOrDoubleChartValue`](/slides/python-net/sv/aspose.slides.charts/istringordoublechartvalue).
 
 ### Definition:
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### Se även
+### Se också
 * klass [`IChartDataPoint`](/slides/python-net/sv/aspose.slides.charts/ichartdatapoint)
 * klass [`IStringOrDoubleChartValue`](/slides/python-net/sv/aspose.slides.charts/istringordoublechartvalue)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)

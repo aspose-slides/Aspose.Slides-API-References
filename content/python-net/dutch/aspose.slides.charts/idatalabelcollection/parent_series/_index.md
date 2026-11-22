@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series eigenschap
-Retourneert de bovenliggende grafiekreeks.
+Retourneert de bovenliggende grafieksreeks.
             Alleen-lezen [`IChartSeries`](/slides/python-net/nl/aspose.slides.charts/ichartseries).
 
 ### Definitie:

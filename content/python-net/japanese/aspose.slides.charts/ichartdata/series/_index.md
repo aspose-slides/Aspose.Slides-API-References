@@ -1,13 +1,13 @@
 ---
 title: series property
-second_title: Aspose.Slides Python 用 .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
-## シリーズ プロパティ
-シリーズを取得します。
+## series プロパティ
+series を取得します。
             読み取り専用 [`IChartSeriesCollection`](/slides/python-net/ja/aspose.slides.charts/ichartseriescollection).
 
 ### 定義:

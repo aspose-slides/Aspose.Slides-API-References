@@ -7,17 +7,18 @@ url: /ja/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel クラス
 
-シリーズ ラベルを表します。
+シリーズラベルを表します。
 
-IDataLabel 型は以下のメンバーを公開します：
+IDataLabel 型は次のメンバーを公開します:
 
 ## プロパティ
 
-| プロパティ | 説明 |
+| Property | Description |
 | :- | :- |
-| [`is_visible`](/slides/python-net/ja/aspose.slides.charts/idatalabel/is_visible/) | False はデータ ラベルが表示されないことを意味します（そのためすべての Show*-flags (ShowValue, …) が false になります）。<br/>            Read-only **bool**. |
-| [`data_label_format`](/slides/python-net/ja/aspose.slides.charts/idatalabel/data_label_format/) | データ ラベルの形式を返します。<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/ja/aspose.slides.charts/idatalabelformat). |
+| [`is_visible`](/slides/python-net/ja/aspose.slides.charts/idatalabel/is_visible/) | False はデータ ラベルが表示されないことを意味します (そのためすべての Show*-フラグ (ShowValue, ...) は false になります)。<br/>            読み取り専用 **bool**. |
+| [`data_label_format`](/slides/python-net/ja/aspose.slides.charts/idatalabel/data_label_format/) | データ ラベルの形式を返します。<br/>            読み取り専用 [`IDataLabelFormat`](/slides/python-net/ja/aspose.slides.charts/idatalabelformat). |
 | [`value_from_cell`](/slides/python-net/ja/aspose.slides.charts/idatalabel/value_from_cell/) | ワークブック データ セルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。 |
+| [`label_shape_type`](/slides/python-net/ja/aspose.slides.charts/idatalabel/label_shape_type/) | データ ラベルのシェイプ タイプを取得または設定します。<br/>            シェイプが定義されていない場合は [`ShapeType.NOT_DEFINED`](/slides/python-net/ja/aspose.slides/shapetype/NOT_DEFINED) を返します。 |
 | [`x`](/slides/python-net/ja/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/ja/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/ja/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,10 +37,10 @@ IDataLabel 型は以下のメンバーを公開します：
 
 ## メソッド
 
-| メソッド | 説明 |
+| Method | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/ja/aspose.slides.charts/idatalabel/hide/#) | すべての Show*-flags (ShowValue, …) を false 状態に設定してデータ ラベルを非表示にします。<br/>            IsVisible はこれにより false になります。 |
-| [`get_actual_label_text(self)`](/slides/python-net/ja/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat 設定または TextFrameForOverriding.Text の値に基づいて実際のラベル テキストを返します。 |
+| [`hide(self)`](/slides/python-net/ja/aspose.slides.charts/idatalabel/hide/#) | すべての Show*-フラグ (ShowValue, ...) を false に設定してデータ ラベルを非表示にします。<br/>            この操作後、IsVisible は false になります。 |
+| [`get_actual_label_text(self)`](/slides/python-net/ja/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat の設定または TextFrameForOverriding.Text の値に基づいて実際のラベル テキストを返します。 |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/ja/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 ### 参照

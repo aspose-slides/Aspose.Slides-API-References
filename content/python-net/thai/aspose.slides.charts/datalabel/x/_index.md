@@ -1,13 +1,13 @@
 ---
 title: x property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x คุณสมบัติ
-คืนค่า หรือ ตั้งค่าพิกัด x ของชื่อเรื่องเป็นสัดส่วนของความกว้างของแผนภูมิ.
+ส่งคืนหรือกำหนดพิกัด x ของชื่อเรื่องเป็นส่วนของความกว้างของแผนภูมิ
             อ่าน/เขียน **float**.
 
 ### คำนิยาม:

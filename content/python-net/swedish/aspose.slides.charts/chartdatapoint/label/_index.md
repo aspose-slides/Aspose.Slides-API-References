@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## label egenskap
 Etikett.

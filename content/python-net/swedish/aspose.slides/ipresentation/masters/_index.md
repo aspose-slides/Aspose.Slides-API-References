@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
-## masteregenskap
-Returnerar en lista med alla masterbilder som är definierade i presentationen.
+## masters egenskap
+Returnerar en lista med alla masterbilder som definieras i presentationen.
             Skrivskyddad [`IMasterSlideCollection`](/slides/python-net/sv/aspose.slides/imasterslidecollection).
 
 ### Definition:

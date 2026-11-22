@@ -1,13 +1,13 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides for Python via .NET API 参考文档
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry 属性
-对应图例项的属性，在以下图表类型中:
+对应的图例条目属性，仅在以下图表类型中适用：
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
@@ -24,7 +24,7 @@ def related_legend_entry(self):
 ```
 
 
-### 另请参见
+### 另见
 * 类 [`IChartDataPoint`](/slides/python-net/zh/aspose.slides.charts/ichartdatapoint)
 * 类 [`ILegendEntryProperties`](/slides/python-net/zh/aspose.slides.charts/ilegendentryproperties)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)

@@ -4,11 +4,11 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอ�
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/fonts_manager/
-weight: 200
+weight: 210
 ---
 ## fonts_manager คุณสมบัติ
-คืนค่า fonts manager.
-อ่านอย่างเดียว [`IFontsManager`](/slides/python-net/th/aspose.slides/ifontsmanager).
+ส่งคืนผู้จัดการฟอนต์.
+            อ่านอย่างเดียว [`IFontsManager`](/slides/python-net/th/aspose.slides/ifontsmanager).
 
 ### คำนิยาม:
 ```python

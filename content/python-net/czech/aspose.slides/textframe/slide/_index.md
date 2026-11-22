@@ -1,14 +1,14 @@
 ---
 title: slide property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
-description:
+second_title: Aspose.Slides pro Python přes .NET referenční příručka API
+description: 
 type: docs
 url: /cs/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## slide vlastnost
 Vrací nadřazený slide objektu TextFrame.
-            Pouze ke čtení [`IBaseSlide`](/slides/python-net/cs/aspose.slides/ibaseslide).
+            Pouze pro čtení [`IBaseSlide`](/slides/python-net/cs/aspose.slides/ibaseslide).
 
 ### Definice:
 ```python

@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties ویژگی
-Gets presentation wide view properties.
-            فقط‌خواندنی [`IViewProperties`](/slides/python-net/fa/aspose.slides/iviewproperties).
+ویژگی‌های نمای سراسری ارائه را دریافت می‌کند.
+            فقط-خواندنی [`IViewProperties`](/slides/python-net/fa/aspose.slides/iviewproperties).
 
 ### تعریف:
 ```python

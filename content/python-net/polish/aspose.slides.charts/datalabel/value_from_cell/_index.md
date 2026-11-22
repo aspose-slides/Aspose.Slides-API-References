@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides dla Pythona poprzez .NET Referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell właściwość
-Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli IDataLabelFormat.ShowLabelValueFromCell właściwość równa się true.
+Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true.
 
 ### Definicja:
 ```python
@@ -19,7 +19,6 @@ def value_from_cell(self):
 def value_from_cell(self, value):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`DataLabel`](/slides/python-net/pl/aspose.slides.charts/datalabel)

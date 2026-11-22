@@ -1,14 +1,14 @@
 ---
 title: switch_row_column method
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
 Hoán đổi dữ liệu qua trục.
-            Dữ liệu được hiển thị trên trục X sẽ di chuyển sang trục Y và ngược lại.
+            Dữ liệu được biểu diễn trên trục X sẽ chuyển sang trục Y và ngược lại.
 
 
 ```python

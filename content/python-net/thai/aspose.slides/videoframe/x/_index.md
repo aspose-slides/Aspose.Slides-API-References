@@ -1,21 +1,22 @@
 ---
 title: x property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
-## คุณสมบัติ x
-รับหรือกำหนดค่าพิกัด x ของมุมซ้าย-บนของรูปร่าง หน่วยเป็นจุด.
+## x คุณสมบัติ
+รับหรือกำหนดพิกัด X ของมุมบนซ้ายของรูปร่าง, มีหน่วยเป็นจุด.
             อ่าน/เขียน **float**.
+
 
 ### หมายเหตุ
 
-ค่าที่ส่งกลับมาจะถูกกำหนดเสมอและจะไม่มี **float**.
-            ค่าที่กำหนดต้องถูกกำหนดเช่นกัน; ให้กำหนด **float** เฉพาะกับคุณสมบัติของอินสแตนซ์ `RawFrame`.
+ค่าที่ส่งกลับมักจะถูกกำหนดเสมอและไม่เคยเป็น **float**.
+            ค่าที่กำหนดต้องถูกกำหนดเช่นกัน; ให้กำหนด **float** เฉพาะกับคุณสมบัติของออบเจกต์ `RawFrame` เท่านั้น.
 
-### คำนิยาม:
+### นิยาม:
 ```python
 @property
 def x(self):
@@ -25,6 +26,7 @@ def x(self):
 def x(self, value):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`VideoFrame`](/slides/python-net/th/aspose.slides/videoframe)

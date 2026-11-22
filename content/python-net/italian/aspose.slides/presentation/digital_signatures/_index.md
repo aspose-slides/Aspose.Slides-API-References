@@ -4,11 +4,11 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures proprietà
-Restituisce la raccolta delle firme utilizzate per firmare la presentazione.
-            Sola lettura [`IDigitalSignatureCollection`](/slides/python-net/it/aspose.slides/idigitalsignaturecollection).
+Restituisce la raccolta di firme utilizzate per firmare la presentazione.
+            Solo lettura [`IDigitalSignatureCollection`](/slides/python-net/it/aspose.slides/idigitalsignaturecollection).
 
 ### Definizione:
 ```python

@@ -1,14 +1,14 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides برای Python از طریق .NET API مرجع
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries ویژگی
-دسترسی آسان به پیوندهای موجود را فراهم می‌کند.
-            فقط خواندنی [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries).
+Provides easy access to contained hyperlinks.
+            فقط-خواندنی [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries).
 
 ### تعریف:
 ```python
@@ -18,7 +18,7 @@ def hyperlink_queries(self):
 ```
 
 
-### همچنین ببینید
+### موارد مرتبط
 * کلاس [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries)
 * کلاس [`TextFrame`](/slides/python-net/fa/aspose.slides/textframe)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

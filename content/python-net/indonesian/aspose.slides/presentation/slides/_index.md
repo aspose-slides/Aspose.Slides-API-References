@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python melalui Referensi API .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
-## properti slides
-Mengembalikan daftar semua slide yang didefinisikan dalam presentasi.
-            Hanya-baca [`ISlideCollection`](/id/slides/python-net/aspose.slides/islidecollection).
+## slides properti
+Mengembalikan daftar semua slides yang didefinisikan dalam presentasi.
+            Baca-saja [`ISlideCollection`](/id/slides/python-net/aspose.slides/islidecollection).
 
 ### Definisi:
 ```python

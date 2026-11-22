@@ -4,10 +4,10 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
-## คุณสมบัติ leader_lines_format
-เป็นตัวแทนของรูปแบบเส้นนำของป้ายข้อมูล
+## leader_lines_format คุณสมบัติ
+แสดงรูปแบบเส้นนำของป้ายข้อมูล.
              อ่านอย่างเดียว [`IChartLinesFormat`](/slides/python-net/th/aspose.slides.charts/ichartlinesformat).
 
 ### คำนิยาม:

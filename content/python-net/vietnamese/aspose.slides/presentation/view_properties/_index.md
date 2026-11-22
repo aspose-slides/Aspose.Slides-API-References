@@ -1,13 +1,13 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties thuộc tính
-Lấy các thuộc tính xem của bản trình chiếu.
+Lấy các thuộc tính xem toàn bộ bản trình chiếu.
             Chỉ đọc [`IViewProperties`](/slides/python-net/vi/aspose.slides/iviewproperties).
 
 ### Định nghĩa:

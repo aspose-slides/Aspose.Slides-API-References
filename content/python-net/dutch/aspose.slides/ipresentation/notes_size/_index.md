@@ -1,14 +1,14 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size eigenschap
 Retourneert het notitieslides-grootteobject.
-Alleen-lezen [`INotesSize`](/slides/python-net/nl/aspose.slides/inotessize).
+            Alleen-lezen [`INotesSize`](/slides/python-net/nl/aspose.slides/inotessize).
 
 ### Definitie:
 ```python
@@ -22,4 +22,4 @@ def notes_size(self):
 * klasse [`INotesSize`](/slides/python-net/nl/aspose.slides/inotessize)
 * klasse [`IPresentation`](/slides/python-net/nl/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

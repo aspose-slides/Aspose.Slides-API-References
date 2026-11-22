@@ -4,11 +4,11 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters thuộc tính
-Trả về một danh sách các slide master được định nghĩa trong bản trình chiếu.
-Chỉ đọc [`IMasterSlideCollection`](/slides/python-net/vi/aspose.slides/imasterslidecollection).
+Returns a list of all master slides that are defined in the presentation.
+            Chỉ đọc [`IMasterSlideCollection`](/slides/python-net/vi/aspose.slides/imasterslidecollection).
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,7 @@ def masters(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IMasterSlideCollection`](/slides/python-net/vi/aspose.slides/imasterslidecollection)
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)

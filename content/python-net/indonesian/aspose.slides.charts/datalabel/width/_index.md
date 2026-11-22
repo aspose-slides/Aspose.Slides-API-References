@@ -1,13 +1,13 @@
 ---
 title: width property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## lebar properti
-Mengembalikan atau mengatur lebar judul sebagai pecahan dari lebar bagan.
+## width properti
+Mengembalikan atau mengatur lebar sebuah judul sebagai fraksi dari lebar diagram.
             Baca/tulis **float**.
 
 ### Definisi:
@@ -25,4 +25,4 @@ def width(self, value):
 ### Lihat Juga
 * kelas [`DataLabel`](/slides/python-net/id/aspose.slides.charts/datalabel)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

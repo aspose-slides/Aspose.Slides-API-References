@@ -1,14 +1,14 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides Python के लिए .NET के माध्यम से API रेफ़रेंस
+second_title: Aspose.Slides के लिए Python .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
-## slide_size प्रॉपर्टी
-स्लाइड आकार ऑब्जेक्ट लौटाता है।
-            केवल पढ़ने योग्य [`ISlideSize`](/slides/python-net/hi/aspose.slides/islidesize)।
+## slide_size गुण
+स्लाइड आकार ऑब्जेक्ट को लौटाता है।
+            केवल पढ़ने योग्य [`ISlideSize`](/slides/python-net/hi/aspose.slides/islidesize).
 
 ### परिभाषा:
 ```python

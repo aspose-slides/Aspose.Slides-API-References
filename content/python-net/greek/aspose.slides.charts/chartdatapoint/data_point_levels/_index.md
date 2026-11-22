@@ -1,14 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels ιδιότητα
-Επιστρέφει το container των επιπέδων σημείων δεδομένων. Εφαρμόζεται για τις σειρές Treeamp και Sunburst.
-Η αρίθμηση των επιπέδων σημείων δεδομένων είναι μηδενική.
+Επιστρέφει το δοχείο των επιπέδων σημείου δεδομένων. Εφαρμόζεται σε σειρές Treeamp και Sunburst.
+Η αρίθμηση των επιπέδων σημείου δεδομένων είναι μηδενική.
 
 ### Ορισμός:
 ```python
@@ -16,7 +16,6 @@ weight: 100
 def data_point_levels(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`ChartDataPoint`](/slides/python-net/el/aspose.slides.charts/chartdatapoint)

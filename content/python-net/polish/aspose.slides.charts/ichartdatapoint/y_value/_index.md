@@ -1,13 +1,13 @@
 ---
 title: y_value property
-second_title: Aspose.Slides dla Pythona via .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value właściwość
-Zwraca wartość y punktu danych wykresu.
+Pobiera wartość y punktu danych wykresu.
             Tylko do odczytu [`IDoubleChartValue`](/slides/python-net/pl/aspose.slides.charts/idoublechartvalue).
 
 ### Definicja:

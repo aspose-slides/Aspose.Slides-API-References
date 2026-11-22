@@ -4,10 +4,10 @@ second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## label خاصیت
-Label.
+## ویژگی برچسب
+برچسب.
             فقط-خواندنی [`IDataLabel`](/slides/python-net/fa/aspose.slides.charts/idatalabel).
 
 ### تعریف:
@@ -18,7 +18,7 @@ def label(self):
 ```
 
 
-### موارد مرتبط
+### مشاهده نیز
 * کلاس [`ChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/chartdatapoint)
 * کلاس [`IDataLabel`](/slides/python-net/fa/aspose.slides.charts/idatalabel)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)

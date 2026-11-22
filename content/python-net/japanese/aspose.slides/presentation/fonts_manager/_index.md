@@ -1,13 +1,13 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides Python 用 .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager プロパティ
-Returns fonts manager.
+fonts manager を返します。
             読み取り専用 [`IFontsManager`](/slides/python-net/ja/aspose.slides/ifontsmanager).
 
 ### 定義:

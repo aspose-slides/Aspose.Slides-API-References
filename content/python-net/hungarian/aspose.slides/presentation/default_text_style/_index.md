@@ -1,13 +1,13 @@
 ---
 title: default_text_style property
-second_title: Aspose.Slides for Python a .NET API referencia
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style tulajdonság
-Visszaadja az alakzatok alapértelmezett szövegstílusát.
+Visszaadja az alapértelmezett szövegstílust az alakzatokhoz.
             Csak olvasható [`ITextStyle`](/slides/python-net/hu/aspose.slides/itextstyle).
 
 ### Definíció:

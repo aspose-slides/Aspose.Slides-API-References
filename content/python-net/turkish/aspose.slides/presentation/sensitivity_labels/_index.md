@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels özelliği
-Sunum belgesine uygulanan duyarlılık etiketlerinin koleksiyonunu döndürür.
-            Yalnızca okuma [`ISensitivityLabelCollection`](/slides/python-net/tr/aspose.slides/isensitivitylabelcollection).
+Sunum belgesine uygulanan hassasiyet etiketlerinin koleksiyonunu döndürür.
+            Yalnızca okunur [`ISensitivityLabelCollection`](/slides/python-net/tr/aspose.slides/isensitivitylabelcollection).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def sensitivity_labels(self):
 ```
 
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 * sınıf [`ISensitivityLabelCollection`](/slides/python-net/tr/aspose.slides/isensitivitylabelcollection)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

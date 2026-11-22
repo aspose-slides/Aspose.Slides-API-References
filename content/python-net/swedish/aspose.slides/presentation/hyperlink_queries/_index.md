@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries egenskap
-Tillhandahåller enkel åtkomst till alla hyperlänkar som finns i alla presentationsbilder (inte i master, layout, anteckningsbilder).
-            Skrivskyddad [`IHyperlinkQueries`](/slides/python-net/sv/aspose.slides/ihyperlinkqueries).
+Ger enkel åtkomst till alla hyperlänkar som finns i alla presentationsbilder (inte i master, layout, notbilder).
+            Endast läsning [`IHyperlinkQueries`](/slides/python-net/sv/aspose.slides/ihyperlinkqueries).
 
 ### Definition:
 ```python

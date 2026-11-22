@@ -1,13 +1,13 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager คุณสมบัติ
-ส่งคืน notes master manager.
+คืนค่า ผู้จัดการ master notes.
             อ่านอย่างเดียว [`IMasterNotesSlideManager`](/slides/python-net/th/aspose.slides/imasternotesslidemanager).
 
 ### คำนิยาม:

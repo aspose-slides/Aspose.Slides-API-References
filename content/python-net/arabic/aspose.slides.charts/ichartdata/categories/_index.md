@@ -1,16 +1,24 @@
 ---
 title: categories property
-second_title: مرجع API لـ Aspose.Slides لبايثون عبر .NET
+second_title: مرجع API لـ Aspose.Slides للغة Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdata/categories/
-weight: 70
+weight: 80
 ---
 ## خاصية الفئات
-يحصل على الفئات الأساسية (أو كل من الفئات الأساسية والثانوية إذا كانت الخاصية [`IChartData.use_secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/use_secondary_categories) غير صحيحة). غير قابل للتعديل [`IChartCategoryCollection`](/slides/python-net/ar/aspose.slides.charts/ichartcategorycollection).
+Gets the primary categories (or both primary and secondary categories 
+            if [`IChartData.use_secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/use_secondary_categories) خاصية is false).
+            Read-only [`IChartCategoryCollection`](/slides/python-net/ar/aspose.slides.charts/ichartcategorycollection).
 
 ### ملاحظات
-إذا كانت الخاصية [`IChartData.use_secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/use_secondary_categories) غير صحيحة فإن الخاصية [`IChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/secondary_categories) تعيد None وتُستخدم البيانات في الخاصية [`IChartData.categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/categories) لكل من السلسلة الأساسية والثانوية. إذا كانت الخاصية [`IChartData.use_secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/use_secondary_categories) صحيحة فإن البيانات في الخاصية [`IChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/secondary_categories) تُستخدم للسلسلة الثانوية وتُستخدم البيانات في الخاصية [`IChartData.categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/categories) للسلسلة الأساسية.
+
+If [`IChartData.use_secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/use_secondary_categories) خاصية is false then [`IChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/secondary_categories) 
+            خاصية return None and data in this [`IChartData.categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/categories) خاصية is used both for primary 
+            and secondary series.
+            If [`IChartData.use_secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/use_secondary_categories) خاصية is true then data in [`IChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/secondary_categories) 
+            خاصية is used for secondary series and data in this [`IChartData.categories`](/slides/python-net/ar/aspose.slides.charts/ichartdata/categories) خاصية is used 
+            for primary series.
 
 ### التعريف:
 ```python

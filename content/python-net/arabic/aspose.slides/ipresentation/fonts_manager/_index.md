@@ -1,14 +1,14 @@
 ---
 title: fonts_manager property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر مرجع API لـ .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/fonts_manager/
-weight: 200
+weight: 210
 ---
-## fonts_manager الخاصية
-Returns fonts manager.
-            قراءة فقط [`IFontsManager`](/slides/python-net/ar/aspose.slides/ifontsmanager).
+## fonts_manager خاصية
+يعيد fonts manager.
+            للقراءة فقط [`IFontsManager`](/slides/python-net/ar/aspose.slides/ifontsmanager).
 
 ### التعريف:
 ```python

@@ -1,30 +1,30 @@
 ---
 title: split_text_by_columns method
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides Python számára .NET API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
-Felosztja a [`ITextFrame`](/slides/python-net/hu/aspose.slides/itextframe) szövegtartalmát egy karakterlánc tömbbé,  
-            ahol minden elem egy külön szövegoszlopnak felel meg a keretben.
+A [`ITextFrame`](/slides/python-net/hu/aspose.slides/itextframe) szövegtartalmát egy karakterlánc tömbbé osztja,  
+            ahol minden elem a keret egy külön szövegoszlopának felel meg.
 
-### Returns
+### Visszatérési érték
 
-Egy karakterlánc tömböt, ahol minden karakterlánc egy adott oszlop szövegtartalmát képviseli a [`ITextFrame`](/slides/python-net/hu/aspose.slides/itextframe)-ben.
+Karakterláncok tömbje, ahol minden karakterlánc a [`ITextFrame`](/slides/python-net/hu/aspose.slides/itextframe) egy adott oszlopának szövegtartalmát jelenti.  
 
 ```python
 def split_text_by_columns(self):
     ...
 ```
 
-### Remarks
+### Megjegyzések
 
-Ha a szöveges keret nem tartalmaz több oszlopot, a visszaadott tömb egyetlen elemet fog tartalmazni, amely a teljes szöveget tartalmazza.  
-            Az üres oszlopok az tömbben üres karakterláncokként lesznek ábrázolva.
+Ha a szövegkeret nem tartalmaz több oszlopot, a visszaadott tömb egyetlen elemet tartalmaz majd, amely a teljes szöveget tartalmazza.  
+            Az üres oszlopok a tömbben üres karakterláncokként lesznek ábrázolva.
 
-### See Also
+### Lásd még
 * osztály [`ITextFrame`](/slides/python-net/hu/aspose.slides/itextframe)
 * osztály [`TextFrame`](/slides/python-net/hu/aspose.slides/textframe)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)

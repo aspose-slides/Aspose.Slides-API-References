@@ -4,7 +4,7 @@ second_title: Aspose.Slides Python के लिए .NET API रेफ़रे�
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabel/text_format/
-weight: 220
+weight: 230
 ---
 ## text_format प्रॉपर्टी
 ### परिभाषा:
@@ -15,7 +15,7 @@ def text_format(self):
 ```
 
 
-### संबंधित देखें
+### संदर्भ देखें
 * क्लास [`IDataLabel`](/slides/python-net/hi/aspose.slides.charts/idatalabel)
-* मोड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

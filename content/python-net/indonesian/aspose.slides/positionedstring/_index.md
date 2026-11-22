@@ -1,6 +1,6 @@
 ---
 title: PositionedString class
-second_title: Aspose.Slides untuk Python melalui .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/positionedstring/
@@ -11,20 +11,14 @@ Struktur berisi kunci integer dan nilai string serta merupakan pengganti sementa
 
 Tipe PositionedString menyajikan anggota-anggota berikut:
 
-## Konstruktor
-
-| Konstruktor | Deskripsi |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/id/aspose.slides/positionedstring/__init__/#) |  |
-
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`key`](/slides/python-net/id/aspose.slides/positionedstring/key/) | kunci integer |
-| [`value`](/slides/python-net/id/aspose.slides/positionedstring/value/) | nilai string |
+| [`key`](/slides/python-net/id/aspose.slides/positionedstring/key/) | Kunci integer |
+| [`value`](/slides/python-net/id/aspose.slides/positionedstring/value/) | Nilai string |
 
 
 ### Lihat Juga
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

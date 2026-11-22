@@ -1,14 +1,14 @@
 ---
 title: videos property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos Eigenschaft
 Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück.
-Nur-Lesen [`IVideoCollection`](/slides/python-net/de/aspose.slides/ivideocollection).
+            Nur lesend [`IVideoCollection`](/slides/python-net/de/aspose.slides/ivideocollection).
 
 ### Definition:
 ```python
@@ -16,6 +16,7 @@ Nur-Lesen [`IVideoCollection`](/slides/python-net/de/aspose.slides/ivideocollect
 def videos(self):
     ...
 ```
+
 
 ### Siehe auch
 * Klasse [`IPresentation`](/slides/python-net/de/aspose.slides/ipresentation)

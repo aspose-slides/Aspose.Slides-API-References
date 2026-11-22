@@ -1,10 +1,10 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides Python számára .NET API hivatkozás
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás segítségével
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data tulajdonság
 Visszaadja a prezentáció egyéni adatait.

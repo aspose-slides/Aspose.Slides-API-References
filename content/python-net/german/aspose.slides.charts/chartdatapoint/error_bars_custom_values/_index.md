@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values Eigenschaft
-Stellt die Fehlbalkenwerte der Serie im Fall des benutzerdefinierten Werttyps dar.
-            Nur lesbar [`IErrorBarsCustomValues`](/slides/python-net/de/aspose.slides.charts/ierrorbarscustomvalues).
+Stellt die Werte der Serien-Fehlerbalken im Fall des Custom-Wertetypen dar.
+            Nur-Lesen [`IErrorBarsCustomValues`](/slides/python-net/de/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Definition:
 ```python

@@ -7,8 +7,19 @@ url: /pt/aspose.slides.charts/chartseriesgroup/gap_depth/
 weight: 100
 ---
 ## gap_depth propriedade
-Retorna ou define a distância, como uma porcentagem da largura do marcador, entre as séries de dados em um gráfico 3D.
-            Leitura/Gravação **int**.
+Obtém ou define a distância entre as séries de dados em um gráfico 3D, como uma porcentagem da largura do marcador.
+            O valor deve estar entre 0 e 500.
+            Leitura/gravação **int**.
+
+
+### Observações
+
+Esta propriedade se aplica a séries dos seguintes tipos:
+            3D bar and column subtipos (consulte também **Aspose.Slides.Charts.ChartTypeCharacterizer.IsBar3DChart(Aspose.Slides.Chart** method), 
+            [`ChartType.LINE_3D`](/slides/python-net/pt/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/pt/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/pt/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/pt/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
 
 ### Definição:
 ```python
@@ -22,7 +33,7 @@ def gap_depth(self, value):
 ```
 
 
-### Veja Também
+### Ver também
 * classe [`ChartSeriesGroup`](/slides/python-net/pt/aspose.slides.charts/chartseriesgroup)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

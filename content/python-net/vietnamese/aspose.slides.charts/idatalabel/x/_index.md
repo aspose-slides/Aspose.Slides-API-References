@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Tham khảo API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
 ## x thuộc tính
 ### Định nghĩa:
@@ -19,7 +19,7 @@ def x(self, value):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IDataLabel`](/slides/python-net/vi/aspose.slides.charts/idatalabel)
 * mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

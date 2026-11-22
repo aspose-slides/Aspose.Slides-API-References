@@ -1,13 +1,13 @@
 ---
 title: index property
-second_title: مرجع API Aspose.Slides للبيثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET API Reference
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## index خاصية
-يحدد أي من مجموعة عناصر الأطفال الخاصة بالوالد ينطبق عليها هذا العنصر البياني.
+## خاصية الفهرس
+يحدد إلى أي مجموعة من عناصر الأطفال للوالد تنطبق هذه النقطة.
             قراءة **int**.
 
 ### التعريف:

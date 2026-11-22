@@ -1,13 +1,13 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides Python용 .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures 속성
-프레젠테이션을 서명하는 데 사용되는 서명 컬렉션을 반환합니다.
+프레젠테이션에 서명하는 데 사용되는 서명 컬렉션을 반환합니다.
             읽기 전용 [`IDigitalSignatureCollection`](/slides/python-net/ko/aspose.slides/idigitalsignaturecollection).
 
 ### 정의:

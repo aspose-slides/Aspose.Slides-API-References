@@ -4,10 +4,10 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections proprietà
-Restituisce un elenco di tutte le sections delle diapositive che sono definite nella presentazione.
+Restituisce un elenco di tutte le sezioni delle diapositive definite nella presentazione.
             Solo lettura [`ISectionCollection`](/slides/python-net/it/aspose.slides/isectioncollection).
 
 ### Definizione:
@@ -16,7 +16,6 @@ Restituisce un elenco di tutte le sections delle diapositive che sono definite n
 def sections(self):
     ...
 ```
-
 
 ### Vedi anche
 * classe [`ISectionCollection`](/slides/python-net/it/aspose.slides/isectioncollection)

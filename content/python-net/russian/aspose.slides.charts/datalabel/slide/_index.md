@@ -1,10 +1,10 @@
 ---
 title: slide property
-second_title: Справка API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/datalabel/slide/
-weight: 220
+weight: 230
 ---
 ## slide свойство
 ### Определение:
@@ -13,7 +13,6 @@ weight: 220
 def slide(self):
     ...
 ```
-
 
 ### См. также
 * класс [`DataLabel`](/slides/python-net/ru/aspose.slides.charts/datalabel)

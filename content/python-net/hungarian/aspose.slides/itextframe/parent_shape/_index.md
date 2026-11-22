@@ -1,10 +1,10 @@
 ---
 title: parent_shape property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides for Python via .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape tulajdonság
 Visszaadja a szülő alakzatot vagy None, ha a szülő objektum nem valósítja meg az IShape interfészt

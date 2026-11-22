@@ -1,13 +1,13 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/sensitivity_labels/
-weight: 330
+weight: 340
 ---
 ## sensitivity_labels คุณสมบัติ
-ส่งคืนคอลเลกชันของป้ายความละเอียดอ่อนที่ใช้กับเอกสารงานนำเสนอ.
+คืนค่าคอลเลกชันของ sensitivity labels ที่นำไปใช้กับเอกสารการนำเสนอ
             อ่านอย่างเดียว [`ISensitivityLabelCollection`](/slides/python-net/th/aspose.slides/isensitivitylabelcollection).
 
 ### คำนิยาม:
@@ -16,6 +16,7 @@ weight: 330
 def sensitivity_labels(self):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`IPresentation`](/slides/python-net/th/aspose.slides/ipresentation)

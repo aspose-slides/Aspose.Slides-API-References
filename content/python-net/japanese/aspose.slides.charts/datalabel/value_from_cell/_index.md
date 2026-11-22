@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell プロパティ
-ワークブック データ セルを取得または設定します。 IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
+ワークブックのデータセルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
 
 ### 定義:
 ```python

@@ -4,12 +4,12 @@ second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position Eigenschaft
-Gibt die Position einer Form in der Z-Ordnung zurück.
-            Shapes[0] gibt die Form am Ende der Z-Ordnung zurück,
-            und Shapes[Shapes.Count - 1] gibt die Form am Anfang der Z-Ordnung zurück.
+Gibt die Position einer Form in der z-order zurück.
+            Shapes[0] gibt die Form am hinteren Ende der z-order zurück,
+            und Shapes[Shapes.Count - 1] gibt die Form am vorderen Ende der z-order zurück.
             Nur lesbar **int**.
 
 ### Definition:

@@ -1,10 +1,10 @@
 ---
 title: sections property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides Python용 .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections 속성
 프레젠테이션에 정의된 모든 슬라이드 섹션의 목록을 반환합니다.

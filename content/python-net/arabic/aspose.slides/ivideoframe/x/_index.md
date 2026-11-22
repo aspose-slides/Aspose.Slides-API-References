@@ -1,12 +1,12 @@
 ---
 title: x property
-second_title: Aspose.Slides لPython عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر مرجع API لـ .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
-## خاصية x
+## x خاصية
 ### التعريف:
 ```python
 @property
@@ -20,6 +20,6 @@ def x(self, value):
 
 
 ### انظر أيضًا
-* فئة [`IVideoFrame`](/slides/python-net/ar/aspose.slides/ivideoframe)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IVideoFrame`](/slides/python-net/ar/aspose.slides/ivideoframe)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

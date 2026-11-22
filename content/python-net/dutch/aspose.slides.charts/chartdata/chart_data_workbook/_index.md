@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook eigenschap
-Gets the cells factory to create cells used for chart series or categories.
-            Read-only [`IChartDataWorkbook`](/slides/python-net/nl/aspose.slides.charts/ichartdataworkbook).
+Haalt de cellenfabriek op om cellen te maken die worden gebruikt voor grafiekreeksen of -categorieën.
+Alleen-lezen [`IChartDataWorkbook`](/slides/python-net/nl/aspose.slides.charts/ichartdataworkbook).
 
 ### Definitie:
 ```python

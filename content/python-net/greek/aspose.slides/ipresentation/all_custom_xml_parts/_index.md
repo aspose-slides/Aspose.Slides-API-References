@@ -1,10 +1,10 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts ιδιότητα
 Επιστρέφει όλα τα προσαρμοσμένα τμήματα δεδομένων στην παρουσίαση.

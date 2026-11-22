@@ -4,16 +4,16 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x egenskap
-Hämtar eller anger x-koordinaten för figurens övre vänstra hörn, mätt i punkter.
+Hämtar eller anger x-koordinaten för formens övre vänstra hörn, mätt i punkter.
             Läs/skriv **float**.
 
 
 ### Anmärkningar
 
-Det återvända värdet är alltid definierat och aldrig **float**.
+Det returnerade värdet är alltid definierat och aldrig **float**.
             Det tilldelade värdet måste också vara definierat; tilldela **float** endast till egenskaper i en `RawFrame`-instans.
 
 ### Definition:

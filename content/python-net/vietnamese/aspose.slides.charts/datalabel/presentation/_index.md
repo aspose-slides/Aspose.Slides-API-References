@@ -4,9 +4,9 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/datalabel/presentation/
-weight: 200
+weight: 210
 ---
-## thuộc tính trình bày
+## presentation property
 ### Định nghĩa:
 ```python
 @property

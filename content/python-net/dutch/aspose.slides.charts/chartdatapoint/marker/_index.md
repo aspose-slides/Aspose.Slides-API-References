@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## marker eigenschap
-Specificeert een gegevensmarker.
+Specificeert een datamarker.
             Alleen-lezen [`IMarker`](/slides/python-net/nl/aspose.slides.charts/imarker).
 
 ### Definitie:

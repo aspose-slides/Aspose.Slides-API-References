@@ -4,13 +4,12 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
-## embedded_workbook_type ιδιότητα
+## ιδιότητα embedded_workbook_type
 Λαμβάνει τον τύπο του ενσωματωμένου βιβλίου εργασίας.
-            Επιστρέφει [`WorkbookType.NOT_DEFINED`](/slides/python-net/el/aspose.slides.charts/workbooktype/NOT_DEFINED) εάν [`IChartData.data_source_type`](/slides/python-net/el/aspose.slides.charts/ichartdata/data_source_type) είναι 
-            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/el/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
-            Μόνο ανάγνωση [`WorkbookType`](/slides/python-net/el/aspose.slides.charts/workbooktype).
+            Επιστρέφει [`WorkbookType.NOT_DEFINED`](/slides/python-net/el/aspose.slides.charts/workbooktype/NOT_DEFINED) εάν [`IChartData.data_source_type`](/slides/python-net/el/aspose.slides.charts/ichartdata/data_source_type) είναι [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/el/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
+            Μόνο για ανάγνωση [`WorkbookType`](/slides/python-net/el/aspose.slides.charts/workbooktype).
 
 ### Ορισμός:
 ```python

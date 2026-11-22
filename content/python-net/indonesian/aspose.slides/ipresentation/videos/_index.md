@@ -4,7 +4,7 @@ second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos properti
 Mengembalikan koleksi semua file video yang disematkan dalam presentasi.

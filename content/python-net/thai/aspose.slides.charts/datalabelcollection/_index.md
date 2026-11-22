@@ -1,43 +1,44 @@
 ---
 title: DataLabelCollection class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection คลาส
 
-แสดงชุดป้ายข้อมูลของซีรีส์
+แสดงฉลากของชุดข้อมูล.
 
-The DataLabelCollection type exposes the following members:
+ชนิด DataLabelCollection เปิดให้เข้าถึงสมาชิกต่อไปนี้:
 
 ## คุณสมบัติ
 
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`chart`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/chart/) | ส่งคืนแผนภูมิพาเรนต์.<br/>            อ่านอย่างเดียว [`IChart`](/slides/python-net/th/aspose.slides.charts/ichart). |
-| [`is_visible`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/is_visible/) | False หมายถึงป้ายข้อมูลจะไม่แสดงโดยค่าเริ่มต้น (และทั้งหมดของแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false).<br/>            อ่านอย่างเดียว **bool**. |
-| [`count_of_visible_data_labels`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | รับจำนวนป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน.<br/>            อ่านอย่างเดียว **int**. |
-| [`count`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/count/) | รับจำนวนป้ายข้อมูลทั้งหมดในคอลเลกชัน.<br/>            อ่านอย่างเดียว **int**. |
+| [`chart`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/chart/) | ส่งคืนแผนภูมิแม่.<br/>            อ่านอย่างเดียว [`IChart`](/slides/python-net/th/aspose.slides.charts/ichart). |
+| [`is_visible`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/is_visible/) | False หมายความว่าป้ายข้อมูลจะไม่แสดงเป็นค่าเริ่มต้น (และดังนั้นทุก <br/>            Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false).<br/>            อ่านอย่างเดียว **bool**. |
+| [`count_of_visible_data_labels`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | รับจำนวนของป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน.<br/>            อ่านอย่างเดียว **int**. |
+| [`count`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/count/) | รับจำนวนของป้ายข้อมูลทั้งหมดในคอลเลกชัน.<br/>            อ่านอย่างเดียว **int**. |
 | [`default_data_label_format`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/default_data_label_format/) | รับรูปแบบป้ายข้อมูลเริ่มต้น.<br/>            อ่านอย่างเดียว [`IDataLabelFormat`](/slides/python-net/th/aspose.slides.charts/idatalabelformat). |
-| [`leader_lines_format`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/leader_lines_format/) | แสดงรูปแบบเส้นนำของป้ายข้อมูล.<br/>             อ่านอย่างเดียว [`IChartLinesFormat`](/slides/python-net/th/aspose.slides.charts/ichartlinesformat). |
-| [`parent_series`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/parent_series/) | รับซีรีส์พาเรนต์.<br/>            อ่านอย่างเดียว [`IChartSeries`](/slides/python-net/th/aspose.slides.charts/ichartseries). |
+| [`leader_lines_format`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/leader_lines_format/) | เป็นรูปแบบของเส้นนำป้ายข้อมูล.<br/>             อ่านอย่างเดียว [`IChartLinesFormat`](/slides/python-net/th/aspose.slides.charts/ichartlinesformat). |
+| [`parent_series`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/parent_series/) | รับชุดข้อมูลแม่.<br/>            อ่านอย่างเดียว [`IChartSeries`](/slides/python-net/th/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/default_label_shape_type/) | รับหรือกำหนดประเภทรูปแบบเริ่มต้นสำหรับป้ายข้อมูล.<br/>             ส่งคืน [`ShapeType.NOT_DEFINED`](/slides/python-net/th/aspose.slides/shapetype/NOT_DEFINED) หากไม่มีการกำหนดรูปแบบ. |
 | [`slide`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/presentation/) |  |
 
-รับป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ
+รับป้ายข้อมูลสำหรับจุดข้อมูลด้วยดัชนีที่ระบุ.
 
-## ดัชนี
+## ตัวชี้ดัชนี
 
 | ชื่อ | คำอธิบาย |
 | :- | :- |
 | [`[index]`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/__getitem__/) |  |
 
-## เมธอด
+## วิธีการ
 
 | เมธอด | คำอธิบาย |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/hide/#) | ทำให้ป้ายข้อมูลซ่อนโดยค่าเริ่มต้นโดยตั้งค่าทุกแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ false.<br/>            IsVisible จะเป็น false หลังจากนี้. |
+| [`hide(self)`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/hide/#) | ทำให้ป้ายข้อมูลถูกซ่อนเป็นค่าเริ่มต้นโดยตั้งค่า Show*-flags (ShowValue, ...) ทั้งหมดของ<br/>            คุณสมบัติ DefaultDataLabelFormat ให้เป็นสถานะ false.<br/>            IsVisible จะเป็น false หลังจากนี้. |
 | [`index_of(self, value)`](/slides/python-net/th/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม

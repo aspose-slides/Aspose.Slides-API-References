@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value 속성
-차트 데이터 포인트의 y 값을 반환합니다.
+차트 데이터 포인트의 y 값을 가져옵니다.
             읽기 전용 [`IDoubleChartValue`](/slides/python-net/ko/aspose.slides.charts/idoublechartvalue).
 
 ### 정의:

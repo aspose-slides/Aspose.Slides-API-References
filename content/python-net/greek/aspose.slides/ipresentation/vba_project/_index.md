@@ -1,13 +1,13 @@
 ---
 title: vba_project property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project ιδιότητα
-Λαμβάνει το VBA έργο με μακροεντολές παρουσίασης.
+Λαμβάνει το VBA project με μακροεντολές παρουσίασης.
             Ανάγνωση/εγγραφή [`IVbaProject`](/slides/python-net/el/aspose.slides.vba/ivbaproject).
 
 ### Ορισμός:

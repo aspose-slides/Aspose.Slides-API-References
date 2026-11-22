@@ -1,13 +1,14 @@
 ---
 title: presentation property
-second_title: Aspose.Slides for Python via .NET API 参考
-description: 
+second_title: Aspose.Slides 用于 Python 通过 .NET API 参考
+description: 返回 TextFrame 所在的父演示文稿。
 type: docs
 url: /zh/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
 ## 演示属性
-返回 TextFrame 的父演示。只读 [`IPresentation`](/slides/python-net/zh/aspose.slides/ipresentation)。
+返回 TextFrame 的父 presentation.
+            只读 [`IPresentation`](/slides/python-net/zh/aspose.slides/ipresentation).
 
 ### 定义:
 ```python
@@ -15,6 +16,7 @@ weight: 130
 def presentation(self):
     ...
 ```
+
 
 ### 另见
 * 类 [`IPresentation`](/slides/python-net/zh/aspose.slides/ipresentation)

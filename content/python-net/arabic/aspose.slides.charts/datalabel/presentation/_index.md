@@ -1,13 +1,13 @@
 ---
 title: presentation property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabel/presentation/
-weight: 200
+weight: 210
 ---
 ## خاصية العرض
-### تعريف:
+### التعريف:
 ```python
 @property
 def presentation(self):

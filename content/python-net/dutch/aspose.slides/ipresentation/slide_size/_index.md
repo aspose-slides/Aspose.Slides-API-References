@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size eigenschap
 Retourneert slide size object.
@@ -16,7 +16,6 @@ Retourneert slide size object.
 def slide_size(self):
     ...
 ```
-
 
 ### Zie ook
 * klasse [`IPresentation`](/slides/python-net/nl/aspose.slides/ipresentation)

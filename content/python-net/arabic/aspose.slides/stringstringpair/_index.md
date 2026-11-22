@@ -1,21 +1,15 @@
 ---
 title: StringStringPair class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/stringstringpair/
 ---
 ## StringStringPair فئة
 
-البنية تحتوي على مفتاح نصي وقيمة نصية وتُعد استبدالًا مؤقتًا لـ KeyValuePair<string, string>
+الهيكل يحتوي على مفتاح نصي وقيمة نصية وهو استبدال مؤقت لـ KeyValuePair<string, string>
 
-يعرض نوع StringStringPair الأعضاء التالية:
-
-## المنشئات
-
-| المنشئ | الوصف |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/ar/aspose.slides/stringstringpair/__init__/#) |  |
+نوع StringStringPair يعرض الأعضاء التالية:
 
 ## الخصائص
 
@@ -26,5 +20,5 @@ url: /ar/aspose.slides/stringstringpair/
 
 
 ### انظر أيضًا
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

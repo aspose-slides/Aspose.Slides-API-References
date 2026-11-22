@@ -1,13 +1,13 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides for Python via .NET API Referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures tulajdonság
-Visszaadja a prezentáció aláírásához használt aláírások gyűjteményét.
+Returns the collection of signatures used to sign the presentation.
             Csak olvasható [`IDigitalSignatureCollection`](/slides/python-net/hu/aspose.slides/idigitalsignaturecollection).
 
 ### Definíció:

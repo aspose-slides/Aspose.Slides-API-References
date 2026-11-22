@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style プロパティ
-シェイプのデフォルトテキストスタイルを返します。
+シェイプの既定テキストスタイルを返します。
             読み取り専用 [`ITextStyle`](/slides/python-net/ja/aspose.slides/itextstyle).
 
 ### 定義:

@@ -1,13 +1,13 @@
 ---
 title: x_value property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value свойство
-Возвращает значение x точки данных диаграммы.
+Получает значение x точки данных диаграммы.
             Только для чтения [`IStringOrDoubleChartValue`](/slides/python-net/ru/aspose.slides.charts/istringordoublechartvalue).
 
 ### Определение:
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`IChartDataPoint`](/slides/python-net/ru/aspose.slides.charts/ichartdatapoint)
 * класс [`IStringOrDoubleChartValue`](/slides/python-net/ru/aspose.slides.charts/istringordoublechartvalue)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)

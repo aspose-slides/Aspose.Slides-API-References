@@ -1,10 +1,10 @@
 ---
 title: y_value property
-second_title: Referencia de API de Aspose.Slides para Python a través de .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value propiedad
 YValue.

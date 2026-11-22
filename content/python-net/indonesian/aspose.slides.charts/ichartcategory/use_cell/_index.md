@@ -4,20 +4,19 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartcategory/use_cell/
-weight: 50
+weight: 60
 ---
-## use_cell properti
-If true then AsCell properti is actual. In other words, worksheet is used for 
-            storing category (this case supports a multi-level category).
-            If false then AsLiteral properti is actual. In other words, worksheet is NOT used 
-            for storing category (and this case doesn't support a multi-level categories).
-            Hanya-baca **bool**.
+## properti use_cell
+Jika true maka properti AsCell berlaku. Dengan kata lain, worksheet digunakan untuk 
+            menyimpan kategori (kasus ini mendukung kategori berjenjang).
+            Jika false maka properti AsLiteral berlaku. Dengan kata lain, worksheet TIDAK digunakan 
+            untuk menyimpan kategori (dan kasus ini tidak mendukung kategori berjenjang).
+            Baca-saja **bool**.
 
+### Catatan
 
-### Keterangan
-
-For change value of this properti (for all categories in collection) set new 
-            value to ChartCategoryCollection.UseCells properti.
+Untuk mengubah nilai properti ini (untuk semua kategori dalam koleksi) setel nilai baru 
+            ke properti ChartCategoryCollection.UseCells.
 
 ### Definisi:
 ```python
@@ -25,7 +24,6 @@ For change value of this properti (for all categories in collection) set new
 def use_cell(self):
     ...
 ```
-
 
 ### Lihat Juga
 * kelas [`IChartCategory`](/slides/python-net/id/aspose.slides.charts/ichartcategory)

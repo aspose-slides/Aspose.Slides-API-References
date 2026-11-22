@@ -1,16 +1,16 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager คุณสมบัติ
-คืนค่า fonts manager.
+ส่งคืนตัวจัดการฟอนต์.
             อ่านอย่างเดียว [`IFontsManager`](/slides/python-net/th/aspose.slides/ifontsmanager).
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def fonts_manager(self):

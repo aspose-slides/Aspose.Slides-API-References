@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format eigenschap
-Retourneert het opmaakobject voor dit TextFrame-object.
+Geeft het opmaakobject terug voor dit TextFrame-object.
             Alleen-lezen [`ITextFrameFormat`](/slides/python-net/nl/aspose.slides/itextframeformat).
 
 ### Definitie:

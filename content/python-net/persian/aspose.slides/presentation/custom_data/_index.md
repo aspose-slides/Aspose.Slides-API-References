@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data ویژگی
-داده‌های سفارشی ارائه را برمی‌گرداند.
-            فقط خواندنی [`ICustomData`](/slides/python-net/fa/aspose.slides/icustomdata).
+Returns the presentation's custom data.
+            فقط-خواندنی [`ICustomData`](/slides/python-net/fa/aspose.slides/icustomdata).
 
 ### تعریف:
 ```python

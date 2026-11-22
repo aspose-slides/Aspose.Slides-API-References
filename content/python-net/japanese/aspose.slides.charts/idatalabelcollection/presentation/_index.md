@@ -4,9 +4,9 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/idatalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
-## presentation プロパティ
+## プレゼンテーション プロパティ
 ### 定義:
 ```python
 @property

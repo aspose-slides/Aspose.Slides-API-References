@@ -1,10 +1,10 @@
 ---
 title: label property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides for Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## خاصية التسمية
 يمثل التسمية لنقطة بيانات المخطط.

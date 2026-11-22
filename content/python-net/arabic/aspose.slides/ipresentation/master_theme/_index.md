@@ -1,13 +1,13 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للغة Python عبر .NET – مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
-## master_theme خاصية
-يعيد السمة الرئيسية للعرض التقديمي.
+## خاصية master_theme
+إرجاع السمة الرئيسية للعرض التقديمي.
             للقراءة فقط [`IMasterTheme`](/slides/python-net/ar/aspose.slides.theme/imastertheme).
 
 ### التعريف:

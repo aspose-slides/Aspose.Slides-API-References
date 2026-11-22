@@ -1,14 +1,14 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors ιδιότητα
 Επιστρέφει τη συλλογή των σχολίων συγγραφέων.
-            Μόνο για ανάγνωση [`ICommentAuthorCollection`](/slides/python-net/el/aspose.slides/icommentauthorcollection).
+Μόνο-ανάγνωση [`ICommentAuthorCollection`](/slides/python-net/el/aspose.slides/icommentauthorcollection).
 
 ### Ορισμός:
 ```python

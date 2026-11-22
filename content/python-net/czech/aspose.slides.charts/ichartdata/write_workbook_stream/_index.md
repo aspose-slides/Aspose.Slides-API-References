@@ -1,22 +1,26 @@
 ---
 title: write_workbook_stream method
-second_title: Aspose.Slides pro Python přes .NET referenční dokumentace API
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-Inicializuje interně obsažený sešit Excel s uživatelem zadanou hodnotou.
+Inicializuje interně obsažený sešit Excel s hodnotou zadanou uživatelem.
+
 
 ```python
 def write_workbook_stream(self, ms):
     ...
 ```
 
+
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | Uživatelem dodaný stream obsahující celý sešit Excel. |
+| ms | **io.RawIOBase** | Uživatelem dodaný tok obsahující celý sešit Excel. |
+
+
 
 ### Viz také
 * třída [`IChartData`](/slides/python-net/cs/aspose.slides.charts/ichartdata)

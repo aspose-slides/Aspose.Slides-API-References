@@ -4,12 +4,12 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabel/text_frame_for_overriding/
-weight: 240
+weight: 250
 ---
 ## text_frame_for_overriding egenskap
-Kan innehålla en rikligt formaterad text. Om denna egenskap inte är None så 
-            det formaterade textvärdet åsidosätter den automatiskt genererade texten för datamärket.
-            Automatisk genererad text för datamärket betyder text som hanteras av ShowSeriesName, 
+Kan innehålla en rik formaterad text. Om den här egenskapen inte är None så 
+            det formaterade textvärdet åsidosätter automatiskt genererad text för datamärket.
+            Automatiskt genererad text för datamärket betyder text som hanteras av ShowSeriesName, 
             ShowValue, ... egenskaper och formateras med TextFormatManager.TextFormat egenskap.
             Skrivskyddad [`ITextFrame`](/slides/python-net/sv/aspose.slides/itextframe).
 
@@ -19,7 +19,6 @@ Kan innehålla en rikligt formaterad text. Om denna egenskap inte är None så
 def text_frame_for_overriding(self):
     ...
 ```
-
 
 ### Se även
 * klass [`DataLabel`](/slides/python-net/sv/aspose.slides.charts/datalabel)

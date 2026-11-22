@@ -1,6 +1,6 @@
 ---
 title: IPresentation class
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/
@@ -9,68 +9,69 @@ url: /fa/aspose.slides/ipresentation/
 
 سند ارائه
 
-نوع IPresentation اعضای زیر را فراهم می‌کند:
+نوع IPresentation اعضای زیر را ارائه می‌دهد:
 
-## خصوصیات
+## ویژگی‌ها
 
-| ویژگی | توضیح |
+| Property | Description |
 | :- | :- |
-| [`current_date_time`](/slides/python-net/fa/aspose.slides/ipresentation/current_date_time/) | مقدار تاریخ و زمان را برمی‌گرداند یا تنظیم می‌کند که محتویات فیلدهای datetime را جایگزین می‌کند.<br/> Time of this Presentation object creation by default.<br/> خواندنی/نوشتنی **System.DateTime**. |
-| [`header_footer_manager`](/slides/python-net/fa/aspose.slides/ipresentation/header_footer_manager/) | مدیر HeaderFooter ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`IPresentationHeaderFooterManager`](/slides/python-net/fa/aspose.slides/ipresentationheaderfootermanager). |
-| [`protection_manager`](/slides/python-net/fa/aspose.slides/ipresentation/protection_manager/) | مدیر دسترسی‌های این ارائه را دریافت می‌کند.<br/> فقط‌خواندنی [`IProtectionManager`](/slides/python-net/fa/aspose.slides/iprotectionmanager). |
-| [`slides`](/slides/python-net/fa/aspose.slides/ipresentation/slides/) | فهرستی از تمام اسلایدهایی که در ارائه تعریف شده‌اند را برمی‌گرداند.<br/fa/> فقط‌خواندنی [`ISlideCollection`](/slides/python-net/fa/aspose.slides/islidecollection). |
-| [`sections`](/slides/python-net/fa/aspose.slides/ipresentation/sections/) | فهرستی از تمام بخش‌های اسلایدهای تعریف‌شده در ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`ISectionCollection`](/slides/python-net/fa/aspose.slides/isectioncollection). |
-| [`slide_size`](/slides/python-net/fa/aspose.slides/ipresentation/slide_size/) | شیء اندازه اسلاید را برمی‌گرداند.<br/> فقط‌خواندنی [`ISlideSize`](/slides/python-net/fa/aspose.slides/islidesize). |
-| [`notes_size`](/slides/python-net/fa/aspose.slides/ipresentation/notes_size/) | شیء اندازه اسلاید یادداشت‌ها را برمی‌گرداند.<br/> فقط‌خواندنی [`INotesSize`](/slides/python-net/fa/aspose.slides/inotessize). |
-| [`layout_slides`](/slides/python-net/fa/aspose.slides/ipresentation/layout_slides/) | فهرستی از تمام اسلایدهای طرح‌بندی که در ارائه تعریف شده‌اند را برمی‌گرداند.<br/> فقط‌خواندنی [`IGlobalLayoutSlideCollection`](/slides/python-net/fa/aspose.slides/igloballayoutslidecollection). |
-| [`masters`](/slides/python-net/fa/aspose.slides/ipresentation/masters/) | فهرستی از تمام اسلایدهای مستر که در ارائه تعریف شده‌اند را برمی‌گرداند.<br/> فقط‌خواندنی [`IMasterSlideCollection`](/slides/python-net/fa/aspose.slides/imasterslidecollection). |
-| [`master_notes_slide_manager`](/slides/python-net/fa/aspose.slides/ipresentation/master_notes_slide_manager/) | مدیر مستر یادداشت‌ها را برمی‌گرداند.<br/> فقط‌خواندنی [`IMasterNotesSlideManager`](/slides/python-net/fa/aspose.slides/imasternotesslidemanager). |
-| [`master_handout_slide_manager`](/slides/python-net/fa/aspose.slides/ipresentation/master_handout_slide_manager/) | مدیر مستر نسخه‌های چاپی را برمی‌گرداند.<br/> فقط‌خواندنی [`IMasterHandoutSlideManager`](/slides/python-net/fa/aspose.slides/imasterhandoutslidemanager). |
-| [`fonts_manager`](/slides/python-net/fa/aspose.slides/ipresentation/fonts_manager/) | مدیر قلم‌ها را برمی‌گرداند.<br/> فقط‌خواندنی [`IFontsManager`](/slides/python-net/fa/aspose.slides/ifontsmanager). |
-| [`default_text_style`](/slides/python-net/fa/aspose.slides/ipresentation/default_text_style/) | سبک متن پیش‌فرض برای اشکال را برمی‌گرداند.<br/> فقط‌خواندنی [`ITextStyle`](/slides/python-net/fa/aspose.slides/itextstyle). |
-| [`comment_authors`](/slides/python-net/fa/aspose.slides/ipresentation/comment_authors/) | مجموعه نویسندگان نظرات را برمی‌گرداند.<br/> فقط‌خواندنی [`ICommentAuthorCollection`](/slides/python-net/fa/aspose.slides/icommentauthorcollection). |
-| [`document_properties`](/slides/python-net/fa/aspose.slides/ipresentation/document_properties/) | شیء DocumentProperties را برمی‌گرداند که شامل ویژگی‌های استاندارد و سفارشی سند است.<br/> فقط‌خواندنی [`IDocumentProperties`](/slides/python-net/fa/aspose.slides/idocumentproperties). |
-| [`images`](/slides/python-net/fa/aspose.slides/ipresentation/images/) | مجموعه تمام تصاویر موجود در ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`IImageCollection`](/slides/python-net/fa/aspose.slides/iimagecollection). |
-| [`audios`](/slides/python-net/fa/aspose.slides/ipresentation/audios/) | مجموعه تمام فایل‌های صوتی جاسازی‌شده در ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`IAudioCollection`](/slides/python-net/fa/aspose.slides/iaudiocollection). |
-| [`videos`](/slides/python-net/fa/aspose.slides/ipresentation/videos/) | مجموعه تمام فایل‌های ویدئویی جاسازی‌شده در ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`IVideoCollection`](/slides/python-net/fa/aspose.slides/ivideocollection). |
-| [`custom_data`](/slides/python-net/fa/aspose.slides/ipresentation/custom_data/) | داده‌های سفارشی ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`ICustomData`](/slides/python-net/fa/aspose.slides/icustomdata). |
-| [`vba_project`](/slides/python-net/fa/aspose.slides/ipresentation/vba_project/) | پروژه VBA با ماکروهای ارائه را دریافت می‌کند.<br/> خواندنی/نوشتنی [`IVbaProject`](/slides/python-net/fa/aspose.slides.vba/ivbaproject). |
-| [`source_format`](/slides/python-net/fa/aspose.slides/ipresentation/source_format/) | اطلاعات دربارهٔ فرمتی که ارائه از آن بارگذاری شده است را برمی‌گرداند.<br/> فقط‌خواندنی [`IPresentation.source_format`](/slides/python-net/fa/aspose.slides/ipresentation/source_format). |
-| [`master_theme`](/slides/python-net/fa/aspose.slides/ipresentation/master_theme/) | قالب مستر ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`IMasterTheme`](/slides/python-net/fa/aspose.slides.theme/imastertheme). |
-| [`hyperlink_queries`](/slides/python-net/fa/aspose.slides/ipresentation/hyperlink_queries/) | دسترسی آسان به تمام هایپرلینک‌های موجود در تمام اسلایدهای ارائه (نه در مستر، طرح‌بندی، اسلایدهای یادداشت) را فراهم می‌کند.<br/> فقط‌خواندنی [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries). |
-| [`view_properties`](/slides/python-net/fa/aspose.slides/ipresentation/view_properties/) | ویژگی‌های نمای گستردهٔ ارائه را دریافت می‌کند.<br/> فقط‌خواندنی [`IViewProperties`](/slides/python-net/fa/aspose.slides/iviewproperties). |
-| [`first_slide_number`](/slides/python-net/fa/aspose.slides/ipresentation/first_slide_number/) | شماره اولین اسلاید در ارائه را نشان می‌دهد.<br/> خواندنی/نوشتنی **int**. |
-| [`all_custom_xml_parts`](/slides/python-net/fa/aspose.slides/ipresentation/all_custom_xml_parts/) | تمام بخش‌های داده سفارشی در ارائه را برمی‌گرداند.<br/> فقط‌خواندنی [`ICustomXmlPart`](/slides/python-net/fa/aspose.slides/icustomxmlpart)[]. |
-| [`digital_signatures`](/slides/python-net/fa/aspose.slides/ipresentation/digital_signatures/) | مجموعه امضاهایی که برای امضای ارائه استفاده شده‌اند را برمی‌گرداند.<br/> فقط‌خواندنی [`IDigitalSignatureCollection`](/slides/python-net/fa/aspose.slides/idigitalsignaturecollection). |
-| [`sensitivity_labels`](/slides/python-net/fa/aspose.slides/ipresentation/sensitivity_labels/) | مجموعه برچسب‌های حساسیتی که بر سند ارائه اعمال شده‌اند را برمی‌گرداند.<br/> فقط‌خواندنی [`ISensitivityLabelCollection`](/slides/python-net/fa/aspose.slides/isensitivitylabelcollection). |
+| [`current_date_time`](/slides/python-net/fa/aspose.slides/ipresentation/current_date_time/) | Returns or sets date and time which will substitute content of datetime fields.<br/>            Time of this Presentation object creation by default.<br/>            Read/write **System.DateTime**. |
+| [`header_footer_manager`](/slides/python-net/fa/aspose.slides/ipresentation/header_footer_manager/) | Returns HeaderFooter manager of the presentation.<br/>            Read-only [`IPresentationHeaderFooterManager`](/slides/python-net/fa/aspose.slides/ipresentationheaderfootermanager). |
+| [`protection_manager`](/slides/python-net/fa/aspose.slides/ipresentation/protection_manager/) | Gets manager of the permissions for this presentation. <br/>            Read-only [`IProtectionManager`](/slides/python-net/fa/aspose.slides/iprotectionmanager). |
+| [`slides`](/slides/python-net/fa/aspose.slides/ipresentation/slides/) | Returns a list of all slides that are defined in the presentation.<br/fa/>            Read-only [`ISlideCollection`](/slides/python-net/fa/aspose.slides/islidecollection). |
+| [`sections`](/slides/python-net/fa/aspose.slides/ipresentation/sections/) | Returns a list of all slides sections that are defined in the presentation.<br/>            Read-only [`ISectionCollection`](/slides/python-net/fa/aspose.slides/isectioncollection). |
+| [`slide_size`](/slides/python-net/fa/aspose.slides/ipresentation/slide_size/) | Returns slide size object.<br/>            Read-only [`ISlideSize`](/slides/python-net/fa/aspose.slides/islidesize). |
+| [`notes_size`](/slides/python-net/fa/aspose.slides/ipresentation/notes_size/) | Returns notes slide size object.<br/>            Read-only [`INotesSize`](/slides/python-net/fa/aspose.slides/inotessize). |
+| [`layout_slides`](/slides/python-net/fa/aspose.slides/ipresentation/layout_slides/) | Returns a list of all layout slides that are defined in the presentation.<br/>            Read-only [`IGlobalLayoutSlideCollection`](/slides/python-net/fa/aspose.slides/igloballayoutslidecollection). |
+| [`masters`](/slides/python-net/fa/aspose.slides/ipresentation/masters/) | Returns a list of all master slides that are defined in the presentation.<br/>            Read-only [`IMasterSlideCollection`](/slides/python-net/fa/aspose.slides/imasterslidecollection). |
+| [`master_notes_slide_manager`](/slides/python-net/fa/aspose.slides/ipresentation/master_notes_slide_manager/) | Returns notes master manager.<br/>            Read-only [`IMasterNotesSlideManager`](/slides/python-net/fa/aspose.slides/imasternotesslidemanager). |
+| [`master_handout_slide_manager`](/slides/python-net/fa/aspose.slides/ipresentation/master_handout_slide_manager/) | Returns handout master manager.<br/>            Read-only [`IMasterHandoutSlideManager`](/slides/python-net/fa/aspose.slides/imasterhandoutslidemanager). |
+| [`fonts_manager`](/slides/python-net/fa/aspose.slides/ipresentation/fonts_manager/) | Returns fonts manager.<br/>            Read-only [`IFontsManager`](/slides/python-net/fa/aspose.slides/ifontsmanager). |
+| [`default_text_style`](/slides/python-net/fa/aspose.slides/ipresentation/default_text_style/) | Returns default text style for shapes.<br/>            Read-only [`ITextStyle`](/slides/python-net/fa/aspose.slides/itextstyle). |
+| [`comment_authors`](/slides/python-net/fa/aspose.slides/ipresentation/comment_authors/) | Returns the collection of comments autors.<br/>            Read-only [`ICommentAuthorCollection`](/slides/python-net/fa/aspose.slides/icommentauthorcollection). |
+| [`document_properties`](/slides/python-net/fa/aspose.slides/ipresentation/document_properties/) | Returns DocumentProperties object which contains standard and custom document properties.<br/>            Read-only [`IDocumentProperties`](/slides/python-net/fa/aspose.slides/idocumentproperties). |
+| [`images`](/slides/python-net/fa/aspose.slides/ipresentation/images/) | Returns the collection of all images in the presentation.<br/>            Read-only [`IImageCollection`](/slides/python-net/fa/aspose.slides/iimagecollection). |
+| [`audios`](/slides/python-net/fa/aspose.slides/ipresentation/audios/) | Returns the collection of all embedded audio files in the presentation.<br/>            Read-only [`IAudioCollection`](/slides/python-net/fa/aspose.slides/iaudiocollection). |
+| [`videos`](/slides/python-net/fa/aspose.slides/ipresentation/videos/) | Returns the collection of all embedded video files in the presentation.<br/>            Read-only [`IVideoCollection`](/slides/python-net/fa/aspose.slides/ivideocollection). |
+| [`custom_data`](/slides/python-net/fa/aspose.slides/ipresentation/custom_data/) | Returns the presentation's custom data.<br/>            Read-only [`ICustomData`](/slides/python-net/fa/aspose.slides/icustomdata). |
+| [`vba_project`](/slides/python-net/fa/aspose.slides/ipresentation/vba_project/) | Gets VBA project with presentation macros.<br/>            Read/write [`IVbaProject`](/slides/python-net/fa/aspose.slides.vba/ivbaproject). |
+| [`source_format`](/slides/python-net/fa/aspose.slides/ipresentation/source_format/) | Returns information about from which format presentation was loaded.<br/>            Read-only [`IPresentation.source_format`](/slides/python-net/fa/aspose.slides/ipresentation/source_format). |
+| [`master_theme`](/slides/python-net/fa/aspose.slides/ipresentation/master_theme/) | Returns master theme of the presentation.<br/>            Read-only [`IMasterTheme`](/slides/python-net/fa/aspose.slides.theme/imastertheme). |
+| [`hyperlink_queries`](/slides/python-net/fa/aspose.slides/ipresentation/hyperlink_queries/) | Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides).<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries). |
+| [`view_properties`](/slides/python-net/fa/aspose.slides/ipresentation/view_properties/) | Gets presentation wide view properties.<br/>            Read-only [`IViewProperties`](/slides/python-net/fa/aspose.slides/iviewproperties). |
+| [`first_slide_number`](/slides/python-net/fa/aspose.slides/ipresentation/first_slide_number/) | Represents the first slide number in the presentation.<br/>            Read/write **int**. |
+| [`all_custom_xml_parts`](/slides/python-net/fa/aspose.slides/ipresentation/all_custom_xml_parts/) | Returns all custom data parts in the presentaion.<br/>            Read-only [`ICustomXmlPart`](/slides/python-net/fa/aspose.slides/icustomxmlpart)[]. |
+| [`digital_signatures`](/slides/python-net/fa/aspose.slides/ipresentation/digital_signatures/) | Returns the collection of signatures used to sign the presentation.<br/>            Read-only [`IDigitalSignatureCollection`](/slides/python-net/fa/aspose.slides/idigitalsignaturecollection). |
+| [`sensitivity_labels`](/slides/python-net/fa/aspose.slides/ipresentation/sensitivity_labels/) | Returns the collection of sensitivity labels applied to the presentation document.<br/>            Read-only [`ISensitivityLabelCollection`](/slides/python-net/fa/aspose.slides/isensitivitylabelcollection). |
 | [`presentation`](/slides/python-net/fa/aspose.slides/ipresentation/presentation/) |  |
 
 ## متدها
 
-| متد | توضیح |
+| Method | Description |
 | :- | :- |
-| [`save(self, fname, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-asposeslidesexportsaveformat) | تمام اسلایدهای یک ارائه را به یک فایل با فرمت مشخص ذخیره می‌کند. |
-| [`save(self, stream, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-asposeslidesexportsaveformat) | تمام اسلایدهای یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [`save(self, fname, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | تمام اسلایدهای یک ارائه را به یک فایل با فرمت مشخص و با گزینه‌های اضافی ذخیره می‌کند. |
-| [`save(self, stream, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | تمام اسلایدهای یک ارائه را در یک جریان با فرمت مشخص و با گزینه‌های اضافی ذخیره می‌کند. |
-| [`save(self, fname, slides, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-listint-asposeslidesexportsaveformat) | اسلایدهای مشخص شده یک ارائه را به یک فایل با فرمت مشخص ذخیره می‌کند. |
-| [`save(self, fname, slides, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | اسلایدهای مشخص شده یک ارائه را به یک فایل با فرمت مشخص ذخیره می‌کند. |
-| [`save(self, stream, slides, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat) | اسلایدهای مشخص شده یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [`save(self, stream, slides, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | اسلایدهای مشخص شده یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [`save(self, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#asposeslidesexportxamlixamloptions) | تمام اسلایدهای یک ارائه را به مجموعه‌ای از فایل‌ها که نشان‌دهندهٔ XAML markup هستند ذخیره می‌کند. |
-| [`get_images(self, options)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions) | اشیای Thumbnail Image را برای تمام اسلایدهای یک ارائه برمی‌گرداند. |
-| [`get_images(self, options, slides)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint) | اشیای Thumbnail Bitmap را برای اسلایدهای مشخص شده یک ارائه برمی‌گرداند. |
-| [`get_images(self, options, scale_x, scale_y)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-float-float) | اشیای Thumbnail Image را برای تمام اسلایدهای یک ارائه با مقیاس سفارشی برمی‌گرداند. |
-| [`get_images(self, options, slides, scale_x, scale_y)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint-float-float) | اشیای Thumbnail Image را برای اسلایدهای مشخص شده یک ارائه با مقیاس سفارشی برمی‌گرداند. |
-| [`get_images(self, options, image_size)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-asposeslidessize) | اشیای Thumbnail Image را برای تمام اسلایدهای یک ارائه با اندازهٔ مشخص برمی‌گرداند. |
-| [`get_images(self, options, slides, image_size)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint-asposeslidessize) | اشیای Thumbnail Image را برای اسلایدهای مشخص شده یک ارائه با اندازهٔ مشخص برمی‌گرداند. |
-| [`highlight_text(self, text, highlight_color)`](/slides/python-net/fa/aspose.slides/ipresentation/highlight_text/#str-asposeslidescolor) | تمام تطابق‌های متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [`highlight_text(self, text, highlight_color, options, callback)`](/slides/python-net/fa/aspose.slides/ipresentation/highlight_text/#str-asposeslidescolor-itextsearchoptions-ifindresultcallback) | تمام تطابق‌های متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [`get_slide_by_id(self, id)`](/slides/python-net/fa/aspose.slides/ipresentation/get_slide_by_id/#int) | یک Slide، MasterSlide یا LayoutSlide را بر اساس Id برمی‌گرداند. |
-| [`join_portions_with_same_formatting(self)`](/slides/python-net/fa/aspose.slides/ipresentation/join_portions_with_same_formatting/#) | دنباله‌های متنی با فرمت یکسان را در تمام پاراگراف‌ها در تمام شکل‌های قابل قبول در تمام اسلایدها به هم می‌پیوندد. |
-| [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/fa/aspose.slides/ipresentation/highlight_regex/#str-asposeslidescolor) | تمام تطابق‌های عبارت منظم را با رنگ مشخص برجسته می‌کند. |
-| [`replace_text(self, old_text, new_text, options, callback)`](/slides/python-net/fa/aspose.slides/ipresentation/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | تمام موارد متن مشخص شده را با متن دیگری که مشخص شده است جایگزین می‌کند. |
-| [`replace_regex(self, regex, new_text)`](/slides/python-net/fa/aspose.slides/ipresentation/replace_regex/#str-str) | تمام تطابق‌های عبارت منظم را با رشتهٔ مشخص شده جایگزین می‌کند. |
+| [`save(self, fname, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-asposeslidesexportsaveformat) | Saves all slides of a presentation to a file with the specified format. |
+| [`save(self, stream, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-asposeslidesexportsaveformat) | Saves all slides of a presentation to a stream in the specified format. |
+| [`save(self, fname, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [`save(self, stream, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [`save(self, fname, slides, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a file with the specified format. |
+| [`save(self, fname, slides, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a file with the specified format. |
+| [`save(self, stream, slides, format)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat) | Saves specified slides of a presentation to a stream in the specified format. |
+| [`save(self, stream, slides, format, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions) | Saves specified slides of a presentation to a stream in the specified format. |
+| [`save(self, options)`](/slides/python-net/fa/aspose.slides/ipresentation/save/#asposeslidesexportxamlixamloptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
+| [`get_images(self, options)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image objects for all slides of a presentation. |
+| [`get_images(self, options, slides)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [`get_images(self, options, scale_x, scale_y)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+| [`get_images(self, options, slides, scale_x, scale_y)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint-float-float) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+| [`get_images(self, options, image_size)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-asposeslidessize) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+| [`get_images(self, options, slides, image_size)`](/slides/python-net/fa/aspose.slides/ipresentation/get_images/#asposeslidesexportirenderingoptions-listint-asposeslidessize) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
+| [`highlight_text(self, text, highlight_color)`](/slides/python-net/fa/aspose.slides/ipresentation/highlight_text/#str-asposeslidescolor) | Highlights all matches of the sample text with the specified color. |
+| [`highlight_text(self, text, highlight_color, options, callback)`](/slides/python-net/fa/aspose.slides/ipresentation/highlight_text/#str-asposeslidescolor-itextsearchoptions-ifindresultcallback) | Highlights all matches of the sample text with the specified color. |
+| [`get_slide_by_id(self, id)`](/slides/python-net/fa/aspose.slides/ipresentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/fa/aspose.slides/ipresentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/fa/aspose.slides/ipresentation/highlight_regex/#str-asposeslidescolor) | Highlights all matches of the regular expression with the specified color. |
+| [`replace_text(self, old_text, new_text, options, callback)`](/slides/python-net/fa/aspose.slides/ipresentation/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
+| [`replace_regex(self, regex, new_text)`](/slides/python-net/fa/aspose.slides/ipresentation/replace_regex/#str-str) | Replaces all matches of the regular expression with the specified string. |
+| [`refresh_charts_data(self, skip_failed_charts)`](/slides/python-net/fa/aspose.slides/ipresentation/refresh_charts_data/#bool) | Reloads the data for all charts in the presentation from their source workbooks. |
 
 ### موارد مرتبط
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

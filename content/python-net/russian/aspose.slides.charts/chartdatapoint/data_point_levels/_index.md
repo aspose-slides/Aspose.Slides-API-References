@@ -1,13 +1,13 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels свойство
-Возвращает контейнер уровней точек данных. Применяется к сериям Treeamp и Sunburst.
+Возвращает контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst.
             Индексация уровней точек данных начинается с нуля.
 
 ### Определение:

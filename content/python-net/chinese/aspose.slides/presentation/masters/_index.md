@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters 属性
-返回演示文稿中定义的所有母版幻灯片的列表。
+Returns a list of all master slides that are defined in the presentation.
             只读 [`IMasterSlideCollection`](/slides/python-net/zh/aspose.slides/imasterslidecollection).
 
-### Definition:
+### 定义:
 ```python
 @property
 def masters(self):
@@ -18,7 +18,7 @@ def masters(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`IMasterSlideCollection`](/slides/python-net/zh/aspose.slides/imasterslidecollection)
 * 类 [`Presentation`](/slides/python-net/zh/aspose.slides/presentation)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

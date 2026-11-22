@@ -1,13 +1,13 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors คุณสมบัติ
-ส่งคืนคอลเลกชันของผู้เขียนความคิดเห็น.
+คืนค่าชุดของผู้เขียนความคิดเห็น.
             อ่านอย่างเดียว [`ICommentAuthorCollection`](/slides/python-net/th/aspose.slides/icommentauthorcollection).
 
 ### คำนิยาม:

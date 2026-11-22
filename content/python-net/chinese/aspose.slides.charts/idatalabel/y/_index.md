@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y 属性
 ### 定义:

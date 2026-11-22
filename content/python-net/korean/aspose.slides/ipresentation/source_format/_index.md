@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format 속성
-프레젠테이션이 로드된 형식에 대한 정보를 반환합니다.
+Returns information about from which format presentation was loaded.
             읽기 전용 [`IPresentation.source_format`](/slides/python-net/ko/aspose.slides/ipresentation/source_format).
 
 ### 정의:

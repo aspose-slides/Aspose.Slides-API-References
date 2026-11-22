@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## 값 속성
-값.
+## value 속성
+Value.
             읽기 전용 [`IDoubleChartValue`](/slides/python-net/ko/aspose.slides.charts/idoublechartvalue).
 
 ### 정의:

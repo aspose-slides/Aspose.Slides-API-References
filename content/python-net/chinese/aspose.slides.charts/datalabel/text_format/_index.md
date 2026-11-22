@@ -1,14 +1,14 @@
 ---
 title: text_format property
-second_title: Aspose.Slides for Python via .NET API 参考文档
+second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
-## text_format property
+## text_format 属性
 返回文本格式。
-            只读 [`IChartTextFormat`](/slides/python-net/zh/aspose.slides.charts/icharttextformat).
+            只读 [`IChartTextFormat`](/slides/python-net/zh/aspose.slides.charts/icharttextformat)。
 
 ### 定义:
 ```python
@@ -18,7 +18,7 @@ def text_format(self):
 ```
 
 
-### 另请参见
+### 另见
 * 类 [`DataLabel`](/slides/python-net/zh/aspose.slides.charts/datalabel)
 * 类 [`IChartTextFormat`](/slides/python-net/zh/aspose.slides.charts/icharttextformat)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)

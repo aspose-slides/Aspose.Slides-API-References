@@ -1,13 +1,13 @@
 ---
 title: format property
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Python 用 Aspose.Slides .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## format プロパティ
-書式設定のプロパティを表します。
+## フォーマット プロパティ
+フォーマットのプロパティを表します。
             読み書き [`IFormat`](/slides/python-net/ja/aspose.slides.charts/iformat).
 
 ### 定義:

@@ -1,18 +1,23 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Python için Aspose.Slides .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible özelliği
-False, veri etiketinin varsayılan olarak görünür olmadığı anlamına gelir (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-flags (ShowValue, ...) false olur). Salt okunur **bool**.
+False, veri etiketi varsayılan olarak görünür değildir (ve bu nedenle 
+            Show*-flags (ShowValue, ...) DefaultDataLabelFormat özelliği false durumundadır). 
+            Salt okunur **bool**.
+
 
 ### Açıklamalar
 
-Eğer veri etiketi varsayılan olarak görünürse, Hide() yöntemiyle varsayılan olarak gizleyebilirsiniz.
- Ancak veri etiketi varsayılan olarak görünür değilse (IsVisible false) Show*-flags (ShowValue, ...) DefaultDataLabelFormat özelliğini true durumuna ayarlayarak veri etiketini "varsayılan olarak görünür" hâle getirebilirsiniz.
+Veri etiketi varsayılan olarak görünürse, onu varsayılan olarak gizlemek için Hide() yöntemini kullanabilirsiniz. 
+            Ancak veri etiketi varsayılan olarak görünür değilse (IsVisible false) veri etiketini "varsayılan olarak görünür " 
+            varsayılan" ayarlayarak Show*-flags (ShowValue, ...) DefaultDataLabelFormat özelliğini 
+            true durumuna getirir.
 
 ### Tanım:
 ```python
@@ -21,7 +26,8 @@ def is_visible(self):
     ...
 ```
 
-### Bakınız
+
+### Ayrıca Bakınız
 * sınıf [`IDataLabelCollection`](/slides/python-net/tr/aspose.slides.charts/idatalabelcollection)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

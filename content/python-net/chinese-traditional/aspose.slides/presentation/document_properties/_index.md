@@ -1,13 +1,13 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties 屬性
-返回 DocumentProperties 物件，它包含標準和自訂的文件屬性。
+傳回包含標準和自訂文件屬性的 DocumentProperties 物件。
             唯讀 [`IDocumentProperties`](/slides/python-net/zh-hant/aspose.slides/idocumentproperties).
 
 ### 定義:

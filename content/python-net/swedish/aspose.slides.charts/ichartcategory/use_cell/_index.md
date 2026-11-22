@@ -4,14 +4,16 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell egenskap
-Om true är då AsCell egenskap aktuell. Med andra ord används worksheet för att lagra kategori (detta fall stödjer en flernivåkategori). Om false är då AsLiteral egenskap aktuell. Med andra ord används worksheet INTE för att lagra kategori (och detta fall stödjer inte flernivåkategorier). Skrivskyddad **bool**.
+Om true är sedan AsCell property aktuell. Med andra ord används kalkylbladet för att lagra kategori (detta fall stödjer en flernivåkategori).
+Om false är sedan AsLiteral property aktuell. Med andra ord används kalkylbladet INTE för att lagra kategori (och detta fall stödjer inte flernivåkategorier).
+Skrivskyddad **bool**.
 
 ### Anmärkningar
 
-För att ändra värdet på denna egenskap (för alla kategorier i samlingen) sätt det nya värdet till ChartCategoryCollection.UseCells egenskap.
+För att ändra värdet på denna egenskap (för alla kategorier i samlingen) sätt det nya värdet till ChartCategoryCollection.UseCells property.
 
 ### Definition:
 ```python

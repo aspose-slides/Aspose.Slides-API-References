@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## properti nilai
-Mengembalikan nilai dari titik data grafik.
-Hanya-baca [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
+Mendapatkan nilai dari titik data diagram.
+            Baca-saja [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
 
 ### Definisi:
 ```python
@@ -16,6 +16,7 @@ Hanya-baca [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idou
 def value(self):
     ...
 ```
+
 
 ### Lihat Juga
 * kelas [`IChartDataPoint`](/slides/python-net/id/aspose.slides.charts/ichartdatapoint)

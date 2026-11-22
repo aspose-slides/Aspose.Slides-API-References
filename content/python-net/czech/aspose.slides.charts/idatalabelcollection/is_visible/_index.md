@@ -1,23 +1,23 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible vlastnost
-False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechna 
-            Show*-příznaky (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false).
+False znamená, že popisek dat není ve výchozím nastavení viditelný (a tak jsou všechny 
+            Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false).
             Pouze pro čtení **bool**.
 
 
 ### Poznámky
 
 Pokud je popisek dat ve výchozím nastavení viditelný, můžete jej ve výchozím nastavení skrýt pomocí metody Hide().
-            Ale pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete popisek dat „viditelný 
-            ve výchozím nastavení“ nastavit nastavením Show*-příznaků (ShowValue, ...) vlastnosti DefaultDataLabelFormat
-            na stav true.
+            Ale pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete popisek dat "viditelný 
+            ve výchozím nastavení" nastavit nastavením Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat
+            na pravdivý stav.
 
 ### Definice:
 ```python

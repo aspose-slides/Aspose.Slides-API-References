@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
+second_title: Aspose.Slides dla Pythona poprzez .NET – Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell właściwość
-Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true.
+Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell równa jest true.
 
 ### Definicja:
 ```python

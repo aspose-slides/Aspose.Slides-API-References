@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides pour Python via .NET Référence API
+second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## marker propriété
+## propriété du marqueur
 Spécifie un marqueur de données.
-            Lecture seule [`IMarker`](/slides/python-net/fr/aspose.slides.charts/imarker).
+            En lecture seule [`IMarker`](/slides/python-net/fr/aspose.slides.charts/imarker).
 
 ### Définition:
 ```python

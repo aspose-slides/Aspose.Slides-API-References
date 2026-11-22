@@ -1,16 +1,15 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type Eigenschaft
-Gibt den Typ des eingebetteten Arbeitsbuchs zurück.
-            Gibt [`WorkbookType.NOT_DEFINED`](/slides/python-net/de/aspose.slides.charts/workbooktype/NOT_DEFINED) zurück, wenn [`IChartData.data_source_type`](/slides/python-net/de/aspose.slides.charts/ichartdata/data_source_type) ist 
-            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/de/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
-            Schreibgeschützt [`WorkbookType`](/slides/python-net/de/aspose.slides.charts/workbooktype).
+Ruft den Typ der eingebetteten Arbeitsmappe ab.
+            Gibt [`WorkbookType.NOT_DEFINED`](/slides/python-net/de/aspose.slides.charts/workbooktype/NOT_DEFINED) zurück, wenn [`IChartData.data_source_type`](/slides/python-net/de/aspose.slides.charts/ichartdata/data_source_type) [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/de/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK) ist.
+            Nur lesbar [`WorkbookType`](/slides/python-net/de/aspose.slides.charts/workbooktype).
 
 ### Definition:
 ```python

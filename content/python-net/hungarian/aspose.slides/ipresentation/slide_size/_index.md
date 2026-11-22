@@ -1,16 +1,16 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
+second_title: Aspose.Slides Python számára .NET API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size tulajdonság
 Visszaadja a dia méret objektumot.
             Csak olvasható [`ISlideSize`](/slides/python-net/hu/aspose.slides/islidesize).
 
-### Definíció:
+### Meghatározás:
 ```python
 @property
 def slide_size(self):

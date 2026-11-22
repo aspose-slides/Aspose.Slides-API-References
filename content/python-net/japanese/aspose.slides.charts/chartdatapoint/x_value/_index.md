@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value プロパティ
 XValue.
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### 関連項目
+### 参照
 * クラス [`ChartDataPoint`](/slides/python-net/ja/aspose.slides.charts/chartdatapoint)
 * クラス [`IStringOrDoubleChartValue`](/slides/python-net/ja/aspose.slides.charts/istringordoublechartvalue)
 * モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)

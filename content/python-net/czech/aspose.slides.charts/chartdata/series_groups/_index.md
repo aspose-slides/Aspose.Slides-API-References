@@ -4,7 +4,7 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups vlastnost
 Získá skupiny řad.
@@ -13,18 +13,13 @@ Získá skupiny řad.
 
 ### Poznámky
 
-1) Každá skupina řad obsahuje řady s kombinovatelnými typy. Skupiny 
-            kombinovatelných typů řad jsou definovány a popsány pomocí výčtu CombinableSeriesTypesGroup 
-            enum.
-            Také každá skupina řad obsahuje řady, které jsou kresleny buď 
-            na primární ose nebo na sekundární ose (ne oba případy v jedné skupině).
-            Princip seskupování řad je tedy seskupování podle výše zmíněných typových skupin 
-            a podle typu vykreslení na primární/sekundární ose.
+1) Každá skupina řad obsahuje řady s kombinovatelnými typy. Skupiny kombinovatelných typů řad jsou definovány a popsány pomocí výčtu CombinableSeriesTypesGroup enum.
+            Také každá skupina řad obsahuje řadu, která je vykreslena buď na primární ose, nebo na sekundární ose (nikoli v obou případech ve stejné skupině).
+            Princip seskupování řad je tedy seskupování podle výše zmíněných typových skupin a podle typu vykreslení primární/sekundární.
             
-2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro 
-            každou řadu ve skupině („vlastnosti skupiny řad“).
-            „Vlastnosti skupiny řad“ v třídě ChartSeriesGroup jsou čtení/zápis.
-            Každá z „vlastností skupiny řad“ může mít projekci pouze pro čtení v třídě ChartSeries.
+            2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro každou řadu ve skupině ("vlastnosti skupiny řad").
+            "Vlastnosti skupiny řad" v třídě ChartSeriesGroup jsou čtení/zápis.
+            Každá z "vlastností skupiny řad" může mít pouze pro čtení projekci v třídě ChartSeries.
 
 ### Definice:
 ```python

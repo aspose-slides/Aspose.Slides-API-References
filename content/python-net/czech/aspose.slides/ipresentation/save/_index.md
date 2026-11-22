@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/save/
-weight: 80
+weight: 90
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
-Uloží všechny snímky prezentace do sady souborů představujících značkování XAML.
+Uloží všechny snímky prezentace do sady souborů představujících XAML značkování.
 
 ```python
 def save(self, options):
@@ -19,7 +19,7 @@ def save(self, options):
 | options | [`IXamlOptions`](/slides/python-net/cs/aspose.slides.export.xaml/ixamloptions) | Možnosti formátu XAML. |
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
-Uloží všechny snímky prezentace do souboru ve specifikovaném formátu.
+Uloží všechny snímky prezentace do souboru ve zvoleném formátu.
 
 ```python
 def save(self, fname, format):
@@ -32,7 +32,7 @@ def save(self, fname, format):
 | format | [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat) | Formát exportovaných dat. |
 
 ## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
-Uloží všechny snímky prezentace do proudu ve specifikovaném formátu.
+Uloží všechny snímky prezentace do proudu ve zvoleném formátu.
 
 ```python
 def save(self, stream, format):
@@ -45,7 +45,7 @@ def save(self, stream, format):
 | format | [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat) | Formát exportovaných dat. |
 
 ## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Uloží všechny snímky prezentace do souboru ve specifikovaném formátu s dodatečnými možnostmi.
+Uloží všechny snímky prezentace do souboru ve zvoleném formátu a s dalšími možnostmi.
 
 ```python
 def save(self, fname, format, options):
@@ -56,10 +56,10 @@ def save(self, fname, format, options):
 | :- | :- | :- |
 | fname | **str** | Cesta k vytvořenému souboru. |
 | format | [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat) | Formát exportovaných dat. |
-| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Dodatečné možnosti formátu. |
+| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Další možnosti formátu. |
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Uloží všechny snímky prezentace do proudu ve specifikovaném formátu s dodatečnými možnostmi.
+Uloží všechny snímky prezentace do proudu ve zvoleném formátu a s dalšími možnostmi.
 
 ```python
 def save(self, stream, format, options):
@@ -70,7 +70,7 @@ def save(self, stream, format, options):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Výstupní proud. |
 | format | [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat) | Formát exportovaných dat. |
-| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Dodatečné možnosti formátu. |
+| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Další možnosti formátu. |
 
 ### Výjimky
 
@@ -79,7 +79,7 @@ def save(self, stream, format, options):
 | **RuntimeError(Proxy error(NotSupportedException))** | Pokud se pokusíte uložit šifrovaný soubor v <br/>            žádném formátu Office 2007-2010 |
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
-Uloží určené snímky prezentace do souboru ve specifikovaném formátu.
+Uloží specifikované snímky prezentace do souboru ve zvoleném formátu.
 
 ```python
 def save(self, fname, slides, format):
@@ -97,11 +97,11 @@ def save(self, fname, slides, format):
 | Výjimka | Popis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Když je parametr stream nebo slides nastaven na None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje nesprávná čísla stránek. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje špatná čísla stránek. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Uloží určené snímky prezentace do proudu ve specifikovaném formátu.
+Uloží specifikované snímky prezentace do proudu ve zvoleném formátu.
 
 ```python
 def save(self, stream, slides, format):
@@ -119,11 +119,11 @@ def save(self, stream, slides, format):
 | Výjimka | Popis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Když je parametr stream nebo slides nastaven na None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje nesprávná čísla stránek. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje špatná čísla stránek. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Uloží určené snímky prezentace do souboru ve specifikovaném formátu.
+Uloží specifikované snímky prezentace do souboru ve zvoleném formátu.
 
 ```python
 def save(self, fname, slides, format, options):
@@ -135,18 +135,18 @@ def save(self, fname, slides, format, options):
 | fname | **str** | Cesta k vytvořenému souboru. |
 | slides | **List[int]** | Pole s pozicemi snímků, počínaje 1. |
 | format | [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat) | Formát exportovaných dat. |
-| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Dodatečné možnosti formátu. |
+| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Další možnosti formátu. |
 
 ### Výjimky
 
 | Výjimka | Popis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Když je parametr stream nebo slides nastaven na None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje nesprávná čísla stránek. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje špatná čísla stránek. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Uloží určené snímky prezentace do proudu ve specifikovaném formátu.
+Uloží specifikované snímky prezentace do proudu ve zvoleném formátu.
 
 ```python
 def save(self, stream, slides, format, options):
@@ -158,20 +158,20 @@ def save(self, stream, slides, format, options):
 | stream | **io.RawIOBase** | Výstupní proud. |
 | slides | **List[int]** | Pole s pozicemi snímků, počínaje 1. |
 | format | [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat) | Formát exportovaných dat. |
-| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Dodatečné možnosti formátu. |
+| options | [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions) | Další možnosti formátu. |
 
 ### Výjimky
 
 | Výjimka | Popis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Když je parametr stream nebo slides nastaven na None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje nesprávná čísla stránek. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Když parametr slides obsahuje špatná čísla stránek. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Viz také
 * třída [`IPresentation`](/slides/python-net/cs/aspose.slides/ipresentation)
 * třída [`ISaveOptions`](/slides/python-net/cs/aspose.slides.export/isaveoptions)
 * třída [`IXamlOptions`](/slides/python-net/cs/aspose.slides.export.xaml/ixamloptions)
-* výčet [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat)
+* enumerace [`SaveFormat`](/slides/python-net/cs/aspose.slides.export/saveformat)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

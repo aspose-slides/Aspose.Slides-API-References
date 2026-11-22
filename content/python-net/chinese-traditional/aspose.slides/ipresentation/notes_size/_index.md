@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size 屬性
-傳回 notes slide size 物件。
+返回 notes slide size 物件。
             唯讀 [`INotesSize`](/slides/python-net/zh-hant/aspose.slides/inotessize).
 
-### 定義：
+### 定義:
 ```python
 @property
 def notes_size(self):

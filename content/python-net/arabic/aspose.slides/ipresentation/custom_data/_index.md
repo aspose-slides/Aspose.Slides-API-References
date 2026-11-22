@@ -1,13 +1,13 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/custom_data/
-weight: 150
+weight: 160
 ---
-## خاصية custom_data
-يعيد البيانات المخصصة للعرض.
+## custom_data خاصية
+يعيد البيانات المخصصة للعرض التقديمي.
             للقراءة فقط [`ICustomData`](/slides/python-net/ar/aspose.slides/icustomdata).
 
 ### التعريف:

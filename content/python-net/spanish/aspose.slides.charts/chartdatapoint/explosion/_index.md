@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## explosion propiedad
-Specifica la cantidad que el punto de datos debe moverse desde el centro del pastel.
+## propiedad explosion
+Especifica la cantidad que el punto de datos debe desplazarse desde el centro del pastel.
             Lectura/escritura **int**.
 
 ### Definición:
@@ -20,7 +20,6 @@ def explosion(self):
 def explosion(self, value):
     ...
 ```
-
 
 ### Ver también
 * clase [`ChartDataPoint`](/slides/python-net/es/aspose.slides.charts/chartdatapoint)

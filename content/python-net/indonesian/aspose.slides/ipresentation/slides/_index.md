@@ -4,9 +4,9 @@ second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
-## properti slides
+## slides properti
 Mengembalikan daftar semua slide yang didefinisikan dalam presentasi.
             Hanya-baca [`ISlideCollection`](/id/slides/python-net/aspose.slides/islidecollection).
 
@@ -22,4 +22,4 @@ def slides(self):
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * kelas [`ISlideCollection`](/slides/python-net/id/aspose.slides/islidecollection)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

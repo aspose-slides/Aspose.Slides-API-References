@@ -1,16 +1,16 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides ل Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series خاصية
-تُرجع السلسلة الأصلية للمخطط.
-            قراءة فقط [`IChartSeries`](/slides/python-net/ar/aspose.slides.charts/ichartseries).
+يعيد سلسلة المخطط الأصلية.
+            قابل للقراءة فقط [`IChartSeries`](/slides/python-net/ar/aspose.slides.charts/ichartseries).
 
-### التعريف:
+### تعريف:
 ```python
 @property
 def parent_series(self):

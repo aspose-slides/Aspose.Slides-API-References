@@ -7,22 +7,16 @@ url: /ru/aspose.slides/stringstringpair/
 ---
 ## StringStringPair класс
 
-Структура содержит string ключ и string значение и является временной заменой KeyValuePair<string, string>
+Структура содержит строковый ключ и строковое значение и является временной заменой KeyValuePair<string, string>
 
 Тип StringStringPair предоставляет следующие члены:
-
-## Конструкторы
-
-| Конструктор | Описание |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/ru/aspose.slides/stringstringpair/__init__/#) |  |
 
 ## Свойства
 
 | Свойство | Описание |
 | :- | :- |
-| [`key`](/slides/python-net/ru/aspose.slides/stringstringpair/key/) | String ключ |
-| [`value`](/slides/python-net/ru/aspose.slides/stringstringpair/value/) | String значение |
+| [`key`](/slides/python-net/ru/aspose.slides/stringstringpair/key/) | String key |
+| [`value`](/slides/python-net/ru/aspose.slides/stringstringpair/value/) | String value |
 
 
 ### См. также

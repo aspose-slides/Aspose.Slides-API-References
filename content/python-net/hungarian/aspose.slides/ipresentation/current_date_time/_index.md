@@ -1,17 +1,17 @@
 ---
 title: current_date_time property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
 ## current_date_time tulajdonság
 Visszaadja vagy beállítja a dátumot és az időt, amely helyettesíti a datetime mezők tartalmát.
-            Alapértelmezés szerint a Presentation objektum létrehozásának időpontja.
+            Az alapértelmezett az ennek a Presentation objektumnak a létrehozási ideje.
             Olvasás/írás **System.DateTime**.
 
-### Definíció:
+### Meghatározás:
 ```python
 @property
 def current_date_time(self):

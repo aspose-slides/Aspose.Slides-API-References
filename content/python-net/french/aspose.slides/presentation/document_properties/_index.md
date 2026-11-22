@@ -1,13 +1,13 @@
 ---
 title: document_properties property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence API
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties propriété
-Renvoie un objet DocumentProperties qui contient les propriétés de document standard et personnalisées.
+Renvoie l'objet DocumentProperties qui contient des propriétés de document standard et personnalisées.
             Lecture seule [`IDocumentProperties`](/slides/python-net/fr/aspose.slides/idocumentproperties).
 
 ### Définition:

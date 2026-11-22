@@ -1,14 +1,14 @@
 ---
 title: videos property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/videos/
-weight: 400
+weight: 410
 ---
-## videos thuộc tính
-Trả về tập hợp của tất cả các tệp video được nhúng trong bản trình bày.
-            Chỉ đọc [`IVideoCollection`](/slides/python-net/vi/aspose.slides/ivideocollection).
+## thuộc tính videos
+Trả về tập hợp của tất cả các tệp video được nhúng trong bản trình chiếu.
+Chỉ đọc [`IVideoCollection`](/slides/python-net/vi/aspose.slides/ivideocollection).
 
 ### Định nghĩa:
 ```python
@@ -17,8 +17,7 @@ def videos(self):
     ...
 ```
 
-
-### Xem thêm
+### Xem Thêm
 * lớp [`IVideoCollection`](/slides/python-net/vi/aspose.slides/ivideocollection)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)

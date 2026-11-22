@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
 ## propriété droite
 ### Définition:

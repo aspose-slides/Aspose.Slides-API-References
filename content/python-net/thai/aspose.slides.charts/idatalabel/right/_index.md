@@ -1,13 +1,13 @@
 ---
 title: right property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
-## right property
-### คำนิยาม:
+## right คุณสมบัติ
+### คำจำกัดความ:
 ```python
 @property
 def right(self):

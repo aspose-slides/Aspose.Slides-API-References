@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides Python számára .NET-en keresztül API referencia
+second_title: Aspose.Slides Python számára .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## dia tulajdonság
+## slide tulajdonság
 ### Definíció:
 ```python
 @property

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell 속성
-워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다.
+워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다.
 
 ### 정의:
 ```python
@@ -20,7 +20,8 @@ def value_from_cell(self, value):
     ...
 ```
 
-### 참고
+
+### 참조
 * 클래스 [`IDataLabel`](/slides/python-net/ko/aspose.slides.charts/idatalabel)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

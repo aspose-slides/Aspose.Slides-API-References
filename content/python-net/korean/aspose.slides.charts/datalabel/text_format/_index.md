@@ -1,10 +1,10 @@
 ---
 title: text_format property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format 속성
 텍스트 형식을 반환합니다.
@@ -18,7 +18,7 @@ def text_format(self):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`DataLabel`](/slides/python-net/ko/aspose.slides.charts/datalabel)
 * 클래스 [`IChartTextFormat`](/slides/python-net/ko/aspose.slides.charts/icharttextformat)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

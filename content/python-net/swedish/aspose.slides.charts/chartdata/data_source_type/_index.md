@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type egenskap
-Representerar extern arbetsbokssökväg om extern datakälla, annars None
+Representerar sökvägen till extern arbetsbok om extern datakälla, None annars
 
 ### Definition:
 ```python

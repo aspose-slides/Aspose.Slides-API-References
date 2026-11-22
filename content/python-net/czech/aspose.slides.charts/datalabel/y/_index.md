@@ -1,14 +1,14 @@
 ---
 title: y property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y vlastnost
-Vrací nebo nastavuje souřadnici y nadpisu jako zlomek výšky grafu.
-            Číst/Zapisovat **float**.
+Vrací nebo nastavuje souřadnici y nadpisu jako podíl výšky grafu.
+Čtení/zápis **float**.
 
 ### Definice:
 ```python
@@ -20,7 +20,6 @@ def y(self):
 def y(self, value):
     ...
 ```
-
 
 ### Viz také
 * třída [`DataLabel`](/slides/python-net/cs/aspose.slides.charts/datalabel)

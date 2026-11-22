@@ -1,14 +1,14 @@
 ---
 title: header_footer_manager property
-second_title: مرجع Aspose.Slides للغة بايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/header_footer_manager/
-weight: 220
+weight: 230
 ---
 ## header_footer_manager خاصية
-يرجع مدير HeaderFooter الفعلي.
-            قراءة فقط [`IPresentationHeaderFooterManager`](/slides/python-net/ar/aspose.slides/ipresentationheaderfootermanager).
+يعيد مدير HeaderFooter الفعلي.
+            للقراءة فقط [`IPresentationHeaderFooterManager`](/slides/python-net/ar/aspose.slides/ipresentationheaderfootermanager).
 
 ### التعريف:
 ```python

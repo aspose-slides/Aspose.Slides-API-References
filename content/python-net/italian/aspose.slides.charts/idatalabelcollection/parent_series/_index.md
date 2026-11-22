@@ -4,9 +4,9 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
-## proprietà parent_series
+## parent_series proprietà
 Restituisce la serie del grafico padre.
             Sola lettura [`IChartSeries`](/slides/python-net/it/aspose.slides.charts/ichartseries).
 

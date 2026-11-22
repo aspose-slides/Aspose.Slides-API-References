@@ -1,14 +1,14 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs özelliği
-Bir çerçevede tüm paragraphs listesini döndürür.
-            Yalnızca okuma [`IParagraphCollection`](/slides/python-net/tr/aspose.slides/iparagraphcollection).
+Bir çerçevedeki tüm paragrafların listesini döndürür.
+            Salt-okunur [`IParagraphCollection`](/slides/python-net/tr/aspose.slides/iparagraphcollection).
 
 ### Tanım:
 ```python

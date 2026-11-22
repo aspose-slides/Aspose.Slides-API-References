@@ -1,13 +1,13 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides a Pythonhoz a .NET API referencia
+second_title: Aspose.Slides Pythonhoz a .NET API Referencián keresztül
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number tulajdonság
-A prezentáció első diájának számát jelöli
+A prezentációban az első dia számát jelöli
 
 ### Definíció:
 ```python

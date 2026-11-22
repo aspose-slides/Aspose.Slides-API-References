@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number ιδιότητα
-Αντιπροσωπεύει τον πρώτο αριθμό διαφάνειας στην παρουσίαση.
-            Ανάγνωση/εγγραφή **int**.
+Αντιπροσωπεύει τον αριθμό της πρώτης διαφάνειας στην παρουσίαση.
+Ανάγνωση/εγγραφή **int**.
 
 ### Ορισμός:
 ```python

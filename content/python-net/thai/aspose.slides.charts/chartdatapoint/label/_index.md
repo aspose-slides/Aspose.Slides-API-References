@@ -1,10 +1,10 @@
 ---
 title: label property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## label คุณสมบัติ
 Label.

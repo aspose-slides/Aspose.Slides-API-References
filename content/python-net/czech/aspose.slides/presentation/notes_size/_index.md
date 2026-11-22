@@ -1,14 +1,14 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python – referenční příručka .NET API
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size vlastnost
-Vrací objekt velikosti poznámkového snímku.
-            Pouze pro čtení [`INotesSize`](/slides/python-net/cs/aspose.slides/inotessize).
+Vrací objekt velikosti poznámkové snímky.
+            Pouze ke čtení [`INotesSize`](/slides/python-net/cs/aspose.slides/inotessize).
 
 ### Definice:
 ```python

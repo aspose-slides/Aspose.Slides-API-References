@@ -4,10 +4,10 @@ second_title: Справочник API Aspose.Slides для Python через .N
 description: 
 type: docs
 url: /ru/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs свойство
-Returns the list of all paragraphs in a frame.
+Возвращает список всех абзацев в кадре.
             Только для чтения [`IParagraphCollection`](/slides/python-net/ru/aspose.slides/iparagraphcollection).
 
 ### Определение:
@@ -16,6 +16,7 @@ Returns the list of all paragraphs in a frame.
 def paragraphs(self):
     ...
 ```
+
 
 ### См. также
 * класс [`IParagraphCollection`](/slides/python-net/ru/aspose.slides/iparagraphcollection)

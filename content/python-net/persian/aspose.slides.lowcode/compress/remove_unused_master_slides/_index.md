@@ -1,13 +1,13 @@
 ---
 title: remove_unused_master_slides method
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API مرجع
 description: 
 type: docs
 url: /fa/aspose.slides.lowcode/compress/remove_unused_master_slides/
-weight: 30
+weight: 50
 ---
 ## remove_unused_master_slides(pres) {#presentation}
-فشرده‌سازی [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) را با حذف اسلایدهای مستر استفاده‌نشده انجام می‌دهد.
+فشرده‌سازی [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) را با حذف اسلایدهای مستر استفاده نشده انجام می‌دهد.
 
 ```python
 @staticmethod

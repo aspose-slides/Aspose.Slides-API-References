@@ -1,10 +1,10 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides para Python via .NET – Referência da API
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/itextframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Destaca todas as correspondências do texto de exemplo com a cor especificada.
@@ -46,7 +46,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | text | **str** | O texto a ser destacado. |
 | highlight_color | [`Color`](/slides/python-net/pt/aspose.slides/color) | A cor para destacar o texto. |
 | options | [`ITextSearchOptions`](/slides/python-net/pt/aspose.slides/itextsearchoptions) | Opções de pesquisa de texto [`ITextSearchOptions`](/slides/python-net/pt/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/pt/aspose.slides/ifindresultcallback) | O objeto de callback para receber os resultados da pesquisa [`IFindResultCallback`](/slides/python-net/pt/aspose.slides/ifindresultcallback). |
+| callback | [`IFindResultCallback`](/slides/python-net/pt/aspose.slides/ifindresultcallback) | O objeto de callback para receber resultados de pesquisa [`IFindResultCallback`](/slides/python-net/pt/aspose.slides/ifindresultcallback). |
 
 ### Veja Também
 * classe [`IFindResultCallback`](/slides/python-net/pt/aspose.slides/ifindresultcallback)

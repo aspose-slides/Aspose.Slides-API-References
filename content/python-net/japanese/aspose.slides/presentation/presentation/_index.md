@@ -4,16 +4,15 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/presentation/
-weight: 310
+weight: 320
 ---
-## presentation プロパティ
+## プレゼンテーション プロパティ
 ### 定義:
 ```python
 @property
 def presentation(self):
     ...
 ```
-
 
 ### 参照
 * クラス [`Presentation`](/slides/python-net/ja/aspose.slides/presentation)

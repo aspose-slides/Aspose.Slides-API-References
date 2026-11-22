@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Справочник API Aspose.Slides для Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## explosion свойство
-Указывает количество, на которое точка данных будет смещена от центра пирога.
+## свойство explosion
+Указывает количество, на которое точка данных должна быть смещена от центра круговой диаграммы.
             Чтение/запись **int**.
 
 ### Определение:

@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion eigenschap
-Specificeert de hoeveelheid waarmee het gegevenspunt van het middelpunt van de taart moet worden verplaatst.
+Specificeert de hoeveelheid waarmee het datapunt van het middelpunt van de taart wordt verplaatst.
             Lezen/schrijven **int**.
 
 ### Definitie:

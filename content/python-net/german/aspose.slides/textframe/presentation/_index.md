@@ -1,13 +1,13 @@
 ---
 title: presentation property
-second_title: Aspose.Slides für Python via .NET API Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
-## presentation Eigenschaft
-Gibt die übergeordnete presentation eines TextFrame zurück.
+## Presentation-Eigenschaft
+Gibt die übergeordnete Präsentation eines TextFrame zurück.
             Nur lesbar [`IPresentation`](/slides/python-net/de/aspose.slides/ipresentation).
 
 ### Definition:

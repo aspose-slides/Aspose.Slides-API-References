@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Referência da API Aspose.Slides for Python via .NET
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path propriedade
-Representa o caminho da planilha externa se a fonte de dados for externa, None caso contrário
+Representa o caminho do workbook externo se a fonte de dados for externa, None caso contrário
 
 ### Definição:
 ```python
@@ -15,6 +15,7 @@ Representa o caminho da planilha externa se a fonte de dados for externa, None c
 def external_workbook_path(self):
     ...
 ```
+
 
 ### Veja Também
 * classe [`IChartData`](/slides/python-net/pt/aspose.slides.charts/ichartdata)

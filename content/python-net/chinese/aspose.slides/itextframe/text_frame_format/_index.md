@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format 属性
 返回此 TextFrame 对象的格式化对象。
-只读 [`ITextFrameFormat`](/slides/python-net/zh/aspose.slides/itextframeformat).
+            只读 [`ITextFrameFormat`](/slides/python-net/zh/aspose.slides/itextframeformat).
 
 ### 定义:
 ```python
@@ -18,7 +18,7 @@ def text_frame_format(self):
 ```
 
 
-### 另请参阅
+### 参见
 * 类 [`ITextFrame`](/slides/python-net/zh/aspose.slides/itextframe)
 * 类 [`ITextFrameFormat`](/slides/python-net/zh/aspose.slides/itextframeformat)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

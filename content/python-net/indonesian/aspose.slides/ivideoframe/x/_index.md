@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
 ## x properti
 ### Definisi:

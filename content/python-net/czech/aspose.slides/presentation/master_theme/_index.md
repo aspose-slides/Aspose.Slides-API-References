@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme vlastnost
-Vrací hlavní motiv.
+Vrací hlavní téma.
             Pouze pro čtení [`IMasterTheme`](/slides/python-net/cs/aspose.slides.theme/imastertheme).
 
 ### Definice:

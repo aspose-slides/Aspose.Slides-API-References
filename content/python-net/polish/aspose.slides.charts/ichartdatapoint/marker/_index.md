@@ -1,12 +1,12 @@
 ---
 title: marker property
-second_title: Aspose.Slides dla Pythona poprzez .NET - dokumentacja API
-description: 
+second_title: Odwołanie API Aspose.Slides dla Pythona przy użyciu .NET
+description:
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## właściwość marker
+## właściwość markera
 Określa znacznik danych.
             Tylko do odczytu [`IMarker`](/slides/python-net/pl/aspose.slides.charts/imarker).
 
@@ -18,7 +18,7 @@ def marker(self):
 ```
 
 
-### Zobacz też
+### Zobacz także
 * klasa [`IChartDataPoint`](/slides/python-net/pl/aspose.slides.charts/ichartdatapoint)
 * klasa [`IMarker`](/slides/python-net/pl/aspose.slides.charts/imarker)
 * moduł [`aspose.slides.charts`](/slides/python-net/pl/aspose.slides.charts)

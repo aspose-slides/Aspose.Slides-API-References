@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-内部に含まれる Excel ワークブックをユーザー指定の値で初期化します。
+ユーザーが指定した値で、内部に含まれる Excel ワークブックを初期化します。
 
 
 ```python
@@ -16,9 +16,9 @@ def write_workbook_stream(self, ms):
 ```
 
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | Excel ワークブック全体を含むユーザー提供のストリームです。 |
+| ms | **io.RawIOBase** | ユーザー提供のストリームで、Excel ワークブック全体を含みます。 |
 
 
 

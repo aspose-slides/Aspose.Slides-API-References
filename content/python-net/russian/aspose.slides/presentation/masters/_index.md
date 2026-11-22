@@ -1,10 +1,10 @@
 ---
 title: masters property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API справка
 description: 
 type: docs
 url: /ru/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters свойство
 Возвращает список всех главных слайдов, определённых в презентации.

@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_handout_slide_manager egenskap
-Returnerar handout master manager.
+Returns handout master manager.
             Skrivskyddad [`IMasterHandoutSlideManager`](/slides/python-net/sv/aspose.slides/imasterhandoutslidemanager).
 
 ### Definition:

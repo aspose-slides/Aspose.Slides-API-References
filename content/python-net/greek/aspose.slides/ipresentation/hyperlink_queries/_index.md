@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/hyperlink_queries/
-weight: 220
+weight: 230
 ---
 ## hyperlink_queries ιδιότητα
-Παρέχει εύκολη πρόσβαση σε όλους τους υπερσυνδέσμους που περιέχονται σε όλες τις διαφάνειες της παρουσίασης (εκτός από τις master, layout, notes διαφάνειες).
-            Read-only [`IHyperlinkQueries`](/slides/python-net/el/aspose.slides/ihyperlinkqueries).
+Παρέχει εύκολη πρόσβαση σε όλα τα υπερσυνδέσμους που περιλαμβάνονται σε όλες τις διαφάνειες παρουσίασης (όχι στις κύριες, διατάξεις, διαφάνειες σημειώσεων).
+Μόνο για ανάγνωση [`IHyperlinkQueries`](/slides/python-net/el/aspose.slides/ihyperlinkqueries).
 
 ### Ορισμός:
 ```python
@@ -16,7 +16,6 @@ weight: 220
 def hyperlink_queries(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IHyperlinkQueries`](/slides/python-net/el/aspose.slides/ihyperlinkqueries)

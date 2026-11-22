@@ -1,13 +1,13 @@
 ---
 title: hyperlink_queries property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python thông qua Tham chiếu API .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries thuộc tính
-Cung cấp truy cập dễ dàng tới tất cả các siêu liên kết có trong tất cả các slide trình chiếu (không trong master, layout, notes slides).
+Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides).
             Chỉ đọc [`IHyperlinkQueries`](/slides/python-net/vi/aspose.slides/ihyperlinkqueries).
 
 ### Định nghĩa:
@@ -21,5 +21,5 @@ def hyperlink_queries(self):
 ### Xem thêm
 * lớp [`IHyperlinkQueries`](/slides/python-net/vi/aspose.slides/ihyperlinkqueries)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

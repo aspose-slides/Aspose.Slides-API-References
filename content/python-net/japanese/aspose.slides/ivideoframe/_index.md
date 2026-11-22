@@ -9,20 +9,21 @@ url: /ja/aspose.slides/ivideoframe/
 
 スライド上のビデオクリップを表します。
 
-IVideoFrame 型は以下のメンバーを公開します：
+IVideoFrame 型は以下のメンバーを公開します。
 
 ## プロパティ
 
-| プロパティ | 説明 |
+| Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/ja/aspose.slides/ivideoframe/rewind_video/) | ビデオが自動的に先頭に巻き戻されるかどうかを決定します。<br/>            映画の再生が終了した直後に。<br/>            読み書き **bool**. |
-| [`play_loop_mode`](/slides/python-net/ja/aspose.slides/ivideoframe/play_loop_mode/) | ビデオがループ再生されるかどうかを決定します。<br/>            読み書き **bool**. |
-| [`hide_at_showing`](/slides/python-net/ja/aspose.slides/ivideoframe/hide_at_showing/) | VideoFrame が非表示かどうかを決定します。<br/>            読み書き **bool**. |
-| [`volume`](/slides/python-net/ja/aspose.slides/ivideoframe/volume/) | オーディオ音量を取得または設定します。<br/>            読み書き [`AudioVolumeMode`](/slides/python-net/ja/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/ja/aspose.slides/ivideoframe/play_mode/) | ビデオの再生モードを取得または設定します。<br/>            読み書き [`VideoPlayModePreset`](/slides/python-net/ja/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/ja/aspose.slides/ivideoframe/full_screen_mode/) | ビデオが全画面モードで表示されるかどうかを決定します。<br/>            読み書き **bool**. |
-| [`link_path_long`](/slides/python-net/ja/aspose.slides/ivideoframe/link_path_long/) | VideoFrame にリンクされたビデオファイルの名前を取得または設定します。<br/>            読み書き **str**. |
-| [`embedded_video`](/slides/python-net/ja/aspose.slides/ivideoframe/embedded_video/) | 埋め込みビデオオブジェクトを取得または設定します。<br/>            読み書き [`IVideo`](/slides/python-net/ja/aspose.slides/ivideo). |
+| [`rewind_video`](/slides/python-net/ja/aspose.slides/ivideoframe/rewind_video/) | 動画が再生完了した直後に自動的に先頭に巻き戻されるかどうかを決定します。<br/>            Read/write **bool**. |
+| [`play_loop_mode`](/slides/python-net/ja/aspose.slides/ivideoframe/play_loop_mode/) | 動画がループするかどうかを決定します。<br/>            Read/write **bool**. |
+| [`hide_at_showing`](/slides/python-net/ja/aspose.slides/ivideoframe/hide_at_showing/) | VideoFrame が非表示かどうかを決定します。<br/>            Read/write **bool**. |
+| [`volume`](/slides/python-net/ja/aspose.slides/ivideoframe/volume/) | オーディオの音量を取得または設定します。<br/>            Read/write [`AudioVolumeMode`](/slides/python-net/ja/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/ja/aspose.slides/ivideoframe/volume_value/) | ビデオ音量をパーセンテージで正確に取得または設定します。<br/>             値は 0 から 100 のパーセンテージで表されます。<br/>             このプロパティを使用して、[`IVideoFrame.volume`](/slides/python-net/ja/aspose.slides/ivideoframe/volume) プロパティで利用可能な事前定義レベルよりも精密な音量値を取得または設定します。<br/>             Read/write **float**. |
+| [`play_mode`](/slides/python-net/ja/aspose.slides/ivideoframe/play_mode/) | ビデオの再生モードを取得または設定します。<br/>            Read/write [`VideoPlayModePreset`](/slides/python-net/ja/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/ja/aspose.slides/ivideoframe/full_screen_mode/) | 動画が全画面モードで表示されるかどうかを決定します。<br/>            Read/write **bool**. |
+| [`link_path_long`](/slides/python-net/ja/aspose.slides/ivideoframe/link_path_long/) | VideoFrame にリンクされたビデオファイルの名前を取得または設定します。<br/>            Read/write **str**. |
+| [`embedded_video`](/slides/python-net/ja/aspose.slides/ivideoframe/embedded_video/) | 埋め込みビデオオブジェクトを取得または設定します。<br/>            Read/write [`IVideo`](/slides/python-net/ja/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/ja/aspose.slides/ivideoframe/trim_from_start/) | トリム開始 [ms] |
 | [`trim_from_end`](/slides/python-net/ja/aspose.slides/ivideoframe/trim_from_end/) | トリム終了 [ms] |
 | [`caption_tracks`](/slides/python-net/ja/aspose.slides/ivideoframe/caption_tracks/) | オーディオフレームに関連付けられたクローズドキャプションのコレクションを取得します。<br/>             このプロパティは読み取り専用で、すべてのキャプショントラックを含む [`ICaptionsCollection`](/slides/python-net/ja/aspose.slides/icaptionscollection) を返します。 |
@@ -68,7 +69,7 @@ IVideoFrame 型は以下のメンバーを公開します：
 
 ## メソッド
 
-| メソッド | 説明 |
+| Method | Description |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/ja/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/ja/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
@@ -81,6 +82,7 @@ IVideoFrame 型は以下のメンバーを公開します：
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/ja/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/ja/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/ja/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
+
 
 ### 参照
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)

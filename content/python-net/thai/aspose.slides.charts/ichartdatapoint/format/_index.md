@@ -1,16 +1,16 @@
 ---
 title: format property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## format คุณสมบัติ
-แสดงถึงคุณสมบัติการจัดรูปแบบ.
+แสดงคุณสมบัติการจัดรูปแบบ.
             อ่าน/เขียน [`IFormat`](/slides/python-net/th/aspose.slides.charts/iformat).
 
-### คำนิยาม:
+### การกำหนด:
 ```python
 @property
 def format(self):

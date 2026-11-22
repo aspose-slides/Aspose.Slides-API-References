@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Αναφορά API του Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
 ## x ιδιότητα
 ### Ορισμός:

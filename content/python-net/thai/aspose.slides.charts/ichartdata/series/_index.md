@@ -1,14 +1,14 @@
 ---
 title: series property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
-## คุณสมบัติ series
-ดึง series.
-อ่านอย่างเดียว [`IChartSeriesCollection`](/slides/python-net/th/aspose.slides.charts/ichartseriescollection).
+## series คุณสมบัติ
+รับค่า series.
+            อ่านอย่างเดียว [`IChartSeriesCollection`](/slides/python-net/th/aspose.slides.charts/ichartseriescollection).
 
 ### คำนิยาม:
 ```python

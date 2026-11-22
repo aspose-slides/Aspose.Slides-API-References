@@ -4,17 +4,17 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
 ## y プロパティ
-シェイプの左上隅の y 座標を取得または設定します（ポイント単位）。
-            読み書き **float**。
+形状の左上隅の y 座標を取得または設定します。単位はポイントです。
+            読み取り/書き込み **float**。
 
 
 ### 備考
 
 返される値は常に定義されており、**float** ではありません。
-            代入される値も定義されている必要があります。`RawFrame` インスタンスのプロパティに対してのみ **float** を代入してください。
+            割り当てられる値も定義されている必要があります。`RawFrame` インスタンスのプロパティに対してのみ **float** を割り当ててください。
 
 ### 定義:
 ```python

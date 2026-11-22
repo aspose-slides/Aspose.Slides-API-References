@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## värdeegenskap
-Returnerar värdet för diagramdatapunkten.
+Gets the value of a chart data point.
             Skrivskyddad [`IDoubleChartValue`](/slides/python-net/sv/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:

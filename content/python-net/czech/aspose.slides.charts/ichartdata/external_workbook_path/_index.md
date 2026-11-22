@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
-description: 
+second_title: Aspose.Slides pro Python přes .NET API Reference
+description:
 type: docs
 url: /cs/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path vlastnost
-Reprezentuje cestu k externímu sešitu, pokud je zdroj dat externí, jinak None
+Representuje cestu k externímu sešitu, pokud je zdroj dat externí, jinak None
 
 ### Definice:
 ```python

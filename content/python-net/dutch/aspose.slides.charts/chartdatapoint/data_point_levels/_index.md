@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels eigenschap
-Retourneert container van data point levels. Toegepast op Treeamp- en Sunburst-series.
-            Indexering van data point levels is nul-gebaseerd.
+Retourneert een container van  data point levels. Toegepast op Treeamp- en Sunburst-series.
+            Indexering van data point levels is nulgebaseerd.
 
 ### Definitie:
 ```python

@@ -1,10 +1,10 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides dla Pythona poprzez .NET API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry właściwość
 Właściwości odpowiadającego wpisu legendy w przypadku typu wykresu z tej listy:

@@ -4,12 +4,12 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position eigenschap
 Retourneert de positie van een vorm in de z-order.
-            Shapes[0] retourneert de vorm aan de achterkant van de z-order,
-            and Shapes[Shapes.Count - 1] retourneert de vorm aan de voorkant van de z-order.
+            Shapes[0] retourneert de vorm achterin de z-order,
+            en Shapes[Shapes.Count - 1] retourneert de vorm voorin de z-order.
             Alleen-lezen **int**.
 
 ### Definitie:

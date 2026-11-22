@@ -1,10 +1,10 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total eigenschap
 Stelt het gegevenspunt in als totaal. Alleen van toepassing op Waterfall-serietype.
@@ -19,6 +19,7 @@ def set_as_total(self):
 def set_as_total(self, value):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`ChartDataPoint`](/slides/python-net/nl/aspose.slides.charts/chartdatapoint)

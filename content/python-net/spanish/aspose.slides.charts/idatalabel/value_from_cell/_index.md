@@ -4,10 +4,10 @@ second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell propiedad
-Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la IDataLabelFormat.ShowLabelValueFromCell propiedad es true.
+Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es verdadera.
 
 ### Definición:
 ```python
@@ -19,6 +19,7 @@ def value_from_cell(self):
 def value_from_cell(self, value):
     ...
 ```
+
 
 ### Ver también
 * clase [`IDataLabel`](/slides/python-net/es/aspose.slides.charts/idatalabel)

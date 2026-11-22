@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties Eigenschaft
 Gibt ein DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält.
-Nur-Lesen [`IDocumentProperties`](/slides/python-net/de/aspose.slides/idocumentproperties).
+            Nur lesbar [`IDocumentProperties`](/slides/python-net/de/aspose.slides/idocumentproperties).
 
 ### Definition:
 ```python

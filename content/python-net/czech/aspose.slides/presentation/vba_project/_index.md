@@ -1,14 +1,14 @@
 ---
 title: vba_project property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Referenční příručka Aspose.Slides pro Python přes .NET API
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
 ## vba_project vlastnost
-Získá nebo nastaví projekt VBA s makry prezentace.
-            Číst/zapisovat [`IVbaProject`](/slides/python-net/cs/aspose.slides.vba/ivbaproject).
+Získá nebo nastaví VBA projekt s makry prezentace.
+Číst/Zapisovat [`IVbaProject`](/slides/python-net/cs/aspose.slides.vba/ivbaproject).
 
 ### Definice:
 ```python
@@ -20,7 +20,6 @@ def vba_project(self):
 def vba_project(self, value):
     ...
 ```
-
 
 ### Viz také
 * třída [`IVbaProject`](/slides/python-net/cs/aspose.slides.vba/ivbaproject)

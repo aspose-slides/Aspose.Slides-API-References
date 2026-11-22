@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values ویژگی
-نمایش می‌دهد مقادیر نوارهای خطای سری در صورتی که نوع مقدار Custom باشد.
-فقط خواندنی [`IErrorBarsCustomValues`](/slides/python-net/fa/aspose.slides.charts/ierrorbarscustomvalues).
+مقادیر میله‌های خطای سری را در حالت مقدار سفارشی نمایش می‌دهد.
+            فقط خواندنی [`IErrorBarsCustomValues`](/slides/python-net/fa/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### تعریف:
 ```python

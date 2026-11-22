@@ -1,17 +1,23 @@
 ---
 title: is_visible property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible propriedade
-False significa que o rótulo de dados não está visível por padrão (e assim todas as Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat são false). Somente leitura **bool**.
+False means that data label is not visible by default (and so all 
+            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false).
+            Somente leitura **bool**.
+
 
 ### Observações
 
-Se o rótulo de dados estiver visível por padrão, você pode torná-lo oculto por padrão com o método Hide(). Mas se o rótulo de dados não estiver visível por padrão (IsVisible é false) você pode tornar o rótulo de dados "visível por padrão" configurando as Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat para true.
+If data label is visible by default you can make it hidden by default with Hide() method.
+            But if data label is not visible by default (IsVisible is false) you can make data label "visible 
+            by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property
+            to true state.
 
 ### Definição:
 ```python
@@ -19,6 +25,7 @@ Se o rótulo de dados estiver visível por padrão, você pode torná-lo oculto 
 def is_visible(self):
     ...
 ```
+
 
 ### Veja também
 * classe [`IDataLabelCollection`](/slides/python-net/pt/aspose.slides.charts/idatalabelcollection)

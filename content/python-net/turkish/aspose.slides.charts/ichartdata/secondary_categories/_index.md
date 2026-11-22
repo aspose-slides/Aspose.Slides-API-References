@@ -4,19 +4,20 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories özelliği
-[`IChartData.use_secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/use_secondary_categories) özelliği doğru ise ikincil kategorileri alır.
-            Salt-okunur [`IChartCategoryCollection`](/slides/python-net/tr/aspose.slides.charts/ichartcategorycollection).
+[`IChartData.use_secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/use_secondary_categories) özelliği doğruysa ikincil kategorileri alır.
+            Salt okunur [`IChartCategoryCollection`](/slides/python-net/tr/aspose.slides.charts/ichartcategorycollection).
 
 ### Açıklamalar
-Eğer [`IChartData.use_secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/use_secondary_categories) özelliği yanlış ise bu [`IChartData.secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/secondary_categories) 
+
+Eğer [`IChartData.use_secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/use_secondary_categories) özelliği false ise bu [`IChartData.secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/secondary_categories) 
             özellik None döndürür ve [`IChartData.categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/categories) özelliğindeki veri hem birincil 
-            hem ikincil seriler.
-            Eğer [`IChartData.use_secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/use_secondary_categories) özelliği doğru ise veri 
-            bu [`IChartData.secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/secondary_categories) özelliği ikincil seriler için kullanılır ve veri 
-            [`IChartData.categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/categories) özelliğindeki veri birincil seriler için kullanılır.
+            hem de ikincil seriler için kullanılır.
+            Eğer [`IChartData.use_secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/use_secondary_categories) özelliği true ise bu [`IChartData.secondary_categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/secondary_categories) 
+            özelliğindeki veri ikincil seriler için ve [`IChartData.categories`](/slides/python-net/tr/aspose.slides.charts/ichartdata/categories) 
+            özelliğindeki veri birincil seriler için kullanılır.
 
 ### Tanım:
 ```python

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
 ## audios プロパティ
-プレゼンテーション内のすべての埋め込みオーディオファイルのコレクションを返します。
+プレゼンテーションに埋め込まれたすべての音声ファイルのコレクションを返します。
             読み取り専用 [`IAudioCollection`](/slides/python-net/ja/aspose.slides/iaudiocollection).
 
 ### 定義:
@@ -16,7 +16,6 @@ weight: 120
 def audios(self):
     ...
 ```
-
 
 ### 参照
 * クラス [`IAudioCollection`](/slides/python-net/ja/aspose.slides/iaudiocollection)

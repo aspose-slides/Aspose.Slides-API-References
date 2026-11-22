@@ -1,18 +1,18 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/chartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels 屬性
-受管理的容器，用於儲存圖表類別分組層級的值。
+Managed container of the values of the chart category grouping levels.
             多層級類別包含多個分組層級。
             分組層級的索引從零開始。
             唯讀 [`IChartCategoryLevelsManager`](/slides/python-net/zh-hant/aspose.slides.charts/ichartcategorylevelsmanager).
 
-### 定義:
+### 定義：
 ```python
 @property
 def grouping_levels(self):

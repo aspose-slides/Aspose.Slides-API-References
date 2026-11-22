@@ -1,12 +1,12 @@
 ---
 title: value property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## 值屬性
+## value 屬性
 值。
             唯讀 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue).
 
@@ -17,8 +17,7 @@ def value(self):
     ...
 ```
 
-
-### 另請參閱
+### 參見
 * 類別 [`ChartDataPoint`](/slides/python-net/zh-hant/aspose.slides.charts/chartdatapoint)
 * 類別 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)

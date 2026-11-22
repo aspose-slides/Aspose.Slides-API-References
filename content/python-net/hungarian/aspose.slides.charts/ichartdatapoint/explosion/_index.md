@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides for Python a .NET API hivatkozáshoz
+second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## robbanás tulajdonság
-Meghatározza, hogy az adatpont mennyit legyen eltolva a kör középpontjától.
+## explozió tulajdonság
+Megadja, mennyivel kell az adatpontot a kördiagram középpontjától eltolni.
             Olvasás/írás **int**.
 
 ### Definíció:

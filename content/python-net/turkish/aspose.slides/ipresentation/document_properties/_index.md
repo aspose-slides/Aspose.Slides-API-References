@@ -1,14 +1,14 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET üzerinden API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
 ## document_properties özelliği
-DocumentProperties nesnesini döndürür; bu nesne standart ve özel belge özelliklerini içerir.
-            Sadece okuma [`IDocumentProperties`](/slides/python-net/tr/aspose.slides/idocumentproperties).
+DocumentProperties nesnesi, standart ve özel belge özelliklerini içerir.
+            Yalnızca okunabilir [`IDocumentProperties`](/slides/python-net/tr/aspose.slides/idocumentproperties).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def document_properties(self):
 ```
 
 
-### Ayrıca bakınız
+### Diğer Bağlantılar
 * sınıf [`IDocumentProperties`](/slides/python-net/tr/aspose.slides/idocumentproperties)
 * sınıf [`IPresentation`](/slides/python-net/tr/aspose.slides/ipresentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

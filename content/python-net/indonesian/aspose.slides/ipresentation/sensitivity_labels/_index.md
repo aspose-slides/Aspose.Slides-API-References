@@ -1,14 +1,14 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/sensitivity_labels/
-weight: 330
+weight: 340
 ---
 ## sensitivity_labels properti
-Mengembalikan koleksi label sensitivitas yang diterapkan pada dokumen presentasi.
-            Baca-saja [`ISensitivityLabelCollection`](/slides/python-net/id/aspose.slides/isensitivitylabelcollection).
+Returns the collection of sensitivity labels applied to the presentation document.
+            Hanya-baca [`ISensitivityLabelCollection`](/slides/python-net/id/aspose.slides/isensitivitylabelcollection).
 
 ### Definisi:
 ```python

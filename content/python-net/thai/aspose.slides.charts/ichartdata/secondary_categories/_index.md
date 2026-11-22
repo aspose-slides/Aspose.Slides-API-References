@@ -4,20 +4,20 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories คุณสมบัติ
-Gets the secondary categories if [`IChartData.use_secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/use_secondary_categories) property is true.
+ดึงหมวดหมู่รองหาก [`IChartData.use_secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/use_secondary_categories) คุณสมบัติเป็นจริง.
             อ่านอย่างเดียว [`IChartCategoryCollection`](/slides/python-net/th/aspose.slides.charts/ichartcategorycollection).
 
 ### หมายเหตุ
 
-หาก property [`IChartData.use_secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/use_secondary_categories) เป็น false แล้ว property [`IChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/secondary_categories) นี้ 
-            property จะคืนค่า None และข้อมูลใน [`IChartData.categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/categories) property จะถูกใช้ทั้งสำหรับ primary 
-            และ secondary series.
-หาก property [`IChartData.use_secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/use_secondary_categories) เป็น true แล้ว data ใน 
-            property [`IChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/secondary_categories) นี้จะถูกใช้สำหรับ secondary series และ data 
-            ใน [`IChartData.categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/categories) property จะถูกใช้สำหรับ primary series.
+หาก [`IChartData.use_secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/use_secondary_categories) คุณสมบัติเป็นเท็จแล้ว [`IChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/secondary_categories) 
+            คุณสมบัติจะคืนค่า None และข้อมูลใน [`IChartData.categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/categories) คุณสมบัติจะถูกใช้สำหรับชุดข้อมูลหลัก 
+            และชุดข้อมูลรอง.
+            หาก [`IChartData.use_secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/use_secondary_categories) คุณสมบัติเป็นจริงแล้วข้อมูลใน 
+            [`IChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/secondary_categories) คุณสมบัติจะถูกใช้สำหรับชุดข้อมูลรองและข้อมูล 
+            ใน [`IChartData.categories`](/slides/python-net/th/aspose.slides.charts/ichartdata/categories) คุณสมบัติจะถูกใช้สำหรับชุดข้อมูลหลัก.
 
 ### คำนิยาม:
 ```python

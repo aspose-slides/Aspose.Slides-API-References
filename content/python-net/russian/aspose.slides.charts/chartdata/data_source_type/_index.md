@@ -1,10 +1,10 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides для Python через .NET: справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type свойство
 Представляет путь к внешней рабочей книге, если используется внешний источник данных, иначе None

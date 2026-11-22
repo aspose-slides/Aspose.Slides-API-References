@@ -1,17 +1,17 @@
 ---
 title: use_secondary_categories property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API Справочник
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories свойство
 Если false, то [`IChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/secondary_categories) свойство возвращает None и данные 
-            в [`IChartData.categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/categories) свойстве используется как для основной, так и для вторичной серии.
-Если true, то данные в [`IChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/secondary_categories) свойстве используются для вторичной серии, а данные 
-            в [`IChartData.categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/categories) свойстве используются для основной серии.
-Чтение/запись **bool**.
+            в [`IChartData.categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/categories) свойстве используются как для первичных, так и для вторичных рядов.
+            Если true, то данные в [`IChartData.secondary_categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/secondary_categories) свойстве используются для вторичных рядов, а данные 
+            в [`IChartData.categories`](/slides/python-net/ru/aspose.slides.charts/ichartdata/categories) свойстве используются для первичных рядов.
+            Чтение/запись **bool**.
 
 ### Определение:
 ```python
@@ -23,6 +23,7 @@ def use_secondary_categories(self):
 def use_secondary_categories(self, value):
     ...
 ```
+
 
 ### См. также
 * класс [`IChartData`](/slides/python-net/ru/aspose.slides.charts/ichartdata)

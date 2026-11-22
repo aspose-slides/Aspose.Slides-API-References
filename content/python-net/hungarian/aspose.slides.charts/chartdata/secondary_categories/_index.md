@@ -1,20 +1,24 @@
 ---
 title: secondary_categories property
-second_title: Aspose.Slides a Pythonhoz a .NET-en keresztül API referencia
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories tulajdonság
-A másodlagos kategóriákat adja vissza, ha a(z) [`ChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/use_secondary_categories) tulajdonság igaz.
+Gets the secondary categories if [`ChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/use_secondary_categories) property is true.
             Csak olvasható [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection).
 
 
-### Megjegyzés
+### Megjegyzések
 
-Ha a(z) [`ChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/use_secondary_categories) tulajdonság hamis, akkor ez a(z) [`ChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/secondary_categories) tulajdonság None értéket ad vissza, és a(z) [`ChartData.categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/categories) tulajdonság adatai mind az elsődleges, mind a másodlagos sorozathoz használatosak.
-            Ha a(z) [`ChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/use_secondary_categories) tulajdonság igaz, akkor a(z) [`ChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/secondary_categories) tulajdonság adatai a másodlagos sorozathoz, a(z) [`ChartData.categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/categories) tulajdonság adatai pedig az elsődleges sorozathoz használatosak.
+Ha a [`ChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/use_secondary_categories) tulajdonság hamis, akkor ez a [`ChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/secondary_categories) 
+            tulajdonság None-t ad vissza, és a [`ChartData.categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/categories) tulajdonság adatait mind az elsődleges 
+            és a másodlagos sorozathoz.
+            Ha a [`ChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/use_secondary_categories) tulajdonság igaz, akkor a [`ChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/secondary_categories) 
+            tulajdonság a másodlagos sorozathoz használják, és az adat 
+            a [`ChartData.categories`](/slides/python-net/hu/aspose.slides.charts/chartdata/categories) tulajdonság az elsődleges sorozathoz használják.
 
 ### Definíció:
 ```python

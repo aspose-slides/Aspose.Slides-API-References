@@ -1,12 +1,12 @@
 ---
 title: y property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
-## คุณสมบัติ y
+## y คุณสมบัติ
 ### คำนิยาม:
 ```python
 @property

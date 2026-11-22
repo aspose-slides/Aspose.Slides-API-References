@@ -7,7 +7,7 @@ url: /ja/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size プロパティ
-チャート データポイントのバブルサイズを返します.
+チャートのデータポイントのバブルサイズを取得します。
             読み取り専用 [`IDoubleChartValue`](/slides/python-net/ja/aspose.slides.charts/idoublechartvalue).
 
 ### 定義:

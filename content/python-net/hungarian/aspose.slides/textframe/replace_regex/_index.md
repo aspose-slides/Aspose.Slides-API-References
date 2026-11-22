@@ -1,13 +1,13 @@
 ---
 title: replace_regex method
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides for Python via .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/replace_regex/
-weight: 40
+weight: 50
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
-Lecseréli a reguláris kifejezés összes egyezését a megadott szövegre.
+Lecseréli a reguláris kifejezés minden egyezését a megadott karakterláncra.
 
 ```python
 def replace_regex(self, regex, new_text):
@@ -16,8 +16,8 @@ def replace_regex(self, regex, new_text):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| regex | **str** | A karakterlánc tartalmazza a reguláris kifejezést a cserélendő karakterláncok meghatározásához. |
-| new_text | **str** | A karakterlánc, amely minden előfordulását lecseréli a cserélendő karakterláncokra. |
+| regex | **str** | A karakterlánc tartalmazza a reguláris kifejezést, amely a lecserélendő karakterláncokat adja meg. |
+| new_text | **str** | A karakterlánc, amely a lecserélendő karakterláncok minden előfordulását helyettesíti. |
 
 ### Lásd még
 * osztály [`TextFrame`](/slides/python-net/hu/aspose.slides/textframe)

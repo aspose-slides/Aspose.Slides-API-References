@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## 系列属性
 获取系列。

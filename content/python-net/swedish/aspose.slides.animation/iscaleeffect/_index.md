@@ -7,7 +7,7 @@ url: /sv/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect klass
 
-Representerar en skalningseffekt för animering.
+Representerar en animationsskalningseffekt.
 
 Typen IScaleEffect exponerar följande medlemmar:
 
@@ -15,10 +15,10 @@ Typen IScaleEffect exponerar följande medlemmar:
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`zoom_content`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/zoom_content/) | Bestämmer om ett innehåll ska zoomas.<br/>            Läs/skriv [`NullableBool`](/slides/python-net/sv/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/from_address/) | Anger en x/y-koordinat att starta animationen från (i procent).<br/>            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf). |
-| [`to`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/to/) | Anger målpositionen för en skalningseffekt för animation (i procent).<br/>            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf). |
-| [`by`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/by/) | Beskriver det relativa offsetvärdet för animationen (i procent).<br/>            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf). |
+| [`zoom_content`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/zoom_content/) | Avgör om ett innehåll ska zoomas.<br/>            Läs/skriv [`NullableBool`](/slides/python-net/sv/aspose.slides/nullablebool). |
+| [`from_`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/from_/) | Anger en x/y-koordinat att starta animationen från (i procent).<br/>            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf). |
+| [`to`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/to/) | Anger målplatsen för en animationsskalningseffekt (i procent).<br/>            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf). |
+| [`by`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/by/) | Beskriver det relativa förskjutningsvärdet för animationen (i procent).<br/>            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf). |
 | [`accumulate`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/additive/) |  |
 | [`properties`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect/properties/) |  |

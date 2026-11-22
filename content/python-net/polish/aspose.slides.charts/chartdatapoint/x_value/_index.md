@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
-description:
+second_title: Aspose.Slides dla Pythona przez .NET Referencję API
+description: 
 type: docs
 url: /pl/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value właściwość
 XValue.
-            Tylko do odczytu [`IStringOrDoubleChartValue`](/slides/python-net/pl/aspose.slides.charts/istringordoublechartvalue).
+            tylko do odczytu [`IStringOrDoubleChartValue`](/slides/python-net/pl/aspose.slides.charts/istringordoublechartvalue).
 
 ### Definicja:
 ```python

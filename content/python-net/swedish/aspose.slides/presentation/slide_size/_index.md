@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
 ## slide_size egenskap
 Returnerar slide size-objekt.

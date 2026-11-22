@@ -1,14 +1,13 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
-## data_point_levels गुण
-Returns container of  डेटा पॉइंट स्तरों का कंटेनर लौटाता है। Applied for Treeamp और Sunburst श्रृंखलाओं के लिए लागू किया गया है।
-            डेटा पॉइंट स्तरों की इंडेक्सिंग शून्य-आधारित है।
+## data_point_levels प्रॉपर्टी
+डेटा पॉइंट लेवल का कंटेनर लौटाता है। Treeamp और Sunburst सीरीज़ के लिए लागू किया गया है। डेटा पॉइंट लेवल का इंडेक्स शून्य-आधारित है।
 
 ### परिभाषा:
 ```python

@@ -1,31 +1,32 @@
 ---
 title: IVideoFrame class
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python tramite .NET
 description: 
 type: docs
 url: /it/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame classe
 
-Rappresenta una clip video su una diapositiva.
+Represents a video clip on a slide.
 
-Il tipo IVideoFrame espone i seguenti membri:
+The IVideoFrame type exposes the following members:
 
 ## Proprietà
 
-| Proprietà | Descrizione |
+| Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/it/aspose.slides/ivideoframe/rewind_video/) | Determina se un video viene automaticamente riavvolto all'inizio<br/>            non appena il filmato ha terminato la riproduzione.<br/>            Lettura/scrittura **bool**. |
+| [`rewind_video`](/slides/python-net/it/aspose.slides/ivideoframe/rewind_video/) | Determina se un video viene riavvolto automaticamente all'inizio<br/>            non appena il filmato ha terminato la riproduzione.<br/>            Lettura/scrittura **bool**. |
 | [`play_loop_mode`](/slides/python-net/it/aspose.slides/ivideoframe/play_loop_mode/) | Determina se un video è in loop.<br/>            Lettura/scrittura **bool**. |
 | [`hide_at_showing`](/slides/python-net/it/aspose.slides/ivideoframe/hide_at_showing/) | Determina se un VideoFrame è nascosto.<br/>            Lettura/scrittura **bool**. |
 | [`volume`](/slides/python-net/it/aspose.slides/ivideoframe/volume/) | Restituisce o imposta il volume audio.<br/>            Lettura/scrittura [`AudioVolumeMode`](/slides/python-net/it/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/it/aspose.slides/ivideoframe/volume_value/) | Restituisce o imposta il volume video esatto in percentuale.<br/>             Il valore è espresso in percentuale da 0 a 100. Usa questa proprietà<br/>             per leggere o impostare valori di volume più precisi rispetto ai livelli predefiniti<br/>             disponibili tramite la proprietà [`IVideoFrame.volume`](/slides/python-net/it/aspose.slides/ivideoframe/volume).<br/>             Lettura/scrittura **float**. |
 | [`play_mode`](/slides/python-net/it/aspose.slides/ivideoframe/play_mode/) | Restituisce o imposta la modalità di riproduzione video.<br/>            Lettura/scrittura [`VideoPlayModePreset`](/slides/python-net/it/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/it/aspose.slides/ivideoframe/full_screen_mode/) | Determina se un video è mostrato in modalità schermo intero.<br/>            Lettura/scrittura **bool**. |
+| [`full_screen_mode`](/slides/python-net/it/aspose.slides/ivideoframe/full_screen_mode/) | Determina se un video è mostrato a schermo intero.<br/>            Lettura/scrittura **bool**. |
 | [`link_path_long`](/slides/python-net/it/aspose.slides/ivideoframe/link_path_long/) | Restituisce o imposta il nome di un file video collegato a un VideoFrame.<br/>            Lettura/scrittura **str**. |
 | [`embedded_video`](/slides/python-net/it/aspose.slides/ivideoframe/embedded_video/) | Restituisce o imposta l'oggetto video incorporato.<br/>            Lettura/scrittura [`IVideo`](/slides/python-net/it/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/it/aspose.slides/ivideoframe/trim_from_start/) | Inizio ritaglio [ms] |
 | [`trim_from_end`](/slides/python-net/it/aspose.slides/ivideoframe/trim_from_end/) | Fine ritaglio [ms] |
-| [`caption_tracks`](/slides/python-net/it/aspose.slides/ivideoframe/caption_tracks/) | Ottiene la collezione di sottotitoli chiusi associati al fotogramma audio.<br/>             Questa proprietà è di sola lettura e restituisce un [`ICaptionsCollection`](/slides/python-net/it/aspose.slides/icaptionscollection) contenente tutte le tracce dei sottotitoli. |
+| [`caption_tracks`](/slides/python-net/it/aspose.slides/ivideoframe/caption_tracks/) | Ottiene la collezione di didascalie chiuse associate al frame audio.<br/>             Questa proprietà è sola lettura e restituisce un [`ICaptionsCollection`](/slides/python-net/it/aspose.slides/icaptionscollection) contenente tutte le tracce di didascalie. |
 | [`shape_lock`](/slides/python-net/it/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/it/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/it/aspose.slides/ivideoframe/picture_format/) |  |
@@ -68,7 +69,7 @@ Il tipo IVideoFrame espone i seguenti membri:
 
 ## Metodi
 
-| Metodo | Descrizione |
+| Method | Description |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/it/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/it/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |

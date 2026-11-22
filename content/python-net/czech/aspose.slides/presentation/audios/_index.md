@@ -1,10 +1,10 @@
 ---
 title: audios property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
 ## audios vlastnost
 Vrací kolekci všech vložených zvukových souborů v prezentaci.

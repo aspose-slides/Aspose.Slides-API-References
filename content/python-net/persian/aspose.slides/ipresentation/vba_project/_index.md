@@ -1,14 +1,14 @@
 ---
 title: vba_project property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project ویژگی
 پروژه VBA را که شامل ماکروهای ارائه است دریافت می‌کند.
-            خواندن/نوشتن [`IVbaProject`](/slides/python-net/fa/aspose.slides.vba/ivbaproject).
+            قابل خواندن/نوشتن [`IVbaProject`](/slides/python-net/fa/aspose.slides.vba/ivbaproject).
 
 ### تعریف:
 ```python
@@ -22,7 +22,7 @@ def vba_project(self, value):
 ```
 
 
-### موارد مرتبط
+### مراجع دیگر
 * کلاس [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
 * کلاس [`IVbaProject`](/slides/python-net/fa/aspose.slides.vba/ivbaproject)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

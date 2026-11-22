@@ -1,20 +1,18 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/replace_text/
-weight: 70
+weight: 80
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
-تمام موارد متن مشخص‌شده را با متن دیگری که مشخص شده است، جایگزین می‌کند.
-
+تمام موارد متن مشخص‌شده را با متن دیگری جایگزین می‌کند.
 
 ```python
 def replace_text(self, old_text, new_text, options, callback):
     ...
 ```
-
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
@@ -22,8 +20,6 @@ def replace_text(self, old_text, new_text, options, callback):
 | new_text | **str** | رشته‌ای که تمام موارد oldText را جایگزین می‌کند. |
 | options | [`ITextSearchOptions`](/slides/python-net/fa/aspose.slides/itextsearchoptions) | گزینه‌های جستجوی متن [`ITextSearchOptions`](/slides/python-net/fa/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/fa/aspose.slides/ifindresultcallback) | شیء callback برای دریافت نتایج جستجو [`IFindResultCallback`](/slides/python-net/fa/aspose.slides/ifindresultcallback). |
-
-
 
 ### موارد مرتبط
 * کلاس [`IFindResultCallback`](/slides/python-net/fa/aspose.slides/ifindresultcallback)

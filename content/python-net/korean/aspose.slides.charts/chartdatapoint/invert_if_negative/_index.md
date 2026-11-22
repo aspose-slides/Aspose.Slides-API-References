@@ -1,13 +1,13 @@
 ---
 title: invert_if_negative property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative 속성
-데이터 포인트의 값이 음수인 경우 색상을 반전시켜야 함을 지정합니다.
+값이 음수인 경우 데이터 포인트가 색상을 반전시켜야 함을 지정합니다.
             읽기/쓰기 **bool**.
 
 ### 정의:

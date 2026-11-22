@@ -1,10 +1,10 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size 속성
 노트 슬라이드 크기 객체를 반환합니다.

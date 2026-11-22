@@ -1,6 +1,6 @@
 ---
 title: RotationEffect class
-second_title: Aspose.Slides pro Python prostřednictvím .NET API reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
 description: 
 type: docs
 url: /cs/aspose.slides.animation/rotationeffect/
@@ -11,7 +11,7 @@ Reprezentuje rotační chování efektu.
 
 **Dědičnost:**[`RotationEffect`](/slides/python-net/cs/aspose.slides.animation/rotationeffect) → [`Behavior`](/slides/python-net/cs/aspose.slides.animation/behavior)
 
-Typ RotationEffect poskytuje následující členy:
+Typ RotationEffect vystavuje následující členy:
 
 ## Konstruktory
 
@@ -23,13 +23,14 @@ Typ RotationEffect poskytuje následující členy:
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`accumulate`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/accumulate/) | Reprezentuje, zda jsou animace akumulovány.<br/>            Čtení/zápis [`NullableBool`](/slides/python-net/cs/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/additive/) | Reprezentuje, zda je aktuální animace kombinována s ostatními běžícími animacemi.<br/>            Čtení/zápis [`BehaviorAdditiveType`](/slides/python-net/cs/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/properties/) | Reprezentuje vlastnosti chování.<br/>            Pouze pro čtení [`IBehaviorPropertyCollection`](/slides/python-net/cs/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/timing/) | Reprezentuje časové vlastnosti pro chování efektu.<br/>            Čtení/zápis [`ITiming`](/slides/python-net/cs/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/from_address/) | Popisuje počáteční hodnotu animace.<br/>            Čtení/zápis **float**. |
-| [`to`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/to/) | Popisuje koncovou hodnotu animace.<br/>            Čtení/zápis **float**. |
-| [`by`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/by/) | Popisuje relativní posunovou hodnotu animace.<br/>            Čtení/zápis **float**. |
+| [`accumulate`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/accumulate/) | Zobrazuje, zda jsou animační chování akumulována.<br/>            Číst/Zapisovat [`NullableBool`](/slides/python-net/cs/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/additive/) | Zobrazuje, zda je aktuální animační chování kombinováno s dalšími běžícími animacemi.<br/>            Číst/Zapisovat [`BehaviorAdditiveType`](/slides/python-net/cs/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/properties/) | Zobrazuje vlastnosti chování.<br/>            Pouze ke čtení [`IBehaviorPropertyCollection`](/slides/python-net/cs/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/timing/) | Zobrazuje časové vlastnosti pro chování efektu.<br/>            Číst/Zapisovat [`ITiming`](/slides/python-net/cs/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/from_/) | Popisuje počáteční hodnotu animace.<br/>            Číst/Zapisovat **float**. |
+| [`to`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/to/) | Popisuje koncovou hodnotu animace.<br/>            Číst/Zapisovat **float**. |
+| [`by`](/slides/python-net/cs/aspose.slides.animation/rotationeffect/by/) | Popisuje relativní posunovou hodnotu animace.<br/>            Číst/Zapisovat **float**. |
+
 
 ### Viz také
 * třída [`Behavior`](/slides/python-net/cs/aspose.slides.animation/behavior)

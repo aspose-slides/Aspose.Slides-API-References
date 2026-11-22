@@ -1,12 +1,12 @@
 ---
 title: label property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## label vlastnost
+## popisek vlastnost
 Reprezentuje popisek datového bodu grafu.
             Pouze pro čtení [`IDataLabel`](/slides/python-net/cs/aspose.slides.charts/idatalabel).
 

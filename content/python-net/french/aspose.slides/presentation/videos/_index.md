@@ -1,13 +1,13 @@
 ---
 title: videos property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence API
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/videos/
-weight: 400
+weight: 410
 ---
 ## videos propriété
-Renvoie la collection de tous les fichiers vidéo incorporés dans la présentation.
+Renvoie la collection de tous les fichiers vidéo intégrés dans la présentation.
             Lecture seule [`IVideoCollection`](/slides/python-net/fr/aspose.slides/ivideocollection).
 
 ### Définition:

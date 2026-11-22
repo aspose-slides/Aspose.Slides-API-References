@@ -1,19 +1,19 @@
 ---
 title: width property
-second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
 ## ویژگی width
-دریافت یا تنظیم عرض shape، که بر حسب نقطه‌ها اندازه‌گیری می‌شود.
-خواندن/نوشتن **float**.
+دریافت یا تنظیم عرض شکل، بر حسب نقطه.
+            خواندن/نوشتن **float**.
 
 ### توضیحات
 
-مقدار بازگردانده شده همواره تعریف‌شده است و هرگز **float** نیست.
-مقدار اختصاص داده‌شده نیز باید تعریف‌شده باشد؛ **float** را تنها به ویژگی‌های یک نمونه `RawFrame` اختصاص دهید.
+مقدار بازگردانده شده همیشه تعریف شده است و هرگز **float** نیست.
+            مقدار اختصاص داده شده نیز باید تعریف شده باشد؛ **float** را فقط به ویژگی‌های یک نمونه `RawFrame` اختصاص دهید.
 
 ### تعریف:
 ```python
@@ -26,7 +26,7 @@ def width(self, value):
     ...
 ```
 
-### موارد مرتبط
+### همچنین ببینید
 * کلاس [`VideoFrame`](/slides/python-net/fa/aspose.slides/videoframe)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

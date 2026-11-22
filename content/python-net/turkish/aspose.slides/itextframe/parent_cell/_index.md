@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/itextframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell özelliği
-Üst hücreyi döndürür veya üst nesne ICell arayüzünü uygulamıyorsa None döndürür.
+Üst cell'i döndürür veya üst nesne ICell arayüzünü uygulamıyorsa None döndürür.
             Salt okunur [`ICell`](/slides/python-net/tr/aspose.slides/icell).
 
 ### Tanım:
@@ -18,7 +18,7 @@ def parent_cell(self):
 ```
 
 
-### Diğerlerine bak
+### Bakınız
 * sınıf [`ICell`](/slides/python-net/tr/aspose.slides/icell)
 * sınıf [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

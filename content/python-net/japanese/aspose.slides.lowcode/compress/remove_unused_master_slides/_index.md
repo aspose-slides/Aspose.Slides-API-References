@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.lowcode/compress/remove_unused_master_slides/
-weight: 30
+weight: 50
 ---
 ## remove_unused_master_slides(pres) {#presentation}
-未使用のマスタースライドを削除することにより、[`Presentation`](/slides/python-net/ja/aspose.slides/presentation) を圧縮します。
+未使用のマスタースライドを削除して[`Presentation`](/slides/python-net/ja/aspose.slides/presentation)を圧縮します。
 
 ```python
 @staticmethod
@@ -19,7 +19,7 @@ def remove_unused_master_slides(pres):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ja/aspose.slides/presentation) | プレゼンテーション インスタンス |
 
-### 参照
+### 関連項目
 * クラス [`Compress`](/slides/python-net/ja/aspose.slides.lowcode/compress)
 * クラス [`Presentation`](/slides/python-net/ja/aspose.slides/presentation)
 * モジュール [`aspose.slides.lowcode`](/slides/python-net/ja/aspose.slides.lowcode)

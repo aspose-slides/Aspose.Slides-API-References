@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right eigenschap
-Right.
-Alleen-lezen **float**.
+Rechts.
+            Alleen-lezen **float**.
 
 ### Definitie:
 ```python
@@ -16,6 +16,7 @@ Alleen-lezen **float**.
 def right(self):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`DataLabel`](/slides/python-net/nl/aspose.slides.charts/datalabel)

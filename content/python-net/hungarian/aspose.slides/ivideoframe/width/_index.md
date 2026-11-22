@@ -1,10 +1,10 @@
 ---
 title: width property
-second_title: Aspose.Slides a Python számára .NET API Referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ivideoframe/width/
-weight: 620
+weight: 630
 ---
 ## width tulajdonság
 ### Definíció:

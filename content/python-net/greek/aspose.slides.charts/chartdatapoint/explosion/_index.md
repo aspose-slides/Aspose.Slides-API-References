@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion ιδιότητα
-Καθορίζει το ποσό κατά το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο της πίτας.
+Καθορίζει το ποσό που το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτας.
             Ανάγνωση/Εγγραφή **int**.
 
 ### Ορισμός:

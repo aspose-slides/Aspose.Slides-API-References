@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d 屬性
 指定氣泡套用了 3-D 效果。
@@ -25,4 +25,4 @@ def is_bubble_3d(self, value):
 ### 另請參閱
 * 類別 [`IChartDataPoint`](/slides/python-net/zh-hant/aspose.slides.charts/ichartdatapoint)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

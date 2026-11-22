@@ -1,21 +1,15 @@
 ---
 title: StringStringPair class
-second_title: Aspose.Slides for Python via .NET API-referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás révén
 description: 
 type: docs
 url: /hu/aspose.slides/stringstringpair/
 ---
 ## StringStringPair osztály
 
-A struktúra string kulcsot és string értéket tartalmaz, és ideiglenes helyettesítője a KeyValuePair<string, string>-nek.
+A Struktúra string kulcsot és string értéket tartalmaz, és a KeyValuePair<string, string> ideiglenes helyettesítője.
 
-A StringStringPair típus a következő tagokkal rendelkezik:
-
-## Konstruktorok
-
-| Konstruktor | Leírás |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/hu/aspose.slides/stringstringpair/__init__/#) |  |
+A StringStringPair típus a következő tagokat teszi elérhetővé:
 
 ## Tulajdonságok
 
@@ -23,7 +17,6 @@ A StringStringPair típus a következő tagokkal rendelkezik:
 | :- | :- |
 | [`key`](/slides/python-net/hu/aspose.slides/stringstringpair/key/) | String kulcs |
 | [`value`](/slides/python-net/hu/aspose.slides/stringstringpair/value/) | String érték |
-
 
 ### Lásd még
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)

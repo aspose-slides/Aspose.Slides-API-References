@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size Eigenschaft
-Gibt das Notizen-Foliengrößenobjekt zurück.
-            Nur-Lesezugriff [`INotesSize`](/slides/python-net/de/aspose.slides/inotessize).
+Gibt das notes slide size-Objekt zurück.
+            Nur-Lese [`INotesSize`](/slides/python-net/de/aspose.slides/inotessize).
 
 ### Definition:
 ```python

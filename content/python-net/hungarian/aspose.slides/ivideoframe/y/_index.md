@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y tulajdonság
 ### Definíció:

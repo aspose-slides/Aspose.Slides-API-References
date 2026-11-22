@@ -1,13 +1,13 @@
 ---
 title: invert_if_negative property
-second_title: Aspose.Slides Python számára a .NET-en keresztül API-referencia
+second_title: Aspose.Slides for Python via .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative tulajdonság
-Megadja, hogy az adatpont megfordítja a színeit, ha az érték negatív.
+Meghatározza, hogy az adatpont fordítja-e a színeket, ha az érték negatív.
             Olvasás/írás **bool**.
 
 ### Definíció:

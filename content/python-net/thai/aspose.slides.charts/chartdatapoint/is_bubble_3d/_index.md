@@ -4,10 +4,10 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d คุณสมบัติ
-ระบุว่าฟองอากาศมีเอฟเฟกต์ 3 มิติที่ถูกประยุกต์ใช้กับพวกมัน.
+ระบุว่าฟองอากาศมีเอฟเฟกต์ 3-D ที่ใช้กับพวกมัน.
             อ่าน/เขียน **bool**.
 
 ### คำนิยาม:

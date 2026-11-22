@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/protection_manager/
-weight: 310
+weight: 320
 ---
 ## protection_manager eigenschap
-Haalt de manager van de permissies voor deze presentatie op. 
+Haalt manager van de permissies voor deze presentatie op. 
             Alleen-lezen [`IProtectionManager`](/slides/python-net/nl/aspose.slides/iprotectionmanager).
 
 ### Definitie:

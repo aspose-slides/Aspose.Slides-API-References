@@ -1,10 +1,10 @@
 ---
 title: images property
-second_title: Aspose.Slides dla Pythona przez .NET referencję API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images właściwość
 Zwraca kolekcję wszystkich obrazów w prezentacji.

@@ -1,12 +1,12 @@
 ---
 title: index property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## propriedade índice
+## propriedade de índice
 ### Definição:
 ```python
 @property

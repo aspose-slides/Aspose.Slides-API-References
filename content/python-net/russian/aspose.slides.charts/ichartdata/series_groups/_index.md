@@ -1,20 +1,30 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups свойство
 Получает группы рядов.
-Только для чтения [`IChartSeriesGroupCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriesgroupcollection).
+            Только для чтения [`IChartSeriesGroupCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriesgroupcollection).
 
-### Замечания
 
-1) Каждая группа рядов содержит ряды с комбинируемыми типами. Группы комбинируемых типов рядов определяются и описываются перечислением CombinableSeriesTypesGroup. Также каждая группа рядов содержит ряды, которые отображаются либо на первичной оси, либо на вторичной оси (не обе версии в одной группе). Таким образом, принцип группировки рядов — это группировка по типовым группам, упомянутым выше, и по типу отображения primary/secondary.
+### Примечания
 
-2) Группа рядов содержит некоторые свойства рядов, общие для каждого ряда в группе "series group properties". "series group properties" в классе ChartSeriesGroup является чтение/запись. Каждое из "series group properties" может иметь только для чтения проекцию в классе ChartSeries.
+1) Каждая группа рядов содержит ряды с комбинируемыми типами. Группы
+            комбинируемых типов рядов определены и описаны перечислением CombinableSeriesTypesGroup
+            enum.
+            Также каждая группа рядов содержит ряды, которые отображаются либо
+            на первичных осях, либо на вторичных осях (не обе случаи в одной группе).
+            Таким образом, принцип группировки рядов — это группировка по типовым группам,
+            упомянутым выше, и по типу построения на первичной/вторичной оси.
+
+            2) Группа рядов содержит некоторые свойства рядов, которые общие для
+            каждого ряда в группе ("свойства группы рядов").
+            "Свойства группы рядов" в классе ChartSeriesGroup являются read/write.
+            Каждое из "свойства группы рядов" может иметь только для чтения проекцию в классе ChartSeries.
 
 ### Определение:
 ```python
@@ -22,6 +32,7 @@ weight: 140
 def series_groups(self):
     ...
 ```
+
 
 ### См. также
 * класс [`IChartData`](/slides/python-net/ru/aspose.slides.charts/ichartdata)

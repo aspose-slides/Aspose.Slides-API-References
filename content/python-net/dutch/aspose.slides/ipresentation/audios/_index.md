@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
 ## audios eigenschap
-Retourneert de *verzameling* van alle ingesloten audiobestanden in de presentatie.
-            Alleen-lezen [`IAudioCollection`](/slides/python-net/nl/aspose.slides/iaudiocollection).
+Retourneert de verzameling van alle ingesloten audio-bestanden in de presentatie.
+Alleen-lezen [`IAudioCollection`](/slides/python-net/nl/aspose.slides/iaudiocollection).
 
 ### Definitie:
 ```python

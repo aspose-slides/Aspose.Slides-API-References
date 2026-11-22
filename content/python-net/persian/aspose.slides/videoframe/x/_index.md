@@ -1,20 +1,20 @@
 ---
 title: x property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
-## x ویژگی
-مختصات x گوشهٔ بالا-چپ شکل را که بر حسب نقطه اندازه‌گیری می‌شود، دریافت یا تنظیم می‌کند.
-            قابل خواندن/نوشتن **float**.
+## ویژگی x
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points.
+            خواندن/نوشتن **float**.
 
 
 ### توضیحات
 
-مقدار بازگردانده‌شده همیشه تعریف شده است و هرگز **float** نیست.
-            مقدار اختصاص داده‌شده نیز باید تعریف شده باشد؛ فقط **float** را به ویژگی‌های یک نمونهٔ `RawFrame` اختصاص دهید.
+مقدار بازگشتی همواره تعریف‌شده است و هرگز **float** نیست.
+            مقدار اختصاصی نیز باید تعریف‌شده باشد؛ **float** را فقط به ویژگی‌های یک نمونهٔ `RawFrame` اختصاص دهید.
 
 ### تعریف:
 ```python
@@ -28,7 +28,7 @@ def x(self, value):
 ```
 
 
-### همچنین ببینید
+### موارد مرتبط
 * کلاس [`VideoFrame`](/slides/python-net/fa/aspose.slides/videoframe)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

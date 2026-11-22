@@ -4,11 +4,11 @@ second_title: Aspose.Slides के लिए Python के माध्यम �
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties प्रॉपर्टी
-Gets presentation wide view properties.
-            केवल पढ़ने योग्य [`IViewProperties`](/slides/python-net/hi/aspose.slides/iviewproperties).
+प्रेज़ेंटेशन-व्यापी व्यू प्रॉपर्टीज़ प्राप्त करता है।
+            केवल-पढ़ने योग्य [`IViewProperties`](/slides/python-net/hi/aspose.slides/iviewproperties).
 
 ### परिभाषा:
 ```python
@@ -18,7 +18,7 @@ def view_properties(self):
 ```
 
 
-### और देखें
+### देखें
 * क्लास [`IViewProperties`](/slides/python-net/hi/aspose.slides/iviewproperties)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

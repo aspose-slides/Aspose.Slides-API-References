@@ -1,18 +1,19 @@
 ---
 title: split_text_by_columns method
-second_title: Aspose.Slides dla Pythona - odniesienie API .NET
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – Dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/itextframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
-Rozdziela zawartość tekstową [`ITextFrame`](/slides/python-net/pl/aspose.slides/itextframe) na tablicę łańcuchów znaków,  
-            gdzie każdy element odpowiada osobnej kolumnie tekstowej w ramce.
+Rozdziela zawartość tekstową [`ITextFrame`](/slides/python-net/pl/aspose.slides/itextframe) do tablicy ciągów znaków,  
+            w której każdy element odpowiada osobnej kolumnie tekstowej w ramce.
 
-### Returns
+### Zwraca
 
-Tablica łańcuchów znaków, gdzie każdy łańcuch reprezentuje zawartość tekstową konkretnej kolumny w [`ITextFrame`](/slides/python-net/pl/aspose.slides/itextframe).
+Tablica ciągów znaków, w której każdy ciąg reprezentuje treść tekstową określonej kolumny  
+            w [`ITextFrame`](/slides/python-net/pl/aspose.slides/itextframe).
 
 
 
@@ -22,14 +23,15 @@ def split_text_by_columns(self):
 ```
 
 
-### Remarks
+### Uwagi
 
-Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie mieć jeden element zawierający pełny tekst.  
-            Puste kolumny będą reprezentowane jako puste łańcuchy znaków w tablicy.
+Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie miała pojedynczy element  
+            zawierający pełny tekst.  
+            Puste kolumny będą reprezentowane jako puste ciągi znaków w tablicy.
 
 
 
-### See Also
+### Zobacz także
 * klasa [`ITextFrame`](/slides/python-net/pl/aspose.slides/itextframe)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

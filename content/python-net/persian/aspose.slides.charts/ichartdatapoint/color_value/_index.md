@@ -1,15 +1,15 @@
 ---
 title: color_value property
-second_title: Aspose.Slides برای Python از طریق .NET API مرجع
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value ویژگی
-Returns the color value of chart data point.
-            Used with Map charts. 
-            Read-only [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
+مقدار رنگ یک نقطه دادهٔ نمودار را دریافت می‌کند.
+در نمودارهای نقشه استفاده می‌شود.
+فقط-خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
 
 ### تعریف:
 ```python
@@ -17,7 +17,6 @@ Returns the color value of chart data point.
 def color_value(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)

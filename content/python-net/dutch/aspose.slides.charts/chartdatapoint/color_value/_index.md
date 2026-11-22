@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value eigenschap
 Retourneert de kleurwaarde van een grafiekdatapunt.
-            Wordt gebruikt met kaartgrafieken. 
+            Gebruikt met Kaartgrafieken. 
             Alleen-lezen [`IDoubleChartValue`](/slides/python-net/nl/aspose.slides.charts/idoublechartvalue).
 
 ### Definitie:

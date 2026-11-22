@@ -1,13 +1,13 @@
 ---
 title: layout_slides property
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
-## layout_slides خاصية
-يعيد قائمة بجميع شرائح التخطيط التي تم تعريفها في العرض التقديمي.
+## خاصية layout_slides
+يقوم بإرجاع قائمة بجميع شرائح التخطيط التي تم تعريفها في العرض التقديمي.
             للقراءة فقط [`IGlobalLayoutSlideCollection`](/slides/python-net/ar/aspose.slides/igloballayoutslidecollection).
 
 ### ملاحظات
@@ -22,8 +22,8 @@ def layout_slides(self):
     ...
 ```
 
-### انظر أيضا
-* فئة [`IGlobalLayoutSlideCollection`](/slides/python-net/ar/aspose.slides/igloballayoutslidecollection)
-* فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* الفئة [`IGlobalLayoutSlideCollection`](/slides/python-net/ar/aspose.slides/igloballayoutslidecollection)
+* الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: x_value property
-second_title: Aspose.Slides Python számára .NET API referencia
+second_title: Aspose.Slides a Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value tulajdonság
-Visszaadja a diagram adatpont x értékét.
+A diagram adatpontjának x értékét adja vissza.
             Csak olvasható [`IStringOrDoubleChartValue`](/slides/python-net/hu/aspose.slides.charts/istringordoublechartvalue).
 
 ### Definíció:

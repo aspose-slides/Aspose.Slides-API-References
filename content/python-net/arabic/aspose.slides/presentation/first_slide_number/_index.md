@@ -1,13 +1,13 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
-## first_slide_number الخاصية
-يمثل رقم الشريحة الأول في العرض التقديمي
+## first_slide_number خاصية
+يمثِّل رقم الشريحة الأول في العرض التقديمي
 
 ### التعريف:
 ```python
@@ -21,7 +21,7 @@ def first_slide_number(self, value):
 ```
 
 
-### انظر أيضًا
-* الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+### انظر أيضا
+* فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

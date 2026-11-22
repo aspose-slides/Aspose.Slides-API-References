@@ -4,11 +4,11 @@ second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
-## sensitivity_labels ویژگی
-مجموعهٔ برچسب‌های حساسیتی اعمال شده به سند ارائه را برمی‌گرداند.
-            فقط‌خواندنی [`ISensitivityLabelCollection`](/slides/python-net/fa/aspose.slides/isensitivitylabelcollection).
+## sensitivity_labels خاصیت
+مجموعه‌ای از برچسب‌های حساسیت که بر سند ارائه اعمال شده‌اند را برمی‌گرداند.
+            فقط-خواندنی [`ISensitivityLabelCollection`](/slides/python-net/fa/aspose.slides/isensitivitylabelcollection).
 
 ### تعریف:
 ```python

@@ -1,16 +1,14 @@
 ---
 title: set_range method
-second_title: Aspose.Slides pro Python pomocí .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
 Nastaví rozsah dat grafu. Řady a kategorie budou aktualizovány na základě nového rozsahu dat.
-            Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, pak budou přidány další řady se stejným typem
-            jako poslední řada v aktuální kolekci, budou přidány na konec kolekce.
-
+Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, budou přidány další řady se stejným typem jako poslední řada v aktuální kolekci na konec kolekce.
 
 ```python
 def set_range(self, formula):
@@ -27,7 +25,7 @@ def set_range(self, formula):
 | Výjimka | Popis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | formula je None. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Nepodporovaný typ grafu |
+| **RuntimeError(Proxy error(InvalidOperationException))** | nepodporovaný typ grafu |
 | **RuntimeError(Proxy error(ArgumentException))** | formula má nesprávný formát. |
 
 

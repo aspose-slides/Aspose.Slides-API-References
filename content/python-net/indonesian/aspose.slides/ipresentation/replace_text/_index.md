@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/replace_text/
-weight: 70
+weight: 80
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan.
@@ -30,4 +30,4 @@ def replace_text(self, old_text, new_text, options, callback):
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * kelas [`ITextSearchOptions`](/slides/python-net/id/aspose.slides/itextsearchoptions)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

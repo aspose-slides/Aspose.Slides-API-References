@@ -1,13 +1,13 @@
 ---
 title: index property
-second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## index प्रॉपर्टी
-निर्धारित करता है कि इस डेटा पॉइंट का लागू होना पैरेंट के बच्चों के संग्रह में से किस पर है.
+## इंडेक्स प्रॉपर्टी
+यह निर्धारित करता है कि पैरेंट की चाइल्ड्स कलेक्शन में से कौन-सा इस डेटा पॉइंट पर लागू होता है.
             पढ़ें **int**.
 
 ### परिभाषा:
@@ -18,7 +18,7 @@ def index(self):
 ```
 
 
-### और देखें
+### संबंधित देखें
 * क्लास [`IChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/ichartdatapoint)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

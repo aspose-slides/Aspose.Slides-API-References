@@ -1,20 +1,19 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
-## layout_slides property
-Возвращает список всех макетных слайдов, определенных в презентации.
+## layout_slides свойство
+Возвращает список всех слайдов макета, определённых в презентации.
             Только для чтения [`IGlobalLayoutSlideCollection`](/slides/python-net/ru/aspose.slides/igloballayoutslidecollection).
 
 
 ### Замечания
 
-Вы можете получить доступ к альтернативному API для добавления/вставки/удаления/клонирования макетных слайдов 
-            используя IMasterSlide.LayoutSlides свойство.
+Вы можете получить доступ к альтернативному API для добавления/вставки/удаления/клонирования слайдов макета, используя свойство IMasterSlide.LayoutSlides.
 
 ### Определение:
 ```python
@@ -24,7 +23,7 @@ def layout_slides(self):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`IGlobalLayoutSlideCollection`](/slides/python-net/ru/aspose.slides/igloballayoutslidecollection)
 * класс [`Presentation`](/slides/python-net/ru/aspose.slides/presentation)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)

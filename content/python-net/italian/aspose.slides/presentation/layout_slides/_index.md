@@ -1,18 +1,19 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Aspose.Slides per Python via .NET - Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
 ## layout_slides proprietà
-Restituisce un elenco di tutte le diapositive di layout definite nella presentazione.
-            Solo lettura [`IGlobalLayoutSlideCollection`](/slides/python-net/it/aspose.slides/igloballayoutslidecollection).
+Restituisce un elenco di tutte le diapositive layout che sono definite nella presentazione.
+            Sola lettura [`IGlobalLayoutSlideCollection`](/slides/python-net/it/aspose.slides/igloballayoutslidecollection).
+
 
 ### Note
 
-È possibile accedere a un'API alternativa per aggiungere/inserire/rimuovere/clonare le diapositive di layout            utilizzando la proprietà IMasterSlide.LayoutSlides.
+Puoi accedere a un'API alternativa per aggiungere/inserire/rimuovere/clonare le diapositive layout utilizzando la proprietà IMasterSlide.LayoutSlides.
 
 ### Definizione:
 ```python
@@ -20,6 +21,7 @@ Restituisce un elenco di tutte le diapositive di layout definite nella presentaz
 def layout_slides(self):
     ...
 ```
+
 
 ### Vedi anche
 * classe [`IGlobalLayoutSlideCollection`](/slides/python-net/it/aspose.slides/igloballayoutslidecollection)

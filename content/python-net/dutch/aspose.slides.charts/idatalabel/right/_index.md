@@ -4,9 +4,9 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
-## Rechte eigenschap
+## rechter eigenschap
 ### Definitie:
 ```python
 @property

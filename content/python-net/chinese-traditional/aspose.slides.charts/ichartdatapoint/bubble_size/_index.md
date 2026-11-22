@@ -7,7 +7,7 @@ url: /zh-hant/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size 屬性
-返回圖表資料點的氣泡大小。
+取得圖表資料點的氣泡大小。
             唯讀 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue).
 
 ### 定義:

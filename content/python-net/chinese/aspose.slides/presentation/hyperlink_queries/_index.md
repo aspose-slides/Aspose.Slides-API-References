@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries 属性
-提供对所有演示文稿幻灯片中包含的超链接的便捷访问（不包括母版、布局和备注幻灯片）。
-只读 [`IHyperlinkQueries`](/slides/python-net/zh/aspose.slides/ihyperlinkqueries).
+提供对所有演示文稿幻灯片中包含的所有超链接的便捷访问（不包括母版、布局、备注幻灯片）。
+            只读 [`IHyperlinkQueries`](/slides/python-net/zh/aspose.slides/ihyperlinkqueries).
 
 ### 定义:
 ```python

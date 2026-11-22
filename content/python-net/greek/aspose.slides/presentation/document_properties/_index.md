@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties ιδιότητα
 Επιστρέφει το αντικείμενο DocumentProperties που περιέχει τυπικές και προσαρμοσμένες ιδιότητες εγγράφου.

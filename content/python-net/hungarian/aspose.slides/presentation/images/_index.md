@@ -1,14 +1,14 @@
 ---
 title: images property
-second_title: Aspose.Slides for Python a .NET API-referencia segítségével
+second_title: Aspose.Slides Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
-## images tulajdonság
-Visszaadja a prezentációban található összes images gyűjteményét.
-            Csak olvasható [`IImageCollection`](/slides/python-net/hu/aspose.slides/iimagecollection).
+## képek tulajdonság
+Visszaadja a bemutatóban található összes képet tartalmazó gyűjteményt.
+Csak olvasható [`IImageCollection`](/slides/python-net/hu/aspose.slides/iimagecollection).
 
 ### Definíció:
 ```python
@@ -16,7 +16,6 @@ Visszaadja a prezentációban található összes images gyűjteményét.
 def images(self):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`IImageCollection`](/slides/python-net/hu/aspose.slides/iimagecollection)

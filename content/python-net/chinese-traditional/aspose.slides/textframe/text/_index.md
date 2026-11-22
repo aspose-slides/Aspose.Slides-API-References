@@ -1,10 +1,10 @@
 ---
 title: text property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides 適用於 Python 之 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## 文字屬性
 取得或設定 TextFrame 的純文字。

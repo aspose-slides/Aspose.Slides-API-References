@@ -4,17 +4,16 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
 ## width egenskap
-Hämtar eller anger width på formen, mätt i punkter.
-            Läs/skriv **float**.
-
+Hämtar eller anger width av shape, mätt i punkter.
+            Läsa/skriva **float**.
 
 ### Anmärkningar
 
 Det returnerade värdet är alltid definierat och aldrig **float**.
-            Det tilldelade värdet måste också vara definierat; tilldela **float** endast till egenskaper i en `RawFrame`-instans.
+            Det tilldelade värdet måste också vara definierat; tilldela **float** endast till egenskaper av en `RawFrame` instans.
 
 ### Definition:
 ```python
@@ -26,7 +25,6 @@ def width(self):
 def width(self, value):
     ...
 ```
-
 
 ### Se även
 * klass [`VideoFrame`](/slides/python-net/sv/aspose.slides/videoframe)

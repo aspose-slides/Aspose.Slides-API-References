@@ -1,14 +1,14 @@
 ---
 title: data_point_levels property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق مرجع API .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels ویژگی
-یک مجموعه از سطوح نقاط داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود.
-اندیس‌گذاری سطوح نقاط داده صفر مبناست.
+یک محفظه از سطوح نقطه داده را بازمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود.
+            ایندکس‌گذاری سطوح نقطه داده بر پایه صفر است.
 
 ### تعریف:
 ```python
@@ -16,7 +16,6 @@ weight: 100
 def data_point_levels(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`ChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/chartdatapoint)

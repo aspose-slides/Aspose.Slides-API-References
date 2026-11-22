@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d プロパティ
-バブルに 3-D 効果が適用されていることを指定します。
-            読み書き **bool**.
+バブルに3次元効果が適用されていることを指定します。
+            読み取り/書き込み **bool**.
 
 ### 定義:
 ```python

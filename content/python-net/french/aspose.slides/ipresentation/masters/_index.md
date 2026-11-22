@@ -1,13 +1,13 @@
 ---
 title: masters property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters propriété
-Renvoie une liste de toutes les diapositives maîtres qui sont définies dans la présentation.
+Renvoie une liste de toutes les diapositives maîtres définies dans la présentation.
             Lecture seule [`IMasterSlideCollection`](/slides/python-net/fr/aspose.slides/imasterslidecollection).
 
 ### Définition:

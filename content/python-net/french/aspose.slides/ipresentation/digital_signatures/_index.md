@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures propriété
 Renvoie la collection de signatures utilisées pour signer la présentation.
@@ -18,7 +18,7 @@ def digital_signatures(self):
 ```
 
 
-### Voir aussi
+### Voir également
 * classe [`IDigitalSignatureCollection`](/slides/python-net/fr/aspose.slides/idigitalsignaturecollection)
 * classe [`IPresentation`](/slides/python-net/fr/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)

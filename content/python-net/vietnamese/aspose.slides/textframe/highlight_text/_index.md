@@ -1,13 +1,13 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Aspose.Slides cho Python qua .NET API Reference
 description: 
 type: docs
 url: /vi/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-Làm nổi bật tất cả các vị trí khớp của đoạn văn bản mẫu bằng màu đã chỉ định.
+Tô sáng tất cả các kết quả khớp của đoạn văn bản mẫu bằng màu được chỉ định.
 
 
 ```python
@@ -18,12 +18,12 @@ def highlight_text(self, text, highlight_color):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| text | **str** | Đoạn văn mẫu để làm nổi bật. |
-| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu để làm nổi bật văn bản. |
+| text | **str** | Đoạn văn bản mẫu để tô sáng. |
+| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu dùng để tô sáng văn bản. |
 
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-Làm nổi bật tất cả các vị trí khớp của đoạn văn bản mẫu bằng màu đã chỉ định.
+Tô sáng tất cả các kết quả khớp của đoạn văn bản mẫu bằng màu được chỉ định.
 
 
 ```python
@@ -34,13 +34,13 @@ def highlight_text(self, text, highlight_color, options):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| text | **str** | Văn bản cần làm nổi bật. |
-| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu để làm nổi bật văn bản. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/vi/aspose.slides/itexthighlightingoptions) | Các tùy chọn làm nổi bật. |
+| text | **str** | Văn bản cần tô sáng. |
+| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu dùng để tô sáng văn bản. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/vi/aspose.slides/itexthighlightingoptions) | Các tùy chọn tô sáng. |
 
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
-Làm nổi bật tất cả các vị trí khớp của đoạn văn bản mẫu bằng màu đã chỉ định.
+Tô sáng tất cả các kết quả khớp của đoạn văn bản mẫu bằng màu được chỉ định.
 
 
 ```python
@@ -51,14 +51,14 @@ def highlight_text(self, text, highlight_color, options, callback):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| text | **str** | Văn bản cần làm nổi bật. |
-| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu để làm nổi bật văn bản. |
+| text | **str** | Văn bản cần tô sáng. |
+| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu dùng để tô sáng văn bản. |
 | options | [`ITextSearchOptions`](/slides/python-net/vi/aspose.slides/itextsearchoptions) | Các tùy chọn tìm kiếm văn bản [`ITextSearchOptions`](/slides/python-net/vi/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/vi/aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [`IFindResultCallback`](/slides/python-net/vi/aspose.slides/ifindresultcallback). |
 
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IFindResultCallback`](/slides/python-net/vi/aspose.slides/ifindresultcallback)
 * lớp [`ITextHighlightingOptions`](/slides/python-net/vi/aspose.slides/itexthighlightingoptions)
 * lớp [`ITextSearchOptions`](/slides/python-net/vi/aspose.slides/itextsearchoptions)

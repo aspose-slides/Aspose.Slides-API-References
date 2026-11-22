@@ -1,14 +1,14 @@
 ---
 title: format property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## format özelliği
 Biçimlendirme özelliklerini temsil eder.
-Okunur/yazılır [`IFormat`](/slides/python-net/tr/aspose.slides.charts/iformat).
+            Okunabilir/Yazılabilir [`IFormat`](/slides/python-net/tr/aspose.slides.charts/iformat).
 
 ### Tanım:
 ```python
@@ -22,7 +22,7 @@ def format(self, value):
 ```
 
 
-### Diğerlerine Bak
+### Ayrıca Bakınız
 * sınıf [`ChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/chartdatapoint)
 * sınıf [`IFormat`](/slides/python-net/tr/aspose.slides.charts/iformat)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

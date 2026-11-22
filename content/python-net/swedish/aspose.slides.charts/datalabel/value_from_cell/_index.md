@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell egenskap
-Hämtar eller anger arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell egenskap är sann.
+Hämtar eller anger workbook data cell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell egenskap är true.
 
 ### Definition:
 ```python

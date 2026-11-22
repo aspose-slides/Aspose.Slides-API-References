@@ -4,7 +4,7 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
 ## size_value thuộc tính
 Trả về giá trị kích thước của điểm dữ liệu biểu đồ.
@@ -19,7 +19,7 @@ def size_value(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)
 * lớp [`IDoubleChartValue`](/slides/python-net/vi/aspose.slides.charts/idoublechartvalue)
 * mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)

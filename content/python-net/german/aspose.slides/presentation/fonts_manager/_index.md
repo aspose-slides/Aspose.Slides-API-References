@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager Eigenschaft
-Gibt den fonts manager zurück.
-            Nur lesbar [`IFontsManager`](/slides/python-net/de/aspose.slides/ifontsmanager).
+Gibt Fonts-Manager zurück.
+            Schreibgeschützt [`IFontsManager`](/slides/python-net/de/aspose.slides/ifontsmanager).
 
 ### Definition:
 ```python

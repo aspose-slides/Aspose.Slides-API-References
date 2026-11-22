@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos プロパティ
 Returns the collection of all embedded video files in the presentation.
@@ -16,6 +16,7 @@ Returns the collection of all embedded video files in the presentation.
 def videos(self):
     ...
 ```
+
 
 ### 参照
 * クラス [`IPresentation`](/slides/python-net/ja/aspose.slides/ipresentation)

@@ -1,14 +1,14 @@
 ---
 title: comment_authors property
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors خاصية
-يعيد مجموعة تعليقات المؤلفين.
-            للقراءة فقط [`ICommentAuthorCollection`](/slides/python-net/ar/aspose.slides/icommentauthorcollection).
+يعيد مجموعة من مؤلفي التعليقات.
+للقراءة فقط [`ICommentAuthorCollection`](/slides/python-net/ar/aspose.slides/icommentauthorcollection).
 
 ### التعريف:
 ```python

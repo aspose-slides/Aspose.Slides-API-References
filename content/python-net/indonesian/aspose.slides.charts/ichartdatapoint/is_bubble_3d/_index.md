@@ -1,10 +1,10 @@
 ---
 title: is_bubble_3d property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python melalui .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d properti
 Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan pada mereka.

@@ -1,13 +1,13 @@
 ---
 title: vba_project property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project propiedad
-Obtiene el proyecto VBA con macros de presentación.
+Obtiene el proyecto VBA con macros de la presentación.
             Lectura/escritura [`IVbaProject`](/slides/python-net/es/aspose.slides.vba/ivbaproject).
 
 ### Definición:

@@ -1,13 +1,13 @@
 ---
 title: format property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API hivatkozás
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozásán keresztül
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## formátum tulajdonság
-Ábrázolja a formázási tulajdonságokat.
+## format tulajdonság
+A formázási tulajdonságokat képviseli.
             Olvasás/írás [`IFormat`](/slides/python-net/hu/aspose.slides.charts/iformat).
 
 ### Definíció:
@@ -23,7 +23,7 @@ def format(self, value):
 
 
 ### Lásd még
-* class [`ChartDataPoint`](/slides/python-net/hu/aspose.slides.charts/chartdatapoint)
-* class [`IFormat`](/slides/python-net/hu/aspose.slides.charts/iformat)
-* module [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* osztály [`ChartDataPoint`](/slides/python-net/hu/aspose.slides.charts/chartdatapoint)
+* osztály [`IFormat`](/slides/python-net/hu/aspose.slides.charts/iformat)
+* modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

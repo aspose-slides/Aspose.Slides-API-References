@@ -1,16 +1,16 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
-## ویژگی slide_size
-شی اندازه اسلاید را برمی‌گرداند.
-            فقط قابل خواندن [`ISlideSize`](/slides/python-net/fa/aspose.slides/islidesize).
+## slide_size ویژگی
+Returns slide size object.
+            Read-only [`ISlideSize`](/slides/python-net/fa/aspose.slides/islidesize).
 
-### تعریف:
+### Definition:
 ```python
 @property
 def slide_size(self):

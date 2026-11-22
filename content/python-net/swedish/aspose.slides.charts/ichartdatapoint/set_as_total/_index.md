@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total egenskap
-Ställer in datapunkten som total. Endast för serietypen Waterfall.
+Ställer in datapunkten som total. Tillämpas endast för Waterfall-serietyp.
 
 ### Definition:
 ```python

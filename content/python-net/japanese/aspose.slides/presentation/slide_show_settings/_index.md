@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings プロパティ
 プレゼンテーションのスライドショー設定を返します。
@@ -20,4 +20,4 @@ def slide_show_settings(self):
 ### 参照
 * クラス [`Presentation`](/slides/python-net/ja/aspose.slides/presentation)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

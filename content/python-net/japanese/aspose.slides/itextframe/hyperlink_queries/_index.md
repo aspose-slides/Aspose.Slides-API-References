@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries プロパティ
 Provides easy access to contained hyperlinks.
-            Read-only [`IHyperlinkQueries`](/slides/python-net/ja/aspose.slides/ihyperlinkqueries).
+            読み取り専用 [`IHyperlinkQueries`](/slides/python-net/ja/aspose.slides/ihyperlinkqueries).
 
 ### 定義:
 ```python

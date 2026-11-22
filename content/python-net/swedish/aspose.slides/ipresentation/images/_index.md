@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
-## bilder egenskap
-Returnerar samlingen av alla bilder i presentationen.
+## images egenskap
+Returns the collection of all images in the presentation.
             Skrivskyddad [`IImageCollection`](/slides/python-net/sv/aspose.slides/iimagecollection).
 
 ### Definition:

@@ -1,14 +1,24 @@
 ---
 title: gap_depth property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للغة Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartseriesgroup/gap_depth/
 weight: 100
 ---
 ## gap_depth خاصية
-تُرجِع أو تحدد المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد.
-            قراءة/كتابة **int**.
+يحصل أو يضبط المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد، كنسبة مئوية لعرض العلامة.
+            القيمة يجب أن تكون بين 0 و 500.
+            قابل للقراءة/الكتابة **int**.
+
+### ملاحظات
+
+تنطبق هذه الخاصية على سلاسل من الأنواع التالية:
+            الأنواع الفرعية للأشرطة والأعمدة ثلاثية الأبعاد، 
+            [`ChartType.LINE_3D`](/slides/python-net/ar/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/ar/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/ar/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/ar/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
 
 ### التعريف:
 ```python
@@ -20,7 +30,6 @@ def gap_depth(self):
 def gap_depth(self, value):
     ...
 ```
-
 
 ### انظر أيضًا
 * فئة [`IChartSeriesGroup`](/slides/python-net/ar/aspose.slides.charts/ichartseriesgroup)

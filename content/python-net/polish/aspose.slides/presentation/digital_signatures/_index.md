@@ -1,13 +1,13 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides dla Pythona przez .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures właściwość
-Returns the collection of signatures used to sign the presentation.
+Zwraca kolekcję podpisów używanych do podpisania prezentacji.
             Tylko do odczytu [`IDigitalSignatureCollection`](/slides/python-net/pl/aspose.slides/idigitalsignaturecollection).
 
 ### Definicja:

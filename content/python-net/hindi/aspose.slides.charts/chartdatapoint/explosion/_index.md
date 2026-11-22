@@ -1,12 +1,12 @@
 ---
 title: explosion property
-second_title: Aspose.Slides Python के लिए, .NET API रेफ़रेंस के द्वारा
+second_title: Aspose.Slides for Python द्वारा .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## explosion गुण
+## explosion प्रॉपर्टी
 Specifies the amount the data point shall be moved from the center of the pie.
             पढ़ने/लिखने **int**.
 
@@ -23,6 +23,6 @@ def explosion(self, value):
 
 
 ### संबंधित देखें
-* कक्षा [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
+* क्लास [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -4,11 +4,11 @@ second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts ویژگی
-تمام بخش‌های دادهٔ سفارشی را در ارائه برمی‌گرداند.
-            فقط-خواندنی [`ICustomXmlPart`](/slides/python-net/fa/aspose.slides/icustomxmlpart)[].
+تمام بخش‌های داده سفارشی را در ارائه بر می‌گرداند.
+            فقط‌خواندنی [`ICustomXmlPart`](/slides/python-net/fa/aspose.slides/icustomxmlpart)[].
 
 ### تعریف:
 ```python

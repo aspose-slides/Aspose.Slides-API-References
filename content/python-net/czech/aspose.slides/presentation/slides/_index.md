@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides pro Python přes .NET referenci API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides vlastnost
-Vrací seznam všech slides, které jsou v prezentaci definovány.
-Pouze pro čtení [`ISlideCollection`](/cs/slides/python-net/aspose.slides/islidecollection).
+Vrátí seznam všech slides, které jsou definovány v prezentaci.
+            Jen ke čtení [`ISlideCollection`](/cs/slides/python-net/aspose.slides/islidecollection).
 
 ### Definice:
 ```python

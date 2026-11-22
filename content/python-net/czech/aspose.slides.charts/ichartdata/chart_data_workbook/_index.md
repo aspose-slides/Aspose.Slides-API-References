@@ -4,7 +4,7 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook vlastnost
 Získá továrnu buněk pro vytvoření buněk používaných pro řady grafu nebo kategorie.

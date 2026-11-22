@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides για Python μέσω .NET – Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y ιδιότητα
 ### Ορισμός:

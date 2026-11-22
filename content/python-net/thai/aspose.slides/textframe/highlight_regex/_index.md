@@ -4,34 +4,34 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/textframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-ทำไฮไลท์ทุกการจับคู่ของนิพจน์แบบทั่วไปด้วยสีที่ระบุ.
+ไฮไลต์ทุกการจับคู่ของนิพจน์ปกติกับสีที่ระบุ
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | :- | :- | :- |
-| regex | **str** | สตริงที่มีนิพจน์แบบทั่วไปเพื่อรับสตริงที่ต้องการไฮไลท์. |
-| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีที่จะใช้ไฮไลท์ข้อความ. |
+| regex | **str** | สตริงที่มีนิพจน์ปกติเพื่อหาสตริงที่ต้องการไฮไลต์ |
+| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีที่ใช้ไฮไลต์ข้อความ |
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-ทำไฮไลท์ทุกการจับคู่ของนิพจน์แบบทั่วไปด้วยสีที่ระบุ.
+ไฮไลต์ทุกการจับคู่ของนิพจน์ปกติกับสีที่ระบุ
 
 ```python
 def highlight_regex(self, regex, highlight_color, options):
     ...
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | :- | :- | :- |
-| regex | **str** | ข้อความของนิพจน์แบบทั่วไปเพื่อรับข้อความที่จะไฮไลท์. |
-| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีที่จะใช้ไฮไลท์ข้อความ. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/th/aspose.slides/itexthighlightingoptions) | ตัวเลือกการไฮไลท์. |
+| regex | **str** | ข้อความของนิพจน์ปกติเพื่อหาข้อความที่ต้องการไฮไลต์ |
+| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีที่ใช้ไฮไลต์ข้อความ |
+| options | [`ITextHighlightingOptions`](/slides/python-net/th/aspose.slides/itexthighlightingoptions) | ตัวเลือกการไฮไลต์ |
 
 ### ดูเพิ่มเติม
 * คลาส [`ITextHighlightingOptions`](/slides/python-net/th/aspose.slides/itexthighlightingoptions)

@@ -1,12 +1,12 @@
 ---
 title: width property
-second_title: Aspose.Slides Pythonhoz a .NET API hivatkozáson keresztül
+second_title: Aspose.Slides for Python a .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
-## width tulajdonság
+## szélesség property
 ### Definíció:
 ```python
 @property
@@ -20,6 +20,6 @@ def width(self, value):
 
 
 ### Lásd még
-* osztály [`IDataLabel`](/slides/python-net/hu/aspose.slides.charts/idatalabel)
-* modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
+* class [`IDataLabel`](/slides/python-net/hu/aspose.slides.charts/idatalabel)
+* module [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

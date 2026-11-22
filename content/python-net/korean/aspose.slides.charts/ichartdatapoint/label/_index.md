@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## label 속성
-chart 데이터 포인트의 레이블을 나타냅니다.
+## 레이블 속성
+차트 데이터 포인트의 레이블을 나타냅니다.
             읽기 전용 [`IDataLabel`](/slides/python-net/ko/aspose.slides.charts/idatalabel).
 
 ### 정의:
@@ -17,7 +17,8 @@ def label(self):
     ...
 ```
 
-### 참고
+
+### 관련 항목
 * 클래스 [`IChartDataPoint`](/slides/python-net/ko/aspose.slides.charts/ichartdatapoint)
 * 클래스 [`IDataLabel`](/slides/python-net/ko/aspose.slides.charts/idatalabel)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

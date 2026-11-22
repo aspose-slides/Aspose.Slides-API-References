@@ -1,16 +1,16 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
-## grouping_levels خاصية
+## خاصية grouping_levels
 حاوية مُدارة لقيم مستويات تجميع فئة المخطط.
             الفئة متعددة المستويات تحتوي على أكثر من مستوى تجميع واحد.
             فهرسة مستويات التجميع تبدأ من الصفر.
-            للقراءة فقط [`IChartCategoryLevelsManager`](/slides/python-net/ar/aspose.slides.charts/ichartcategorylevelsmanager).
+            قراءة فقط [`IChartCategoryLevelsManager`](/slides/python-net/ar/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### التعريف:
 ```python
@@ -18,7 +18,6 @@ weight: 40
 def grouping_levels(self):
     ...
 ```
-
 
 ### انظر أيضًا
 * فئة [`IChartCategory`](/slides/python-net/ar/aspose.slides.charts/ichartcategory)

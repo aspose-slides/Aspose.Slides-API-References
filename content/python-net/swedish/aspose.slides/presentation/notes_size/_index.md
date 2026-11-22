@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size egenskap
-Returnerar objekt för notslide-storlek.
+Returnerar notes slide size objekt.
             Skrivskyddad [`INotesSize`](/slides/python-net/sv/aspose.slides/inotessize).
 
 ### Definition:

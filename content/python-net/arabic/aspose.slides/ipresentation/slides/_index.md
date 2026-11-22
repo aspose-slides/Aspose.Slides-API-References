@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
-## slides خاصية
-يعيد قائمة بجميع الشرائح التي تم تعريفها في العرض التقديمي.
-للقراءة فقط [`ISlideCollection`](/ar/slides/python-net/aspose.slides/islidecollection).
+## خاصية slides
+تُرجِع قائمة بجميع slides التي تم تعريفها في العرض.
+            للقراءة فقط [`ISlideCollection`](/ar/slides/python-net/aspose.slides/islidecollection).
 
 ### التعريف:
 ```python
@@ -17,8 +17,9 @@ def slides(self):
     ...
 ```
 
-### انظر أيضاً
-* فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
-* فئة [`ISlideCollection`](/slides/python-net/ar/aspose.slides/islidecollection)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+
+### انظر أيضًا
+* الفئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
+* الفئة [`ISlideCollection`](/slides/python-net/ar/aspose.slides/islidecollection)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

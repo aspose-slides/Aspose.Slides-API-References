@@ -4,12 +4,11 @@ second_title: Referencia de la API Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-Establece el rango de datos del gráfico. Las series y categorías se actualizarán en función del nuevo rango de datos.
-            Si la cantidad de series en el rango de datos es mayor que el recuento de series en los datos del gráfico, se añadirán series adicionales del mismo tipo
-            que la última serie en la colección actual, al final de la colección.
+Establece el rango de datos del gráfico. Las series y categorías se actualizarán en función del nuevo rango de datos.  
+Si la cantidad de series en el rango de datos es mayor que el recuento de series en los datos del gráfico, se agregarán series adicionales del mismo tipo que la última serie de la colección actual al final de la colección.
 
 
 ```python

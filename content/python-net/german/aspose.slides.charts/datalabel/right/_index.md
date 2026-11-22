@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right Eigenschaft
-Right.
-            Nur lesbar **float**.
+Rechts.
+            Nur lesend **float**.
 
 ### Definition:
 ```python

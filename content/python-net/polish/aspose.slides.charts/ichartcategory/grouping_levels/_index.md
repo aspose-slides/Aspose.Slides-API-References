@@ -1,15 +1,15 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels właściwość
 Zarządzany kontener wartości poziomów grupowania kategorii wykresu.
             Kategoria wielopoziomowa zawiera więcej niż jeden poziom grupowania.
-            Indeksowanie poziomów grupowania jest zerowe.
+            Indeksowanie poziomów grupowania zaczyna się od zera.
             Tylko do odczytu [`IChartCategoryLevelsManager`](/slides/python-net/pl/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Definicja:
@@ -18,6 +18,7 @@ Zarządzany kontener wartości poziomów grupowania kategorii wykresu.
 def grouping_levels(self):
     ...
 ```
+
 
 ### Zobacz także
 * klasa [`IChartCategory`](/slides/python-net/pl/aspose.slides.charts/ichartcategory)

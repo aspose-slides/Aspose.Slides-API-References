@@ -1,23 +1,18 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides dla Pythona przy użyciu .NET Dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible właściwość
-False oznacza, że etykieta danych nie jest domyślnie widoczna (a więc wszystkie
-            flagi Show*-flags (ShowValue, ...) właściwości DefaultDataLabelFormat mają wartość false).
-            Tylko do odczytu **bool**.
-
+False oznacza, że etykieta danych nie jest widoczna domyślnie (i tak wszystkie Show*-flags (ShowValue, ...) właściwości DefaultDataLabelFormat są false). Tylko do odczytu **bool**.
 
 ### Uwagi
 
-Jeśli etykieta danych jest domyślnie widoczna, możesz ją ukryć domyślnie metodą Hide().
-            Ale jeśli etykieta danych nie jest domyślnie widoczna (IsVisible jest false), możesz sprawić, że etykieta danych będzie „widoczna 
-            domyślnie” ustawiając flagi Show*-flags (ShowValue, ...) właściwości DefaultDataLabelFormat
-            w stan true.
+Jeśli etykieta danych jest widoczna domyślnie, możesz uczynić ją domyślnie niewidoczną przy pomocy metody Hide().
+Jednak jeśli etykieta danych nie jest widoczna domyślnie (IsVisible jest false), możesz uczynić etykietę danych „widoczną domyślnie” ustawiając flagi Show*-flags (ShowValue, ...) właściwości DefaultDataLabelFormat na stan true.
 
 ### Definicja:
 ```python
@@ -25,7 +20,6 @@ Jeśli etykieta danych jest domyślnie widoczna, możesz ją ukryć domyślnie m
 def is_visible(self):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`DataLabelCollection`](/slides/python-net/pl/aspose.slides.charts/datalabelcollection)

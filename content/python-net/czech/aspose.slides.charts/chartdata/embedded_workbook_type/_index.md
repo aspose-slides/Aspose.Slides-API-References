@@ -1,16 +1,16 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type vlastnost
 Získá typ vloženého sešitu.
-            Vrátí [`WorkbookType.NOT_DEFINED`](/slides/python-net/cs/aspose.slides.charts/workbooktype/NOT_DEFINED) pokud [`ChartData.data_source_type`](/slides/python-net/cs/aspose.slides.charts/chartdata/data_source_type) je 
+            Vrátí [`WorkbookType.NOT_DEFINED`](/slides/python-net/cs/aspose.slides.charts/workbooktype/NOT_DEFINED) pokud je [`ChartData.data_source_type`](/slides/python-net/cs/aspose.slides.charts/chartdata/data_source_type) 
             [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/cs/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
-            Pouze pro čtení [`WorkbookType`](/slides/python-net/cs/aspose.slides.charts/workbooktype).
+            Pouze ke čtení [`WorkbookType`](/slides/python-net/cs/aspose.slides.charts/workbooktype).
 
 ### Definice:
 ```python

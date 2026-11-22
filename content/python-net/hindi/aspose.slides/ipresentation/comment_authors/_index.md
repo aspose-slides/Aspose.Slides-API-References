@@ -1,13 +1,13 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors प्रॉपर्टी
-टिप्पणी लेखकों का संग्रह लौटाता है।
+Returns the collection of comments autors.
             केवल-पढ़ने योग्य [`ICommentAuthorCollection`](/slides/python-net/hi/aspose.slides/icommentauthorcollection).
 
 ### परिभाषा:
@@ -18,8 +18,8 @@ def comment_authors(self):
 ```
 
 
-### संबंधित देखें
+### और देखें
 * क्लास [`ICommentAuthorCollection`](/slides/python-net/hi/aspose.slides/icommentauthorcollection)
 * क्लास [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

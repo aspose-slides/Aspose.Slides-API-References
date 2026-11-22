@@ -1,16 +1,16 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position vlastnost
 Vrací pozici tvaru v z-orderu.
-            Shapes[0] vrací tvar na zadní straně z-orderu,
-            a Shapes[Shapes.Count - 1] vrací tvar na přední straně z-orderu.
-            Pouze pro čtení **int**.
+            Shapes[0] vrací tvar na zadní pozici v z-orderu,
+            a Shapes[Shapes.Count - 1] vrací tvar na přední pozici v z-orderu.
+            Pouze ke čtení **int**.
 
 ### Definice:
 ```python

@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion özelliği
-Veri noktasının pasta grafiğinin merkezinden ne kadar uzaklaştırılacağını belirtir.
-            Okunur/Yazılabilir **int**.
+Veri noktasının pasta merkezinden ne kadar taşınacağını belirtir.
+            Okuma/Yazma **int**.
 
 ### Tanım:
 ```python

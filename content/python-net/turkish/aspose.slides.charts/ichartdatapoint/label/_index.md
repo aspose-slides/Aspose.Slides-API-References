@@ -1,14 +1,14 @@
 ---
 title: label property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## etiket özelliği
 Grafik veri noktasının etiketini temsil eder.
-            Salt okunur [`IDataLabel`](/slides/python-net/tr/aspose.slides.charts/idatalabel).
+            Yalnızca okuma [`IDataLabel`](/slides/python-net/tr/aspose.slides.charts/idatalabel).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def label(self):
 ```
 
 
-### Ayrıca Bakınız
+### Diğer
 * sınıf [`IChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/ichartdatapoint)
 * sınıf [`IDataLabel`](/slides/python-net/tr/aspose.slides.charts/idatalabel)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

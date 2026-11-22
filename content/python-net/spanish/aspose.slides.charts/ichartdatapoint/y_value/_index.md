@@ -1,13 +1,13 @@
 ---
 title: y_value property
-second_title: Aspose.Slides para Python a través de .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value propiedad
-Devuelve el valor y del punto de datos del gráfico.
+Obtiene el valor y de un punto de datos del gráfico.
             Solo lectura [`IDoubleChartValue`](/slides/python-net/es/aspose.slides.charts/idoublechartvalue).
 
 ### Definición:
@@ -18,7 +18,7 @@ def y_value(self):
 ```
 
 
-### Ver también
+### Véase también
 * clase [`IChartDataPoint`](/slides/python-net/es/aspose.slides.charts/ichartdatapoint)
 * clase [`IDoubleChartValue`](/slides/python-net/es/aspose.slides.charts/idoublechartvalue)
 * módulo [`aspose.slides.charts`](/slides/python-net/es/aspose.slides.charts)

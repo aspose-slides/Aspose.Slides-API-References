@@ -1,19 +1,19 @@
 ---
 title: layout_slides property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/ipresentation/layout_slides/
-weight: 240
+weight: 250
 ---
 ## layout_slides propriedade
-Retorna uma lista de todos os slides de layout que são definidos na apresentação.
+Returns a list of all layout slides that are defined in the presentation.
             Somente leitura [`IGlobalLayoutSlideCollection`](/slides/python-net/pt/aspose.slides/igloballayoutslidecollection).
 
 
 ### Observações
 
-Você pode acessar a API alternativa para adicionar/inserir/remover/clonar slides de layout 
+Você pode acessar uma API alternativa para adicionar/inserir/remover/clonar slides de layout 
             usando a propriedade IMasterSlide.LayoutSlides.
 
 ### Definição:

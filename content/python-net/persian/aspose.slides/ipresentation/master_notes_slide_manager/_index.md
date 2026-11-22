@@ -1,14 +1,14 @@
 ---
 title: master_notes_slide_manager property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager ویژگی
-مدیر اصلی یادداشت‌ها را باز می‌گرداند.
-            فقط خواندنی [`IMasterNotesSlideManager`](/slides/python-net/fa/aspose.slides/imasternotesslidemanager).
+Returns notes master manager.
+            فقط-خواندنی [`IMasterNotesSlideManager`](/slides/python-net/fa/aspose.slides/imasternotesslidemanager).
 
 ### تعریف:
 ```python

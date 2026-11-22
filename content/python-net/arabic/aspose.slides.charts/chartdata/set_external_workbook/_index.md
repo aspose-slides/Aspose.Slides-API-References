@@ -1,13 +1,13 @@
 ---
 title: set_external_workbook method
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-يحدد المصنف الخارجي كمصدر بيانات للمخطط. سيتم تحديث بيانات المخطط من المصنف المستهدف.
+يحدد دفتر عمل خارجي كمصدر بيانات للمخطط. سيتم تحديث بيانات المخطط من دفتر العمل المستهدف.
 
 
 ```python
@@ -16,19 +16,19 @@ def set_external_workbook(self, workbook_path):
 ```
 
 
-| Parameter | Type | Description |
+| معلمة | نوع | وصف |
 | :- | :- | :- |
-| workbook_path | **str** | مسار المصنف المستهدف |
+| workbook_path | **str** | المسار إلى دفتر العمل المستهدف |
 
 ### الاستثناءات
 
-| Exception | Description |
+| استثناء | وصف |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | مصنف خارجي غير متاح أو لا يمكن تحميله. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | دفتر العمل الخارجي غير متاح أو لا يمكن تحميله. |
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-يحدد المصنف الخارجي كمصدر بيانات للمخطط.
+يحدد دفتر عمل خارجي كمصدر بيانات للمخطط.
 
 
 ```python
@@ -37,20 +37,20 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 ```
 
 
-| Parameter | Type | Description |
+| معلمة | نوع | وصف |
 | :- | :- | :- |
-| workbook_path | **str** | مسار المصنف المستهدف |
-| update_chart_data | **bool** | إذا كانت القيمة false فسيتم تحديث مسار المصنف فقط. <br/><br/>             لا يتم تحميل بيانات المخطط وتحديثها من المصنف المستهدف. يمكن استخدامها عندما لا يكون المصنف المستهدف موجودًا أو غير متاح.<br/><br/>             إذا كانت القيمة true فسيتم تحديث بيانات المخطط من المصنف المستهدف. |
+| workbook_path | **str** | المسار إلى دفتر العمل المستهدف |
+| update_chart_data | **bool** | إذا كانت القيمة false سيتم تحديث مسار دفتر العمل فقط. <br/><br/>             لن يتم تحميل بيانات المخطط وتحديثها من دفتر العمل المستهدف. يمكن استخدام ذلك عندما لا يكون دفتر العمل المستهدف موجودًا أو غير متاح.<br/><br/>             إذا كانت القيمة true سيتم تحديث بيانات المخطط من دفتر العمل المستهدف. |
 
 ### الاستثناءات
 
-| Exception | Description |
+| استثناء | وصف |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | مصنف خارجي غير متاح أو لا يمكن تحميله. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | دفتر العمل الخارجي غير متاح أو لا يمكن تحميله. |
 
 
 
 ### انظر أيضًا
-* الفئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
-* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
+* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

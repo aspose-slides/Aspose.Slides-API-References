@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## value プロパティ
+## 値 プロパティ
 If UseCell is true then this property represents AsCell.Value property.
-            UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。
-            読み取り/書き込み **任意**。
+            If UseCell is false then this property represents AsLiteral property.
+            読み取り/書き込み **任意**.
 
 ### 定義:
 ```python

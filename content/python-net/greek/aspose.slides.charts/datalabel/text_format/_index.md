@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format ιδιότητα
 Επιστρέφει μορφή κειμένου.
@@ -16,7 +16,6 @@ weight: 230
 def text_format(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`DataLabel`](/slides/python-net/el/aspose.slides.charts/datalabel)

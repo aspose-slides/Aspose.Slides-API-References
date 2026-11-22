@@ -4,22 +4,22 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups eigenschap
 Haalt de groepen van series op.
             Alleen-lezen [`IChartSeriesGroupCollection`](/slides/python-net/nl/aspose.slides.charts/ichartseriesgroupcollection).
 
+
 ### Opmerkingen
 
-1) Elke seriegroep bevat series met combineerbare typen. Groepen van 
-            combineerbare serietypen worden gedefinieerd en beschreven met de enum CombinableSeriesTypesGroup 
-            enum.
-            Ook bevat elke seriegroep series die worden geplot op de primaire assen of op de secundaire assen (niet beide gevallen in één groep).
-            Dus is het principe van seriegroepering een groepering op basis van de hierboven genoemde typegroepen en op het type plotten (primair/secundair).
-
-2) Een groep series bevat enkele serieneigenschappen die gemeenschappelijk zijn voor 
-            elke serie in de groep ("series group properties").
+1) Elke groep van series bevat series met combineerbare typen. Groepen van 
+            combineerbare serietypen zijn gedefinieerd en beschreven met de enum CombinableSeriesTypesGroup 
+            .
+            Ook bevat elke groep van series series die worden geplot op primaire assen of op secundaire assen (niet beide gevallen in één groep).
+            Dus, het principe van seriegroepering is een groepering op typegroepen zoals hierboven vermeld en op het type plotten (primaire/secundaire).
+            
+            2) Een groep van series bevat enkele serieregels die gemeenschappelijk zijn voor elke serie in de groep ("series group properties").
             "Series group properties" in ChartSeriesGroup klasse is lezen/schrijven.
             Elke van "series group properties" kan een alleen-lezen projectie hebben in ChartSeries klasse.
 
@@ -29,6 +29,7 @@ Haalt de groepen van series op.
 def series_groups(self):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`ChartData`](/slides/python-net/nl/aspose.slides.charts/chartdata)

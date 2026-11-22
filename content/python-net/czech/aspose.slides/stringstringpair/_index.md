@@ -1,28 +1,22 @@
 ---
 title: StringStringPair class
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručka API
+second_title: Aspose.Slides pro Python přes .NET API Referenci
 description: 
 type: docs
 url: /cs/aspose.slides/stringstringpair/
 ---
 ## StringStringPair třída
 
-Struktura obsahuje string key a string value a je dočasnou náhradou za KeyValuePair<string, string>
+Struktura obsahuje řetězcový klíč a řetězcovou hodnotu a slouží jako dočasná náhrada za KeyValuePair<string, string>
 
-Typ StringStringPair zpřístupňuje následující členy:
-
-## Konstruktory
-
-| Konstruktor | Popis |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/cs/aspose.slides/stringstringpair/__init__/#) |  |
+Typ StringStringPair vystavuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`key`](/slides/python-net/cs/aspose.slides/stringstringpair/key/) | String klíč |
-| [`value`](/slides/python-net/cs/aspose.slides/stringstringpair/value/) | String hodnota |
+| [`key`](/slides/python-net/cs/aspose.slides/stringstringpair/key/) | Řetězcový klíč |
+| [`value`](/slides/python-net/cs/aspose.slides/stringstringpair/value/) | Řetězcová hodnota |
 
 
 ### Viz také

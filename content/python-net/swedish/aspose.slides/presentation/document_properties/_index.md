@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties egenskap
 Returnerar DocumentProperties-objekt som innehåller standard- och anpassade dokumentegenskaper.

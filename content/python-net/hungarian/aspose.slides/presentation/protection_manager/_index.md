@@ -1,16 +1,16 @@
 ---
 title: protection_manager property
-second_title: Aspose.Slides a Python számára .NET API referencia
+second_title: Aspose.Slides for Python via .NET API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager tulajdonság
-A bemutató engedélyeinek kezelőjét adja vissza.
+A prezentáció engedélyeinek kezelőjét adja vissza.
             Csak olvasható [`IProtectionManager`](/slides/python-net/hu/aspose.slides/iprotectionmanager).
 
-### Definíció:
+### Definition:
 ```python
 @property
 def protection_manager(self):

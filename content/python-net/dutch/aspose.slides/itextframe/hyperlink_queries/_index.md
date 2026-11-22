@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/itextframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries eigenschap
-Biedt gemakkelijke toegang tot ingesloten hyperlinks.
+Biedt gemakkelijke toegang tot de ingesloten hyperlinks.
             Alleen-lezen [`IHyperlinkQueries`](/slides/python-net/nl/aspose.slides/ihyperlinkqueries).
 
 ### Definitie:
@@ -22,4 +22,4 @@ def hyperlink_queries(self):
 * klasse [`IHyperlinkQueries`](/slides/python-net/nl/aspose.slides/ihyperlinkqueries)
 * klasse [`ITextFrame`](/slides/python-net/nl/aspose.slides/itextframe)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* bibliotheek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

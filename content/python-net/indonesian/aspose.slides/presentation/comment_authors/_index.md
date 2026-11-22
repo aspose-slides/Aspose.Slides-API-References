@@ -1,10 +1,10 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides untuk Python melalui Referensi API .NET
+second_title: Aspose.Slides untuk Python melalui .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors properti
 Mengembalikan koleksi penulis komentar.

@@ -1,12 +1,12 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET Odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
-## all_custom_xml_parts property
+## all_custom_xml_parts właściwość
 Zwraca wszystkie niestandardowe części danych w prezentacji.
             Tylko do odczytu [`ICustomXmlPart`](/slides/python-net/pl/aspose.slides/icustomxmlpart)[].
 
@@ -16,7 +16,6 @@ Zwraca wszystkie niestandardowe części danych w prezentacji.
 def all_custom_xml_parts(self):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`ICustomXmlPart`](/slides/python-net/pl/aspose.slides/icustomxmlpart)

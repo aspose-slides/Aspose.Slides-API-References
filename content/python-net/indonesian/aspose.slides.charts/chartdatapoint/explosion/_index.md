@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## properti explosion
-Menentukan jumlah perpindahan titik data dari pusat diagram pai.
+## explosion properti
+Menentukan jumlah titik data yang akan dipindahkan dari pusat pai.
             Baca/tulis **int**.
 
 ### Definisi:

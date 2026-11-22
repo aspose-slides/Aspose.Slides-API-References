@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides لPython عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value خاصية
-يرجع قيمة x لنقطة بيانات المخطط.
-            للقـراءة فقط [`IStringOrDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/istringordoublechartvalue).
+يحصل على قيمة x لنقطة بيانات مخطط.
+            للقراءة فقط [`IStringOrDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/istringordoublechartvalue).
 
 ### التعريف:
 ```python
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### انظر أيضاً
+### انظر أيضًا
 * فئة [`IChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/ichartdatapoint)
 * فئة [`IStringOrDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/istringordoublechartvalue)
 * وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)

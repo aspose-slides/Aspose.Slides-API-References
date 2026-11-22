@@ -1,13 +1,13 @@
 ---
 title: value property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## τιμή ιδιότητα
-Επιστρέφει την τιμή του σημείου δεδομένων του διαγράμματος.
+## value ιδιότητα
+Αποκτά την τιμή ενός σημείου δεδομένων διαγράμματος.
 Μόνο για ανάγνωση [`IDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/idoublechartvalue).
 
 ### Ορισμός:
@@ -16,6 +16,7 @@ weight: 220
 def value(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`IChartDataPoint`](/slides/python-net/el/aspose.slides.charts/ichartdatapoint)

@@ -1,13 +1,13 @@
 ---
 title: y_value property
-second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value tulajdonság
-Visszaadja a diagram adatpont y értékét.
+A diagram adatpont y értékét adja vissza.
             Csak olvasható [`IDoubleChartValue`](/slides/python-net/hu/aspose.slides.charts/idoublechartvalue).
 
 ### Definíció:
@@ -16,6 +16,7 @@ Visszaadja a diagram adatpont y értékét.
 def y_value(self):
     ...
 ```
+
 
 ### Lásd még
 * osztály [`IChartDataPoint`](/slides/python-net/hu/aspose.slides.charts/ichartdatapoint)

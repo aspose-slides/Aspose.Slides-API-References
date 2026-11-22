@@ -1,13 +1,13 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω του .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels ιδιότητα
-Διαχειριζόμενο κοντέινερ των τιμών των επιπέδων ομαδοποίησης κατηγορίας διαγράμματος.
+Διαχειριζόμενο δοχείο των τιμών των επιπέδων ομαδοποίησης κατηγορίας διαγράμματος.
             Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης.
             Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική.
             Μόνο για ανάγνωση [`IChartCategoryLevelsManager`](/slides/python-net/el/aspose.slides.charts/ichartcategorylevelsmanager).
@@ -18,6 +18,7 @@ weight: 40
 def grouping_levels(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`IChartCategory`](/slides/python-net/el/aspose.slides.charts/ichartcategory)

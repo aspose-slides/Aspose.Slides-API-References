@@ -1,13 +1,13 @@
 ---
 title: text_format property
-second_title: Aspose.Slides لـ Python عبر مرجع API .NET
+second_title: مرجع API Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
-## خاصية text_format
-يعيد تنسيق النص.
+## text_format خاصية
+تُرجع تنسيق النص.
             للقراءة فقط [`IChartTextFormat`](/slides/python-net/ar/aspose.slides.charts/icharttextformat).
 
 ### التعريف:

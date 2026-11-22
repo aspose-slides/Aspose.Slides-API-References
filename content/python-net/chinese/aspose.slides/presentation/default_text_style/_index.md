@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style 属性
 返回形状的默认文本样式。
@@ -18,7 +18,7 @@ def default_text_style(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`ITextStyle`](/slides/python-net/zh/aspose.slides/itextstyle)
 * 类 [`Presentation`](/slides/python-net/zh/aspose.slides/presentation)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

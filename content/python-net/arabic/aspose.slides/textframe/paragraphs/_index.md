@@ -1,14 +1,14 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## خاصية paragraphs
-يعيد قائمة بجميع الفقرات في إطار.
-للقراءة فقط [`IParagraphCollection`](/slides/python-net/ar/aspose.slides/iparagraphcollection).
+## خاصية الفقرات
+تُرجِع قائمة بجميع الفقرات في الإطار.
+            للقراءة فقط [`IParagraphCollection`](/slides/python-net/ar/aspose.slides/iparagraphcollection).
 
 ### التعريف:
 ```python

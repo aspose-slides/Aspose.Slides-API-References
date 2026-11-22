@@ -1,10 +1,10 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides cho Python thông qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size thuộc tính
 Trả về đối tượng kích thước slide ghi chú.

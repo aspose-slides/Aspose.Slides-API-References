@@ -1,13 +1,13 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/sensitivity_labels/
-weight: 330
+weight: 340
 ---
 ## sensitivity_labels eigenschap
-Retourneert de verzameling gevoeligheidslabels die op het presentatiedocument zijn toegepast.
+Returns the collection of sensitivity labels applied to the presentation document.
             Alleen-lezen [`ISensitivityLabelCollection`](/slides/python-net/nl/aspose.slides/isensitivitylabelcollection).
 
 ### Definitie:

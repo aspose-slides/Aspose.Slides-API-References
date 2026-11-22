@@ -4,7 +4,7 @@ second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/itextframe/presentation/
-weight: 130
+weight: 140
 ---
 ## خاصية العرض
 ### التعريف:
@@ -14,8 +14,7 @@ def presentation(self):
     ...
 ```
 
-
-### انظر أيضًا
-* فئة [`ITextFrame`](/slides/python-net/ar/aspose.slides/itextframe)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضا
+* الفئة [`ITextFrame`](/slides/python-net/ar/aspose.slides/itextframe)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

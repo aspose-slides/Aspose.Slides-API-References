@@ -1,14 +1,14 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides pro Python pomocí .NET referenční příručky API
+second_title: Aspose.Slides pro Python přes .NET API Referenci
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager vlastnost
-Vrací hlavního správce poznámek.
-            Pouze ke čtení [`IMasterNotesSlideManager`](/slides/python-net/cs/aspose.slides/imasternotesslidemanager).
+Returns notes master manager.
+            Pouze pro čtení [`IMasterNotesSlideManager`](/slides/python-net/cs/aspose.slides/imasternotesslidemanager).
 
 ### Definice:
 ```python

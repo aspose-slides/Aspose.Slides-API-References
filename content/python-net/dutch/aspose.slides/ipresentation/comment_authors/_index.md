@@ -1,13 +1,13 @@
 ---
 title: comment_authors property
-second_title: Aspose.Slides voor Python via .NET API Reference
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors eigenschap
-Retourneert de verzameling van commentaar-auteurs.
+Retourneert de collectie van commentaarauteurs.
             Alleen-lezen [`ICommentAuthorCollection`](/slides/python-net/nl/aspose.slides/icommentauthorcollection).
 
 ### Definitie:

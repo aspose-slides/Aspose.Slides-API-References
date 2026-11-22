@@ -1,13 +1,13 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides Python के लिए, .NET API संदर्भ के माध्यम से
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/itextframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
-निर्दिष्ट पाठ की सभी घटनाओं को अन्य निर्दिष्ट पाठ से बदलता है।
+निर्दिष्ट टेक्स्ट की सभी घटनाओं को किसी अन्य निर्दिष्ट टेक्स्ट से बदलता है।
 
 ```python
 def replace_text(self, old_text, new_text, options, callback):
@@ -19,11 +19,11 @@ def replace_text(self, old_text, new_text, options, callback):
 | old_text | **str** | बदलने के लिए स्ट्रिंग। |
 | new_text | **str** | oldText की सभी घटनाओं को बदलने के लिए स्ट्रिंग। |
 | options | [`ITextSearchOptions`](/slides/python-net/hi/aspose.slides/itextsearchoptions) | टेक्स्ट खोज विकल्प [`ITextSearchOptions`](/slides/python-net/hi/aspose.slides/itextsearchoptions)। |
-| callback | [`IFindResultCallback`](/slides/python-net/hi/aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](/slides/python-net/hi/aspose.slides/ifindresultcallback)। |
+| callback | [`IFindResultCallback`](/slides/python-net/hi/aspose.slides/ifindresultcallback) | सर्च परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](/slides/python-net/hi/aspose.slides/ifindresultcallback)। |
 
 ### संबंधित देखें
-* वर्ग [`IFindResultCallback`](/slides/python-net/hi/aspose.slides/ifindresultcallback)
-* वर्ग [`ITextFrame`](/slides/python-net/hi/aspose.slides/itextframe)
-* वर्ग [`ITextSearchOptions`](/slides/python-net/hi/aspose.slides/itextsearchoptions)
+* क्लास [`IFindResultCallback`](/slides/python-net/hi/aspose.slides/ifindresultcallback)
+* क्लास [`ITextFrame`](/slides/python-net/hi/aspose.slides/itextframe)
+* क्लास [`ITextSearchOptions`](/slides/python-net/hi/aspose.slides/itextsearchoptions)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

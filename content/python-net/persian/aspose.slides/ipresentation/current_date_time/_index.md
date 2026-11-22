@@ -1,15 +1,15 @@
+---  
+title: current_date_time property  
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API  
+description:   
+type: docs  
+url: /fa/aspose.slides/ipresentation/current_date_time/  
+weight: 150  
 ---
-title: current_date_time property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
-description: 
-type: docs
-url: /fa/aspose.slides/ipresentation/current_date_time/
-weight: 140
----
-## current_date_time خصوصیت
-تاریخ و زمان را برمی‌گرداند یا تنظیم می‌کند که محتوای فیلدهای datetime را جایگزین می‌کند.
+## current_date_time ویژگی
+مقدار تاریخ و زمان را باز می‌گرداند یا تنظیم می‌کند که محتویات فیلدهای datetime را جایگزین می‌کند.
             زمان ایجاد این شیء Presentation به‌صورت پیش‌فرض.
-            خواندنی/نوشتنی **System.DateTime**.
+            خواندن/نوشتن **System.DateTime**.
 
 ### تعریف:
 ```python

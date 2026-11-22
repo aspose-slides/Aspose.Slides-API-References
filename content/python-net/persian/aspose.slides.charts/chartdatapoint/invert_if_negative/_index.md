@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
-## invert_if_negative ویژگی
+## invert_if_negative خاصیت
 مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس می‌کند.
-            خواندنی/نوشتنی **bool**.
+            قابل‌خواندن/نوشتن **bool**.
 
 ### تعریف:
 ```python

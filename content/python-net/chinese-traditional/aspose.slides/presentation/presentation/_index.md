@@ -1,13 +1,13 @@
 ---
 title: presentation property
-second_title: Aspose.Slides 用於 Python via .NET API 參考
+second_title: Aspose.Slides 針對 Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/presentation/
-weight: 310
+weight: 320
 ---
-## presentation property
-### 定義:
+## 簡報屬性
+### 定義：
 ```python
 @property
 def presentation(self):

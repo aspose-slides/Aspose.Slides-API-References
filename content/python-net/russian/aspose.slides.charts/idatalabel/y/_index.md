@@ -4,7 +4,7 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y свойство
 ### Определение:

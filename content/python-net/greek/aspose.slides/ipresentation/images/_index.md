@@ -1,14 +1,14 @@
 ---
 title: images property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Αναφορά API του Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
 ## images ιδιότητα
-Επιστρέφει τη συλλογή όλων των εικόνων στην παρουσίαση.
-            Μόνο για ανάγνωση [`IImageCollection`](/slides/python-net/el/aspose.slides/iimagecollection).
+Επιστρέφει τη συλλογή όλων των images στην παρουσίαση.
+            Μόνο ανάγνωση [`IImageCollection`](/slides/python-net/el/aspose.slides/iimagecollection).
 
 ### Ορισμός:
 ```python

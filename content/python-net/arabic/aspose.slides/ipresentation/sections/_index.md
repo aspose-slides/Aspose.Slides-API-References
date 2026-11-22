@@ -1,13 +1,13 @@
 ---
 title: sections property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
-## sections خاصية
-إرجاع قائمة بجميع أقسام الشرائح التي تم تعريفها في العرض التقديمي.
+## sections الخاصية
+إرجاع قائمة بجميع أقسام slides التي تم تعريفها في presentation.
             قراءة فقط [`ISectionCollection`](/slides/python-net/ar/aspose.slides/isectioncollection).
 
 ### التعريف:
@@ -18,7 +18,7 @@ def sections(self):
 ```
 
 
-### انظر أيضًا
+### انظر أيضاً
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
 * فئة [`ISectionCollection`](/slides/python-net/ar/aspose.slides/isectioncollection)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)

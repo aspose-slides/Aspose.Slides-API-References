@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format eigenschap
 Retourneert informatie over van welk formaat de presentatie is geladen.
@@ -18,7 +18,7 @@ def source_format(self):
 ```
 
 
-### Zie Ook
+### Zie ook
 * klasse [`IPresentation`](/slides/python-net/nl/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

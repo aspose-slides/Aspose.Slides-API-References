@@ -1,14 +1,14 @@
 ---
 title: is_bubble_3d property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لبايثون عبر مرجع API لـ .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
-## is_bubble_3d خاصية
-يحدد أن الفقاعات لها تأثير ثلاثي الأبعاد مطبق عليها.
-            قراءة/كتابة **bool**.
+## خاصية is_bubble_3d
+يحدد أن الفقاعات تُطبق عليها تأثير ثلاثي الأبعاد.
+قراءة/كتابة **bool**.
 
 ### التعريف:
 ```python

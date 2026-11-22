@@ -1,14 +1,14 @@
 ---
 title: parent_cell property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
-## parent_cell ιδιότητα
-Επιστρέφει το γονικό κελί ή None αν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή ICell.
-            Μόνο για ανάγνωση [`ICell`](/slides/python-net/el/aspose.slides/icell).
+## ιδιότητα parent_cell
+Επιστρέφει το γονικό κελί ή None εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή ICell.
+            Μόνο-ανάγνωση [`ICell`](/slides/python-net/el/aspose.slides/icell).
 
 ### Ορισμός:
 ```python

@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
 ## ویژگی متن
-متن ساده یک TextFrame را دریافت یا تنظیم می‌کند.
-            خواند/نوشت **str**.
+متن ساده‌ی یک TextFrame را دریافت یا تنظیم می‌کند.
+            خواندنی/نوشتنی **str**.
 
 ### تعریف:
 ```python

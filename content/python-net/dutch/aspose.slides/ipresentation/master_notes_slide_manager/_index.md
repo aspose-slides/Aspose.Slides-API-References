@@ -1,13 +1,13 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager eigenschap
-Retourneert de master manager voor notities.
+Retourneert de notitie-masterbeheerder.
             Alleen-lezen [`IMasterNotesSlideManager`](/slides/python-net/nl/aspose.slides/imasternotesslidemanager).
 
 ### Definitie:

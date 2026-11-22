@@ -1,13 +1,13 @@
 ---
 title: x_value property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
-## คุณสมบัติ x_value
-คืนค่าค่า x ของจุดข้อมูลแผนภูมิ.
+## x_value คุณสมบัติ
+รับค่า x ของจุดข้อมูลแผนภูมิ.
             อ่านอย่างเดียว [`IStringOrDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/istringordoublechartvalue).
 
 ### คำนิยาม:

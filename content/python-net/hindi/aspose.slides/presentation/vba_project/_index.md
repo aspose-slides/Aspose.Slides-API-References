@@ -1,14 +1,14 @@
 ---
 title: vba_project property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
 ## vba_project गुण
-VBA प्रोजेक्ट को प्रस्तुति मैक्रोज़ के साथ प्राप्त करता है या सेट करता है।
-            पढ़ें/लिखें [`IVbaProject`](/slides/python-net/hi/aspose.slides.vba/ivbaproject).
+VBA प्रोजेक्ट को प्रस्तुति मैक्रोज़ के साथ प्राप्त या सेट करता है।  
+पढ़ें/लिखें [`IVbaProject`](/slides/python-net/hi/aspose.slides.vba/ivbaproject)।
 
 ### परिभाषा:
 ```python
@@ -21,8 +21,7 @@ def vba_project(self, value):
     ...
 ```
 
-
-### और देखें
+### देखें भी
 * वर्ग [`IVbaProject`](/slides/python-net/hi/aspose.slides.vba/ivbaproject)
 * वर्ग [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

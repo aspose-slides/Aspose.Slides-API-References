@@ -1,19 +1,20 @@
 ---
 title: y property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
-## y tulajdonság
-A forma bal-felső sarkának y-koordinátáját adja vissza vagy állítja be, pontban mérve.  
-Olvasás/írás **float**.
+## y property
+A forma bal felső sarkának y-koordinátáját adja vissza vagy állítja be, pontokban mérve.
+            Olvasás/írás **float**.
 
-### Megjegyzések
 
-A visszaadott érték mindig definiált, és soha nem **float**.  
-A hozzárendelt értéknek is definiáltnak kell lennie; **float**-ot csak egy `RawFrame` példány tulajdonságaihoz rendeljen.
+### Megjegyzés
+
+A visszaadott érték mindig definiált, és soha nem **float**.
+            A hozzárendelt értéknek is definiáltnak kell lennie; csak a `RawFrame` példányának tulajdonságaihoz rendelj **float** értéket.
 
 ### Definíció:
 ```python
@@ -25,6 +26,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
 
 ### Lásd még
 * osztály [`VideoFrame`](/slides/python-net/hu/aspose.slides/videoframe)

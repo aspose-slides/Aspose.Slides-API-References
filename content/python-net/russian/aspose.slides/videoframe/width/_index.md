@@ -1,20 +1,19 @@
 ---
 title: width property
-second_title: Aspose.Slides для Python через .NET API Справочник
+second_title: Справочник API Aspose.Slides для Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## свойство width
-Получает или задает width фигуры, измеряемую в пунктах.
+## width свойство
+Gets or sets the width of the shape, measured in points.
             Чтение/запись **float**.
-
 
 ### Примечания
 
-Возвращаемое значение всегда определено и никогда не **float**.
-            Назначаемое значение также должно быть определено; присваивайте **float** только свойствам экземпляра `RawFrame`.
+The value returned is always defined and never **float**.
+            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
 
 ### Определение:
 ```python
@@ -27,8 +26,7 @@ def width(self, value):
     ...
 ```
 
-
-### См. также
+### Смотрите также
 * класс [`VideoFrame`](/slides/python-net/ru/aspose.slides/videoframe)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

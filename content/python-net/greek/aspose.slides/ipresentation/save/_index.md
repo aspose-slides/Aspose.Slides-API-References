@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/save/
-weight: 80
+weight: 90
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
 Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα σύνολο αρχείων που αντιπροσωπεύουν σήμανση XAML markup.
@@ -18,11 +18,11 @@ def save(self, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/el/aspose.slides.export.xaml/ixamloptions) | The XAML format options. |
+| options | [`IXamlOptions`](/slides/python-net/el/aspose.slides.export.xaml/ixamloptions) | Οι επιλογές μορφής XAML. |
 
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα αρχείο με την καθορισμένη μορφή.
 
 
 ```python
@@ -33,12 +33,12 @@ def save(self, fname, format):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Path to the created file. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 
 ## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή στην καθορισμένη μορφή.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε μια ροή με την καθορισμένη μορφή.
 
 
 ```python
@@ -49,12 +49,12 @@ def save(self, stream, format):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Output stream. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
+| stream | **io.RawIOBase** | Ροή εξόδου. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 
 ## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή και με πρόσθετες επιλογές.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα αρχείο με την καθορισμένη μορφή και με πρόσθετες επιλογές.
 
 
 ```python
@@ -65,13 +65,13 @@ def save(self, fname, format, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Path to the created file. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Additional format options. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή στην καθορισμένη μορφή και με πρόσθετες επιλογές.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε μια ροή με την καθορισμένη μορφή και με πρόσθετες επιλογές.
 
 
 ```python
@@ -82,19 +82,19 @@ def save(self, stream, format, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Output stream. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Additional format options. |
+| stream | **io.RawIOBase** | Ροή εξόδου. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Exception | Περιγραφή |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Εάν προσπαθήσετε να αποθηκεύσετε κρυπτογραφημένο αρχείο σε <br/>            μη-Office 2007-2010 μορφή |
+| **RuntimeError(Proxy error(NotSupportedException))** | Εάν προσπαθήσετε να αποθηκεύσετε κρυπτογραφημένο αρχείο σε <br/>            μορφή εκτός Office 2007-2010 |
 
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ένα αρχείο με την καθορισμένη μορφή.
 
 
 ```python
@@ -105,21 +105,21 @@ def save(self, fname, slides, format):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Path to the created file. |
-| slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 ### Εξαιρέσεις
 
-| Exception | Περιγραφή |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Όταν η παράμετρος stream ή slides είναι None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδων. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται μια μη υποστηριζόμενη SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς διαφάνειας. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται ένας μη υποστηριζόμενος SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή στην καθορισμένη μορφή.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε μια ροή με την καθορισμένη μορφή.
 
 
 ```python
@@ -130,21 +130,21 @@ def save(self, stream, slides, format):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Output stream. |
-| slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
+| stream | **io.RawIOBase** | Ροή εξόδου. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 ### Εξαιρέσεις
 
-| Exception | Περιγραφή |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Όταν η παράμετρος stream ή slides είναι None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδων. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται μια μη υποστηριζόμενη SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς διαφάνειας. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται ένας μη υποστηριζόμενος SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ένα αρχείο με την καθορισμένη μορφή.
 
 
 ```python
@@ -155,22 +155,22 @@ def save(self, fname, slides, format, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Path to the created file. |
-| slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Additional format options. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Exception | Περιγραφή |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Όταν η παράμετρος stream ή slides είναι None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδων. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται μια μη υποστηριζόμενη SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς διαφάνειας. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται ένας μη υποστηριζόμενος SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή στην καθορισμένη μορφή.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε μια ροή με την καθορισμένη μορφή.
 
 
 ```python
@@ -181,18 +181,18 @@ def save(self, stream, slides, format, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Output stream. |
-| slides | **List[int]** | Array with slide positions, starting from 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Format of the exported data. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Additional format options. |
+| stream | **io.RawIOBase** | Ροή εξόδου. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Exception | Περιγραφή |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Όταν η παράμετρος stream ή slides είναι None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδων. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται μια μη υποστηριζόμενη SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς διαφάνειας. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Όταν χρησιμοποιείται ένας μη υποστηριζόμενος SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: replace_regex method
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/replace_regex/
-weight: 60
+weight: 70
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
-يقوم باستبدال جميع التطابقات للتعبير النمطي بالسلسلة المحددة.
+يستبدل جميع التطابقات للتعبير المنتظم بالسلسلة المحددة.
 
 
 ```python
@@ -18,12 +18,12 @@ def replace_regex(self, regex, new_text):
 
 | المعامل | النوع | الوصف |
 | :- | :- | :- |
-| regex | **str** | السلسلة التي تحتوي على التعبير النمطي للحصول على السلاسل التي سيتم استبدالها. |
-| new_text | **str** | السلسلة التي تُستبدل بها جميع مرات ظهور السلاسل المراد استبدالها. |
+| regex | **str** | السلسلة تحتوي على تعبير منتظم للحصول على السلاسل التي سيتم استبدالها. |
+| new_text | **str** | السلسلة التي تستبدل جميع مرات حدوث السلاسل التي يجب استبدالها. |
 
 
 
 ### انظر أيضًا
-* الفئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

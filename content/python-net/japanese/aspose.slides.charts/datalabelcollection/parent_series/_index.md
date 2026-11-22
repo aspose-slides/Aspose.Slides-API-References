@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series プロパティ
-Gets the parent series.
+親シリーズを取得します。
             読み取り専用 [`IChartSeries`](/slides/python-net/ja/aspose.slides.charts/ichartseries).
 
 ### 定義:

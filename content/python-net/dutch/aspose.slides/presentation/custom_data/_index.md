@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data eigenschap
 Retourneert de aangepaste gegevens van de presentatie.
-Alleen-lezen [`ICustomData`](/slides/python-net/nl/aspose.slides/icustomdata).
+            Alleen-lezen [`ICustomData`](/slides/python-net/nl/aspose.slides/icustomdata).
 
 ### Definitie:
 ```python

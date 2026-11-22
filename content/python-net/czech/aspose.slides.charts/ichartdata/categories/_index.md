@@ -1,16 +1,19 @@
 ---
 title: categories property
-second_title: Aspose.Slides pro Python přes .NET referenci API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdata/categories/
-weight: 70
+weight: 80
 ---
 ## categories vlastnost
-Získá primární kategorie (nebo jak primární, tak sekundární kategorie, pokud je [`IChartData.use_secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/use_secondary_categories) vlastnost false). Pouze ke čtení [`IChartCategoryCollection`](/slides/python-net/cs/aspose.slides.charts/ichartcategorycollection).
+Vrací primární categories (nebo jak primární, tak sekundární categories, pokud je [`IChartData.use_secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/use_secondary_categories) vlastnost false).
+
+Pouze pro čtení [`IChartCategoryCollection`](/slides/python-net/cs/aspose.slides.charts/ichartcategorycollection).
 
 ### Poznámky
-Pokud je [`IChartData.use_secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/use_secondary_categories) vlastnost false, pak [`IChartData.secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/secondary_categories) vlastnost vrací None a data v této [`IChartData.categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/categories) vlastnost jsou použita jak pro primární, tak pro sekundární řady. Pokud je [`IChartData.use_secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/use_secondary_categories) vlastnost true, pak data v [`IChartData.secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/secondary_categories) vlastnost jsou použita pro sekundární řady a data v této [`IChartData.categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/categories) vlastnost jsou použita pro primární řady.
+
+Pokud [`IChartData.use_secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/use_secondary_categories) vlastnost je false pak [`IChartData.secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/secondary_categories) vlastnost vrací None a data v této [`IChartData.categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/categories) vlastnosti jsou použita jak pro primární, tak pro sekundární řady. Pokud [`IChartData.use_secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/use_secondary_categories) vlastnost je true pak data v [`IChartData.secondary_categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/secondary_categories) vlastnosti jsou použita pro sekundární řadu a data v této [`IChartData.categories`](/slides/python-net/cs/aspose.slides.charts/ichartdata/categories) vlastnosti jsou použita pro primární řadu.
 
 ### Definice:
 ```python

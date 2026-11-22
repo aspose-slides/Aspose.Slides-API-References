@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
-## seri özelliği
-Seriyi alır.
-            Yalnızca okunur [`IChartSeriesCollection`](/slides/python-net/tr/aspose.slides.charts/ichartseriescollection).
+## series özelliği
+series'i alır.
+            Salt-okunur [`IChartSeriesCollection`](/slides/python-net/tr/aspose.slides.charts/ichartseriescollection).
 
 ### Tanım:
 ```python

@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides Python számára .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz a .NET API referencián keresztül
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y tulajdonság
 ### Definíció:

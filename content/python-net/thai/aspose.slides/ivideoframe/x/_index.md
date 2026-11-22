@@ -4,10 +4,10 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
 ## x คุณสมบัติ
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def x(self):

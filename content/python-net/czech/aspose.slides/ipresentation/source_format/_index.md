@@ -1,10 +1,10 @@
 ---
 title: source_format property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format vlastnost
 Vrací informace o tom, z jakého formátu byla prezentace načtena.

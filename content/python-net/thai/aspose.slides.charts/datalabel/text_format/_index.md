@@ -1,16 +1,16 @@
 ---
 title: text_format property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format คุณสมบัติ
-ส่งคืนรูปแบบข้อความ.
-            อ่านอย่างเดียว [`IChartTextFormat`](/slides/python-net/th/aspose.slides.charts/icharttextformat).
+คืนค่ารูปแบบข้อความ.
+อ่านอย่างเดียว [`IChartTextFormat`](/slides/python-net/th/aspose.slides.charts/icharttextformat).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def text_format(self):

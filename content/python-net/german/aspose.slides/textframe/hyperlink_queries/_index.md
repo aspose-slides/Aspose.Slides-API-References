@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/textframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries Eigenschaft
 Bietet einfachen Zugriff auf enthaltene Hyperlinks.
-            Nur lesbar [`IHyperlinkQueries`](/slides/python-net/de/aspose.slides/ihyperlinkqueries).
+            Nur lesend [`IHyperlinkQueries`](/slides/python-net/de/aspose.slides/ihyperlinkqueries).
 
 ### Definition:
 ```python

@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type egenskap
 Representerar datakälla för diagrammet
@@ -17,7 +17,7 @@ def data_source_type(self):
 ```
 
 
-### Se också
+### Se även
 * klass [`IChartData`](/slides/python-net/sv/aspose.slides.charts/ichartdata)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

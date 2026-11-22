@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
 ## width propriété
 ### Définition:

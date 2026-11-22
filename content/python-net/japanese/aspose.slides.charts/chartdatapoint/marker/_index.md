@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## マーカープロパティ
-データマーカーを指定します。
+## マーカー プロパティ
+データ マーカーを指定します。
             読み取り専用 [`IMarker`](/slides/python-net/ja/aspose.slides.charts/imarker).
 
 ### 定義:
@@ -19,7 +19,7 @@ def marker(self):
 
 
 ### 参照
-* クラス [`ChartDataPoint`](/slides/python-net/ja/aspose.slides.charts/chartdatapoint)
-* クラス [`IMarker`](/slides/python-net/ja/aspose.slides.charts/imarker)
-* モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* class [`ChartDataPoint`](/slides/python-net/ja/aspose.slides.charts/chartdatapoint)
+* class [`IMarker`](/slides/python-net/ja/aspose.slides.charts/imarker)
+* module [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -4,10 +4,10 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager thuộc tính
-Gets manager of the permissions for this presentation.
+Lấy quản lý của các quyền cho bản trình bày này.
             Chỉ đọc [`IProtectionManager`](/slides/python-net/vi/aspose.slides/iprotectionmanager).
 
 ### Định nghĩa:
@@ -18,8 +18,8 @@ def protection_manager(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IProtectionManager`](/slides/python-net/vi/aspose.slides/iprotectionmanager)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

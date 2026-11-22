@@ -1,14 +1,14 @@
 ---
 title: images property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python melalui .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
 ## images properti
 Mengembalikan koleksi semua images dalam presentasi.
-            Hanya baca [`IImageCollection`](/slides/python-net/id/aspose.slides/iimagecollection).
+            Hanya-baca [`IImageCollection`](/slides/python-net/id/aspose.slides/iimagecollection).
 
 ### Definisi:
 ```python
@@ -22,4 +22,4 @@ def images(self):
 * kelas [`IImageCollection`](/slides/python-net/id/aspose.slides/iimagecollection)
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

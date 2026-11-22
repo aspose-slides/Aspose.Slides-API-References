@@ -4,18 +4,20 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible eigenschap
-False betekent dat gegevenslabel niet zichtbaar is standaard (en dus alle 
-            Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat eigenschap false zijn).
+False betekent dat het gegevenslabel standaard niet zichtbaar is (en dus alle 
+            Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat eigenschap false).
             Alleen-lezen **bool**.
 
 
 ### Opmerkingen
 
-Als gegevenslabel standaard zichtbaar is, kun je het standaard verbergen met de Hide() methode.
-            Maar als gegevenslabel niet standaard zichtbaar is (IsVisible is false), kun je gegevenslabel “standaard zichtbaar” maken door de Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat eigenschap op true in te stellen.
+If data label is visible by default you can make it hidden by default with Hide() methode.
+            Maar als het gegevenslabel niet standaard zichtbaar is (IsVisible is false) kun je het gegevenslabel "zichtbaar 
+            standaard" met het instellen van Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat eigenschap
+            naar true staat.
 
 ### Definitie:
 ```python

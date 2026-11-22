@@ -1,14 +1,14 @@
 ---
 title: invert_if_negative property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative propriété
-Spécifie que le point de données doit inverser ses couleurs si la valeur est négative.
-Lecture/écriture **bool**.
+Spécifie que le point de donnée doit inverser ses couleurs si la valeur est négative.
+            Lecture/écriture **bool**.
 
 ### Définition:
 ```python
@@ -20,6 +20,7 @@ def invert_if_negative(self):
 def invert_if_negative(self, value):
     ...
 ```
+
 
 ### Voir aussi
 * classe [`ChartDataPoint`](/slides/python-net/fr/aspose.slides.charts/chartdatapoint)

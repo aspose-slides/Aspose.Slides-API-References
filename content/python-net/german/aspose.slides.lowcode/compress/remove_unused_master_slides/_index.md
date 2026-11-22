@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.lowcode/compress/remove_unused_master_slides/
-weight: 30
+weight: 50
 ---
 ## remove_unused_master_slides(pres) {#presentation}
-Komprimiert die [`Presentation`](/slides/python-net/de/aspose.slides/presentation) durch Entfernen ungenutzter Master-Folien.
+Komprimiert die [`Presentation`](/slides/python-net/de/aspose.slides/presentation) durch das Entfernen unbenutzter Masterfolien.
 
 ```python
 @staticmethod

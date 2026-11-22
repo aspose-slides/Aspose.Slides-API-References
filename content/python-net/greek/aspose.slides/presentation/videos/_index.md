@@ -1,10 +1,10 @@
 ---
 title: videos property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/presentation/videos/
-weight: 400
+weight: 410
 ---
 ## videos ιδιότητα
 Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων βίντεο στην παρουσίαση.

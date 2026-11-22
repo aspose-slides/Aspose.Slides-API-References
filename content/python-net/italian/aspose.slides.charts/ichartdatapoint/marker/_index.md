@@ -4,11 +4,11 @@ second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## proprietà del marcatore
-Specifica un marcatore dati.
-            Sola lettura [`IMarker`](/slides/python-net/it/aspose.slides.charts/imarker).
+## proprietà marker
+Specifica un marcatore di dati.
+            Solo lettura [`IMarker`](/slides/python-net/it/aspose.slides.charts/imarker).
 
 ### Definizione:
 ```python

@@ -1,19 +1,18 @@
 ---
 title: slide property
-second_title: Aspose.Slides a Python számára .NET API-referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## dia tulajdonság
+## Dia tulajdonság
 ### Definíció:
 ```python
 @property
 def slide(self):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`DataLabelCollection`](/slides/python-net/hu/aspose.slides.charts/datalabelcollection)

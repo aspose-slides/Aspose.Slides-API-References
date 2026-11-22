@@ -4,11 +4,11 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
 ## series свойство
-Получает series.
-            Только для чтения [`IChartSeriesCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriescollection).
+Возвращает series.
+Только для чтения [`IChartSeriesCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriescollection).
 
 ### Определение:
 ```python
@@ -18,7 +18,7 @@ def series(self):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`ChartData`](/slides/python-net/ru/aspose.slides.charts/chartdata)
 * класс [`IChartSeriesCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriescollection)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)

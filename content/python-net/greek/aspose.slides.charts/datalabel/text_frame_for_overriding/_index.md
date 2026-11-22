@@ -1,17 +1,16 @@
 ---
 title: text_frame_for_overriding property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/text_frame_for_overriding/
-weight: 240
+weight: 250
 ---
-## ιδιότητα text_frame_for_overriding
-
-Μπορεί να περιέχει εμπλουτισμένο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι None τότε αυτή η
-            τιμή μορφοποιμένου κειμένου αντικαθιστά το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων.
-            Το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων σημαίνει το κείμενο που διαχειρίζεται το ShowSeriesName,
-            το ShowValue, ... ιδιότητες και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat ιδιότητα.
+## text_frame_for_overriding ιδιότητα
+Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι None, τότε αυτή
+            η τιμή μορφοποιημένου κειμένου αντικαθιστά το αυτόματα δημιουργημένο κείμενο της ετικέτας δεδομένων.
+            Το αυτόματα δημιουργημένο κείμενο της ετικέτας δεδομένων σημαίνει κείμενο που διαχειρίζεται το ShowSeriesName,
+            ShowValue, ... ιδιότητες και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat.
             Μόνο για ανάγνωση [`ITextFrame`](/slides/python-net/el/aspose.slides/itextframe).
 
 ### Ορισμός:
@@ -20,6 +19,7 @@ weight: 240
 def text_frame_for_overriding(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`DataLabel`](/slides/python-net/el/aspose.slides.charts/datalabel)

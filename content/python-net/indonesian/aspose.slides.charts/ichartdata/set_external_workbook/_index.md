@@ -4,10 +4,10 @@ second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Mengatur workbook eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari workbook target.
+Menetapkan workbook eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari workbook target.
 
 
 ```python
@@ -28,7 +28,7 @@ def set_external_workbook(self, workbook_path):
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-Mengatur workbook eksternal sebagai sumber data untuk diagram.
+Menetapkan workbook eksternal sebagai sumber data untuk diagram.
 
 
 ```python
@@ -40,7 +40,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | workbook_path | **str** | Jalur ke workbook target |
-| update_chart_data | **bool** | Jika nilai false hanya jalur workbook yang akan diperbarui. <br/><br/>             Data diagram tidak akan dimuat dan diperbarui dari workbook target. Dapat digunakan ketika workbook target tidak ada atau tidak tersedia.<br/><br/>             Jika nilai true data diagram akan diperbarui dari workbook target. |
+| update_chart_data | **bool** | Jika nilai false, hanya jalur workbook yang akan diperbarui. <br/><br/>Data diagram tidak akan dimuat dan diperbarui dari workbook target. Dapat digunakan ketika workbook target tidak ada atau tidak tersedia.<br/><br/>Jika nilai true, data diagram akan diperbarui dari workbook target. |
 
 ### Pengecualian
 
@@ -53,4 +53,4 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 ### Lihat Juga
 * kelas [`IChartData`](/slides/python-net/id/aspose.slides.charts/ichartdata)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

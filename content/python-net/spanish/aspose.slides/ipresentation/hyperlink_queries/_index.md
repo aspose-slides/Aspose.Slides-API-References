@@ -1,13 +1,13 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides para Python vía Referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides/ipresentation/hyperlink_queries/
-weight: 220
+weight: 230
 ---
 ## hyperlink_queries propiedad
-Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de la presentación (no en diapositivas master, de diseño, de notas).
+Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de la presentación (no en las diapositivas maestra, de diseño o de notas).
             Solo lectura [`IHyperlinkQueries`](/slides/python-net/es/aspose.slides/ihyperlinkqueries).
 
 ### Definición:

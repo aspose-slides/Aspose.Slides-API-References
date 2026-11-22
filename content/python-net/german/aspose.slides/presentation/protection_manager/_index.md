@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager Eigenschaft
-Ruft den Manager der Berechtigungen für diese Präsentation ab.
+Liefert den Manager der Berechtigungen für diese Präsentation.
             Nur lesbar [`IProtectionManager`](/slides/python-net/de/aspose.slides/iprotectionmanager).
 
 ### Definition:

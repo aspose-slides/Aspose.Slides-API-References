@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## Explosionseigenschaft
-Gibt die Menge an, um die der Datenpunkt vom Mittelpunkt des Kuchens verschoben werden soll.
+## Explosions-Eigenschaft
+Gibt an, um welchen Betrag der Datenpunkt vom Zentrum des Kuchendiagramms verschoben wird.
             Lesen/Schreiben **int**.
 
 ### Definition:

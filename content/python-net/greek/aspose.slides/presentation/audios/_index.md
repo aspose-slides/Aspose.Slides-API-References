@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
 ## audios ιδιότητα
 Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων ήχου στην παρουσίαση.
-            Μόνο για ανάγνωση [`IAudioCollection`](/slides/python-net/el/aspose.slides/iaudiocollection).
+Μόνο για ανάγνωση [`IAudioCollection`](/slides/python-net/el/aspose.slides/iaudiocollection).
 
 ### Ορισμός:
 ```python

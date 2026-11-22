@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Referensi API Aspose.Slides untuk Python melalui .NET
 description: 
 type: docs
 url: /id/aspose.slides/ivideoframe/
@@ -15,17 +15,18 @@ The IVideoFrame type exposes the following members:
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/id/aspose.slides/ivideoframe/rewind_video/) | Menentukan apakah video secara otomatis diputar ulang ke awal<br/>            begitu film selesai diputar.<br/>            Baca/tulis **bool**. |
-| [`play_loop_mode`](/slides/python-net/id/aspose.slides/ivideoframe/play_loop_mode/) | Menentukan apakah video berulang.<br/>            Baca/tulis **bool**. |
+| [`rewind_video`](/slides/python-net/id/aspose.slides/ivideoframe/rewind_video/) | Menentukan apakah video secara otomatis diputar ulang ke awal segera setelah film selesai diputar.<br/>            Baca/tulis **bool**. |
+| [`play_loop_mode`](/slides/python-net/id/aspose.slides/ivideoframe/play_loop_mode/) | Menentukan apakah video diputar berulang.<br/>            Baca/tulis **bool**. |
 | [`hide_at_showing`](/slides/python-net/id/aspose.slides/ivideoframe/hide_at_showing/) | Menentukan apakah VideoFrame disembunyikan.<br/>            Baca/tulis **bool**. |
 | [`volume`](/slides/python-net/id/aspose.slides/ivideoframe/volume/) | Mengembalikan atau mengatur volume audio.<br/>            Baca/tulis [`AudioVolumeMode`](/slides/python-net/id/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/id/aspose.slides/ivideoframe/volume_value/) | Mengembalikan atau mengatur volume video yang tepat dalam persentase.<br/>             Nilai dinyatakan sebagai persentase dari 0 hingga 100. Gunakan properti ini untuk membaca atau mengatur nilai volume yang lebih tepat daripada tingkat yang telah ditentukan tersedia melalui properti [`IVideoFrame.volume`](/slides/python-net/id/aspose.slides/ivideoframe/volume).<br/>             Baca/tulis **float**. |
 | [`play_mode`](/slides/python-net/id/aspose.slides/ivideoframe/play_mode/) | Mengembalikan atau mengatur mode pemutaran video.<br/>            Baca/tulis [`VideoPlayModePreset`](/slides/python-net/id/aspose.slides/videoplaymodepreset). |
 | [`full_screen_mode`](/slides/python-net/id/aspose.slides/ivideoframe/full_screen_mode/) | Menentukan apakah video ditampilkan dalam mode layar penuh.<br/>            Baca/tulis **bool**. |
-| [`link_path_long`](/slides/python-net/id/aspose.slides/ivideoframe/link_path_long/) | Mengembalikan atau mengatur nama berkas video yang terhubung ke VideoFrame.<br/>            Baca/tulis **str**. |
-| [`embedded_video`](/slides/python-net/id/aspose.slides/ivideoframe/embedded_video/) | Mengembalikan atau mengatur objek video tersemat.<br/>            Baca/tulis [`IVideo`](/slides/python-net/id/aspose.slides/ivideo). |
+| [`link_path_long`](/slides/python-net/id/aspose.slides/ivideoframe/link_path_long/) | Mengembalikan atau mengatur nama berkas video yang ditautkan ke VideoFrame.<br/>            Baca/tulis **str**. |
+| [`embedded_video`](/slides/python-net/id/aspose.slides/ivideoframe/embedded_video/) | Mengembalikan atau mengatur objek video tertanam.<br/>            Baca/tulis [`IVideo`](/slides/python-net/id/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/id/aspose.slides/ivideoframe/trim_from_start/) | Awal pemangkasan [ms] |
 | [`trim_from_end`](/slides/python-net/id/aspose.slides/ivideoframe/trim_from_end/) | Akhir pemangkasan [ms] |
-| [`caption_tracks`](/slides/python-net/id/aspose.slides/ivideoframe/caption_tracks/) | Mendapatkan koleksi caption tertutup yang terkait dengan frame audio.<br/>             Properti ini hanya baca dan mengembalikan sebuah [`ICaptionsCollection`](/slides/python-net/id/aspose.slides/icaptionscollection) yang berisi semua trek caption. |
+| [`caption_tracks`](/slides/python-net/id/aspose.slides/ivideoframe/caption_tracks/) | Mendapatkan koleksi teks tertutup yang terkait dengan bingkai audio.<br/>             Properti ini hanya-baca dan mengembalikan sebuah [`ICaptionsCollection`](/slides/python-net/id/aspose.slides/icaptionscollection) yang berisi semua trek teks. |
 | [`shape_lock`](/slides/python-net/id/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/id/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/id/aspose.slides/ivideoframe/picture_format/) |  |
@@ -81,7 +82,6 @@ The IVideoFrame type exposes the following members:
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/id/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/id/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/id/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
-
 
 ### Lihat Juga
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)

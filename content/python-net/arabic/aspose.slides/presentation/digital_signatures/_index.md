@@ -1,14 +1,14 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides لبايثون عبر مرجع API .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
-## digital_signatures خاصية
-يعيد مجموعة التواقيع المستخدمة لتوقيع العرض التقديمي.
-            للقراءة فقط [`IDigitalSignatureCollection`](/slides/python-net/ar/aspose.slides/idigitalsignaturecollection).
+## digital_signatures الخاصية
+تُرجِع مجموعة التواقيع المستخدمة لتوقيع العرض التقديمي.
+            قراءة فقط [`IDigitalSignatureCollection`](/slides/python-net/ar/aspose.slides/idigitalsignaturecollection).
 
 ### التعريف:
 ```python
@@ -21,5 +21,5 @@ def digital_signatures(self):
 ### انظر أيضًا
 * فئة [`IDigitalSignatureCollection`](/slides/python-net/ar/aspose.slides/idigitalsignaturecollection)
 * فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

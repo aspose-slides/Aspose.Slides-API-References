@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides pour Python via .NET Référence d'API
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## propriété texte
-Obtient ou définit le texte brut d'un TextFrame.
+Obtient ou définit le texte brut pour un TextFrame.
             Lecture/écriture **str**.
 
 ### Définition:

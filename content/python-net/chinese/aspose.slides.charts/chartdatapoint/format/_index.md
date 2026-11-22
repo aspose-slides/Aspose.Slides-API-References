@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## format 属性
 表示格式属性。

@@ -4,10 +4,10 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type ιδιότητα
-Αντιπροσωπεύει την εξωτερική διαδρομή βιβλίου εργασίας εάν είναι εξωτερική πηγή δεδομένων, None αλλιώς
+Αναπαριστά τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, αλλιώς None
 
 ### Ορισμός:
 ```python

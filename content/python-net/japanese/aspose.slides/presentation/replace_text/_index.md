@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/replace_text/
-weight: 80
+weight: 90
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 指定されたテキストのすべての出現箇所を別の指定されたテキストに置き換えます。
@@ -16,10 +16,10 @@ def replace_text(self, old_text, new_text, options, callback):
 ```
 
 
-| パラメータ | 型 | 説明 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| old_text | **str** | 置き換えられる文字列です。 |
-| new_text | **str** | oldText のすべての出現箇所を置き換える文字列です。 |
+| old_text | **str** | 置換される文字列。 |
+| new_text | **str** | oldText のすべての出現箇所を置換する文字列。 |
 | options | [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions) | テキスト検索オプション [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions)。 |
 | callback | [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback) | 検索結果を受け取るためのコールバックオブジェクト [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback)。 |
 
@@ -30,4 +30,4 @@ def replace_text(self, old_text, new_text, options, callback):
 * クラス [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions)
 * クラス [`Presentation`](/slides/python-net/ja/aspose.slides/presentation)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

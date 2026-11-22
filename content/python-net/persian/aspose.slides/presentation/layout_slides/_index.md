@@ -1,17 +1,19 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides برای Python از طریق .NET API مرجع
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
 ## layout_slides ویژگی
-یک لیست از تمام اسلایدهای طرح‌بندی که در ارائه تعریف شده‌اند را برمی‌گرداند.
-فقط‌خواندنی [`IGlobalLayoutSlideCollection`](/slides/python-net/fa/aspose.slides/igloballayoutslidecollection).
+Returns a list of all layout slides that are defined in the presentation.
+            فقط-خواندنی [`IGlobalLayoutSlideCollection`](/slides/python-net/fa/aspose.slides/igloballayoutslidecollection).
 
 ### توضیحات
-می‌توانید با استفاده از ویژگی IMasterSlide.LayoutSlides به API جایگزین برای افزودن/درج/حذف/کلون کردن اسلایدهای طرح‌بندی دسترسی پیدا کنید.
+
+You can access to alternative API for adding/inserting/removing/cloning layout slides 
+            by using IMasterSlide.LayoutSlides ویژگی.
 
 ### تعریف:
 ```python
@@ -20,7 +22,7 @@ def layout_slides(self):
     ...
 ```
 
-### موارد مرتبط
+### مراجع
 * کلاس [`IGlobalLayoutSlideCollection`](/slides/python-net/fa/aspose.slides/igloballayoutslidecollection)
 * کلاس [`Presentation`](/slides/python-net/fa/aspose.slides/presentation)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

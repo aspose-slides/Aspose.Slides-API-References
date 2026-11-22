@@ -1,16 +1,16 @@
 ---
 title: source_format property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
-## ویژگی source_format
-اطلاعاتی دربارهٔ این که ارائه از کدام فرمت بارگذاری شده است، برمی‌گرداند.
-            فقط-خواندنی [`SourceFormat`](/slides/python-net/fa/aspose.slides/sourceformat).
+## source_format خاصیت
+اطلاعاتی را دربارهٔ فرمت‌ایی که ارائه بارگذاری شد برمی‌گرداند.
+            فقط خواندنی [`SourceFormat`](/slides/python-net/fa/aspose.slides/sourceformat).
 
-### تعریف:
+### Definition:
 ```python
 @property
 def source_format(self):

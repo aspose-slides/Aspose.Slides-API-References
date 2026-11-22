@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y 속성
-제목의 y 좌표를 차트 높이의 비율로 반환하거나 설정합니다.
+Returns or sets the y coordinate of a title as a fraction of the height of the chart.
             읽기/쓰기 **float**.
 
 ### 정의:

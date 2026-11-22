@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Legt ein externes Arbeitsbuch als Datenquelle für das Diagramm fest. Diagrammdaten werden aus dem Zielarbeitsbuch aktualisiert.
+Legt die externe Arbeitsmappe als Datenquelle für das Diagramm fest. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
 
 
 ```python
@@ -18,17 +18,17 @@ def set_external_workbook(self, workbook_path):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| workbook_path | **str** | Pfad zum Zielarbeitsbuch |
+| workbook_path | **str** | Pfad zur Zielarbeitsmappe |
 
 ### Ausnahmen
 
 | Ausnahme | Beschreibung |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Externes Arbeitsbuch ist nicht verfügbar oder kann nicht geladen werden. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-Legt ein externes Arbeitsbuch als Datenquelle für das Diagramm fest.
+Legt die externe Arbeitsmappe als Datenquelle für das Diagramm fest.
 
 
 ```python
@@ -39,14 +39,14 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| workbook_path | **str** | Pfad zum Zielarbeitsbuch |
-| update_chart_data | **bool** | Wenn der Wert false ist, wird nur der Pfad zum Arbeitsbuch aktualisiert.<br/><br/>Diagrammdaten werden nicht aus dem Zielarbeitsbuch geladen und aktualisiert. Kann verwendet werden, wenn das Zielarbeitsbuch nicht existiert oder nicht verfügbar ist.<br/><br/>Wenn der Wert true ist, werden die Diagrammdaten aus dem Zielarbeitsbuch aktualisiert. |
+| workbook_path | **str** | Pfad zur Zielarbeitsmappe |
+| update_chart_data | **bool** | Wenn der Wert false ist, wird nur der Pfad zur Arbeitsmappe aktualisiert. <br/><br/> Diagrammdaten werden nicht aus der Zielarbeitsmappe geladen und aktualisiert. Kann verwendet werden, wenn die Zielarbeitsmappe nicht existiert oder nicht verfügbar ist.<br/><br/> Wenn der Wert true ist, werden die Diagrammdaten aus der Zielarbeitsmappe aktualisiert. |
 
 ### Ausnahmen
 
 | Ausnahme | Beschreibung |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Externes Arbeitsbuch ist nicht verfügbar oder kann nicht geladen werden. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
 
 
 

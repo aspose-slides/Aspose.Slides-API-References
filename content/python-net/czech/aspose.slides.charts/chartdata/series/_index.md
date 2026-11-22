@@ -1,10 +1,10 @@
 ---
 title: series property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
 ## series vlastnost
 Získá series.

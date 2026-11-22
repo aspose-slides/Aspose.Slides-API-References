@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
@@ -54,7 +54,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | text | **str** | Il testo da evidenziare. |
 | highlight_color | [`Color`](/slides/python-net/it/aspose.slides/color) | Il colore per evidenziare il testo. |
 | options | [`ITextSearchOptions`](/slides/python-net/it/aspose.slides/itextsearchoptions) | Opzioni di ricerca del testo [`ITextSearchOptions`](/slides/python-net/it/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/it/aspose.slides/ifindresultcallback) | L'oggetto callback per ricevere i risultati della ricerca [`IFindResultCallback`](/slides/python-net/it/aspose.slides/ifindresultcallback). |
+| callback | [`IFindResultCallback`](/slides/python-net/it/aspose.slides/ifindresultcallback) | L'oggetto di callback per ricevere i risultati della ricerca [`IFindResultCallback`](/slides/python-net/it/aspose.slides/ifindresultcallback). |
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: images property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
-## images คุณสมบัติ
-ส่งคืนคอลเลกชันของ images ทั้งหมดในงานนำเสนอ.
+## คุณสมบัติ images
+คืนค่าคอลเลกชันของรูปภาพทั้งหมดในงานนำเสนอ.
             อ่านอย่างเดียว [`IImageCollection`](/slides/python-net/th/aspose.slides/iimagecollection).
 
 ### คำนิยาม:
@@ -16,7 +16,6 @@ weight: 230
 def images(self):
     ...
 ```
-
 
 ### ดูเพิ่มเติม
 * คลาส [`IImageCollection`](/slides/python-net/th/aspose.slides/iimagecollection)

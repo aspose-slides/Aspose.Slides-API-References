@@ -15,17 +15,18 @@ url: /el/aspose.slides/ivideoframe/
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/el/aspose.slides/ivideoframe/rewind_video/) | Καθορίζει αν ένα βίντεο επανέρχεται αυτόματα στην αρχή<br/>            μόλις ολοκληρωθεί η αναπαραγωγή του.<br/>            Ανάγνωση/εγγραφή **bool**. |
-| [`play_loop_mode`](/slides/python-net/el/aspose.slides/ivideoframe/play_loop_mode/) | Καθορίζει αν ένα βίντεο επαναλαμβάνεται.<br/>            Ανάγνωση/εγγραφή **bool**. |
-| [`hide_at_showing`](/slides/python-net/el/aspose.slides/ivideoframe/hide_at_showing/) | Καθορίζει αν ένα VideoFrame είναι κρυφό.<br/>            Ανάγνωση/εγγραφή **bool**. |
-| [`volume`](/slides/python-net/el/aspose.slides/ivideoframe/volume/) | Επιστρέφει ή ορίζει τη ένταση ήχου.<br/>            Ανάγνωση/εγγραφή [`AudioVolumeMode`](/slides/python-net/el/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/el/aspose.slides/ivideoframe/play_mode/) | Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής βίντεο.<br/>            Ανάγνωση/εγγραφή [`VideoPlayModePreset`](/slides/python-net/el/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/el/aspose.slides/ivideoframe/full_screen_mode/) | Καθορίζει αν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης.<br/>            Ανάγνωση/εγγραφή **bool**. |
-| [`link_path_long`](/slides/python-net/el/aspose.slides/ivideoframe/link_path_long/) | Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που συνδέεται με ένα VideoFrame.<br/>            Ανάγνωση/εγγραφή **str**. |
-| [`embedded_video`](/slides/python-net/el/aspose.slides/ivideoframe/embedded_video/) | Επιστρέφει ή ορίζει το ενσωματωμένο αντικείμενο βίντεο.<br/>            Ανάγνωση/εγγραφή [`IVideo`](/slides/python-net/el/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/el/aspose.slides/ivideoframe/trim_from_start/) | Έναρξη περικοπής [ms] |
-| [`trim_from_end`](/slides/python-net/el/aspose.slides/ivideoframe/trim_from_end/) | Τέλος περικοπής [ms] |
-| [`caption_tracks`](/slides/python-net/el/aspose.slides/ivideoframe/caption_tracks/) | Αποκτά τη συλλογή των κλειστών λεζάντων που σχετίζονται με το πλαίσιο ήχου.<br/>             Αυτή η ιδιότητα είναι μόνο για ανάγνωση και επιστρέφει ένα [`ICaptionsCollection`](/slides/python-net/el/aspose.slides/icaptionscollection) που περιέχει όλα τα κομμάτια λεζάντας. |
+| [`rewind_video`](/slides/python-net/el/aspose.slides/ivideoframe/rewind_video/) | Καθορίζει εάν ένα βίντεο επαναλαμβάνεται αυτόματα από την αρχή<br/>            μόλις το βίντεο τελειώσει την αναπαραγωγή.<br/>            Ανάγνωση/Εγγραφή **bool**. |
+| [`play_loop_mode`](/slides/python-net/el/aspose.slides/ivideoframe/play_loop_mode/) | Καθορίζει εάν ένα βίντεο είναι σε βρόχο.<br/>            Ανάγνωση/Εγγραφή **bool**. |
+| [`hide_at_showing`](/slides/python-net/el/aspose.slides/ivideoframe/hide_at_showing/) | Καθορίζει εάν ένα VideoFrame είναι κρυφό.<br/>            Ανάγνωση/Εγγραφή **bool**. |
+| [`volume`](/slides/python-net/el/aspose.slides/ivideoframe/volume/) | Επιστρέφει ή ορίζει την ένταση ήχου.<br/>            Ανάγνωση/Εγγραφή [`AudioVolumeMode`](/slides/python-net/el/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/el/aspose.slides/ivideoframe/volume_value/) | Επιστρέφει ή ορίζει την ακριβή ένταση βίντεο ως ποσοστό.<br/>             Η τιμή εκφράζεται ως ποσοστό από 0 έως 100. Χρησιμοποιήστε αυτήν την ιδιότητα<br/>             για να διαβάσετε ή να ορίσετε τιμές έντασης που είναι πιο ακριβείς από τα προεπιλεγμένα<br/>             επίπεδα διαθέσιμα μέσω της ιδιότητας [`IVideoFrame.volume`](/slides/python-net/el/aspose.slides/ivideoframe/volume).<br/>             Ανάγνωση/Εγγραφή **float**. |
+| [`play_mode`](/slides/python-net/el/aspose.slides/ivideoframe/play_mode/) | Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής βίντεο.<br/>            Ανάγνωση/Εγγραφή [`VideoPlayModePreset`](/slides/python-net/el/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/el/aspose.slides/ivideoframe/full_screen_mode/) | Καθορίζει εάν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθής.<br/>            Ανάγνωση/Εγγραφή **bool**. |
+| [`link_path_long`](/slides/python-net/el/aspose.slides/ivideoframe/link_path_long/) | Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που συνδέεται με ένα VideoFrame.<br/>            Ανάγνωση/Εγγραφή **str**. |
+| [`embedded_video`](/slides/python-net/el/aspose.slides/ivideoframe/embedded_video/) | Επιστρέφει ή ορίζει το ενσωματωμένο αντικείμενο βίντεο.<br/>            Ανάγνωση/Εγγραφή [`IVideo`](/slides/python-net/el/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/el/aspose.slides/ivideoframe/trim_from_start/) | Αποκοπή αρχής [ms] |
+| [`trim_from_end`](/slides/python-net/el/aspose.slides/ivideoframe/trim_from_end/) | Αποκοπή τέλους [ms] |
+| [`caption_tracks`](/slides/python-net/el/aspose.slides/ivideoframe/caption_tracks/) | Ανακτά τη συλλογή των κλειστών υποτίτλων που σχετίζονται με το πλαίσιο ήχου.<br/>             Αυτή η ιδιότητα είναι μόνο για ανάγνωση και επιστρέφει ένα [`ICaptionsCollection`](/slides/python-net/el/aspose.slides/icaptionscollection) που περιέχει όλα τα κομμάτια υποτίτλων. |
 | [`shape_lock`](/slides/python-net/el/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/el/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/el/aspose.slides/ivideoframe/picture_format/) |  |

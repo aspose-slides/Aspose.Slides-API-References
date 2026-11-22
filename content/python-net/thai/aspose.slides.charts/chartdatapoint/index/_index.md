@@ -1,13 +1,13 @@
 ---
 title: index property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index คุณสมบัติ
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def index(self):

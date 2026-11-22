@@ -1,27 +1,23 @@
 ---
 title: replace_regex method
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/replace_regex/
-weight: 40
+weight: 50
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
-تمام مطابقت‌های عبارات منظم را با رشتهٔ مشخص جایگزین می‌کند.
-
+تمام موارد تطابق عبارت منظم را با رشتهٔ مشخص جایگزین می‌کند.
 
 ```python
 def replace_regex(self, regex, new_text):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| regex | **str** | رشته شامل عبارت منظم برای دریافت رشته‌هایی است که باید جایگزین شوند. |
-| new_text | **str** | رشته‌ای که تمام رخدادهای رشته‌های قابل جایگزین شدن را جایگزین می‌کند. |
-
-
+| regex | **str** | رشته‌ای که شامل عبارت منظم برای به‌دست‌آوردن رشته‌های قابل جایگزینی است. |
+| new_text | **str** | رشته‌ای که تمام وقوع‌های رشته‌های قابل جایگزینی را جایگزین می‌کند. |
 
 ### موارد مرتبط
 * کلاس [`TextFrame`](/slides/python-net/fa/aspose.slides/textframe)

@@ -4,14 +4,20 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell özelliği
-Doğru ise AsCell özelliği geçerlidir. Başka bir deyişle, worksheet kategori depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir). Yanlış ise AsLiteral özelliği geçerlidir. Başka bir deyişle, worksheet kategori depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez). Yalnızca okunabilir **bool**.
+If true then AsCell property is actual. In other words, worksheet is used for 
+            storing category (this case supports a multi-level category).
+            If false then AsLiteral property is actual. In other words, worksheet is NOT used 
+            for storing category (and this case doesn't support a multi-level categories).
+            Salt Okunur **bool**.
+
 
 ### Açıklamalar
 
-Bu özelliğin değerini (koleksiyondaki tüm kategoriler için) değiştirmek için yeni değeri ChartCategoryCollection.UseCells özelliğine ayarlayın.
+For change value of this property (for all categories in collection) set new 
+            value to ChartCategoryCollection.UseCells property.
 
 ### Tanım:
 ```python
@@ -20,7 +26,8 @@ def use_cell(self):
     ...
 ```
 
-### Bakınız
-* sınıf [`ChartCategory`](/slides/python-net/tr/aspose.slides.charts/chartcategory)
-* modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
-* kütüphane [`Aspose.Slides`](/slides/python-net)
+
+### Ayrıca Bakınız
+* class [`ChartCategory`](/slides/python-net/tr/aspose.slides.charts/chartcategory)
+* module [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

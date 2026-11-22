@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell egenskap
-Returns the parent cell or None if the parent object does not implement the ICell interface.
-            Read-only [`ICell`](/slides/python-net/sv/aspose.slides/icell).
+Returnerar föräldercellen eller None om föräldraobjektet inte implementerar ICell-gränssnittet.
+            Skrivskyddad [`ICell`](/slides/python-net/sv/aspose.slides/icell).
 
 ### Definition:
 ```python

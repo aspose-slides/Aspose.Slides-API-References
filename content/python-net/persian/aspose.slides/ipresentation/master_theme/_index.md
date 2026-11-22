@@ -1,14 +1,14 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
-## master_theme ویژگی
-تم اصلی ارائه را بر می‌گرداند.
-            فقط-خواندنی [`IMasterTheme`](/slides/python-net/fa/aspose.slides.theme/imastertheme).
+## master_theme خصوصیت
+تم اصلی ارائه را باز می‌گرداند.
+            فقط خواندنی [`IMasterTheme`](/slides/python-net/fa/aspose.slides.theme/imastertheme).
 
 ### تعریف:
 ```python
@@ -22,4 +22,4 @@ def master_theme(self):
 * کلاس [`IMasterTheme`](/slides/python-net/fa/aspose.slides.theme/imastertheme)
 * کلاس [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
-* کتابخانه [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

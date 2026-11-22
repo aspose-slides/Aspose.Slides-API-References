@@ -1,12 +1,12 @@
 ---
 title: text property
-second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
-## szöveg tulajdonság
+## text tulajdonság
 Lekéri vagy beállítja a TextFrame egyszerű szövegét.
             Olvasás/írás **str**.
 

@@ -7,27 +7,28 @@ url: /sv/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection klass
 
-Representerar etiketter för en serie.
+Representerar en serie etiketter.
 
-IDataLabelCollection-typen exponerar följande medlemmar:
+Typen IDataLabelCollection exponerar följande medlemmar:
 
 ## Egenskaper
 
 | Egenskap | Beskrivning |
 | :- | :- |
 | [`default_data_label_format`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/default_data_label_format/) | Returnerar standardformatet för alla dataetiketter i samlingen.<br/>            Skrivskyddad [`IDataLabelFormat`](/slides/python-net/sv/aspose.slides.charts/idatalabelformat). |
-| [`leader_lines_format`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/leader_lines_format/) | Representerar formatet för ledarelinjer för dataetiketter.<br/>            Skrivskyddad [`IChartLinesFormat`](/slides/python-net/sv/aspose.slides.charts/ichartlinesformat). |
+| [`leader_lines_format`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/leader_lines_format/) | Representerar ledarlinjernas format för dataetiketter.<br/>             Skrivskyddad [`IChartLinesFormat`](/slides/python-net/sv/aspose.slides.charts/ichartlinesformat). |
 | [`is_visible`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/is_visible/) | False betyder att dataetiketten inte är synlig som standard (och därför är alla <br/>            Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat falska).<br/>            Skrivskyddad **bool**. |
 | [`count_of_visible_data_labels`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/count_of_visible_data_labels/) | Hämtar antalet synliga dataetiketter i samlingen.<br/>            Skrivskyddad **int**. |
 | [`count`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/count/) | Hämtar antalet alla dataetiketter i samlingen.<br/>            Skrivskyddad **int**. |
-| [`parent_series`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/parent_series/) | Returnerar föräldrakartens serie.<br/>            Skrivskyddad [`IChartSeries`](/slides/python-net/sv/aspose.slides.charts/ichartseries). |
+| [`parent_series`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/parent_series/) | Returnerar den överordnade diagramserien.<br/>            Skrivskyddad [`IChartSeries`](/slides/python-net/sv/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/default_label_shape_type/) | Hämtar eller anger standardformen för dataetiketter.<br/>             Returnerar [`ShapeType.NOT_DEFINED`](/slides/python-net/sv/aspose.slides/shapetype/NOT_DEFINED) om ingen form är definierad. |
 | [`chart`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/chart/) |  |
 | [`slide`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/presentation/) |  |
 
 Hämtar dataetiketten för datapunkten med det angivna indexet.
 
-## Indexer
+## Indexerare
 
 | Namn | Beskrivning |
 | :- | :- |
@@ -37,7 +38,7 @@ Hämtar dataetiketten för datapunkten med det angivna indexet.
 
 | Metod | Beskrivning |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/hide/#) | Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för <br/>            egenskapen DefaultDataLabelFormat till falskt läge.<br/>            IsVisible kommer att vara falskt efter detta. |
+| [`hide(self)`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/hide/#) | Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till falskt läge.<br/>            IsVisible kommer att vara falskt efter detta. |
 | [`index_of(self, value)`](/slides/python-net/sv/aspose.slides.charts/idatalabelcollection/index_of/#idatalabel) | Returnerar ett index för den angivna DataLabel i samlingen. |
 
 

@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell Eigenschaft
-Liest oder setzt die Datenzelle des Arbeitsblatts. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell den Wert true hat.
+Liest oder setzt die Arbeitsbuch-Datenzelle. Angewendet, wenn IDataLabelFormat.ShowLabelValueFromCell Eigenschaft true ist.
 
 ### Definition:
 ```python

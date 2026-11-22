@@ -1,13 +1,13 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
-## خاصية view_properties
-يحصل على خصائص العرض على مستوى العرض التقديمي.
+## view_properties خاصية
+يحصل على خصائص العرض العامة للعرض التقديمي.
             للقراءة فقط [`IViewProperties`](/slides/python-net/ar/aspose.slides/iviewproperties).
 
 ### التعريف:
@@ -18,7 +18,7 @@ def view_properties(self):
 ```
 
 
-### انظر أيضاً
+### انظر أيضًا
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
 * فئة [`IViewProperties`](/slides/python-net/ar/aspose.slides/iviewproperties)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)

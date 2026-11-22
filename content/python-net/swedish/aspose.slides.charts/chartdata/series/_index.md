@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
 ## serieegenskap
 Hämtar serien.
-Skrivskyddad [`IChartSeriesCollection`](/slides/python-net/sv/aspose.slides.charts/ichartseriescollection).
+            Skrivskyddad [`IChartSeriesCollection`](/slides/python-net/sv/aspose.slides.charts/ichartseriescollection).
 
 ### Definition:
 ```python
@@ -17,7 +17,8 @@ def series(self):
     ...
 ```
 
-### Se också
+
+### Se även
 * klass [`ChartData`](/slides/python-net/sv/aspose.slides.charts/chartdata)
 * klass [`IChartSeriesCollection`](/slides/python-net/sv/aspose.slides.charts/ichartseriescollection)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)

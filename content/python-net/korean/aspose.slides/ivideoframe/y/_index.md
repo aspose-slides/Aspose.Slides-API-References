@@ -4,7 +4,7 @@ second_title: Aspose.Slides Python용 .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y 속성
 ### 정의:

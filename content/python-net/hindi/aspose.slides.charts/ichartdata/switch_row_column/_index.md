@@ -1,14 +1,15 @@
 ---
 title: switch_row_column method
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/ichartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
-डेटा को अक्ष पर स्विच करें।
-            X अक्ष पर चार्ट किया गया डेटा Y अक्ष पर चलेगा और इसके विपरीत भी।
+धुरी के पार डेटा को बदलें।
+            X अक्ष पर चार्ट किया गया डेटा Y अक्ष पर पहुँच जाएगा और इसके विपरीत भी.
+
 
 ```python
 def switch_row_column(self):
@@ -17,8 +18,7 @@ def switch_row_column(self):
 
 
 
-
-### देखें
+### संबंधित देखें
 * क्लास [`IChartData`](/slides/python-net/hi/aspose.slides.charts/ichartdata)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
-* पुस्तकालय [`Aspose.Slides`](/slides/python-net)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,10 +1,10 @@
 ---
 title: custom_data property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET - справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data свойство
 Возвращает пользовательские данные презентации.

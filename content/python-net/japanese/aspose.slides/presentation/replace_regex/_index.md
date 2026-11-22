@@ -4,19 +4,19 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/replace_regex/
-weight: 70
+weight: 80
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
-正規表現のすべての一致を指定された文字列に置き換えます。
+正規表現に一致するすべての箇所を指定された文字列に置き換えます。
 
 ```python
 def replace_regex(self, regex, new_text):
     ...
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| regex | **str** | 置換対象文字列を取得するための正規表現を含む文字列です。 |
+| regex | **str** | 文字列には置換対象文字列を取得するための正規表現が含まれています。 |
 | new_text | **str** | 置換対象文字列のすべての出現箇所を置き換える文字列です。 |
 
 ### 参照

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value 屬性
 YValue.
@@ -18,7 +18,7 @@ def y_value(self):
 ```
 
 
-### 另見
+### 另請參閱
 * 類別 [`ChartDataPoint`](/slides/python-net/zh-hant/aspose.slides.charts/chartdatapoint)
 * 類別 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)

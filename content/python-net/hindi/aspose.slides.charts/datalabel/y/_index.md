@@ -1,13 +1,13 @@
 ---
 title: y property
-second_title: Aspose.Slides के लिए Python हेतु .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y प्रॉपर्टी
-शीर्षक के y निर्देशांक को चार्ट की ऊँचाई के अनुपात में लौटाता है या सेट करता है.
+शीर्षक के y निर्देशांक को चार्ट की ऊँचाई के एक अंश के रूप में प्राप्त करता है या सेट करता है।
             पढ़ें/लिखें **float**.
 
 ### परिभाषा:
@@ -25,4 +25,4 @@ def y(self, value):
 ### संबंधित देखें
 * क्लास [`DataLabel`](/slides/python-net/hi/aspose.slides.charts/datalabel)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

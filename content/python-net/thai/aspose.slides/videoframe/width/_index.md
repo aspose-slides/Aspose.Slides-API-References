@@ -1,22 +1,22 @@
 ---
 title: width property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## width คุณสมบัติ
-Gets or sets the width of the shape, measured in points.
+## คุณสมบัติ width
+รับหรือกำหนดค่าความกว้างของรูปร่าง, วัดเป็นจุด.
             อ่าน/เขียน **float**.
 
 
 ### หมายเหตุ
 
-The value returned is always defined and never **float**.
-            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
+ค่าที่ส่งคืนจะถูกกำหนดเสมอและจะไม่เป็น **float**.
+            ค่าที่กำหนดต้องถูกกำหนดไว้ด้วย; ให้กำหนด **float** เฉพาะกับคุณสมบัติของอินสแตนซ์ `RawFrame` เท่านั้น.
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def width(self):

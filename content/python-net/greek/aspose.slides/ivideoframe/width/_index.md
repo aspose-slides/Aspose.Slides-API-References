@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ivideoframe/width/
-weight: 620
+weight: 630
 ---
 ## width ιδιότητα
 ### Ορισμός:

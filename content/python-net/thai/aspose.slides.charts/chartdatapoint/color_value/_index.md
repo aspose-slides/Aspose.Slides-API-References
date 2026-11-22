@@ -4,20 +4,19 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value คุณสมบัติ
-คืนค่ารหัสสีของจุดข้อมูลแผนภูมิ.
-            ใช้กับแผนภูมิแผนที่.
+ส่งคืนค่สีของจุดข้อมูลแผนภูมิ
+            ใช้กับแผนภูมิแผนที่ 
             อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
 
-### คำนิยาม:
+### Definition:
 ```python
 @property
 def color_value(self):
     ...
 ```
-
 
 ### ดูเพิ่มเติม
 * คลาส [`ChartDataPoint`](/slides/python-net/th/aspose.slides.charts/chartdatapoint)

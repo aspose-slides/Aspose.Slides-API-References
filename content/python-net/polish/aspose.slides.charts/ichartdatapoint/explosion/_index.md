@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides dla Pythona via .NET API Reference
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion właściwość
-Specifies the amount the data point shall be moved from the center of the pie.
+Określa ilość, o jaką punkt danych ma być przesunięty od środka wykresu kołowego.
             Odczyt/zapis **int**.
 
 ### Definicja:
@@ -21,8 +21,7 @@ def explosion(self, value):
     ...
 ```
 
-
-### Zobacz także
+### Zobacz również
 * klasa [`IChartDataPoint`](/slides/python-net/pl/aspose.slides.charts/ichartdatapoint)
 * moduł [`aspose.slides.charts`](/slides/python-net/pl/aspose.slides.charts)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

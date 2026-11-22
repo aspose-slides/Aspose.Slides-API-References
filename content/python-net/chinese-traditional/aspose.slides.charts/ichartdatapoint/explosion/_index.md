@@ -1,16 +1,16 @@
 ---
 title: explosion property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python 透過 .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## 爆炸屬性
-指定資料點應從圓餅圖中心移動的量。
-            讀寫 **int**。
+## explosion 屬性
+指定資料點應從餅圖中心移動的距離。
+            讀寫 **int**.
 
-### 定義：
+### 定義:
 ```python
 @property
 def explosion(self):

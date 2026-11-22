@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format Eigenschaft
 Gibt das Textformat zurück.
-            Schreibgeschützt [`IChartTextFormat`](/slides/python-net/de/aspose.slides.charts/icharttextformat).
+            Nur Lesezugriff [`IChartTextFormat`](/slides/python-net/de/aspose.slides.charts/icharttextformat).
 
 ### Definition:
 ```python
@@ -16,7 +16,6 @@ Gibt das Textformat zurück.
 def text_format(self):
     ...
 ```
-
 
 ### Siehe auch
 * Klasse [`DataLabel`](/slides/python-net/de/aspose.slides.charts/datalabel)

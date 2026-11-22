@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: Aspose.Slides dla Python przez .NET referencja API
+second_title: Aspose.Slides dla Pythona poprzez referencję API .NET
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size właściwość
-Zwraca rozmiar bąbla punktu danych wykresu.
+Pobiera rozmiar bąbla punktu danych wykresu.
             Tylko do odczytu [`IDoubleChartValue`](/slides/python-net/pl/aspose.slides.charts/idoublechartvalue).
 
 ### Definicja:

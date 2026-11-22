@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry プロパティ
-次のリストにあるチャート タイプの場合の、対応する凡例エントリのプロパティ:
+このリストの ChartType からのチャートタイプの場合の対応する凡例エントリのプロパティ:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,

@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## series proprietà
 Restituisce la series.

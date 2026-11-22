@@ -1,16 +1,16 @@
 ---
 title: label property
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## คุณสมบัติ label
-Represents the lable of chart data point.
-            Read-only [`IDataLabel`](/slides/python-net/th/aspose.slides.charts/idatalabel).
+แสดงถึง label ของจุดข้อมูลในแผนภูมิ.
+อ่านอย่างเดียว [`IDataLabel`](/slides/python-net/th/aspose.slides.charts/idatalabel).
 
-### Definition:
+### การกำหนด:
 ```python
 @property
 def label(self):
@@ -18,8 +18,8 @@ def label(self):
 ```
 
 
-### See Also
-* class [`IChartDataPoint`](/slides/python-net/th/aspose.slides.charts/ichartdatapoint)
-* class [`IDataLabel`](/slides/python-net/th/aspose.slides.charts/idatalabel)
-* module [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+### ดูเพิ่มเติม
+* คลาส [`IChartDataPoint`](/slides/python-net/th/aspose.slides.charts/ichartdatapoint)
+* คลาส [`IDataLabel`](/slides/python-net/th/aspose.slides.charts/idatalabel)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

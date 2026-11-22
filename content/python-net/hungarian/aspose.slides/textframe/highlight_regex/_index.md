@@ -1,10 +1,10 @@
 ---
 title: highlight_regex method
-second_title: Aspose.Slides a Pythonhoz .NET API-referencia
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozása
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
 Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
@@ -16,7 +16,7 @@ def highlight_regex(self, regex, highlight_color):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| regex | **str** | A karakterlánc tartalmazza a kiemelni kívánt sztringekhez szükséges reguláris kifejezést. |
+| regex | **str** | A karakterlánc tartalmazza a kiemelendő karakterláncokat meghatározó reguláris kifejezést. |
 | highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | A szöveg kiemeléséhez használt szín. |
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
@@ -29,7 +29,7 @@ def highlight_regex(self, regex, highlight_color, options):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| regex | **str** | A reguláris kifejezés szövege a kiemelendő szöveghez. |
+| regex | **str** | A reguláris kifejezés szövege a kiemelendő szöveg meghatározásához. |
 | highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | A szöveg kiemeléséhez használt szín. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/hu/aspose.slides/itexthighlightingoptions) | Kiemelési beállítások. |
 

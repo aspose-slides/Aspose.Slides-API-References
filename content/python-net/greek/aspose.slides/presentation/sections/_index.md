@@ -1,13 +1,13 @@
 ---
 title: sections property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections ιδιότητα
-Επιστρέφει μια λίστα με όλες τις ενότητες των διαφανειών που ορίζονται στην παρουσίαση.
+Επιστρέφει μια λίστα με όλα τα τμήματα διαφανειών που ορίζονται στην παρουσίαση.
             Μόνο για ανάγνωση [`ISectionCollection`](/slides/python-net/el/aspose.slides/isectioncollection).
 
 ### Ορισμός:

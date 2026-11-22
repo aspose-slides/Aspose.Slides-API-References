@@ -1,16 +1,28 @@
 ---
 title: gap_width property
-second_title: Aspose.Slides pour Python via .NET Référence de l'API
+second_title: Aspose.Slides pour Python via .NET Référence API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/ichartseriesgroup/gap_width/
 weight: 110
 ---
 ## gap_width propriété
-Spécifie l'espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne.
-            Lecture/écriture **int**.
+Obtient ou définit l'espace entre les regroupements de barres ou de colonnes, exprimé en pourcentage de la largeur de la barre ou de la colonne.
+La valeur doit être comprise entre 0 et 500.
+Lecture/écriture **int**.
 
-### Définition:
+### Remarques
+
+Cette propriété s'applique aux séries des types suivants :
+All bar and column subtypes,
+[`ChartType.BAR_OF_PIE`](/slides/python-net/fr/aspose.slides.charts/charttype/BAR_OF_PIE),
+[`ChartType.PIE_OF_PIE`](/slides/python-net/fr/aspose.slides.charts/charttype/PIE_OF_PIE),
+[`ChartType.BOX_AND_WHISKER`](/slides/python-net/fr/aspose.slides.charts/charttype/BOX_AND_WHISKER),
+[`ChartType.FUNNEL`](/slides/python-net/fr/aspose.slides.charts/charttype/FUNNEL),
+[`ChartType.HISTOGRAM`](/slides/python-net/fr/aspose.slides.charts/charttype/HISTOGRAM),
+[`ChartType.WATERFALL`](/slides/python-net/fr/aspose.slides.charts/charttype/WATERFALL).
+
+### Définition :
 ```python
 @property
 def gap_width(self):

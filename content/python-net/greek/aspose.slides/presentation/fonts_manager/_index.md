@@ -1,14 +1,14 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager ιδιότητα
-Επιστρέφει τον διαχειριστή γραμματοσειρών.
-            Μόνο-για-ανάγνωση [`IFontsManager`](/slides/python-net/el/aspose.slides/ifontsmanager).
+Επιστρέφει το διαχειριστή γραμματοσειρών.
+Μόνο για ανάγνωση [`IFontsManager`](/slides/python-net/el/aspose.slides/ifontsmanager).
 
 ### Ορισμός:
 ```python
@@ -16,7 +16,6 @@ weight: 210
 def fonts_manager(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IFontsManager`](/slides/python-net/el/aspose.slides/ifontsmanager)

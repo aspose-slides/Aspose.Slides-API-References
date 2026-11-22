@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y propriété
 ### Définition:

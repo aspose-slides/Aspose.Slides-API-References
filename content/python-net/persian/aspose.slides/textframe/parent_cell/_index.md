@@ -1,14 +1,14 @@
 ---
 title: parent_cell property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
-## parent_cell خصوصیت
-در صورت وجود، سلول والد را بر می‌گرداند یا None اگر شیء والد رابط ICell را پیاده‌سازی نکند.
-فقط-خواندنی [`ICell`](/slides/python-net/fa/aspose.slides/icell).
+## parent_cell ویژگی
+مقدار سلول والد را برمی‌گرداند یا None اگر شی والد رابط ICell را پیاده‌سازی نکرده باشد.
+فقط‌خواندنی [`ICell`](/slides/python-net/fa/aspose.slides/icell).
 
 ### تعریف:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: x property
-second_title: Aspose.Slides pour Python via .NET Référence de l'API
+second_title: Aspose.Slides pour Python via .NET Référence API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x propriété
-Renvoie ou définit la coordonnée x d'un titre comme une fraction de la largeur du graphique.
+Renvoie ou définit la coordonnée x d’un titre comme une fraction de la largeur du graphique.
             Lecture/écriture **float**.
 
 ### Définition:
@@ -20,6 +20,7 @@ def x(self):
 def x(self, value):
     ...
 ```
+
 
 ### Voir aussi
 * classe [`DataLabel`](/slides/python-net/fr/aspose.slides.charts/datalabel)

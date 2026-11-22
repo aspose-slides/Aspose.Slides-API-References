@@ -1,14 +1,16 @@
 ---
 title: text_frame_for_overriding property
-second_title: Aspose.Slides dla Pythona przez .NET API Reference
+second_title: Aspose.Slides dla Pythona – Dokumentacja API .NET
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabel/text_frame_for_overriding/
-weight: 240
+weight: 250
 ---
 ## text_frame_for_overriding właściwość
-Może zawierać bogato sformatowany tekst. Jeśli ta właściwość nie jest równa None, to ta wartość sformatowanego tekstu zastępuje automatycznie generowany tekst etykiety danych.
-Automatycznie generowany tekst etykiety danych oznacza tekst zarządzany przez właściwości ShowSeriesName, ShowValue, ... i formatowany przy użyciu właściwości TextFormatManager.TextFormat.
+Może zawierać sformatowany tekst. Jeśli ta właściwość nie jest None, to 
+wartość sformatowanego tekstu zastępuje automatycznie generowany tekst etykiety danych.
+Automatycznie generowany tekst etykiety danych oznacza tekst, który jest zarządzany przez ShowSeriesName, 
+ShowValue, ... właściwości i jest formatowany za pomocą TextFormatManager.TextFormat właściwość.
 Tylko do odczytu [`ITextFrame`](/slides/python-net/pl/aspose.slides/itextframe).
 
 ### Definicja:

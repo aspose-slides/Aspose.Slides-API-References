@@ -4,11 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels egenskap
-Returnerar en behållare med datapuntnivåer. Tillämpar för Treeamp- och Sunburst-serier.
-            Indexeringen av datapuntnivåer är nollbaserad.
+Returnerar en behållare för datapunktnivåer. Tillämplig för Treeamp- och Sunburst-serier. Indexering av datapunktnivåer är nollbaserad.
 
 ### Definition:
 ```python

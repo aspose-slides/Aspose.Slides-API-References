@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## خاصیت slides
-یک فهرست از تمام slides که در ارائه تعریف شده‌اند را برمی‌گرداند.
-            فقط‌خواندنی [`ISlideCollection`](/fa/slides/python-net/aspose.slides/islidecollection).
+یک لیست از تمام slides که در ارائه تعریف شده‌اند را برمی‌گرداند.
+            فقط-خواندنی [`ISlideCollection`](/fa/slides/python-net/aspose.slides/islidecollection).
 
 ### تعریف:
 ```python

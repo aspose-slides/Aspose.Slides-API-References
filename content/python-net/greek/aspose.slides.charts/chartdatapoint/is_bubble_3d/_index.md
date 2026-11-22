@@ -4,10 +4,10 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d ιδιότητα
-Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3-D.
+Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3-Δ σε αυτές.
 Ανάγνωση/εγγραφή **bool**.
 
 ### Ορισμός:
@@ -20,7 +20,6 @@ def is_bubble_3d(self):
 def is_bubble_3d(self, value):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`ChartDataPoint`](/slides/python-net/el/aspose.slides.charts/chartdatapoint)

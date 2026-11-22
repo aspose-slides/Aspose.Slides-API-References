@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
@@ -34,7 +34,7 @@ def highlight_text(self, text, highlight_color, options):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| text | **str** | De te markeren tekst. |
+| text | **str** | De tekst om te markeren. |
 | highlight_color | [`Color`](/slides/python-net/nl/aspose.slides/color) | De kleur om de tekst te markeren. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/nl/aspose.slides/itexthighlightingoptions) | Markeeropties. |
 
@@ -51,10 +51,10 @@ def highlight_text(self, text, highlight_color, options, callback):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| text | **str** | De te markeren tekst. |
+| text | **str** | De tekst om te markeren. |
 | highlight_color | [`Color`](/slides/python-net/nl/aspose.slides/color) | De kleur om de tekst te markeren. |
-| options | [`ITextSearchOptions`](/slides/python-net/nl/aspose.slides/itextsearchoptions) | Zoekopties voor tekst [`ITextSearchOptions`](/slides/python-net/nl/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/nl/aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [`IFindResultCallback`](/slides/python-net/nl/aspose.slides/ifindresultcallback). |
+| options | [`ITextSearchOptions`](/slides/python-net/nl/aspose.slides/itextsearchoptions) | Tekstzoekopties [`ITextSearchOptions`](/slides/python-net/nl/aspose.slides/itextsearchoptions). |
+| callback | [`IFindResultCallback`](/slides/python-net/nl/aspose.slides/ifindresultcallback) | Het callback object voor het ontvangen van zoekresultaten [`IFindResultCallback`](/slides/python-net/nl/aspose.slides/ifindresultcallback). |
 
 
 

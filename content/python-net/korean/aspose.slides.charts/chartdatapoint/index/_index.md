@@ -1,10 +1,10 @@
 ---
 title: index property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## 인덱스 속성
 ### 정의:

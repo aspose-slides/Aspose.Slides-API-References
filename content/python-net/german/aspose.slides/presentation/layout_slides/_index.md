@@ -4,15 +4,17 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
 ## layout_slides Eigenschaft
 Gibt eine Liste aller Layout-Folien zurück, die in der Präsentation definiert sind.
-Schreibgeschützt [`IGlobalLayoutSlideCollection`](/slides/python-net/de/aspose.slides/igloballayoutslidecollection).
+            Read-only [`IGlobalLayoutSlideCollection`](/slides/python-net/de/aspose.slides/igloballayoutslidecollection).
 
-### Anmerkungen
 
-Sie können auf eine alternative API zum Hinzufügen/Einfügen/Entfernen/Klonen von Layout-Folien zugreifen, indem Sie die IMasterSlide.LayoutSlides Eigenschaft verwenden.
+### Hinweise
+
+Sie können über die alternative API zum Hinzufügen/EinfÃ¼gen/Entfernen/Klonen von Layout-Folien 
+            durch die Verwendung der Eigenschaft IMasterSlide.LayoutSlides zugreifen.
 
 ### Definition:
 ```python
@@ -20,6 +22,7 @@ Sie können auf eine alternative API zum Hinzufügen/Einfügen/Entfernen/Klonen 
 def layout_slides(self):
     ...
 ```
+
 
 ### Siehe auch
 * Klasse [`IGlobalLayoutSlideCollection`](/slides/python-net/de/aspose.slides/igloballayoutslidecollection)

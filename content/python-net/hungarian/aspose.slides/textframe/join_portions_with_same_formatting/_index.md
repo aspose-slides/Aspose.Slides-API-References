@@ -1,20 +1,19 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/join_portions_with_same_formatting/
-weight: 30
+weight: 40
 ---
 ## join_portions_with_same_formatting(self) {#}
-Összekapcsolja a futamokat azonos formázással minden bekezdésben.
+Összevonja a formázásban azonos futásokat az összes bekezdésben.
 
 
 ```python
 def join_portions_with_same_formatting(self):
     ...
 ```
-
 
 
 

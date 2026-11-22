@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/idatalabel/presentation/
-weight: 190
+weight: 200
 ---
 ## propriété de présentation
 ### Définition:

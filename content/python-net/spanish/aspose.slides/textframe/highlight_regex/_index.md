@@ -1,36 +1,31 @@
 ---
 title: highlight_regex method
-second_title: Referencia de API de Aspose.Slides para Python a través de .NET
+second_title: Referencia de la API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/textframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
 Resalta todas las coincidencias de la expresión regular con el color especificado.
-
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
 | regex | **str** | La cadena contiene la expresión regular para obtener las cadenas a resaltar. |
 | highlight_color | [`Color`](/slides/python-net/es/aspose.slides/color) | El color para resaltar el texto. |
 
-
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
 Resalta todas las coincidencias de la expresión regular con el color especificado.
-
 
 ```python
 def highlight_regex(self, regex, highlight_color, options):
     ...
 ```
-
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
@@ -38,11 +33,9 @@ def highlight_regex(self, regex, highlight_color, options):
 | highlight_color | [`Color`](/slides/python-net/es/aspose.slides/color) | El color para resaltar el texto. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/es/aspose.slides/itexthighlightingoptions) | Opciones de resaltado. |
 
-
-
 ### Ver también
 * clase [`ITextHighlightingOptions`](/slides/python-net/es/aspose.slides/itexthighlightingoptions)
 * clase [`TextFrame`](/slides/python-net/es/aspose.slides/textframe)
 * clase [`Color`](/slides/python-net/es/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

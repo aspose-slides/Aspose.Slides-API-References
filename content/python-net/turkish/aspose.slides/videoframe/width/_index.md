@@ -4,16 +4,17 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## genişlik özelliği
-Şeklin genişliğini alır veya ayarlar, puan cinsinden ölçülür.
-            Okuma/Yazma **float**.
+## width özelliği
+Gets or sets the width of the shape, measured in points.
+            Okuma/yazma **float**.
+
 
 ### Açıklamalar
 
-Dönen değer her zaman tanımlıdır ve asla **float** değildir.
-            Atanan değer de tanımlı olmalıdır; **float** yalnızca bir `RawFrame` örneğinin özelliklerine atanabilir.
+Geri döndürülen değer her zaman tanımlıdır ve asla **float** değildir.
+            Atanan değer de tanımlı olmalıdır; **float** yalnızca bir `RawFrame` örneğinin özelliklerine atanmalıdır.
 
 ### Tanım:
 ```python
@@ -25,6 +26,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
 
 ### Ayrıca Bakınız
 * sınıf [`VideoFrame`](/slides/python-net/tr/aspose.slides/videoframe)

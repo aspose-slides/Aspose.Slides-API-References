@@ -4,12 +4,12 @@ second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## value ویژگی
-اگر UseCell true باشد، این ویژگی نمایانگر AsCell.Value property است.
-اگر UseCell false باشد، این ویژگی نمایانگر AsLiteral property است.
-خواندنی/نوشتنی **هر**.
+## value خصوصیت
+اگر UseCell برابر true باشد، این خصوصیت نمایانگر خصوصیت AsCell.Value است.
+اگر UseCell برابر false باشد، این خصوصیت نمایانگر خصوصیت AsLiteral است.
+خواندن/نوشتن **هر**.
 
 ### تعریف:
 ```python
@@ -22,7 +22,8 @@ def value(self, value):
     ...
 ```
 
-### مراجع دیگر
+
+### موارد مرتبط
 * کلاس [`ChartCategory`](/slides/python-net/fa/aspose.slides.charts/chartcategory)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

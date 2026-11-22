@@ -1,6 +1,6 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Aspose.Slides para Python via .NET Referência de API
 description: 
 type: docs
 url: /pt/aspose.slides.charts/idatalabel/
@@ -17,7 +17,8 @@ O tipo IDataLabel expõe os seguintes membros:
 | :- | :- |
 | [`is_visible`](/slides/python-net/pt/aspose.slides.charts/idatalabel/is_visible/) | False significa que o rótulo de dados não está visível (e, portanto, todas as flags Show*- (ShowValue, ...) são falsas).<br/>            Somente leitura **bool**. |
 | [`data_label_format`](/slides/python-net/pt/aspose.slides.charts/idatalabel/data_label_format/) | Retorna o formato do rótulo de dados.<br/>            Somente leitura [`IDataLabelFormat`](/slides/python-net/pt/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/pt/aspose.slides.charts/idatalabel/value_from_cell/) | Obtém ou define a célula de dados da planilha. Aplicado se a propriedade IDataLabelFormat.ShowLabelValueFromCell for verdadeira. |
+| [`value_from_cell`](/slides/python-net/pt/aspose.slides.charts/idatalabel/value_from_cell/) | Obtém ou define a célula de dados da planilha. Aplicado se a propriedade IDataLabelFormat.ShowLabelValueFromCell for true. |
+| [`label_shape_type`](/slides/python-net/pt/aspose.slides.charts/idatalabel/label_shape_type/) | Obtém ou define o tipo de forma do rótulo de dados.<br/>             Retorna [`ShapeType.NOT_DEFINED`](/slides/python-net/pt/aspose.slides/shapetype/NOT_DEFINED) se nenhuma forma for definida. |
 | [`x`](/slides/python-net/pt/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/pt/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/pt/aspose.slides.charts/idatalabel/width/) |  |
@@ -38,11 +39,10 @@ O tipo IDataLabel expõe os seguintes membros:
 
 | Método | Descrição |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/pt/aspose.slides.charts/idatalabel/hide/#) | Oculta o rótulo de dados definindo todas as flags Show*- (ShowValue, ...) para o estado falso.<br/>            IsVisible será falso após isso. |
+| [`hide(self)`](/slides/python-net/pt/aspose.slides.charts/idatalabel/hide/#) | Torna o rótulo de dados oculto definindo todas as flags Show*- (ShowValue, ...) para o estado false.<br/>            IsVisible será false após isso. |
 | [`get_actual_label_text(self)`](/slides/python-net/pt/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Retorna o texto real do rótulo com base nas configurações de DataLabelFormat ou no valor TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/pt/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-
-### Ver Também
+### Veja Também
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

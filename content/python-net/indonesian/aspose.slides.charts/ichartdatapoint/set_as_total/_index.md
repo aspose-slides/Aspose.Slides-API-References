@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total properti
-Menetapkan titik data sebagai total. Diterapkan hanya untuk tipe seri Waterfall.
+Menetapkan titik data sebagai total. Hanya berlaku untuk tipe seri Waterfall saja.
 
 ### Definisi:
 ```python
@@ -20,7 +20,8 @@ def set_as_total(self, value):
     ...
 ```
 
+
 ### Lihat Juga
 * kelas [`IChartDataPoint`](/slides/python-net/id/aspose.slides.charts/ichartdatapoint)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

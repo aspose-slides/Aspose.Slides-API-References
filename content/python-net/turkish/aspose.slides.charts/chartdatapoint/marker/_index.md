@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides for Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## işaretleyici özelliği
-Veri işaretleyicisini belirtir.
-            Yalnızca okuma [`IMarker`](/slides/python-net/tr/aspose.slides.charts/imarker).
+## işaretçi özelliği
+Bir veri işaretçisi belirtir.
+            Yalnızca okunabilir [`IMarker`](/slides/python-net/tr/aspose.slides.charts/imarker).
 
 ### Tanım:
 ```python
@@ -17,7 +17,8 @@ def marker(self):
     ...
 ```
 
-### Bakınız
+
+### Ayrıca Bakınız
 * sınıf [`ChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/chartdatapoint)
 * sınıf [`IMarker`](/slides/python-net/tr/aspose.slides.charts/imarker)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

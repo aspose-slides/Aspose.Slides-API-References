@@ -1,10 +1,10 @@
 ---
 title: default_text_style property
-second_title: Referencia de la API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python vía .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides/ipresentation/default_text_style/
-weight: 160
+weight: 170
 ---
 ## default_text_style propiedad
 Devuelve el estilo de texto predeterminado para formas.

@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## ویژگی نشانگر
+## marker خاصیت
 یک نشانگر داده را مشخص می‌کند.
-            فقط خواندنی [`IMarker`](/slides/python-net/fa/aspose.slides.charts/imarker).
+فقط خواندنی [`IMarker`](/slides/python-net/fa/aspose.slides.charts/imarker).
 
 ### تعریف:
 ```python

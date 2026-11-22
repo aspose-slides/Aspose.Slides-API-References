@@ -1,31 +1,32 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides Python के लिये .NET API संदर्भ के माध्यम से
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame क्लास
 
-एक स्लाइड पर वीडियो क्लिप को दर्शाता है।
+एक स्लाइड पर वीडियो क्लिप का प्रतिनिधित्व करता है।
 
-IVideoFrame प्रकार निम्न सदस्यों को उजागर करता है:
+IVideoFrame प्रकार निम्नलिखित सदस्यों को प्रदर्शित करता है:
 
-## प्रॉपर्टी
+## गुण
 
-| प्रॉपर्टी | विवरण |
+| गुण | विवरण |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/hi/aspose.slides/ivideoframe/rewind_video/) | यह निर्धारित करता है कि क्या वीडियो को स्वचालित रूप से शुरू में रीवाइंड किया जाता है<br/>जैसे ही फिल्म का चलना समाप्त हो जाता है।<br/>पढ़ने/लिखने **bool**. |
-| [`play_loop_mode`](/slides/python-net/hi/aspose.slides/ivideoframe/play_loop_mode/) | यह निर्धारित करता है कि क्या वीडियो को लूप किया गया है।<br/>पढ़ने/लिखने **bool**. |
-| [`hide_at_showing`](/slides/python-net/hi/aspose.slides/ivideoframe/hide_at_showing/) | यह निर्धारित करता है कि क्या VideoFrame को छिपाया गया है।<br/>पढ़ने/लिखने **bool**. |
-| [`volume`](/slides/python-net/hi/aspose.slides/ivideoframe/volume/) | ऑडियो वॉल्यूम को पढ़ता या सेट करता है।<br/>पढ़ने/लिखने [`AudioVolumeMode`](/slides/python-net/hi/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/hi/aspose.slides/ivideoframe/play_mode/) | वीडियो प्ले मोड को पढ़ता या सेट करता है।<br/>पढ़ने/लिखने [`VideoPlayModePreset`](/slides/python-net/hi/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/hi/aspose.slides/ivideoframe/full_screen_mode/) | यह निर्धारित करता है कि क्या वीडियो को फूल स्क्रीन मोड में दिखाया जाता है।<br/>पढ़ने/लिखने **bool**. |
-| [`link_path_long`](/slides/python-net/hi/aspose.slides/ivideoframe/link_path_long/) | VideoFrame से जुड़ी वीडियो फ़ाइल का नाम पढ़ता या सेट करता है।<br/>पढ़ने/लिखने **str**. |
-| [`embedded_video`](/slides/python-net/hi/aspose.slides/ivideoframe/embedded_video/) | एम्बेडेड वीडियो ऑब्जेक्ट को पढ़ता या सेट करता है।<br/>पढ़ने/लिखने [`IVideo`](/slides/python-net/hi/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/hi/aspose.slides/ivideoframe/trim_from_start/) | ट्रिम शुरू [ms] |
-| [`trim_from_end`](/slides/python-net/hi/aspose.slides/ivideoframe/trim_from_end/) | ट्रिम अंत [ms] |
-| [`caption_tracks`](/slides/python-net/hi/aspose.slides/ivideoframe/caption_tracks/) | ऑडियो फ्रेम से जुड़े क्लोज्ड कैप्शंस का संग्रह प्राप्त करता है।<br/> यह प्रॉपर्टी केवल पढ़ने योग्य है और एक [`ICaptionsCollection`](/slides/python-net/hi/aspose.slides/icaptionscollection) लौटाता है जिसमें सभी कैप्शन ट्रैक्स होते हैं। |
+| [`rewind_video`](/slides/python-net/hi/aspose.slides/ivideoframe/rewind_video/) | Determines whether a video is automatically rewinded to start<br/>            as soon as the movie has finished playing.<br/>            Read/write **bool**. |
+| [`play_loop_mode`](/slides/python-net/hi/aspose.slides/ivideoframe/play_loop_mode/) | Determines whether a video is looped.<br/>            Read/write **bool**. |
+| [`hide_at_showing`](/slides/python-net/hi/aspose.slides/ivideoframe/hide_at_showing/) | Determines whether a VideoFrame is hidden.<br/>            Read/write **bool**. |
+| [`volume`](/slides/python-net/hi/aspose.slides/ivideoframe/volume/) | Returns or sets the audio volume.<br/>            Read/write [`AudioVolumeMode`](/slides/python-net/hi/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/hi/aspose.slides/ivideoframe/volume_value/) | Returns or sets the exact video volume as a percentage.<br/>             The value is expressed as a percentage from 0 to 100. Use this property<br/>             to read or set volume values that are more precise than the predefined<br/>             levels available through the [`IVideoFrame.volume`](/slides/python-net/hi/aspose.slides/ivideoframe/volume) property.<br/>             Read/write **float**. |
+| [`play_mode`](/slides/python-net/hi/aspose.slides/ivideoframe/play_mode/) | Returns or sets the video play mode.<br/>            Read/write [`VideoPlayModePreset`](/slides/python-net/hi/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/hi/aspose.slides/ivideoframe/full_screen_mode/) | Determines whether a video is shown in full screen mode.<br/>            Read/write **bool**. |
+| [`link_path_long`](/slides/python-net/hi/aspose.slides/ivideoframe/link_path_long/) | Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write **str**. |
+| [`embedded_video`](/slides/python-net/hi/aspose.slides/ivideoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write [`IVideo`](/slides/python-net/hi/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/hi/aspose.slides/ivideoframe/trim_from_start/) | Trim start [ms] |
+| [`trim_from_end`](/slides/python-net/hi/aspose.slides/ivideoframe/trim_from_end/) | Trim end [ms] |
+| [`caption_tracks`](/slides/python-net/hi/aspose.slides/ivideoframe/caption_tracks/) | Gets the collection of closed captions associated with the audio frame.<br/>             This property is read-only and returns an [`ICaptionsCollection`](/slides/python-net/hi/aspose.slides/icaptionscollection) containing all caption tracks. |
 | [`shape_lock`](/slides/python-net/hi/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/hi/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/hi/aspose.slides/ivideoframe/picture_format/) |  |
@@ -66,7 +67,7 @@ IVideoFrame प्रकार निम्न सदस्यों को उ�
 | [`hyperlink_mouse_over`](/slides/python-net/hi/aspose.slides/ivideoframe/hyperlink_mouse_over/) |  |
 | [`hyperlink_manager`](/slides/python-net/hi/aspose.slides/ivideoframe/hyperlink_manager/) |  |
 
-## मेथड
+## मेथड्स
 
 | मेथड | विवरण |
 | :- | :- |
@@ -81,6 +82,7 @@ IVideoFrame प्रकार निम्न सदस्यों को उ�
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/hi/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/hi/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/hi/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
+
 
 ### देखें
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

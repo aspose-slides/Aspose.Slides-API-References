@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape คุณสมบัติ
-คืนค่ารูปร่างแม่หรือ None หากอ็อบเจกต์แม่ไม่รองรับอินเทอร์เฟซ IShape
+คืนค่ารูปทรงแม่หรือ None หากวัตถุแม่ไม่ได้ทำตามอินเทอร์เฟซ IShape
             อ่านอย่างเดียว [`IShape`](/slides/python-net/th/aspose.slides/ishape).
 
-### คำนิยาม:
+### การกำหนด:
 ```python
 @property
 def parent_shape(self):

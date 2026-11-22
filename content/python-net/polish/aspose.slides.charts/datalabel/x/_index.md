@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides dla Pythona poprzez .NET - dokumentacja API
+second_title: Aspose.Slides dla Pythona via .NET Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x właściwość
 Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu.

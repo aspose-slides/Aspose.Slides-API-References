@@ -4,10 +4,10 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอ�
 description: 
 type: docs
 url: /th/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data คุณสมบัติ
-ส่งคืนข้อมูลกำหนดเองของงานนำเสนอ.
+ส่งคืนข้อมูลที่กำหนดเองของงานนำเสนอ.
             อ่านอย่างเดียว [`ICustomData`](/slides/python-net/th/aspose.slides/icustomdata).
 
 ### คำนิยาม:
@@ -16,7 +16,6 @@ weight: 160
 def custom_data(self):
     ...
 ```
-
 
 
 ### ดูเพิ่มเติม

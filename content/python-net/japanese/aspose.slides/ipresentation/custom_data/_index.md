@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/custom_data/
-weight: 150
+weight: 160
 ---
 ## custom_data プロパティ
-プレゼンテーションのカスタム データを返します。
+Returns the presentation's custom data.
             読み取り専用 [`ICustomData`](/slides/python-net/ja/aspose.slides/icustomdata).
 
 ### 定義:

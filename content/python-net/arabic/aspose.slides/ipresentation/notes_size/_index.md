@@ -1,13 +1,13 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
-## notes_size خاصية
-يُرجع كائن حجم شريحة الملاحظات.
+## خاصية notes_size
+يرجع كائن حجم شريحة الملاحظات.
             قراءة فقط [`INotesSize`](/slides/python-net/ar/aspose.slides/inotessize).
 
 ### التعريف:
@@ -18,7 +18,7 @@ def notes_size(self):
 ```
 
 
-### انظر أيضًا
+### انظر أيضا
 * فئة [`INotesSize`](/slides/python-net/ar/aspose.slides/inotessize)
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)

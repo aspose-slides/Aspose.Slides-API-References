@@ -1,19 +1,21 @@
 ---
 title: x property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x proprietà
 Ottiene o imposta la coordinata x dell'angolo superiore sinistro della forma, misurata in punti.
             Lettura/scrittura **float**.
 
+
 ### Osservazioni
 
 Il valore restituito è sempre definito e mai **float**.
             Il valore assegnato deve essere anch'esso definito; assegnare **float** solo alle proprietà di un'istanza `RawFrame`.
+
 
 ### Definizione:
 ```python
@@ -25,6 +27,7 @@ def x(self):
 def x(self, value):
     ...
 ```
+
 
 ### Vedi anche
 * classe [`VideoFrame`](/slides/python-net/it/aspose.slides/videoframe)

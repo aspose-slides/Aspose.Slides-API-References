@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path プロパティ
-チャートのデータ ソースを表します
+チャートのデータソースを表します
 
 ### 定義:
 ```python
@@ -15,7 +15,6 @@ weight: 110
 def external_workbook_path(self):
     ...
 ```
-
 
 
 ### 参照

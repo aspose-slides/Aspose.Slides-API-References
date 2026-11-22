@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
 ## Text-Eigenschaft
-Liest oder setzt den unformatierten Text für ein TextFrame.
-            Lesen/Schreiben **str**.
+Liest oder setzt den einfachen Text für ein TextFrame.
+            Read/write **str**.
 
 ### Definition:
 ```python

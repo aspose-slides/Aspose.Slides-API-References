@@ -1,13 +1,13 @@
 ---
 title: save method
-second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API Referencia
+second_title: Aspose.Slides a Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/save/
-weight: 90
+weight: 100
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
-Ment minden diát egy prezentációból egy sor fájlba, amely XAML jelölőnyelvet képvisel.
+A prezentáció összes diáját XAML jelölőnyelvet reprezentáló fájlok halmazába menti.
 
 
 ```python
@@ -18,11 +18,11 @@ def save(self, options):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/hu/aspose.slides.export.xaml/ixamloptions) | A XAML formátum beállításai. |
+| options | [`IXamlOptions`](/slides/python-net/hu/aspose.slides.export.xaml/ixamloptions) | Az XAML formátum beállításai. |
 
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
-Ment minden diát egy prezentációból egy megadott formátumú fájlba.
+A prezentáció összes diáját a megadott formátummal egy fájlba menti.
 
 
 ```python
@@ -33,12 +33,12 @@ def save(self, fname, format):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| fname | **str** | Az elkészített fájl elérési útja. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| fname | **str** | A létrehozandó fájl elérési útja. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 
 
 ## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
-Ment minden diát egy prezentációból egy adatfolyamra a megadott formátumban.
+A prezentáció összes diáját a megadott formátumban egy adatfolyamba menti.
 
 
 ```python
@@ -50,10 +50,11 @@ def save(self, stream, format):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Kimeneti adatfolyam. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 
 
 ## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+
 
 
 ```python
@@ -70,7 +71,7 @@ def save(self, fname, format, options):
 
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Ment minden diát egy prezentációból egy adatfolyamra a megadott formátumban és további beállításokkal.
+A prezentáció összes diáját a megadott formátumban és további beállításokkal egy adatfolyamba menti.
 
 
 ```python
@@ -82,18 +83,18 @@ def save(self, stream, format, options):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Kimeneti adatfolyam. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 | options | [`ISaveOptions`](/slides/python-net/hu/aspose.slides.export/isaveoptions) | További formátumbeállítások. |
 
 ### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Ha megpróbál titkosított fájlt menteni egy nem Office 2007-2010 formátumba. |
+| **RuntimeError(Proxy error(NotSupportedException))** | Ha titkosított fájlt próbál menteni a <br/>            nem Office 2007-2010 formátumban. |
 
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
-Ment egy prezentáció megadott diáit egy fájlba a megadott formátummal, megtartva az oldalszámot.
+A megadott diákot a prezentációból egy fájlba menti a megadott formátummal, az oldalszámok megtartásával.
 
 
 ```python
@@ -104,21 +105,21 @@ def save(self, fname, slides, format):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| fname | **str** | Az elkészített fájl elérési útja. |
-| slides | **List[int]** | A diák pozícióit (1-től) tartalmazó tömb. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| fname | **str** | A létrehozandó fájl elérési útja. |
+| slides | **List[int]** | Diák pozícióit tartalmazó tömb, 1-től kezdve. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 
 ### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Ha a stream vagy slides paraméter None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ha a slides paraméter hibás oldal számokat tartalmaz. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Ha nem támogatott SaveFormat kerül felhasználásra, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Ha a stream vagy a slides paraméter None. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ha a slides paraméter hibás oldalszámokat tartalmaz. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Ha nem támogatott SaveFormat van használva, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Ment egy prezentáció megadott diáit egy adatfolyamra a megadott formátumban, megtartva az oldalszámot.
+A megadott diákot a prezentációból egy adatfolyamba menti a megadott formátummal, az oldalszámok megtartásával.
 
 
 ```python
@@ -130,12 +131,12 @@ def save(self, stream, slides, format):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Kimeneti adatfolyam. |
-| slides | **List[int]** | A diák pozícióit (1-től) tartalmazó tömb. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| slides | **List[int]** | Diák pozícióit tartalmazó tömb, 1-től kezdve. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Ment egy prezentáció megadott diáit egy fájlba a megadott formátummal, megtartva az oldalszámot.
+A megadott diákot a prezentációból egy fájlba menti a megadott formátummal, az oldalszámok megtartásával.
 
 
 ```python
@@ -146,14 +147,14 @@ def save(self, fname, slides, format, options):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| fname | **str** | Az elkészített fájl elérési útja. |
-| slides | **List[int]** | A diák pozícióit (1-től) tartalmazó tömb. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| fname | **str** | A létrehozandó fájl elérési útja. |
+| slides | **List[int]** | Diák pozícióit tartalmazó tömb, 1-től kezdve. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 | options | [`ISaveOptions`](/slides/python-net/hu/aspose.slides.export/isaveoptions) | További formátumbeállítások. |
 
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Ment egy prezentáció megadott diáit egy adatfolyamra a megadott formátumban, megtartva az oldalszámot.
+A megadott diákot a prezentációból egy adatfolyamba menti a megadott formátummal, az oldalszámok megtartásával.
 
 
 ```python
@@ -165,17 +166,17 @@ def save(self, stream, slides, format, options):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Kimeneti adatfolyam. |
-| slides | **List[int]** | A diák pozícióit (1-től) tartalmazó tömb. |
-| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adatok formátuma. |
+| slides | **List[int]** | Diák pozícióit tartalmazó tömb, 1-től kezdve. |
+| format | [`SaveFormat`](/slides/python-net/hu/aspose.slides.export/saveformat) | Az exportált adat formátuma. |
 | options | [`ISaveOptions`](/slides/python-net/hu/aspose.slides.export/isaveoptions) | További formátumbeállítások. |
 
 ### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Ha a stream vagy slides paraméter None. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ha a slides paraméter hibás oldal számokat tartalmaz. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Ha nem támogatott SaveFormat kerül felhasználásra, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Ha a stream vagy a slides paraméter None. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ha a slides paraméter hibás oldalszámokat tartalmaz. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Ha nem támogatott SaveFormat van használva, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 

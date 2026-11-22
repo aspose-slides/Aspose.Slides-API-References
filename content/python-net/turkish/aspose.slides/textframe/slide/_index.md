@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## slide özelliği
-Bir TextFrame'in üst slide'ını döndürür.
-            Salt-okunur [`IBaseSlide`](/slides/python-net/tr/aspose.slides/ibaseslide).
+## slayt özelliği
+TextFrame'in üst slaytını döndürür.
+            Yalnızca okunabilir [`IBaseSlide`](/slides/python-net/tr/aspose.slides/ibaseslide).
 
 ### Tanım:
 ```python

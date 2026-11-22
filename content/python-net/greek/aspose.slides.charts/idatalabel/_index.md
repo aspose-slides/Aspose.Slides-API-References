@@ -1,23 +1,24 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel κλάση
 
-Αντιπροσωπεύει τις ετικέτες σειράς.
+Αναπαριστά ετικέτες σειράς.
 
-Ο τύπος IDataLabel εκθέτει τα ακόλουθα μέλη:
+Ο τύπος IDataLabel εκθέτει τα παρακάτω μέλη:
 
 ## Ιδιότητες
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`is_visible`](/slides/python-net/el/aspose.slides.charts/idatalabel/is_visible/) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι Show*-flags (ShowValue, ...) είναι false).<br/>            Μόνο-ανάγνωση **bool**. |
-| [`data_label_format`](/slides/python-net/el/aspose.slides.charts/idatalabel/data_label_format/) | Επιστρέφει τη μορφή της ετικέτας δεδομένων.<br/>            Μόνο-ανάγνωση [`IDataLabelFormat`](/slides/python-net/el/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/el/aspose.slides.charts/idatalabel/value_from_cell/) | Λαμβάνει ή ορίζει το κελί δεδομένων του φύλλου εργασίας. Εφαρμόζεται εάν IDataLabelFormat.ShowLabelValueFromCell είναι true. |
+| [`is_visible`](/slides/python-net/el/aspose.slides.charts/idatalabel/is_visible/) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι σημαίες Show*- (ShowValue, ...) είναι false).<br/>            Μόνο για ανάγνωση **bool**. |
+| [`data_label_format`](/slides/python-net/el/aspose.slides.charts/idatalabel/data_label_format/) | Επιστρέφει τη μορφή της ετικέτας δεδομένων.<br/>            Μόνο για ανάγνωση [`IDataLabelFormat`](/slides/python-net/el/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/el/aspose.slides.charts/idatalabel/value_from_cell/) | Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true. |
+| [`label_shape_type`](/slides/python-net/el/aspose.slides.charts/idatalabel/label_shape_type/) | Λαμβάνει ή ορίζει τον τύπο σχήματος της ετικέτας δεδομένων.<br/>             Επιστρέφει [`ShapeType.NOT_DEFINED`](/slides/python-net/el/aspose.slides/shapetype/NOT_DEFINED) εάν δεν έχει οριστεί σχήμα. |
 | [`x`](/slides/python-net/el/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/el/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/el/aspose.slides.charts/idatalabel/width/) |  |
@@ -38,10 +39,9 @@ url: /el/aspose.slides.charts/idatalabel/
 
 | Μέθοδος | Περιγραφή |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/el/aspose.slides.charts/idatalabel/hide/#) | Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις Show*-flags (ShowValue, ...) σε κατάσταση false.<br/>            IsVisible θα είναι false μετά από αυτό. |
+| [`hide(self)`](/slides/python-net/el/aspose.slides.charts/idatalabel/hide/#) | Κάνει την ετικέτα δεδομένων κρυμμένη ορίζοντας όλες τις σημαίες Show*- (ShowValue, ...) σε κατάσταση false.<br/>            Το IsVisible θα είναι false μετά από αυτό. |
 | [`get_actual_label_text(self)`](/slides/python-net/el/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Επιστρέφει το πραγματικό κείμενο της ετικέτας βάσει των ρυθμίσεων DataLabelFormat ή της τιμής TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/el/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
-
 
 ### Δείτε επίσης
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)

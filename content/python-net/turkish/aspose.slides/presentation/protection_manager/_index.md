@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager özelliği
 Bu sunum için izinlerin yöneticisini alır.
-            Yalnızca okuma [`IProtectionManager`](/slides/python-net/tr/aspose.slides/iprotectionmanager).
+            Yalnızca okunabilir [`IProtectionManager`](/slides/python-net/tr/aspose.slides/iprotectionmanager).
 
 ### Tanım:
 ```python

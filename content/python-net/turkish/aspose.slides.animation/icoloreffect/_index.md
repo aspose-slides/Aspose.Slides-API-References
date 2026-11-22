@@ -15,16 +15,16 @@ IColorEffect türü aşağıdaki üyeleri sunar:
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`from_address`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/from_address/) | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır.<br/>            Okunur/yazılır [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
-| [`to`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/to/) | Animasyon renk değişimi için ortaya çıkan rengi tanımlar.<br/>            Okunur/yazılır [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
-| [`by`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/by/) | Renk animasyonu için göreceli offset değerini tanımlar.<br/>            Okunur/yazılır [`IColorOffset`](/slides/python-net/tr/aspose.slides.animation/icoloroffset). |
-| [`color_space`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/color_space/) | Davranışın renk uzayını temsil eder.<br/>            Okunur/yazılır [`IColorEffect.color_space`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/color_space). |
-| [`direction`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/direction/) | Renk çarkı etrafında tonu hangi yönde döndüreceğini belirtir.<br/>            Okunur/yazılır [`ColorDirection`](/slides/python-net/tr/aspose.slides.animation/colordirection). |
+| [`from_`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/from_/) | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır.<br/>            Okunur/Yazılır [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
+| [`to`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/to/) | Animasyon renk değişikliği için oluşan rengi tanımlar.<br/>            Okunur/Yazılır [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
+| [`by`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/by/) | Renk animasyonu için göreceli ofset değerini tanımlar.<br/>            Okunur/Yazılır [`IColorOffset`](/slides/python-net/tr/aspose.slides.animation/icoloroffset). |
+| [`color_space`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/color_space/) | Davranışın renk uzayını temsil eder.<br/>            Okunur/Yazılır [`IColorEffect.color_space`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/color_space). |
+| [`direction`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/direction/) | Renk çarkı etrafında tonu hangi yönde döndüreceğini belirtir.<br/>            Okunur/Yazılır [`ColorDirection`](/slides/python-net/tr/aspose.slides.animation/colordirection). |
 | [`accumulate`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/accumulate/) |  |
 | [`additive`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/additive/) |  |
 | [`properties`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/properties/) |  |
 | [`timing`](/slides/python-net/tr/aspose.slides.animation/icoloreffect/timing/) |  |
 
-### Ayrıca Bakınız
+### İlgili
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Aspose.Slides Python용 .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides 속성
-Returns a list of all slides that are defined in the presentation.
-읽기 전용 [`ISlideCollection`](/ko/slides/python-net/aspose.slides/islidecollection).
+프레젠테이션에 정의된 모든 slides의 목록을 반환합니다.
+            읽기 전용 [`ISlideCollection`](/ko/slides/python-net/aspose.slides/islidecollection).
 
 ### 정의:
 ```python
@@ -18,7 +18,7 @@ def slides(self):
 ```
 
 
-### 또한 보기
+### 참고
 * 클래스 [`ISlideCollection`](/slides/python-net/ko/aspose.slides/islidecollection)
 * 클래스 [`Presentation`](/slides/python-net/ko/aspose.slides/presentation)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)

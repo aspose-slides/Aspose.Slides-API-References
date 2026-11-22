@@ -1,13 +1,13 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides for Python via .NET API Referenciája
+second_title: Aspose.Slides Python számára .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs tulajdonság
-Visszaadja a keretben található összes paragraphs listáját.
+Visszaadja a keretben lévő összes paragraphs listáját.
             Csak olvasható [`IParagraphCollection`](/slides/python-net/hu/aspose.slides/iparagraphcollection).
 
 ### Definíció:

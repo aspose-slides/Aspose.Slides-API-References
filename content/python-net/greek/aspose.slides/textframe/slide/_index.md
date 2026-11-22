@@ -1,14 +1,14 @@
 ---
 title: slide property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## ιδιότητα slide
-Επιστρέφει τη γονική διαφάνεια ενός TextFrame.
-            Μόνο-ανάγνωση [`IBaseSlide`](/slides/python-net/el/aspose.slides/ibaseslide).
+Επιστρέφει τη γονική διαφάνεια του TextFrame.
+            Μόνο για ανάγνωση [`IBaseSlide`](/slides/python-net/el/aspose.slides/ibaseslide).
 
 ### Ορισμός:
 ```python
@@ -16,6 +16,7 @@ weight: 140
 def slide(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`IBaseSlide`](/slides/python-net/el/aspose.slides/ibaseslide)

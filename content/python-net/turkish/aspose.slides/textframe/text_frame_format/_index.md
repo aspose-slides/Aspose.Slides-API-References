@@ -1,14 +1,14 @@
 ---
 title: text_frame_format property
-second_title: Aspose.Slides için Python via .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/textframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format özelliği
 Bu TextFrame nesnesi için biçimlendirme nesnesini döndürür.
-            Yalnızca okuma [`ITextFrameFormat`](/slides/python-net/tr/aspose.slides/itextframeformat).
+            Salt okunur [`ITextFrameFormat`](/slides/python-net/tr/aspose.slides/itextframeformat).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def text_frame_format(self):
 ```
 
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 * sınıf [`ITextFrameFormat`](/slides/python-net/tr/aspose.slides/itextframeformat)
 * sınıf [`TextFrame`](/slides/python-net/tr/aspose.slides/textframe)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

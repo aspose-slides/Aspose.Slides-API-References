@@ -1,13 +1,13 @@
 ---
 title: masters property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Python számára .NET API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters tulajdonság
-Visszaad egy listát az összes mester diáról, amely a prezentációban definiálva van.
+Visszaad egy listát a bemutatóban definiált összes mesterdiáról.
             Csak olvasható [`IMasterSlideCollection`](/slides/python-net/hu/aspose.slides/imasterslidecollection).
 
 ### Definíció:

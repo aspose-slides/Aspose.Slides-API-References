@@ -1,13 +1,13 @@
 ---
 title: x property
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Python számára .NET API Reference
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
 ## x tulajdonság
-### Meghatározás:
+### Definíció:
 ```python
 @property
 def x(self):

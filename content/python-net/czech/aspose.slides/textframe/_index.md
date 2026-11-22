@@ -1,19 +1,19 @@
 ---
 title: TextFrame class
-second_title: Aspose.Slides pro Python přes .NET API
+second_title: Aspose.Slides pro Python přes .NET referenci API
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/
 ---
 ## TextFrame třída
 
-Representuje TextFrame.
+Představuje TextFrame.
 
-Typ TextFrame zpřístupňuje následující členy:
+Typ TextFrame obsahuje následující členy:
 
 ## Vlastnosti
 
-| Property | Description |
+| Vlastnost | Popis |
 | :- | :- |
 | [`paragraphs`](/slides/python-net/cs/aspose.slides/textframe/paragraphs/) | Vrací seznam všech odstavců v rámci.<br/>            Pouze pro čtení [`IParagraphCollection`](/slides/python-net/cs/aspose.slides/iparagraphcollection). |
 | [`text`](/slides/python-net/cs/aspose.slides/textframe/text/) | Získá nebo nastaví prostý text pro TextFrame.<br/>            Čtení/zápis **str**. |
@@ -26,18 +26,18 @@ Typ TextFrame zpřístupňuje následující členy:
 
 ## Metody
 
-| Method | Description |
+| Metoda | Popis |
 | :- | :- |
-| [`highlight_text(self, text, highlight_color)`](/slides/python-net/cs/aspose.slides/textframe/highlight_text/#str-asposeslidescolor) | Zvýrazní všechny výskyty vzorového textu zadanou barvou. |
-| [`highlight_text(self, text, highlight_color, options)`](/slides/python-net/cs/aspose.slides/textframe/highlight_text/#str-asposeslidescolor-itexthighlightingoptions) | Zvýrazní všechny výskyty vzorového textu zadanou barvou. |
-| [`highlight_text(self, text, highlight_color, options, callback)`](/slides/python-net/cs/aspose.slides/textframe/highlight_text/#str-asposeslidescolor-itextsearchoptions-ifindresultcallback) | Zvýrazní všechny výskyty vzorového textu zadanou barvou. |
-| [`highlight_regex(self, regex, highlight_color, options)`](/slides/python-net/cs/aspose.slides/textframe/highlight_regex/#str-asposeslidescolor-itexthighlightingoptions) | Zvýrazní všechny výskyty regulárního výrazu zadanou barvou. |
-| [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/cs/aspose.slides/textframe/highlight_regex/#str-asposeslidescolor) | Zvýrazní všechny výskyty regulárního výrazu zadanou barvou. |
-| [`join_portions_with_same_formatting(self)`](/slides/python-net/cs/aspose.slides/textframe/join_portions_with_same_formatting/#) | Spojí úseky se stejným formátováním ve všech odstavcích. |
-| [`split_text_by_columns(self)`](/slides/python-net/cs/aspose.slides/textframe/split_text_by_columns/#) | Rozdělí textový obsah [`ITextFrame`](/slides/python-net/cs/aspose.slides/itextframe) do pole řetězců, <br/>            kde každý prvek odpovídá samostatnému sloupci textu v rámci. |
+| [`highlight_text(self, text, highlight_color)`](/slides/python-net/cs/aspose.slides/textframe/highlight_text/#str-asposeslidescolor) | Zvýrazní všechny shody ukázkového textu zadanou barvou. |
+| [`highlight_text(self, text, highlight_color, options)`](/slides/python-net/cs/aspose.slides/textframe/highlight_text/#str-asposeslidescolor-itexthighlightingoptions) | Zvýrazní všechny shody ukázkového textu zadanou barvou. |
+| [`highlight_text(self, text, highlight_color, options, callback)`](/slides/python-net/cs/aspose.slides/textframe/highlight_text/#str-asposeslidescolor-itextsearchoptions-ifindresultcallback) | Zvýrazní všechny shody ukázkového textu zadanou barvou. |
+| [`highlight_regex(self, regex, highlight_color, options)`](/slides/python-net/cs/aspose.slides/textframe/highlight_regex/#str-asposeslidescolor-itexthighlightingoptions) | Zvýrazní všechny shody regulárního výrazu zadanou barvou. |
+| [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/cs/aspose.slides/textframe/highlight_regex/#str-asposeslidescolor) | Zvýrazní všechny shody regulárního výrazu zadanou barvou. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/cs/aspose.slides/textframe/join_portions_with_same_formatting/#) | Spojí běhy se stejným formátováním ve všech odstavcích. |
+| [`split_text_by_columns(self)`](/slides/python-net/cs/aspose.slides/textframe/split_text_by_columns/#) | Rozdělí textový obsah [`ITextFrame`](/slides/python-net/cs/aspose.slides/itextframe) do pole řetězců, <br/>            kde každý prvek odpovídá samostatnému textovému sloupci v rámci. |
 | [`replace_text(self, old_text, new_text, options, callback)`](/slides/python-net/cs/aspose.slides/textframe/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Nahradí všechny výskyty zadaného textu jiným zadaným textem. |
-| [`replace_regex(self, regex, new_text)`](/slides/python-net/cs/aspose.slides/textframe/replace_regex/#str-str) | Nahradí všechny výskyty regulárního výrazu zadaným řetězcem. |
-
+| [`replace_regex(self, regex, new_text)`](/slides/python-net/cs/aspose.slides/textframe/replace_regex/#str-str) | Nahradí všechny shody regulárního výrazu zadaným řetězcem. |
+| [`get_text_rect(self)`](/slides/python-net/cs/aspose.slides/textframe/get_text_rect/#) | Získá textový obdélník definovaný geometrií nadřazeného tvaru. |
 
 ### Viz také
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)

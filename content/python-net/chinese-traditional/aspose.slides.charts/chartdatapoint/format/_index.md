@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## 格式屬性
+## format 屬性
 表示格式設定屬性。
             讀/寫 [`IFormat`](/slides/python-net/zh-hant/aspose.slides.charts/iformat).
 
-### 定義:
+### 定義：
 ```python
 @property
 def format(self):

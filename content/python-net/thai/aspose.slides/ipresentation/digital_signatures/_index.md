@@ -1,16 +1,16 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures คุณสมบัติ
-Returns the collection of signatures used to sign the presentation.
+ส่งคืนคอลเลกชันของลายเซ็นที่ใช้เพื่อเซ็นงานนำเสนอ.
             อ่านอย่างเดียว [`IDigitalSignatureCollection`](/slides/python-net/th/aspose.slides/idigitalsignaturecollection).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def digital_signatures(self):

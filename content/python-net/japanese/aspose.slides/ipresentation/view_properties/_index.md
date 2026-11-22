@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties プロパティ
 プレゼンテーション全体のビュー プロパティを取得します。
@@ -22,4 +22,4 @@ def view_properties(self):
 * クラス [`IPresentation`](/slides/python-net/ja/aspose.slides/ipresentation)
 * クラス [`IViewProperties`](/slides/python-net/ja/aspose.slides/iviewproperties)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

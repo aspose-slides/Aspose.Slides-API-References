@@ -1,14 +1,14 @@
 ---
 title: header_footer_manager property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/header_footer_manager/
-weight: 220
+weight: 230
 ---
 ## header_footer_manager vlastnost
-Vrací aktuální správce HeaderFooter.
-Pouze pro čtení [`IPresentationHeaderFooterManager`](/slides/python-net/cs/aspose.slides/ipresentationheaderfootermanager).
+Returns actual HeaderFooter manager.
+            Pouze pro čtení [`IPresentationHeaderFooterManager`](/slides/python-net/cs/aspose.slides/ipresentationheaderfootermanager).
 
 ### Definice:
 ```python
@@ -16,6 +16,7 @@ Pouze pro čtení [`IPresentationHeaderFooterManager`](/slides/python-net/cs/asp
 def header_footer_manager(self):
     ...
 ```
+
 
 ### Viz také
 * třída [`IPresentationHeaderFooterManager`](/slides/python-net/cs/aspose.slides/ipresentationheaderfootermanager)

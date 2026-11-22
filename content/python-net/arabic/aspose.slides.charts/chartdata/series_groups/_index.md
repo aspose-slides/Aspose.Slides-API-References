@@ -1,30 +1,24 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides للغة Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups خاصية
 يحصل على مجموعات السلاسل.
-            للقراءة فقط [`IChartSeriesGroupCollection`](/slides/python-net/ar/aspose.slides.charts/ichartseriesgroupcollection).
-
+قراءة فقط [`IChartSeriesGroupCollection`](/slides/python-net/ar/aspose.slides.charts/ichartseriesgroupcollection).
 
 ### ملاحظات
 
-1) كل مجموعة من السلاسل تحتوي على سلاسل ذات أنواع يمكن دمجها. مجموعات 
-            أنواع السلاسل القابلة للدمج معرفة ومُوصَفة باستخدام تعداد CombinableSeriesTypesGroup 
-            enum.
-            كما أن كل مجموعة من السلاسل تحتوي على سلاسل تُرسم سواء 
-            على المحاور الأولية أو على المحاور الثانوية (ليس كلا الحالتين في مجموعة واحدة).
-            لذا، مبدأ تجميع السلاسل هو التجميع حسب مجموعات الأنواع المذكورة 
-            أعلاه وحسب نوع الرسم الأساسي/الثانوي.
-            
-2) مجموعة السلاسل تحتوي على بعض خصائص السلاسل التي هي مشتركة لكل 
-            سلسلة في المجموعة ("خصائص مجموعة السلسلة").
-            "خصائص مجموعة السلسلة" في الفئة ChartSeriesGroup هي قراءة/كتابة.
-            كل من "خصائص مجموعة السلسلة" يمكن أن يكون لها إسقاط للقراءة فقط في الفئة ChartSeries.
+1) كل مجموعة من السلاسل تحتوي على سلاسل بأنواع يمكن دمجها. يتم تعريف مجموعات أنواع السلاسل القابلة للدمج ووصفها باستخدام تعداد CombinableSeriesTypesGroup.
+            أيضًا كل مجموعة من السلاسل تحتوي على سلاسل يتم رسمها إما على المحاور الرئيسية أو على المحاور الثانوية (ليس كليهما في مجموعة واحدة).
+            لذلك، مبدأ تجميع السلاسل هو التجميع بحسب مجموعات الأنواع المذكورة أعلاه وبحسب نوع الرسم الرئيسي/الثانوي.
+
+2) مجموعة السلاسل تحتوي على بعض خصائص السلسلة التي تكون مشتركة لكل سلسلة في المجموعة ("Series group properties").
+            "Series group properties" في الفئة ChartSeriesGroup هي قراءة/كتابة.
+            كل واحدة من "Series group properties" يمكن أن يكون لها تمثيل قراءة فقط في الفئة ChartSeries.
 
 ### التعريف:
 ```python
@@ -33,9 +27,8 @@ def series_groups(self):
     ...
 ```
 
-
 ### انظر أيضًا
-* الفئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
-* الفئة [`IChartSeriesGroupCollection`](/slides/python-net/ar/aspose.slides.charts/ichartseriesgroupcollection)
-* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
+* فئة [`IChartSeriesGroupCollection`](/slides/python-net/ar/aspose.slides.charts/ichartseriesgroupcollection)
+* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## خاصية النص
-يحصل أو يعيّن النص العادي لإطار النص TextFrame.
-قراءة/كتابة **str**.
+يحصل أو يضبط النص العادي لـ TextFrame.
+            قراءة/كتابة **str**.
 
 ### التعريف:
 ```python
@@ -21,7 +21,8 @@ def text(self, value):
     ...
 ```
 
-### انظر أيضا
+
+### انظر أيضاً
 * فئة [`TextFrame`](/slides/python-net/ar/aspose.slides/textframe)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

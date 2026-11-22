@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: Aspose.Slides للبايثون عبر .NET – مرجع API
+second_title: مرجع API لـ Aspose.Slides للغة بايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
 ## خاصية القيمة
-إذا UseCell هو true فإن هذه الخاصية تمثل خاصية AsCell.Value.
-            إذا UseCell هو false فإن هذه الخاصية تمثل خاصية AsLiteral.
+إذا كان UseCell صحيحًا فإن هذه الخاصية تمثل خاصية AsCell.Value.
+            إذا كان UseCell خطأً فإن هذه الخاصية تمثل خاصية AsLiteral.
             قراءة/كتابة **أي**.
 
 ### التعريف:

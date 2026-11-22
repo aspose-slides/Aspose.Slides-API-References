@@ -1,15 +1,14 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides a Pythonhoz a .NET API referenciája
+second_title: Aspose.Slides a Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type tulajdonság
 Lekéri a beágyazott munkafüzet típusát.
-            Visszaadja [`WorkbookType.NOT_DEFINED`](/slides/python-net/hu/aspose.slides.charts/workbooktype/NOT_DEFINED) ha [`ChartData.data_source_type`](/slides/python-net/hu/aspose.slides.charts/chartdata/data_source_type) 
-            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/hu/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
+            Visszatér [`WorkbookType.NOT_DEFINED`](/slides/python-net/hu/aspose.slides.charts/workbooktype/NOT_DEFINED) ha [`ChartData.data_source_type`](/slides/python-net/hu/aspose.slides.charts/chartdata/data_source_type) [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/hu/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
             Csak olvasható [`WorkbookType`](/slides/python-net/hu/aspose.slides.charts/workbooktype).
 
 ### Definíció:

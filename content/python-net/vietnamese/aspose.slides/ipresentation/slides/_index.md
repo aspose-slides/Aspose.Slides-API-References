@@ -1,14 +1,14 @@
 ---
 title: slides property
-second_title: Tham chiếu API .NET qua Python cho Aspose.Slides
-description:
+second_title: Aspose.Slides cho Python qua .NET API Reference
+description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides thuộc tính
 Trả về một danh sách các slide được định nghĩa trong bản trình bày.
-Chỉ đọc [`ISlideCollection`](/vi/slides/python-net/aspose.slides/islidecollection).
+            Chỉ đọc [`ISlideCollection`](/vi/slides/python-net/aspose.slides/islidecollection).
 
 ### Định nghĩa:
 ```python
@@ -21,5 +21,5 @@ def slides(self):
 ### Xem thêm
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
 * lớp [`ISlideCollection`](/slides/python-net/vi/aspose.slides/islidecollection)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

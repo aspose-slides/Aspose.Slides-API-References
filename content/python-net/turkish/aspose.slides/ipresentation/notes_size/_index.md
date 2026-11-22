@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size özelliği
-Returns notes slide size object.
-            Yalnızca okunabilir [`INotesSize`](/slides/python-net/tr/aspose.slides/inotessize).
+Not slaytı boyut nesnesini döndürür.
+            Salt okunur [`INotesSize`](/slides/python-net/tr/aspose.slides/inotessize).
 
 ### Tanım:
 ```python

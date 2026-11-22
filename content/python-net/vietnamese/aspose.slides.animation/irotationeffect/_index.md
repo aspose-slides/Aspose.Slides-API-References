@@ -1,21 +1,21 @@
 ---
 title: IRotationEffect class
-second_title: Tham chiếu API .NET cho Aspose.Slides cho Python
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect lớp
 
-Biểu diễn hành vi quay của hiệu ứng.
+Biểu thị hành vi xoay của hiệu ứng.
 
-Kiểu IRotationEffect công khai các thành viên sau:
+Kiểu IRotationEffect cung cấp các thành viên sau:
 
 ## Thuộc tính
 
-| Property | Description |
+| Thuộc tính | Mô tả |
 | :- | :- |
-| [`from_address`](/slides/python-net/vi/aspose.slides.animation/irotationeffect/from_address/) | Mô tả giá trị bắt đầu cho hoạt ảnh.<br/>            Đọc/ghi **float**. |
+| [`from_`](/slides/python-net/vi/aspose.slides.animation/irotationeffect/from_/) | Mô tả giá trị bắt đầu cho hoạt ảnh.<br/>            Đọc/ghi **float**. |
 | [`to`](/slides/python-net/vi/aspose.slides.animation/irotationeffect/to/) | Mô tả giá trị kết thúc cho hoạt ảnh.<br/>            Đọc/ghi **float**. |
 | [`by`](/slides/python-net/vi/aspose.slides.animation/irotationeffect/by/) | Mô tả giá trị offset tương đối cho hoạt ảnh.<br/>            Đọc/ghi **float**. |
 | [`accumulate`](/slides/python-net/vi/aspose.slides.animation/irotationeffect/accumulate/) |  |

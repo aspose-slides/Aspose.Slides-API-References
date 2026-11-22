@@ -1,29 +1,20 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides dla Pythona poprzez .NET Referencję API
+second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups właściwość
-Zwraca grupy serii.
+Pobiera grupy serii.
 Tylko do odczytu [`IChartSeriesGroupCollection`](/slides/python-net/pl/aspose.slides.charts/ichartseriesgroupcollection).
 
 ### Uwagi
 
-1) Każda grupa serii zawiera serie o łączonych typach. Grupy 
-            łączonych typów serii definiowane i opisywane przy pomocy wyliczenia CombinableSeriesTypesGroup 
-            enum.
-            Ponadto każda grupa serii zawiera serie, które są rysowane albo 
-            na osiach pierwotnych, albo na osiach wtórnych (nie oba przypadki w jednej grupie).
-            Zatem zasada grupowania serii polega na grupowaniu według grup typów wymienionych 
-            powyżej oraz według typu rysowania pierwotny/wtórny.
+1) Każda grupa serii zawiera serie o typach łączonych. Grupy typów łączonych serii są zdefiniowane i opisane przy użyciu wyliczenia CombinableSeriesTypesGroup. Ponadto każda grupa serii zawiera serie, które są rysowane albo na osi głównej, albo na osi pomocniczej (nie oba przypadki w jednej grupie). Zasada grupowania serii polega więc na grupowaniu wg wymienionych wyżej grup typów oraz wg typu rysowania na osi głównej/pomocniczej.
 
-            2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla 
-            każdej serii w grupie ("Series group properties").
-            "Series group properties" w klasie ChartSeriesGroup jest odczyt/zapis.
-            Każda z "Series group properties" może mieć projekcję tylko do odczytu w klasie ChartSeries.
+2) Grupa serii zawiera pewne właściwości serii, które są wspólne dla każdej serii w grupie („właściwości grupy serii”). „Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis. Każda z „właściwości grupy serii” może mieć projekcję tylko do odczytu w klasie ChartSeries.
 
 ### Definicja:
 ```python

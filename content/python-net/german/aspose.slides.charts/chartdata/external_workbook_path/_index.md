@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path Eigenschaft
-Stellt die Datenquelle des chart dar
+Stellt die Datenquelle des Diagramms dar
 
 ### Definition:
 ```python
@@ -15,6 +15,7 @@ Stellt die Datenquelle des chart dar
 def external_workbook_path(self):
     ...
 ```
+
 
 ### Siehe auch
 * Klasse [`ChartData`](/slides/python-net/de/aspose.slides.charts/chartdata)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook propriedade
 Obtém a fábrica de células para criar células usadas em séries ou categorias de gráfico.
@@ -18,7 +18,7 @@ def chart_data_workbook(self):
 ```
 
 
-### Ver também
+### Veja Também
 * classe [`IChartData`](/slides/python-net/pt/aspose.slides.charts/ichartdata)
 * classe [`IChartDataWorkbook`](/slides/python-net/pt/aspose.slides.charts/ichartdataworkbook)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)

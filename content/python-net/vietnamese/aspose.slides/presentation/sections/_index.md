@@ -4,11 +4,11 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
-## Thuộc tính sections
-Trả về danh sách tất cả các phần slide được định nghĩa trong bản trình chiếu.
-            Read-only [`ISectionCollection`](/slides/python-net/vi/aspose.slides/isectioncollection).
+## sections thuộc tính
+Returns a list of all slides sections that are defined in the presentation.
+            Chỉ đọc [`ISectionCollection`](/slides/python-net/vi/aspose.slides/isectioncollection).
 
 ### Định nghĩa:
 ```python
@@ -18,8 +18,8 @@ def sections(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`ISectionCollection`](/slides/python-net/vi/aspose.slides/isectioncollection)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

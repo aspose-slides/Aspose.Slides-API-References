@@ -1,14 +1,14 @@
 ---
 title: invert_if_negative property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative คุณสมบัติ
-ระบุว่าจุดข้อมูลจะต้องกลับสีของมันหากค่าติดลบ.
-อ่าน/เขียน **bool**.
+ระบุว่าจุดข้อมูลจะต้องกลับสีหากค่ามีค่าเป็นลบ.
+            อ่าน/เขียน **bool**.
 
 ### คำนิยาม:
 ```python
@@ -20,6 +20,7 @@ def invert_if_negative(self):
 def invert_if_negative(self, value):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`ChartDataPoint`](/slides/python-net/th/aspose.slides.charts/chartdatapoint)

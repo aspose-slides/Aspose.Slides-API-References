@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides dla Pythona – dokumentacja API .NET
+second_title: Aspose.Slides dla Pythona przy użyciu .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
-## value właściwość
-Jeśli UseCell jest true, to ta właściwość reprezentuje właściwość AsCell.Value.
-            Jeśli UseCell jest false, to ta właściwość reprezentuje właściwość AsLiteral.
-            Odczyt/zapis **dowolny**.
+## wartość właściwość
+If UseCell is true then this property represents AsCell.Value property.
+            Jeśli UseCell jest true wtedy ta właściwość reprezentuje AsCell.Value właściwość.
+            Odczyt/zapis **dowolne**.
 
 ### Definicja:
 ```python
@@ -21,7 +21,6 @@ def value(self):
 def value(self, value):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`IChartCategory`](/slides/python-net/pl/aspose.slides.charts/ichartcategory)

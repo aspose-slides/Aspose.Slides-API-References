@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides dla Pythona przy użyciu .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path właściwość
-Reprezentuje zewnętrzną ścieżkę skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie None
+Reprezentuje ścieżkę zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie None
 
 ### Definicja:
 ```python

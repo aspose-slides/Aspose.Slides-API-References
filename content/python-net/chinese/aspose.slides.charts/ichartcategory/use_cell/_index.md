@@ -4,16 +4,20 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell 属性
-如果为 true，则 AsCell 属性为实际的。换句话说，worksheet 用于存储 category（此情况支持多层级 category）。
-如果为 false，则 AsLiteral 属性为实际的。换句话说，worksheet **不**用于存储 category（且此情况不支持多层级 category）。
-只读 **bool**。
+If true then AsCell property is actual. In other words, worksheet is used for 
+            storing category (this case supports a multi-level category).
+If false then AsLiteral property is actual. In other words, worksheet is NOT used 
+            for storing category (and this case doesn't support a multi-level categories).
+只读 **bool**.
+
 
 ### 备注
 
-为了更改此属性的值（针对集合中的所有 categories），请将新值设置到 ChartCategoryCollection.UseCells 属性。
+For change value of this property (for all categories in collection) set new 
+            value to ChartCategoryCollection.UseCells property.
 
 ### 定义:
 ```python
@@ -21,6 +25,7 @@ weight: 50
 def use_cell(self):
     ...
 ```
+
 
 ### 另请参见
 * 类 [`IChartCategory`](/slides/python-net/zh/aspose.slides.charts/ichartcategory)

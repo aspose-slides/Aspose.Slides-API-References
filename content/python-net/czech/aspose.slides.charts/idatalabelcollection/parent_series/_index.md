@@ -1,13 +1,13 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides pro Python přes .NET API referenci
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series vlastnost
-Vrací nadřazenou řadu grafu.
+Vrací nadřazenou sérii grafu.
             Pouze ke čtení [`IChartSeries`](/slides/python-net/cs/aspose.slides.charts/ichartseries).
 
 ### Definice:
@@ -22,4 +22,4 @@ def parent_series(self):
 * třída [`IChartSeries`](/slides/python-net/cs/aspose.slides.charts/ichartseries)
 * třída [`IDataLabelCollection`](/slides/python-net/cs/aspose.slides.charts/idatalabelcollection)
 * modul [`aspose.slides.charts`](/slides/python-net/cs/aspose.slides.charts)
-* knihovna [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

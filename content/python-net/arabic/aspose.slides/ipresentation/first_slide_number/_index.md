@@ -1,13 +1,13 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET دليل API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number خاصية
-يمثل رقم الشريحة الأول في العرض التقديمي.
+يمثل رقم الشريحة الأولى في العرض التقديمي.
             قراءة/كتابة **int**.
 
 ### التعريف:

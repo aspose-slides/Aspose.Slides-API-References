@@ -1,14 +1,14 @@
 ---
 title: leader_lines_format property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format ιδιότητα
-Αναπαριστά τη μορφή των γραμμών οδηγού των ετικετών δεδομένων.
-             Μόνο-ανάγνωση [`IChartLinesFormat`](/slides/python-net/el/aspose.slides.charts/ichartlinesformat).
+Αναπαριστά τη μορφή γραμμών οδηγού ετικετών δεδομένων.
+Μόνο για ανάγνωση [`IChartLinesFormat`](/slides/python-net/el/aspose.slides.charts/ichartlinesformat).
 
 ### Ορισμός:
 ```python

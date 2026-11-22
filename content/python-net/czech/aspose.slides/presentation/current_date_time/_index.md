@@ -4,12 +4,12 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/current_date_time/
-weight: 150
+weight: 160
 ---
 ## current_date_time vlastnost
-Vrací nebo nastavuje datum a čas, který nahradí obsah polí typu datetime.
+Vrací nebo nastavuje datum a čas, které nahradí obsah polí datetime.
             Čas vytvoření tohoto objektu Presentation ve výchozím nastavení.
-            Číst/zapsat **System.DateTime**.
+            Čtení/zápis **System.DateTime**.
 
 ### Definice:
 ```python

@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## thuộc tính marker
-Xác định một dấu dữ liệu.
-            Chỉ đọc [`IMarker`](/slides/python-net/vi/aspose.slides.charts/imarker).
+## marker thuộc tính
+Xác định một đánh dấu dữ liệu.
+Chỉ đọc [`IMarker`](/slides/python-net/vi/aspose.slides.charts/imarker).
 
 ### Định nghĩa:
 ```python
@@ -16,7 +16,6 @@ Xác định một dấu dữ liệu.
 def marker(self):
     ...
 ```
-
 
 ### Xem thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)

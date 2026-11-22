@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value ویژگی
-مقدار x نقطه دادهٔ نمودار را برمی‌گرداند.
-فقط خواندنی [`IStringOrDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/istringordoublechartvalue).
+مقدار x یک نقطه دادهٔ نمودار را برمی‌گرداند.
+            فقط خواندنی [`IStringOrDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/istringordoublechartvalue).
 
 ### تعریف:
 ```python

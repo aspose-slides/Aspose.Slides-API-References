@@ -1,44 +1,37 @@
 ---
 title: highlight_regex method
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-تمام مطابقت‌های عبارت منظم با رنگ مشخص شده برجسته می‌شود.
-
+تمام تطابق‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند.
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| regex | **str** | رشته شامل عبارت منظم برای دریافت رشته‌هایی است که باید برجسته شوند. |
-| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگی که برای برجسته کردن متن استفاده می‌شود. |
-
+| regex | **str** | رشته‌ای حاوی عبارت منظم برای دریافت رشته‌های قابل برجسته‌سازی. |
+| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ برای برجسته‌سازی متن. |
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-تمام مطابقت‌های عبارت منظم با رنگ مشخص شده برجسته می‌شود.
-
+تمام تطابق‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند.
 
 ```python
 def highlight_regex(self, regex, highlight_color, options):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
 | regex | **str** | متن عبارت منظم برای دریافت متنی که باید برجسته شود. |
-| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگی که برای برجسته کردن متن استفاده می‌شود. |
+| highlight_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ برای برجسته‌سازی متن. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/fa/aspose.slides/itexthighlightingoptions) | گزینه‌های برجسته‌سازی. |
-
-
 
 ### موارد مرتبط
 * کلاس [`ITextHighlightingOptions`](/slides/python-net/fa/aspose.slides/itexthighlightingoptions)

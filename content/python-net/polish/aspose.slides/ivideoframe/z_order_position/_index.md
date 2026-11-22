@@ -1,10 +1,10 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona poprzez .NET odwołanie do API
 description: 
 type: docs
 url: /pl/aspose.slides/ivideoframe/z_order_position/
-weight: 650
+weight: 660
 ---
 ## z_order_position właściwość
 ### Definicja:

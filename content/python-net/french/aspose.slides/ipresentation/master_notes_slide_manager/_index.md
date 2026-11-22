@@ -1,13 +1,13 @@
 ---
 title: master_notes_slide_manager property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager propriété
-Renvoie le gestionnaire principal des notes.
+Renvoie le gestionnaire maître des notes.
             Lecture seule [`IMasterNotesSlideManager`](/slides/python-net/fr/aspose.slides/imasternotesslidemanager).
 
 ### Définition:

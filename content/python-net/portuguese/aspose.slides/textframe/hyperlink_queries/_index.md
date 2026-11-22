@@ -4,10 +4,10 @@ second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/textframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries propriedade
-Provides easy access to contained hyperlinks.
+Fornece acesso fácil aos hiperlinks contidos.
             Somente leitura [`IHyperlinkQueries`](/slides/python-net/pt/aspose.slides/ihyperlinkqueries).
 
 ### Definição:
@@ -18,8 +18,8 @@ def hyperlink_queries(self):
 ```
 
 
-### Veja também
+### Veja Também
 * classe [`IHyperlinkQueries`](/slides/python-net/pt/aspose.slides/ihyperlinkqueries)
 * classe [`TextFrame`](/slides/python-net/pt/aspose.slides/textframe)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

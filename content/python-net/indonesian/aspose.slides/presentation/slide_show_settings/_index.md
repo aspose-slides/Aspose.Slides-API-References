@@ -1,15 +1,15 @@
 ---
 title: slide_show_settings property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET API Referensi
 description: 
 type: docs
 url: /id/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings properti
-Mengembalikan pengaturan tampilan slide untuk presentasi.
+Mengembalikan slide_show_settings untuk presentasi.
 
-### Definisi:
+### Definition:
 ```python
 @property
 def slide_show_settings(self):

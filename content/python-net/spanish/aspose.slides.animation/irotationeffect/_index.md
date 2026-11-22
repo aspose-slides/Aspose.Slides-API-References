@@ -1,6 +1,6 @@
 ---
 title: IRotationEffect class
-second_title: Aspose.Slides para Python a través de .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides.animation/irotationeffect/
@@ -15,9 +15,9 @@ El tipo IRotationEffect expone los siguientes miembros:
 
 | Propiedad | Descripción |
 | :- | :- |
-| [`from_address`](/slides/python-net/es/aspose.slides.animation/irotationeffect/from_address/) | Describe el valor inicial para la animación.<br/>            Lectura/escritura **float**. |
-| [`to`](/slides/python-net/es/aspose.slides.animation/irotationeffect/to/) | Describe el valor final para la animación.<br/>            Lectura/escritura **float**. |
-| [`by`](/slides/python-net/es/aspose.slides.animation/irotationeffect/by/) | Describe el valor de desplazamiento relativo para la animación.<br/>            Lectura/escritura **float**. |
+| [`from_`](/slides/python-net/es/aspose.slides.animation/irotationeffect/from_/) | Describe el valor inicial de la animación.<br/>            Lectura/escritura **float**. |
+| [`to`](/slides/python-net/es/aspose.slides.animation/irotationeffect/to/) | Describe el valor final de la animación.<br/>            Lectura/escritura **float**. |
+| [`by`](/slides/python-net/es/aspose.slides.animation/irotationeffect/by/) | Describe el valor de desplazamiento relativo de la animación.<br/>            Lectura/escritura **float**. |
 | [`accumulate`](/slides/python-net/es/aspose.slides.animation/irotationeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/es/aspose.slides.animation/irotationeffect/additive/) |  |
 | [`properties`](/slides/python-net/es/aspose.slides.animation/irotationeffect/properties/) |  |

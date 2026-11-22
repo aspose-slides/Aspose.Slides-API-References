@@ -1,14 +1,14 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager خاصية
-يرجّع مدير النسخة الرئيسية للملف المرفق.
-            قراءة فقط [`IMasterHandoutSlideManager`](/slides/python-net/ar/aspose.slides/imasterhandoutslidemanager).
+يرجع مدير النسخة المطبوعة الرئيسي.
+            للقراءة فقط [`IMasterHandoutSlideManager`](/slides/python-net/ar/aspose.slides/imasterhandoutslidemanager).
 
 ### التعريف:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: marker property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API hivatkozás
+second_title: Aspose.Slides Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## jelző tulajdonság
-Meghatározza az adatjelzőt.
+## jelölő tulajdonság
+Meghatározza az adatjelölőt.
             Csak olvasható [`IMarker`](/slides/python-net/hu/aspose.slides.charts/imarker).
 
 ### Definíció:
@@ -22,4 +22,4 @@ def marker(self):
 * osztály [`IChartDataPoint`](/slides/python-net/hu/aspose.slides.charts/ichartdatapoint)
 * osztály [`IMarker`](/slides/python-net/hu/aspose.slides.charts/imarker)
 * modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
-* könyvtár [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

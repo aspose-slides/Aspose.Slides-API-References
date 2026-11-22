@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors egenskap
-Returnerar samlingen av kommentarer autors.
+Returnerar samlingen av kommentarer författare.
             Skrivskyddad [`ICommentAuthorCollection`](/slides/python-net/sv/aspose.slides/icommentauthorcollection).
 
 ### Definition:

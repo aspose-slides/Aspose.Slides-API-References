@@ -1,10 +1,10 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides dla Pythona poprzez .NET API Referencja
+second_title: Aspose.Slides dla Pythona przez .NET – referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/itextframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
@@ -21,7 +21,7 @@ def replace_text(self, old_text, new_text, options, callback):
 | old_text | **str** | Ciąg znaków do zastąpienia. |
 | new_text | **str** | Ciąg znaków służący do zastąpienia wszystkich wystąpień oldText. |
 | options | [`ITextSearchOptions`](/slides/python-net/pl/aspose.slides/itextsearchoptions) | Opcje wyszukiwania tekstu [`ITextSearchOptions`](/slides/python-net/pl/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/pl/aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [`IFindResultCallback`](/slides/python-net/pl/aspose.slides/ifindresultcallback). |
+| callback | [`IFindResultCallback`](/slides/python-net/pl/aspose.slides/ifindresultcallback) | Obiekt zwrotny służący do odbierania wyników wyszukiwania [`IFindResultCallback`](/slides/python-net/pl/aspose.slides/ifindresultcallback). |
 
 
 

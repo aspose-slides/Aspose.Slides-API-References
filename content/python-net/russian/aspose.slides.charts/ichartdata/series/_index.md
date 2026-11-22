@@ -1,14 +1,14 @@
 ---
 title: series property
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## series свойство
 Получает series.
-            Только чтение [`IChartSeriesCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriescollection).
+            Только для чтения [`IChartSeriesCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriescollection).
 
 ### Определение:
 ```python

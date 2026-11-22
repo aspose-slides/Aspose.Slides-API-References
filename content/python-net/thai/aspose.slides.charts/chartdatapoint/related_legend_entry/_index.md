@@ -1,13 +1,13 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry คุณสมบัติ
-คุณสมบัติของรายการอธิบายตำนานที่สอดคล้องในกรณีของประเภทแผนภูมิตามรายการต่อไปนี้:
+คุณสมบัติของรายการคำอธิบายตำนานที่สอดคล้องในกรณีประเภทแผนภูมิจากรายการต่อไปนี้:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
@@ -16,7 +16,7 @@ weight: 190
             ChartType.PieOfPie.
             อ่านอย่างเดียว [`ILegendEntryProperties`](/slides/python-net/th/aspose.slides.charts/ilegendentryproperties).
 
-### คำนิยาม:
+### การกำหนด:
 ```python
 @property
 def related_legend_entry(self):

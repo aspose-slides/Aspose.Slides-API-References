@@ -1,21 +1,19 @@
 ---
 title: set_range method
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
 Установить диапазон данных диаграммы. Серии и категории будут обновлены на основе нового диапазона данных.
-Если количество серий в диапазоне данных превышает количество серий в данных диаграммы, то дополнительные серии того же типа, что и последняя серия в текущей коллекции, будут добавлены в конец коллекции.
-
+Если количество серий в диапазоне данных больше количества серий в данных диаграммы, то дополнительные серии с тем же типом, что и последняя серия в текущей коллекции, будут добавлены в конец коллекции.
 
 ```python
 def set_range(self, formula):
     ...
 ```
-
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
@@ -25,11 +23,9 @@ def set_range(self, formula):
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | formula имеет значение None. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | formula равно None. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Неподдерживаемый тип диаграммы |
-| **RuntimeError(Proxy error(ArgumentException))** | у formula неправильный формат. |
-
-
+| **RuntimeError(Proxy error(ArgumentException))** | formula имеет неверный формат. |
 
 ### См. также
 * класс [`ChartData`](/slides/python-net/ru/aspose.slides.charts/chartdata)

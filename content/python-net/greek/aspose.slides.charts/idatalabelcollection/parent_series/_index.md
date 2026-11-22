@@ -1,14 +1,14 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides για Python μέσω .NET αναφοράς API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series ιδιότητα
-Επιστρέφει τη σειρά διαγράμματος γονέα.
-            Μόνο για ανάγνωση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries).
+Επιστρέφει τη γονική σειρά διαγράμματος.
+Μόνο για ανάγνωση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries).
 
 ### Ορισμός:
 ```python
@@ -16,7 +16,6 @@ weight: 140
 def parent_series(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries)

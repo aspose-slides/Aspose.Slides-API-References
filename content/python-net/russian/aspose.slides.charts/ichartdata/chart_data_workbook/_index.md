@@ -1,14 +1,14 @@
 ---
 title: chart_data_workbook property
-second_title: Справочник API Aspose.Slides for Python via .NET
+second_title: Aspose.Slides для Python через .NET Справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook свойство
-Получает фабрику ячеек для создания ячеек, используемых для серий диаграммы или категорий.
-Только для чтения [`IChartDataWorkbook`](/slides/python-net/ru/aspose.slides.charts/ichartdataworkbook).
+Получает фабрику ячеек для создания ячеек, используемых в сериях или категориях диаграммы.
+            Только для чтения [`IChartDataWorkbook`](/slides/python-net/ru/aspose.slides.charts/ichartdataworkbook).
 
 ### Определение:
 ```python

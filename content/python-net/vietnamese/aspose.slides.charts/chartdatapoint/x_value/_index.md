@@ -1,10 +1,10 @@
 ---
 title: x_value property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham khảo API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value thuộc tính
 XValue.
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)
 * lớp [`IStringOrDoubleChartValue`](/slides/python-net/vi/aspose.slides.charts/istringordoublechartvalue)
 * mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)

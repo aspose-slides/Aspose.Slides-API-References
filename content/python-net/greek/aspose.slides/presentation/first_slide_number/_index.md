@@ -1,13 +1,13 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number ιδιότητα
-Αντιπροσωπεύει τον πρώτο αριθμό διαφάνειας στην παρουσίαση
+Αναπαριστά τον πρώτο αριθμό διαφάνειας στην παρουσίαση
 
 ### Ορισμός:
 ```python

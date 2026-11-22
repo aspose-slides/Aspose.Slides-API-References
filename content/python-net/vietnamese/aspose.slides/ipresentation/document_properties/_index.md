@@ -1,13 +1,13 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
 ## document_properties thuộc tính
-Trả về đối tượng DocumentProperties chứa các thuộc tính tài liệu tiêu chuẩn và tùy chỉnh.
+Trả về đối tượng DocumentProperties chứa các thuộc tính tài liệu chuẩn và tùy chỉnh.
             Chỉ đọc [`IDocumentProperties`](/slides/python-net/vi/aspose.slides/idocumentproperties).
 
 ### Định nghĩa:
@@ -16,6 +16,7 @@ Trả về đối tượng DocumentProperties chứa các thuộc tính tài li�
 def document_properties(self):
     ...
 ```
+
 
 ### Xem thêm
 * lớp [`IDocumentProperties`](/slides/python-net/vi/aspose.slides/idocumentproperties)

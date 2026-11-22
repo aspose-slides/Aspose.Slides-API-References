@@ -1,18 +1,18 @@
 ---
 title: split_text_by_columns method
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/itextframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
 Διαιρεί το κείμενο του [`ITextFrame`](/slides/python-net/el/aspose.slides/itextframe) σε έναν πίνακα συμβολοσειρών,  
             όπου κάθε στοιχείο αντιστοιχεί σε μια ξεχωριστή στήλη κειμένου μέσα στο πλαίσιο.
 
 ### Επιστρέφει
-Ένας πίνακας συμβολοσειρών, όπου κάθε συμβολοσειρά αντιπροσωπεύει το κείμενο μιας συγκεκριμένης στήλης,  
-            στο [`ITextFrame`](/slides/python-net/el/aspose.slides/itextframe).
+
+Ένας πίνακας συμβολοσειρών, όπου κάθε συμβολοσειρά αντιπροσωπεύει το κείμενο μιας συγκεκριμένης στήλης στο [`ITextFrame`](/slides/python-net/el/aspose.slides/itextframe).
 
 
 
@@ -22,9 +22,10 @@ def split_text_by_columns(self):
 ```
 
 
-### Σχόλια
-Εάν το πλαίσιο κειμένου δεν περιέχει πολλαπλές στήλες, ο επιστρεφόμενος πίνακας θα έχει ένα μόνο στοιχείο,  
-            που περιέχει το πλήρες κείμενο.  
+### Παρατηρήσεις
+
+Εάν το πλαίσιο κειμένου δεν περιέχει πολλές στήλες, ο επιστρεφόμενος πίνακας θα έχει ένα μόνο στοιχείο  
+            που περιέχει ολόκληρο το κείμενο.  
             Οι κενές στήλες θα αντιπροσωπεύονται ως κενές συμβολοσειρές στον πίνακα.
 
 

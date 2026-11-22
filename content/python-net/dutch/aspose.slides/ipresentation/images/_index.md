@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
 ## images eigenschap
 Retourneert de collectie van alle images in de presentatie.

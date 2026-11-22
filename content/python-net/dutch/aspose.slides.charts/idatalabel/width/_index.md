@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
 ## width eigenschap
 ### Definitie:
@@ -17,6 +17,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`IDataLabel`](/slides/python-net/nl/aspose.slides.charts/idatalabel)

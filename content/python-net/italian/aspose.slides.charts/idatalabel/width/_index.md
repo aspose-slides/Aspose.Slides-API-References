@@ -1,10 +1,10 @@
 ---
 title: width property
-second_title: Riferimento API di Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python tramite .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
 ## width proprietà
 ### Definizione:

@@ -1,14 +1,14 @@
 ---
 title: index property
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides for Python (.NET) API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## インデックス プロパティ
-このデータ ポイントが適用される、親の子コレクションのどれかを決定します。
-            読み取り **int**。
+このデータ ポイントが適用される、親の子コレクションを決定します。
+            Read **int**.
 
 ### 定義:
 ```python
